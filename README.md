@@ -25,3 +25,8 @@ To use this language pack login to your admin panel and goto `Stores -> Configur
 
 # Contribute
 To help push the '*Arabic (العربية) Magento2 Language Pack (ar_SA)*' forward please goto [this](https://crowdin.com/project/magento-2/ar) crowdin page and translate the lines.
+
+# Authors
+The translations are done by the [official Magento2 translations project](https://crowdin.com/project/magento-2).
+
+Code generation is sponsored by [Wijzijn.Guru](http://www.wijzijn.guru/).
