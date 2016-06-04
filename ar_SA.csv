@@ -393,8 +393,6 @@ Documents,الوثائق,module,Magento_Dhl
 "Unable to retrieve shipping label","غير قادر على استرداد تسمية الشحن",module,Magento_Dhl
 "Non documents","بدون وثائق",module,Magento_Dhl
 None,"لا شئ",module,Magento_Dhl
-State/Province,"الولاية\المحافظة",module,Magento_Directory
-"--Please Select--"," --- الرجاء الإختيار --- ",module,Magento_Directory
 "Requested country is not available.","البلد المطلوب غير متوفر.",module,Magento_Directory
 "Please correct the target currency.","الرجاء تصحيح العملة المستهدفة.",module,Magento_Directory
 "Undefined rate from ""%1-%2"".","معدل غير معرف من ""%1-%2"".",module,Magento_Directory
