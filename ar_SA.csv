@@ -481,7 +481,12 @@ Catalog,دليل,module,Magento_Catalog
 Products,المنتجات,module,Magento_Catalog
 "Manage Product Sets","اوضاع ادارة المنتج",module,Magento_Catalog
 "Manage Attribute Sets","ادارة مجموعات السمات",module,Magento_Catalog
+"You added product %1 to the comparison list.","لقد اضفت المنتج %1 لقائمة المقارنة.",module,Magento_Catalog
+"You cleared the comparison list.","تم افراغ قائمة المقارنة.",module,Magento_Catalog
+"Something went wrong  clearing the comparison list.","حدث خطأ، تم افراغ قائمة المقارنة.",module,Magento_Catalog
+"You removed product %1 from the comparison list.","لقد ازلت المنتج %1 من قائمة المقارنة.",module,Magento_Catalog
 "1 item","منتج ١",module,Magento_Catalog
+"%1 items","%1 قطع",module,Magento_Catalog
 Grid,الشبكة,module,Magento_Catalog
 List,قائمة,module,Magento_Catalog
 All,الكل,module,Magento_Catalog
@@ -554,8 +559,9 @@ Role,دور,module,Magento_Catalog
 "Add to Cart","أضف لسلة التسوق",module,Magento_Catalog
 "In stock",متوفربالمخزون,module,Magento_Catalog
 "Out of stock","غير متوفر حالياً",module,Magento_Catalog
-"You have no items to compare.","لا توجد عندك عناصر للمقارنة.",module,Magento_Catalog
+"You have no items to compare.","لا يوجد منتجات للمقارنة الآن.",module,Magento_Catalog
 "Remove This Item","حذف هذا العنصر",module,Magento_Catalog
+Compare,مقارنة,module,Magento_Catalog
 "Clear All","إلغاء الكل",module,Magento_Catalog
 Prev,السابق,module,Magento_Catalog
 Next,التالي,module,Magento_Catalog
@@ -1280,6 +1286,7 @@ Qty,الكميّة,module,Magento_Paypal
 Subtotal,"مبلغ إجمالي",module,Magento_Paypal
 Continue,استمر,module,Magento_Paypal
 "You saved the alert subscription.","لقد تم حفظ إشتراكك لتنبيه الأسعار.",module,Magento_ProductAlert
+"You will no longer receive price alerts for this product.","لن تتسلم تنبيهات تغيير السعر لهذا المنتج مجدداً.",module,Magento_ProductAlert
 Price:,السعر:,module,Magento_ProductAlert
 "Unsubscribe from all price alerts","إلغاء الاشتراك من كل تنبيهات السعر",module,Magento_ProductAlert
 "Unsubscribe from all stock alerts","إلغاء الاشتراك من كل تنبيهات المخزون",module,Magento_ProductAlert
@@ -2067,6 +2074,7 @@ Page,حقيبة,module,Magento_Widget
 "Wish List","قائمة الامنيات",module,Magento_Wishlist
 "My Wish List","قائمة الامنيات",module,Magento_Wishlist
 "You added %1 to your shopping cart.","قمت بإضافة %1 إلى عربة التسوق الخاصة بك.",module,Magento_Wishlist
+"%1 items","%1 قطعة",module,Magento_Wishlist
 "1 item","منتج ١",module,Magento_Wishlist
 Comment,تعليق,module,Magento_Wishlist
 "Display number of items in wish list","عرض عدد العناصر في قائمة الامنيات",module,Magento_Wishlist
@@ -2089,6 +2097,7 @@ Back,الرجوع,module,Magento_Wishlist
 "Email addresses, separated by commas","عناوين البريد الالكتروني ، تفصل بينها فواصل",module,Magento_Wishlist
 "Last Added Items","أخر السلع المضافة",module,Magento_Wishlist
 "Remove This Item","حذف هذا العنصر",module,Magento_Wishlist
+"You have no items in your wish list.","لا يوجد اي منتجات في قائمة الامنيات الخاصة بك.",module,Magento_Wishlist
 "Shop By","تصفح عبر",theme,frontend/Magento/luma
 Total:,الإجمالي:,module,Magento_Checkout
 Cancel,إلغاء,module,Magento_Catalog
@@ -2354,6 +2363,8 @@ User,المستخدم,module,Magento_Paypal
 "Use Proxy","استخدام بروكسي",module,Magento_Paypal
 "General Options","خيارات عامة",module,Magento_Persistent
 "Product Alerts","تنبيهات المنتج",module,Magento_ProductAlert
+"Allow Alert When Product Price Changes","اتاحة تنبيه تغيير السعر",module,Magento_ProductAlert
+"Price Alert Email Template","قالب رسالة تنبيه تغيير السعر",module,Magento_ProductAlert
 "Alert Email Sender","تنبيه البريد الالكتروني للمرسل",module,Magento_ProductAlert
 "Product Alerts Run Settings","تنبيهات وضع تثبيت المنتج",module,Magento_ProductAlert
 Frequency,التردد,module,Magento_ProductAlert
