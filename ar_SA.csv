@@ -567,7 +567,12 @@ Products,المنتجات,module,Magento_Catalog
 "We can't delete this set right now.","لا يمكن حذف هذه المجموعة الآن.",module,Magento_Catalog
 "Manage Product Sets","اوضاع ادارة المنتج",module,Magento_Catalog
 "Manage Attribute Sets","ادارة مجموعات السمات",module,Magento_Catalog
+"You added product %1 to the comparison list.","لقد اضفت المنتج %1 لقائمة المقارنة.",module,Magento_Catalog
+"You cleared the comparison list.","تم افراغ قائمة المقارنة.",module,Magento_Catalog
+"Something went wrong  clearing the comparison list.","حدث خطأ، تم افراغ قائمة المقارنة.",module,Magento_Catalog
+"You removed product %1 from the comparison list.","لقد ازلت المنتج %1 من قائمة المقارنة.",module,Magento_Catalog
 "1 item","منتج ١",module,Magento_Catalog
+"%1 items","%1 قطع",module,Magento_Catalog
 Grid,الشبكة,module,Magento_Catalog
 List,قائمة,module,Magento_Catalog
 All,الكل,module,Magento_Catalog
@@ -678,8 +683,9 @@ Actions,اعمال,module,Magento_Catalog
 "Add to Cart","أضف لسلة التسوق",module,Magento_Catalog
 "In stock",متوفربالمخزون,module,Magento_Catalog
 "Out of stock","غير متوفر حالياً",module,Magento_Catalog
-"You have no items to compare.","لا توجد عندك عناصر للمقارنة.",module,Magento_Catalog
+"You have no items to compare.","لا يوجد منتجات للمقارنة الآن.",module,Magento_Catalog
 "Remove This Item","حذف هذا العنصر",module,Magento_Catalog
+Compare,مقارنة,module,Magento_Catalog
 "Clear All","إلغاء الكل",module,Magento_Catalog
 Prev,السابق,module,Magento_Catalog
 Next,التالي,module,Magento_Catalog
@@ -857,8 +863,12 @@ Actions,اعمال,module,Magento_ConfigurableProduct
 Cancel,إلغاء,module,Magento_ConfigurableProduct
 "Page not found.","لم يتم العثور على الصفحة.",module,Magento_Contact
 "* Required Fields","* حقول مطلوبة",module,Magento_Contact
+"Write Us",راسلنا,module,Magento_Contact
+"Jot us a note and we’ll get back to you as quickly as possible.","راسلنا بما يدور ببالك وسنرد عليك في اسرع وقت ممكن.",module,Magento_Contact
 Name,اسم,module,Magento_Contact
 Email,"البريد الإلكتروني",module,Magento_Contact
+"Phone Number","رقم الهاتف",module,Magento_Contact
+"What’s on your mind?","ما الذي يجول ببالك؟",module,Magento_Contact
 Submit,إرسال,module,Magento_Contact
 "Invalid domain name: %1","اسم المجال غير صالح: %1",module,Magento_Cookie
 Daily,يوميا,module,Magento_Cron
@@ -1546,6 +1556,8 @@ or,أو,module,Magento_Paypal
 Continue,استمر,module,Magento_Paypal
 "Not you?","ليس أنت؟",module,Magento_Persistent
 "You saved the alert subscription.","لقد تم حفظ إشتراكك لتنبيه الأسعار.",module,Magento_ProductAlert
+"You will no longer receive price alerts for this product.","لن تتسلم تنبيهات تغيير السعر لهذا المنتج مجدداً.",module,Magento_ProductAlert
+"Price change alert! We wanted you to know that prices have changed for these products:","تنبيه بتغيير السعر! اردنا ابلاغك ان الاسعار تغييرت لهذه المنتجات:",module,Magento_ProductAlert
 Price:,السعر:,module,Magento_ProductAlert
 "Unsubscribe from all price alerts","إلغاء الاشتراك من كل تنبيهات السعر",module,Magento_ProductAlert
 "Unsubscribe from all stock alerts","إلغاء الاشتراك من كل تنبيهات المخزون",module,Magento_ProductAlert
@@ -2450,6 +2462,7 @@ Page,حقيبة,module,Magento_Widget
 "My Wish List","قائمة الامنيات",module,Magento_Wishlist
 "Page not found.","لم يتم العثور على الصفحة.",module,Magento_Wishlist
 "You added %1 to your shopping cart.","قمت بإضافة %1 إلى عربة التسوق الخاصة بك.",module,Magento_Wishlist
+"%1 items","%1 قطعة",module,Magento_Wishlist
 "1 item","منتج ١",module,Magento_Wishlist
 Comment,تعليق,module,Magento_Wishlist
 "Display number of items in wish list","عرض عدد العناصر في قائمة الامنيات",module,Magento_Wishlist
@@ -2480,6 +2493,7 @@ Back,الرجوع,module,Magento_Wishlist
 "Email addresses, separated by commas","عناوين البريد الالكتروني ، تفصل بينها فواصل",module,Magento_Wishlist
 "Last Added Items","أخر السلع المضافة",module,Magento_Wishlist
 "Remove This Item","حذف هذا العنصر",module,Magento_Wishlist
+"You have no items in your wish list.","لا يوجد اي منتجات في قائمة الامنيات الخاصة بك.",module,Magento_Wishlist
 "Now Shopping by","تسوق الآن من",theme,frontend/Magento/luma
 Previous,السابق,theme,frontend/Magento/luma
 Remove,ازالة,theme,frontend/Magento/luma
@@ -2493,6 +2507,10 @@ Items,المنتجات,module,Magento_Checkout
 Total:,الإجمالي:,module,Magento_Checkout
 "Billing Address:","عنوان الفاتورة:",module,Magento_Checkout
 "Shipping Method:","طريقة الشحن:",module,Magento_Checkout
+"Name: %name","الاسم: %name",module,Magento_Contact
+"Email: %email","البريد الإلكتروني: %email",module,Magento_Contact
+"Phone Number: %telephone","رقم الهاتف: %telephone",module,Magento_Contact
+"Comment: %comment","التعليق: %comment",module,Magento_Contact
 "%name,",%name،,module,Magento_Customer
 "Welcome to %store_name.","مرحبا بك في %store_name.",module,Magento_Customer
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","لتسجيل الدخول إلى موقعنا استخدم بيانات الدخول هذه أثناء للشراء أو من خلال صفحة <a href=""%customer_url""> حسابي</a>:",module,Magento_Customer
@@ -2891,6 +2909,8 @@ User,المستخدم,module,Magento_Paypal
 "Use Proxy","استخدام بروكسي",module,Magento_Paypal
 "General Options","خيارات عامة",module,Magento_Persistent
 "Product Alerts","تنبيهات المنتج",module,Magento_ProductAlert
+"Allow Alert When Product Price Changes","اتاحة تنبيه تغيير السعر",module,Magento_ProductAlert
+"Price Alert Email Template","قالب رسالة تنبيه تغيير السعر",module,Magento_ProductAlert
 "Alert Email Sender","تنبيه البريد الالكتروني للمرسل",module,Magento_ProductAlert
 "Product Alerts Run Settings","تنبيهات وضع تثبيت المنتج",module,Magento_ProductAlert
 Frequency,التردد,module,Magento_ProductAlert
