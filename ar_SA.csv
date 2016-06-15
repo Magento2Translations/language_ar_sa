@@ -342,7 +342,7 @@ Required,مطلوب,module,Magento_Bundle
 Position,موقع,module,Magento_Bundle
 Default,الافتراضي,module,Magento_Bundle
 Name,اسم,module,Magento_Bundle
-Ordered,امرت,module,Magento_Bundle
+Ordered,"تم الطلب",module,Magento_Bundle
 Invoiced,فاتورة,module,Magento_Bundle
 Shipped,"تم الشحن",module,Magento_Bundle
 Refunded,"اعادة ايجاد",module,Magento_Bundle
@@ -372,7 +372,7 @@ Always,دائماً,module,Magento_Captcha
 "ALL GROUPS","جميع المجموعات",module,Magento_CatalogInventory
 "Customer Group","مجموعات العملاء",module,Magento_CatalogInventory
 "We can't rebuild the index for an undefined product.","لا يمكن إعادة إنشاء الفهرس لمنتج غير معروف.",module,Magento_CatalogInventory
-"No Backorders","لا توجد اوامر العودة",module,Magento_CatalogInventory
+"No Backorders","لا توجد طلبات لمنتجات غير متوفرة",module,Magento_CatalogInventory
 "Allow Qty Below 0","السماح بالكمية 0",module,Magento_CatalogInventory
 "Allow Qty Below 0 and Notify Customer","السماح بكمية تحت ال 0 و أعلام العميل",module,Magento_CatalogInventory
 "In Stock","متوفر في المستودع",module,Magento_CatalogInventory
@@ -931,7 +931,7 @@ System,النظام,module,Magento_CurrencySymbol
 "Sign In","تسجيل الدخول",module,Magento_Customer
 "You subscribe to our newsletter.","يمكنك الاشتراك في نشرتنا البريدية.",module,Magento_Customer
 "You don't subscribe to our newsletter.","لا يمكنك الاشتراك في النشرة الإخبارية.",module,Magento_Customer
-"You have not set a default shipping address.","لم تقم بتعيين عنوان شحن افتراضي.",module,Magento_Customer
+"You have not set a default shipping address.","لم تقم بتعيين عنوان افتراضي للشحن.",module,Magento_Customer
 "You have not set a default billing address.","لم تقم بتعيين عنوان دفع افتراضي.",module,Magento_Customer
 "Address Book","سجل العناوين",module,Magento_Customer
 "Edit Address","تعديل العنوان",module,Magento_Customer
@@ -1187,7 +1187,7 @@ Subtotal,"مبلغ إجمالي",module,Magento_Downloadable
 "Discount Amount","تخفيض الكمية",module,Magento_Downloadable
 "Row Total","مجموع الصف",module,Magento_Downloadable
 "Qty Invoiced","Qty فاتورة",module,Magento_Downloadable
-Ordered,امرت,module,Magento_Downloadable
+Ordered,"تم الطلب",module,Magento_Downloadable
 Shipped,"تم الشحن",module,Magento_Downloadable
 Canceled,"تم الإلغاء",module,Magento_Downloadable
 Refunded,"اعادة ايجاد",module,Magento_Downloadable
@@ -1285,7 +1285,7 @@ No,لا,module,Magento_EncryptionKey
 Yes,موافق,module,Magento_EncryptionKey
 "Europe First Priority","الأولوية الأولى في أوروبا",module,Magento_Fedex
 "1 Day Freight","الشحن بيوم واحد",module,Magento_Fedex
-"2 Day Freight","2 يوم شحن",module,Magento_Fedex
+"2 Day Freight","الشحن في يومين",module,Magento_Fedex
 "2 Day",يومان,module,Magento_Fedex
 "2 Day AM","يومان صباحا",module,Magento_Fedex
 "3 Day Freight","3 يوم شحن",module,Magento_Fedex
@@ -1516,7 +1516,7 @@ Subscribe,اشتراك,module,Magento_Newsletter
 Country,الدولة,module,Magento_OfflineShipping
 Region/State,"المنطقة / الولايه",module,Magento_OfflineShipping
 "Zip/Postal Code","الرمز البريدي",module,Magento_OfflineShipping
-"Shipping Price","سعر الشحنه",module,Magento_OfflineShipping
+"Shipping Price","سعر الشحن",module,Magento_OfflineShipping
 "Export CSV","تصدير ال CSV",module,Magento_OfflineShipping
 "Store Pickup","اختيار المتجر",module,Magento_OfflineShipping
 "Weight vs. Destination","الوزن vs. المسار",module,Magento_OfflineShipping
@@ -1526,7 +1526,7 @@ Region/State,"المنطقة / الولايه",module,Magento_OfflineShipping
 "Order Subtotal (and above)","من أجل المجموع الفرعي (وما فوق)",module,Magento_OfflineShipping
 "# of Items (and above)","# للعناصر (و اعلى)",module,Magento_OfflineShipping
 None,"لا شئ",module,Magento_OfflineShipping
-"Per Order","لكل امر",module,Magento_OfflineShipping
+"Per Order","لكل طلب",module,Magento_OfflineShipping
 "Per Item","لكل بند",module,Magento_OfflineShipping
 "Free Shipping","شحن مجاني",module,Magento_OfflineShipping
 No,لا,module,Magento_OfflineShipping
@@ -1655,7 +1655,7 @@ Subtotal,"مبلغ إجمالي",module,Magento_Quote
 Discount,خصم,module,Magento_Quote
 Tax,الضريبة,module,Magento_Quote
 "New Accounts","حسابات جديدة",module,Magento_Reports
-"Customers by number of orders","عملاء بعدد الاوامر",module,Magento_Reports
+"Customers by number of orders","عملاء بعدد الطلبات",module,Magento_Reports
 "Date Used","التاريخ المستخدم",module,Magento_Reports
 Day,اليوم,module,Magento_Reports
 Month,الشهر,module,Magento_Reports
@@ -1922,7 +1922,7 @@ Shipping,الشحن,module,Magento_Sales
 Cancel,إلغاء,module,Magento_Sales
 "Billing Address","عنوان الفاتورة",module,Magento_Sales
 "Payment Method","طريقة الدفع",module,Magento_Sales
-"Order Comment","ملاحظة الامر",module,Magento_Sales
+"Order Comment","ملاحظة على الطلب",module,Magento_Sales
 Coupons,"قسائم الخصم",module,Magento_Sales
 "Please select a customer","من فضلك اختر عميلا",module,Magento_Sales
 "Create New Customer","إنشاء عميل جديد",module,Magento_Sales
@@ -1931,10 +1931,10 @@ From,من,module,Magento_Sales
 To,إلى,module,Magento_Sales
 Message,رسالة,module,Magento_Sales
 "Create New Order for New Customer","إنشاء طلب شراء جديد لعميل جديد",module,Magento_Sales
-"Items Ordered","اوامر العناصر",module,Magento_Sales
+"Items Ordered","عناصر الطلب",module,Magento_Sales
 Configure,ضبط,module,Magento_Sales
 "Newsletter Subscription","الاشتراك بالقائمة البريدية",module,Magento_Sales
-"Add Selected Product(s) to Order","اضف المنتج المختار الى الامر",module,Magento_Sales
+"Add Selected Product(s) to Order","اضف المنتج المختار الى الطلب",module,Magento_Sales
 ID,التعريف,module,Magento_Sales
 Product,المنتج,module,Magento_Sales
 SKU,"رمز المنتج",module,Magento_Sales
@@ -1951,7 +1951,7 @@ Quantity,الكمية,module,Magento_Sales
 "Recently Viewed","المشاهد حديثا",module,Magento_Sales
 "Wish List","قائمة الامنيات",module,Magento_Sales
 "Please select a store","رجاء قم باختيار المخزن",module,Magento_Sales
-"Order Totals","امر المجموعات",module,Magento_Sales
+"Order Totals","إجمالي الطلبية",module,Magento_Sales
 "Shipping Incl. Tax (%1)","الشحن شامل الضريبة (%1)",module,Magento_Sales
 "Shipping Excl. Tax (%1)","الشحن غير شامل الضريبة (%1)",module,Magento_Sales
 Refund,رد,module,Magento_Sales
@@ -1960,7 +1960,7 @@ Refund,رد,module,Magento_Sales
 "Refund Amount","كمية الرد",module,Magento_Sales
 "Shipping Amount","كمية الشحن",module,Magento_Sales
 "Shipping Refund","رد الشحن",module,Magento_Sales
-"Order Grand Total","امر المجموع الكلي",module,Magento_Sales
+"Order Grand Total","المجموع الكلي للطلب",module,Magento_Sales
 "Adjustment Refund","اعادة التكيف",module,Magento_Sales
 "Adjustment Fee","أجر الضبط",module,Magento_Sales
 Print,طباعة,module,Magento_Sales
@@ -1978,11 +1978,11 @@ Hold,امساك,module,Magento_Sales
 Unhold,"غير منتظرة",module,Magento_Sales
 Invoice,فاتورة,module,Magento_Sales
 Ship,شحن,module,Magento_Sales
-Reorder,امر,module,Magento_Sales
+Reorder,"إعادة ترتيب",module,Magento_Sales
 "Save Gift Message","حفظ رسالة هدية",module,Magento_Sales
 "Order Credit Memos","طلب مذكرة ائتمانية",module,Magento_Sales
 "Comments History","تاريخ التعليقات",module,Magento_Sales
-"Order History","امر التاريخ",module,Magento_Sales
+"Order History","سجل الطلبات",module,Magento_Sales
 Information,بيانات,module,Magento_Sales
 "Order Information","بيانات طلب الشراء",module,Magento_Sales
 "Order Invoices","تاريخ الفواتير",module,Magento_Sales
@@ -1992,7 +1992,7 @@ Shipments,الشحنات,module,Magento_Sales
 Any,اي,module,Magento_Sales
 Yes,موافق,module,Magento_Sales
 No,لا,module,Magento_Sales
-"New Order RSS","امر جديد RSS",module,Magento_Sales
+"New Order RSS","RSS الطلبات الجديدة",module,Magento_Sales
 Subtotal,"مبلغ إجمالي",module,Magento_Sales
 "Shipping & Handling","الشحن و المناولة",module,Magento_Sales
 "Discount (%1)","الخصم (%1)",module,Magento_Sales
@@ -2000,8 +2000,8 @@ Discount,خصم,module,Magento_Sales
 "Grand Total","المجموع الاجمالى",module,Magento_Sales
 Back,الرجوع,module,Magento_Sales
 N/A,"غير متاح",module,Magento_Sales
-"Back to My Orders","الرجوع الى اوامري",module,Magento_Sales
-"My Orders",اوامري,module,Magento_Sales
+"Back to My Orders","الرجوع الى طلباتي",module,Magento_Sales
+"My Orders",طلباتي,module,Magento_Sales
 "Subscribe to Order Status","من اجل الاشتراك في حالة",module,Magento_Sales
 "We can't add this item to your shopping cart right now.","لا يمكننا الآن إضافة هذا البند إلى عربة التسوق الخاصة بك.",module,Magento_Sales
 Sales,المبيعات,module,Magento_Sales
@@ -2022,10 +2022,10 @@ Canceled,"تم الإلغاء",module,Magento_Sales
 "Unknown State","دول غير معروفة",module,Magento_Sales
 Paid,مدفوع,module,Magento_Sales
 "Unknown Status","حالة غير معروفة",module,Magento_Sales
-Ordered,امرت,module,Magento_Sales
+Ordered,"تم الطلب",module,Magento_Sales
 Shipped,"تم الشحن",module,Magento_Sales
 Invoiced,فاتورة,module,Magento_Sales
-Backordered,"رجوع الامر",module,Magento_Sales
+Backordered,"طلبات مؤخرة",module,Magento_Sales
 Returned,اعادة,module,Magento_Sales
 Partial,جزئي,module,Magento_Sales
 Mixed,مختلط,module,Magento_Sales
@@ -2060,14 +2060,14 @@ View,عرض,module,Magento_Sales
 Customer,زبون,module,Magento_Sales
 Notified,اشعار,module,Magento_Sales
 "No Payment Methods","لا يوجد طرق للدفع",module,Magento_Sales
-"Order Comments","ملاحظات الامر",module,Magento_Sales
+"Order Comments","ملاحظات الطلب",module,Magento_Sales
 "Apply Coupon Code","تطبيق رمز قسيمة الخصم",module,Magento_Sales
 Apply,تطبيق,module,Magento_Sales
 "Remove Coupon Code","إزالة رمز قسيمة الخصم",module,Magento_Sales
 Remove,ازالة,module,Magento_Sales
 "Address Information","معلومات العنوان",module,Magento_Sales
 "Order Total","إجمالي الطلب",module,Magento_Sales
-"Order Currency:","امر العملة:",module,Magento_Sales
+"Order Currency:","عملة الطلب:",module,Magento_Sales
 "Same As Billing Address","مثل عنوان الفاتورة",module,Magento_Sales
 "Select from existing customer addresses:","اختر من القائمة عناوين العملاء:",module,Magento_Sales
 "Add New Address","أضف عنوان جديد",module,Magento_Sales
@@ -2084,10 +2084,10 @@ Subtotal:,الاجمالي,module,Magento_Sales
 "Get shipping methods and rates","الحصول على طرق ومعدلات الشحن",module,Magento_Sales
 Refresh,التحديث,module,Magento_Sales
 Item,سلعة,module,Magento_Sales
-"Add To Order","اضف الى الامر",module,Magento_Sales
+"Add To Order","إضافة إلى الطلب",module,Magento_Sales
 "No items","لا يوجد سلع",module,Magento_Sales
 "Append Comments","ارفاق التعليقات",module,Magento_Sales
-"Email Order Confirmation","امر تاكيد البريد الالكتروني",module,Magento_Sales
+"Email Order Confirmation","البريد الإلكتروني لتأكيد الطلب",module,Magento_Sales
 "Grand Total Excl. Tax","المجموع الكلي غير شامل الضريبة",module,Magento_Sales
 "Grand Total Incl. Tax","المجموع الكلي شامل الضريبة",module,Magento_Sales
 "Subtotal (Excl. Tax)","المجموع (غير شامل الضريبة)",module,Magento_Sales
@@ -2127,20 +2127,20 @@ Status,الحاله,module,Magento_Sales
 Comment,تعليق,module,Magento_Sales
 "Notification Not Applicable","إعلام غير قابل للتطبيق",module,Magento_Sales
 "Order & Account Information","معلومات الطلب و الحساب",module,Magento_Sales
-"The order confirmation email was sent","تم إرسال البريد الإلكتروني تأكيد الامر",module,Magento_Sales
-"The order confirmation email is not sent","لم تم إرسال البريد الإلكتروني تأكيد الامر",module,Magento_Sales
+"The order confirmation email was sent","تم إرسال رسالة على البريد الإلكتروني لتأكيد الطلب",module,Magento_Sales
+"The order confirmation email is not sent","لم نتمكن من إرسال رسالة تأكيد الطلب",module,Magento_Sales
 "Order Date","تاريخ الطلب",module,Magento_Sales
 "Order Date (%1)","تاريخ الطلب (%1)",module,Magento_Sales
 "Purchased From","تم شراؤها من",module,Magento_Sales
-"Link to the New Order","الارتباط بالامرالجديد",module,Magento_Sales
-"Link to the Previous Order","الارتباط بالامر السابق",module,Magento_Sales
+"Link to the New Order","ربط بالطلب الجديد",module,Magento_Sales
+"Link to the Previous Order","ربط بالطلب السابق",module,Magento_Sales
 "%1 / %2 rate:","%1/معدل %2:",module,Magento_Sales
 "Customer Name","اسم العميل",module,Magento_Sales
 "Customer Group","مجموعات العملاء",module,Magento_Sales
 "Item Status","حالة المادة",module,Magento_Sales
 "Original Price","السعر الأصلي",module,Magento_Sales
 "Tax Percent","نسبة الضريبة",module,Magento_Sales
-"Notes for this Order","ملاحظات لهذا الامر",module,Magento_Sales
+"Notes for this Order","ملاحظات على هذا الطلب",module,Magento_Sales
 "Comment added","تم إضافة التعليق",module,Magento_Sales
 "Transaction Data","بيانات المعاملات",module,Magento_Sales
 "Order ID","رقم الطلب",module,Magento_Sales
@@ -2148,7 +2148,7 @@ Comment,تعليق,module,Magento_Sales
 "Is Closed",مغلق,module,Magento_Sales
 "Created At","انشئة في",module,Magento_Sales
 Items,المنتجات,module,Magento_Sales
-"Gift Message for this Order","رسالة هدية لهذا الامر",module,Magento_Sales
+"Gift Message for this Order","رسالة الإهداء لهذا الطلب",module,Magento_Sales
 "Shipped By","شحنت بواسطة",module,Magento_Sales
 "Tracking Number","رقم التتبع",module,Magento_Sales
 "Billing Last Name","الفواتير الاسم الأخير",module,Magento_Sales
@@ -2165,7 +2165,7 @@ Date,التاريخ,module,Magento_Sales
 "Ship To","يرسل الي",module,Magento_Sales
 Actions,اعمال,module,Magento_Sales
 "View Order","عرض طلب الشراء",module,Magento_Sales
-"You have placed no orders.","لم تقم بوضع أي امر.",module,Magento_Sales
+"You have placed no orders.","لم تقم باي طلبات شراء.",module,Magento_Sales
 "No shipping information available","معلومات الشحن غير متوفرة",module,Magento_Sales
 "Print Order","طباعة الطلب",module,Magento_Sales
 "Print All Invoices","طباعة كافة الفواتير",module,Magento_Sales
@@ -2175,7 +2175,7 @@ Actions,اعمال,module,Magento_Sales
 Close,غلق,module,Magento_Sales
 "About Your Order","حول طلبك",module,Magento_Sales
 "Qty Shipped","Qty شحنه",module,Magento_Sales
-"Recent Orders","أوامر صدرت مؤخرا",module,Magento_Sales
+"Recent Orders","طلبات الشراء الاخيرة",module,Magento_Sales
 "View All","عرض الكل",module,Magento_Sales
 "Add to Cart","أضف لسلة التسوق",module,Magento_Sales
 Search,بحث,module,Magento_Sales
@@ -2219,7 +2219,7 @@ Back,الرجوع,module,Magento_SendFriend
 Add,إضافة,module,Magento_Shipping
 "Send Tracking Information","إرسال بيانات التعقب",module,Magento_Shipping
 Print,طباعة,module,Magento_Shipping
-"Back to My Orders","الرجوع الى اوامري",module,Magento_Shipping
+"Back to My Orders","الرجوع الى طلباتي",module,Magento_Shipping
 Shipments,الشحنات,module,Magento_Shipping
 "New Shipment","شحن جديد",module,Magento_Shipping
 "Page not found.","لم يتم العثور على الصفحة.",module,Magento_Shipping
@@ -2234,9 +2234,9 @@ Contents,محتويات,module,Magento_Shipping
 Size,الحجم,module,Magento_Shipping
 Product,المنتج,module,Magento_Shipping
 Weight,الوزن,module,Magento_Shipping
-"Qty Ordered","Qty امر",module,Magento_Shipping
+"Qty Ordered","الكمية المطلوبة",module,Magento_Shipping
 Qty,الكميّة,module,Magento_Shipping
-"Per Order","لكل امر",module,Magento_Shipping
+"Per Order","لكل طلب",module,Magento_Shipping
 "Per Package","لكل مجموعة",module,Magento_Shipping
 Fixed,تصليح,module,Magento_Shipping
 Percent,"النسبة المئوية",module,Magento_Shipping
@@ -2261,7 +2261,7 @@ Number,رقم,module,Magento_Shipping
 Action,إجراء,module,Magento_Shipping
 "Are you sure?","هل أنت متأكد؟",module,Magento_Shipping
 "Shipping &amp; Handling Information","الشحن &amp; معلومات التسليم",module,Magento_Shipping
-"Track Order","متابعة الامر",module,Magento_Shipping
+"Track Order","متابعة الطلب",module,Magento_Shipping
 "No shipping information available","معلومات الشحن غير متوفرة",module,Magento_Shipping
 "Track this shipment","متابعة هذه الشحنه",module,Magento_Shipping
 "Items Shipped","شحن البنود",module,Magento_Shipping
@@ -3053,7 +3053,7 @@ Inactive,خاملة,module,Magento_Review
 "Rss Config","اعدادات الخلاصات",module,Magento_Rss
 "Enable RSS","تفعيل خدمة الخلاصات",module,Magento_Rss
 General,عام,module,Magento_Sales
-"Allow Reorder","السماح باعادة الامر",module,Magento_Sales
+"Allow Reorder","السماح بإعادة الطلب",module,Magento_Sales
 Address,العنوان,module,Magento_Sales
 Enable,تفعيل,module,Magento_Sales
 Dashboard,"لوحة المعلومات",module,Magento_Sales
@@ -3062,10 +3062,10 @@ Enabled,تفعيل,module,Magento_Sales
 "New Order Confirmation Email Sender","النظام الجديد تأكيد البريد الألكتروني المرسل",module,Magento_Sales
 "New Order Confirmation Template","تأكيد نموذج النظام الجديد",module,Magento_Sales
 "New Order Confirmation Template for Guest","تأكيد نموذج النظام الجديد للضيف",module,Magento_Sales
-"Send Order Email Copy To","ارسال نسخة امر بالبريد الالكتروني الى",module,Magento_Sales
+"Send Order Email Copy To","ارسال نسخة بالطلب على البريد الالكتروني",module,Magento_Sales
 "Order Comment Email Sender","البريد الالكتروني المرسل من اجل التعليق",module,Magento_Sales
 "Order Comment Email Template","البريد الالكتروني للقالب في البريد الالكتروني",module,Magento_Sales
-"Order Comment Email Template for Guest","امر تعليق قالب البريد الالكتروني للزائر",module,Magento_Sales
+"Order Comment Email Template for Guest","قالب البريد الالكتروني لطلبات للزائرين",module,Magento_Sales
 "Send Order Comment Email Copy To","من اجل ارسال نسخة منها الى البريد الالكتروني التعليق",module,Magento_Sales
 "Invoice Email Sender","فاتورة البريد الالكتروني المرسل",module,Magento_Sales
 "Invoice Email Template","فاتورة قالب البريد الالكتروني",module,Magento_Sales
