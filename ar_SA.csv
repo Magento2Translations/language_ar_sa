@@ -303,6 +303,7 @@ From:,من:,module,Magento_Bundle
 To:,إلى:,module,Magento_Bundle
 Message:,الرسالة:,module,Magento_Bundle
 Always,دائماً,module,Magento_Captcha
+"<strong>Attention</strong>: Captcha is case sensitive.","<strong>تنبيه</strong>: كلمة التحقق حساسة لحالة الأحرف.",module,Magento_Captcha
 "ALL GROUPS","جميع المجموعات",module,Magento_CatalogInventory
 "Customer Group","مجموعات العملاء",module,Magento_CatalogInventory
 "No Backorders","لا توجد طلبات لمنتجات غير متوفرة",module,Magento_CatalogInventory
@@ -882,6 +883,7 @@ Submit,تسليم,module,Magento_Customer
 Password,"كلمة المرور",module,Magento_Customer
 Login,الدخول,module,Magento_Customer
 "Forgot Your Password?","هل نسيت كلمة المرور؟",module,Magento_Customer
+"Subscription option","قوائم النشرات البريدية",module,Magento_Customer
 "General Subscription","اشتراك عام",module,Magento_Customer
 "Sign Up for Newsletter","التسجيل في النشرة البريدية",module,Magento_Customer
 "Address Information","معلومات العنوان",module,Magento_Customer
@@ -1292,6 +1294,8 @@ Cancel,إلغاء,module,Magento_Paypal
 "General Information","المعلومات العامة",module,Magento_Paypal
 Order,طلب,module,Magento_Paypal
 "Order Total","إجمالي الطلب",module,Magento_Paypal
+"View Transaction Details","عرض تفاصيل المعاملة",module,Magento_Paypal
+"Transaction Information","معلومات المعاملة",module,Magento_Paypal
 Configure,ضبط,module,Magento_Paypal
 Close,غلق,module,Magento_Paypal
 "Learn More","تعلم المزيد",module,Magento_Paypal
@@ -1300,6 +1304,7 @@ Close,غلق,module,Magento_Paypal
 "Shipping Information","بيانات الشحن",module,Magento_Paypal
 Reports,تقارير,module,Magento_Paypal
 Sales,المبيعات,module,Magento_Paypal
+"View Transaction","عرض المعاملة",module,Magento_Paypal
 "Please agree to all the terms and conditions before placing the order.","الرجاء الموافقة على كل الشروط والأحكام قبل انهاء طلبك.",module,Magento_Paypal
 Active,فعال,module,Magento_Paypal
 Canceled,"تم الإلغاء",module,Magento_Paypal
@@ -1311,6 +1316,8 @@ Yes,موافق,module,Magento_Paypal
 No,لا,module,Magento_Paypal
 Never,مطلقاً,module,Magento_Paypal
 "API Signature","API التوقيع",module,Magento_Paypal
+"Last Transaction ID","رقم آخر المعاملة",module,Magento_Paypal
+"Transaction ID","رقم المعاملة",module,Magento_Paypal
 Event,الحدث,module,Magento_Paypal
 "Start Date","تاريخ البدء",module,Magento_Paypal
 Custom,مخصص,module,Magento_Paypal
@@ -1489,14 +1496,14 @@ Websites,الموقع,module,Magento_Review
 "Pending Reviews RSS","استعرضات معلقة RSS",module,Magento_Review
 Reviews,المراجعات,module,Magento_Review
 "Customer Reviews","مراجعات العميل",module,Magento_Review
-"My Product Reviews","مراجعات منتجاتي",module,Magento_Review
+"My Product Reviews",مراجعاتي,module,Magento_Review
 Approved,وافق,module,Magento_Review
 Pending,معلق,module,Magento_Review
 "Rating isn't Available","التقييم غير متاح",module,Magento_Review
 "Assigned Options","الخيارات المخصصة",module,Magento_Review
 "Option Title:","عنوان الاختيار:",module,Magento_Review
 "Product Name","اسم المنتج",module,Magento_Review
-"You have submitted no reviews.","لم تقم بإرسال أية مراجعات.",module,Magento_Review
+"You have submitted no reviews.","لم تقم بإرسال اي مراجعات.",module,Magento_Review
 Back,الرجوع,module,Magento_Review
 "My Recent Reviews","مراجعاتي الاخيرة",module,Magento_Review
 "Average Customer Rating:","متوسط تقييم العميل:",module,Magento_Review
@@ -1680,12 +1687,14 @@ Information,بيانات,module,Magento_Sales
 "Order Invoices","تاريخ الفواتير",module,Magento_Sales
 Shipments,الشحنات,module,Magento_Sales
 "Order Shipments","تاريخ الشحن",module,Magento_Sales
+Transactions,المعاملات,module,Magento_Sales
 "Order View","عرض طلب الشراء",module,Magento_Sales
 Any,اي,module,Magento_Sales
 Yes,موافق,module,Magento_Sales
 No,لا,module,Magento_Sales
 "New Order RSS","RSS الطلبات الجديدة",module,Magento_Sales
 Back,الرجوع,module,Magento_Sales
+"Transaction # %1 | %2","المعاملة # %1 | %2",module,Magento_Sales
 N/A,"غير متاح",module,Magento_Sales
 "Back to My Orders","الرجوع الى طلباتي",module,Magento_Sales
 "My Orders",طلباتي,module,Magento_Sales
@@ -1714,6 +1723,7 @@ Backordered,"طلبات مؤخرة",module,Magento_Sales
 Returned,اعادة,module,Magento_Sales
 Partial,جزئي,module,Magento_Sales
 Mixed,مختلط,module,Magento_Sales
+"Transaction ID: ""%1""","رقم المعاملة: ""%1""",module,Magento_Sales
 Order,طلب,module,Magento_Sales
 Authorization,التفويض,module,Magento_Sales
 "Shipping Method:","طريقة الشحن:",module,Magento_Sales
@@ -1816,10 +1826,12 @@ Comment,تعليق,module,Magento_Sales
 "Original Price","السعر الأصلي",module,Magento_Sales
 "Tax Percent","نسبة الضريبة",module,Magento_Sales
 "Transaction Data","بيانات المعاملات",module,Magento_Sales
+"Transaction ID","رقم المعاملة",module,Magento_Sales
 "Order ID","رقم الطلب",module,Magento_Sales
 "Transaction Type","نوع المعاملة التجارية",module,Magento_Sales
 "Is Closed",مغلق,module,Magento_Sales
 "Created At","انشئة في",module,Magento_Sales
+"Transaction Details","تفاصيل المعاملة",module,Magento_Sales
 "Gift Message for this Order","رسالة الإهداء لهذا الطلب",module,Magento_Sales
 "Shipped By","شحنت بواسطة",module,Magento_Sales
 "Tracking Number","رقم التتبع",module,Magento_Sales
@@ -2350,7 +2362,7 @@ Type,النوع,module,Magento_Customer
 Addresses,العنوان,module,Magento_Customer
 "Edit Account Information","تحرير بيانات الحساب",module,Magento_Customer
 "Password forgotten","نسيت كلمة السر",module,Magento_Customer
-"My Dashboard","لوحة التحكم الرئيسية بلادي",module,Magento_Customer
+"My Dashboard","لوحة التحكم",module,Magento_Customer
 "Developer Client Restrictions","المطور العملاء القيود",module,Magento_Developer
 "Allowed IPs (comma separated)","سمحت المءسسه (مفصوله بفواصل)",module,Magento_Developer
 "Gateway URL","رابط البوابة",module,Magento_Dhl
@@ -2406,7 +2418,7 @@ Status,الحاله,module,Magento_Integration
 Options,الخيارات,module,Magento_Multishipping
 "Review Order","مراجعة طلب الشراء",module,Magento_Multishipping
 "Select Shipping Method","اختيار طريقة الشحن",module,Magento_Multishipping
-"Subscription Options","خيارات الاشتراك",module,Magento_Newsletter
+"Subscription Options","خيارات النشرات البريدية",module,Magento_Newsletter
 "Need to Confirm","يحتاج الى تاكيد",module,Magento_Newsletter
 "Confirmation Email Sender","مرسل البريد الإلكتروني التأكيدي",module,Magento_Newsletter
 "Confirmation Email Template","قالب البريد الإلكتروني التأكيدي",module,Magento_Newsletter
