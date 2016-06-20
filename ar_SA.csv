@@ -360,7 +360,8 @@ Results,نتائج,module,Magento_CatalogSearch
 Grid,الشبكة,module,Magento_CatalogSearch
 List,قائمة,module,Magento_CatalogSearch
 Relevance,الصله,module,Magento_CatalogSearch
-Category,الفئة,module,Magento_CatalogSearch
+Category,القسم,module,Magento_CatalogSearch
+"%1 and above","%1 واكثر",module,Magento_CatalogSearch
 Product,المنتج,module,Magento_CatalogSearch
 "Search Settings","اعدادات البحث",module,Magento_CatalogSearch
 Search,بحث,module,Magento_CatalogSearch
@@ -382,7 +383,7 @@ Name,اسم,module,Magento_Catalog
 SKU,"رمز المنتج",module,Magento_Catalog
 Price,السعر,module,Magento_Catalog
 Position,موقع,module,Magento_Catalog
-"Category Products","فئة المنتجات",module,Magento_Catalog
+"Category Products","قسم المنتجات",module,Magento_Catalog
 "Add Subcategory","قسم فرعي جديد",module,Magento_Catalog
 "Add Root Category","اضف قسم رئيسي",module,Magento_Catalog
 Day,اليوم,module,Magento_Catalog
@@ -448,7 +449,7 @@ Change,تغير,module,Magento_Catalog
 Websites,الموقع,module,Magento_Catalog
 "Products Information","معلومات المنتجات",module,Magento_Catalog
 "Category Name","اسم القسم",module,Magento_Catalog
-"Parent Category","الفئة الام",module,Magento_Catalog
+"Parent Category","القسم الرئيسي",module,Magento_Catalog
 "First Name","الإسم الأول",module,Magento_Catalog
 "Last Name","اسم العائلة",module,Magento_Catalog
 Email,"البريد الإلكتروني",module,Magento_Catalog
@@ -471,7 +472,7 @@ Quantity,الكمية,module,Magento_Catalog
 Edit,تحرير,module,Magento_Catalog
 "Are you sure?","هل أنت متأكد؟",module,Magento_Catalog
 "Change Status","تغيير الحالة",module,Magento_Catalog
-"New Category","فئة جديدة",module,Magento_Catalog
+"New Category","قسم جديد",module,Magento_Catalog
 "Images (.gif, .jpg, .png)","الصور (.gif,.jpg,.png)",module,Magento_Catalog
 "Add New Images","اضف صور جديدة",module,Magento_Catalog
 "Inc. Tax","شامل الضريبة",module,Magento_Catalog
@@ -525,7 +526,8 @@ Top/Left,اعلى/يسار,module,Magento_Catalog
 Top/Right,"اعلى /يمين",module,Magento_Catalog
 Bottom/Left,"اسفل / يسار",module,Magento_Catalog
 Bottom/Right,اسفل/يمين,module,Magento_Catalog
-Category,الفئة,module,Magento_Catalog
+Category,القسم,module,Magento_Catalog
+"%1 and above","%1 واكثر",module,Magento_Catalog
 "Please enter a valid number in this field.","الرجاء ادخال عدد في هذا المجال.",module,Magento_Catalog
 Enabled,تفعيل,module,Magento_Catalog
 Disabled,"غير مفعل",module,Magento_Catalog
@@ -585,6 +587,7 @@ Prev,السابق,module,Magento_Catalog
 Next,التالي,module,Magento_Catalog
 "Add to Compare","إضافة إلى المقارنة",module,Magento_Catalog
 "Learn More","تعلم المزيد",module,Magento_Catalog
+"We found other products you might like!","وجدنا منتجات أخرى قد تعجبك!",module,Magento_Catalog
 "select all","اختار الجميع",module,Magento_Catalog
 Show,أعرض,module,Magento_Catalog
 "per page",بالصفحة,module,Magento_Catalog
@@ -650,6 +653,8 @@ Checkout,"إنهاء الطلب",module,Magento_Checkout
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","يجب عليك تأكد حسابك. الرجاء مراجعة بريدك الإلكتروني واتبع التعليمات أو <a href=""%1""> انقر هنا</a> لاعادة ارسالة رسالة التاكيد.",module,Magento_Checkout
 "Load customer quote error","تحميل خطأ اقتباس العميل",module,Magento_Checkout
 Message,رسالة,module,Magento_Checkout
+"Apply Discount Code","استخدام كود خصم",module,Magento_Checkout
+"Enter discount code","أدخل كود الخصم",module,Magento_Checkout
 "Cancel Coupon","إلغاء قسيمة الخصم",module,Magento_Checkout
 "Shopping Cart Items","بنود عربة التسوق",module,Magento_Checkout
 Item,سلعة,module,Magento_Checkout
@@ -863,7 +868,7 @@ Download,تحميل,module,Magento_Customer
 "New Customer Group","مجموعة عميل جديدة",module,Magento_Customer
 "Group Information","بيانات المجموعة",module,Magento_Customer
 "Group Name","اسم المجموعة",module,Magento_Customer
-"Tax Class","الفئة الضريبة",module,Magento_Customer
+"Tax Class","الشريحة الضريبة",module,Magento_Customer
 "Customer Login","تسجيل دخول العميل",module,Magento_Customer
 "Create New Customer Account","إنشاء حساب عميل جديد",module,Magento_Customer
 "Date of Birth","تاريخ الميلاد",module,Magento_Customer
@@ -1281,6 +1286,7 @@ Change,تغير,module,Magento_Multishipping
 "Back to Shipping Information","العودة إلى بيانات الشحن",module,Magento_Multishipping
 "Edit Items","تحرير السلع",module,Magento_Multishipping
 "Product Name","اسم المنتج",module,Magento_Multishipping
+"Check Out with Multiple Addresses","إنهاء عملية الشراء بعناوين متعددة",module,Magento_Multishipping
 "Shipping To","الشحن إلى",module,Magento_Multishipping
 "Shipping Method","طريقة الشحن",module,Magento_Multishipping
 "Incl. Tax","شامل الضريبة",module,Magento_Multishipping
@@ -1683,7 +1689,7 @@ TRUE,صحيح,module,Magento_Rule
 FALSE,خاطئ,module,Magento_Rule
 "Conditions Combination","الجمع بين الشروط",module,Magento_Rule
 "Attribute Set","وضع السمة",module,Magento_Rule
-Category,الفئة,module,Magento_Rule
+Category,القسم,module,Magento_Rule
 "Open Chooser","افتح الاختيارى",module,Magento_Rule
 "Cart Price Rules","قواعد سلة الأسعار",module,Magento_SalesRule
 "Add New Rule","إضافة قاعدة جديدة",module,Magento_SalesRule
@@ -2286,7 +2292,9 @@ Ground,"سطح الأرض",module,Magento_Ups
 None,"لا شئ",module,Magento_Ups
 "United Parcel Service","خدمة الطرود المتحدة",module,Magento_Ups
 "United Parcel Service XML","خدمة الطرود المتحدة XML",module,Magento_Ups
-"Edit URL Rewrite for a Category","تحرير كتابة عنوان URL لفئة",module,Magento_UrlRewrite
+"Edit URL Rewrite for a Category","تحرير كتابة عنوان URL لقسم",module,Magento_UrlRewrite
+"Add URL Rewrite for a Category","اضافة URL لقسم",module,Magento_UrlRewrite
+Category:,القسم:,module,Magento_UrlRewrite
 ID,التعريف,module,Magento_UrlRewrite
 Name,اسم,module,Magento_UrlRewrite
 SKU,"رمز المنتج",module,Magento_UrlRewrite
@@ -2487,6 +2495,7 @@ Password:,"الرقم السري:",module,Magento_Customer
 "Check the status of orders","التحقق من حالة الطلب",module,Magento_Customer
 "View past orders","عرض الطلبات السابقة",module,Magento_Customer
 "Currency Update Warnings","تحذير تحرير بيانات العملة",module,Magento_Directory
+"You have been successfully subscribed to our newsletter.","لقد اشتركت في نشرتنا البريدية.",module,Magento_Newsletter
 "%name,",%name،,module,Magento_ProductAlert
 "%name,",%name،,module,Magento_Sales
 "Thank you for your order from %store_name.","شكرا لك على الشراء من %store_name.",module,Magento_Sales
@@ -2638,6 +2647,7 @@ Quantity,الكمية,module,Magento_CatalogInventory
 Start,ابدء,module,Magento_CatalogRule
 End,نهاية,module,Magento_CatalogRule
 "Popular Search Terms","كلمات البحث الشائعة",module,Magento_CatalogSearch
+"Category URL Suffix","لاحقة URL القسم",module,Magento_CatalogUrlRewrite
 "Catalog Products List","قائمة المنتجات",module,Magento_CatalogWidget
 "List of Products","قائمة المنتجات",module,Magento_CatalogWidget
 Title,العنوان,module,Magento_CatalogWidget
@@ -2653,6 +2663,7 @@ Thumbnail,"صورة مصغره",module,Magento_Catalog
 "Top Level Category","التصنيف الاعلى درجة",module,Magento_Catalog
 "Product Categories","فئات المنتج",module,Magento_Catalog
 Template,قالب,module,Magento_Catalog
+"Select Category...","اختر قسم...",module,Magento_Catalog
 "All Store Views","واجهه جميع المواقع",module,Magento_Catalog
 "Change status","تغير الوضع",module,Magento_Catalog
 Enable,تفعيل,module,Magento_Catalog
