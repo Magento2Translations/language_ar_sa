@@ -383,7 +383,7 @@ SKU,"رمز المنتج",module,Magento_Catalog
 Price,السعر,module,Magento_Catalog
 Position,موقع,module,Magento_Catalog
 "Category Data","بيانات الفئة",module,Magento_Catalog
-"Category Products","فئة المنتجات",module,Magento_Catalog
+"Category Products","قسم المنتجات",module,Magento_Catalog
 "Add Subcategory","قسم فرعي جديد",module,Magento_Catalog
 "Add Root Category","اضف قسم رئيسي",module,Magento_Catalog
 Day,اليوم,module,Magento_Catalog
@@ -452,7 +452,7 @@ Change,تغير,module,Magento_Catalog
 Websites,الموقع,module,Magento_Catalog
 "Products Information","معلومات المنتجات",module,Magento_Catalog
 "Category Name","اسم القسم",module,Magento_Catalog
-"Parent Category","الفئة الام",module,Magento_Catalog
+"Parent Category","القسم الرئيسي",module,Magento_Catalog
 "We saved the price alert subscription.","لقد تم حفظ إشتراكك لتنبيه الأسعار.",module,Magento_Catalog
 "We saved the stock notification.","لقد تم حفظ مخزن الإشعارات.",module,Magento_Catalog
 "First Name","الإسم الأول",module,Magento_Catalog
@@ -478,7 +478,7 @@ Edit,تحرير,module,Magento_Catalog
 "Are you sure?","هل أنت متأكد؟",module,Magento_Catalog
 "Click here or drag and drop to add images.","انقر هنا أو سحب وإسقاط لإضافة الصور.",module,Magento_Catalog
 "Make Base","إصنع قاعدة",module,Magento_Catalog
-"New Category","فئة جديدة",module,Magento_Catalog
+"New Category","قسم جديد",module,Magento_Catalog
 "Images (.gif, .jpg, .png)","الصور (.gif,.jpg,.png)",module,Magento_Catalog
 "Add New Images","اضف صور جديدة",module,Magento_Catalog
 "Inc. Tax","شامل الضريبة",module,Magento_Catalog
@@ -528,7 +528,8 @@ Top/Left,اعلى/يسار,module,Magento_Catalog
 Top/Right,"اعلى /يمين",module,Magento_Catalog
 Bottom/Left,"اسفل / يسار",module,Magento_Catalog
 Bottom/Right,اسفل/يمين,module,Magento_Catalog
-Category,الفئة,module,Magento_Catalog
+Category,القسم,module,Magento_Catalog
+"%1 and above","%1 واكثر",module,Magento_Catalog
 "Please enter a valid number in this field.","الرجاء ادخال عدد في هذا المجال.",module,Magento_Catalog
 Enabled,تفعيل,module,Magento_Catalog
 Disabled,"غير مفعل",module,Magento_Catalog
@@ -807,13 +808,14 @@ Download,تحميل,module,Magento_Customer
 "New Customer Group","مجموعة عميل جديدة",module,Magento_Customer
 "Group Information","بيانات المجموعة",module,Magento_Customer
 "Group Name","اسم المجموعة",module,Magento_Customer
-"Tax Class","الفئة الضريبة",module,Magento_Customer
+"Tax Class","الشريحة الضريبة",module,Magento_Customer
 "Customer Login","تسجيل دخول العميل",module,Magento_Customer
 "Create New Customer Account","إنشاء حساب عميل جديد",module,Magento_Customer
 "Date of Birth","تاريخ الميلاد",module,Magento_Customer
 "Bad request.","طلب غير صحيح.",module,Magento_Customer
 "Wrong email.","بريد إلكتروني خاطئ.",module,Magento_Customer
 "Account Information","معلومات الحساب",module,Magento_Customer
+"Invalid input","إدخال غير صالح",module,Magento_Customer
 "Please enter your email.","الرجاء ادخال بريدك الالكتروني.",module,Magento_Customer
 "My Account",حسابي,module,Magento_Customer
 "Invalid login or password.","البريد الإلكتروني أو كلمة المرور غير صحيحة.",module,Magento_Customer
@@ -829,6 +831,7 @@ Global,عالمي,module,Magento_Customer
 "Billing Address","عنوان الفاتورة",module,Magento_Customer
 "Shipping Address","عنوان الشحن",module,Magento_Customer
 "-- Please Select --","--الرجاء الاختيار-",module,Magento_Customer
+"Please correct this email address: ""%1"".","الرجاء تصحيح عنوان البريد الإلكتروني : ""%1"".",module,Magento_Customer
 Admin,المدير,module,Magento_Customer
 "Customer Group","مجموعات العملاء",module,Magento_Customer
 Edit,تحرير,module,Magento_Customer
@@ -1258,6 +1261,7 @@ Region/State,"المنطقة / الولايه",module,Magento_OfflineShipping
 None,"لا شئ",module,Magento_OfflineShipping
 "Per Order","لكل طلب",module,Magento_OfflineShipping
 "Per Item","لكل بند",module,Magento_OfflineShipping
+"Duplicate Row #%1 (Country ""%2"", Region/State ""%3"", Zip ""%4"" and Value ""%5"")","تكرار الصف #%1 (بلد ""%2""، ""%3""، الولاية/الإقليم الرمز ""%4"" والقيمة ""%5"")",module,Magento_OfflineShipping
 "Free Shipping","شحن مجاني",module,Magento_OfflineShipping
 No,لا,module,Magento_OfflineShipping
 "For matching items only","للسلع المطابقة فقط",module,Magento_OfflineShipping
@@ -1436,6 +1440,7 @@ Reviews,مراجعات,module,Magento_Reports
 "Product Reviews","مراجعات المنتج",module,Magento_Reports
 Details,التفاصيل,module,Magento_Reports
 Sales,المبيعات,module,Magento_Reports
+"Best Sellers Report","تقرير المنتجات الأكثر مبيعا",module,Magento_Reports
 Coupons,"قسائم الخصم",module,Magento_Reports
 "Coupons Report","تقرير قسائم الخصم",module,Magento_Reports
 "Sales Report","تقرير المبيعات",module,Magento_Reports
@@ -1534,7 +1539,7 @@ TRUE,صحيح,module,Magento_Rule
 FALSE,خاطئ,module,Magento_Rule
 "Conditions Combination","الجمع بين الشروط",module,Magento_Rule
 "Attribute Set","وضع السمة",module,Magento_Rule
-Category,الفئة,module,Magento_Rule
+Category,القسم,module,Magento_Rule
 "Open Chooser","افتح الاختيارى",module,Magento_Rule
 "Cart Price Rules","قواعد سلة الأسعار",module,Magento_SalesRule
 "Add New Rule","إضافة قاعدة جديدة",module,Magento_SalesRule
@@ -2053,7 +2058,9 @@ Ground,"سطح الأرض",module,Magento_Ups
 None,"لا شئ",module,Magento_Ups
 "United Parcel Service","خدمة الطرود المتحدة",module,Magento_Ups
 "United Parcel Service XML","خدمة الطرود المتحدة XML",module,Magento_Ups
-"Edit URL Rewrite for a Category","تحرير كتابة عنوان URL لفئة",module,Magento_UrlRewrite
+"Edit URL Rewrite for a Category","تحرير كتابة عنوان URL لقسم",module,Magento_UrlRewrite
+"Add URL Rewrite for a Category","اضافة URL لقسم",module,Magento_UrlRewrite
+Category:,القسم:,module,Magento_UrlRewrite
 ID,التعريف,module,Magento_UrlRewrite
 Name,اسم,module,Magento_UrlRewrite
 SKU,"رمز المنتج",module,Magento_UrlRewrite
