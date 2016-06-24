@@ -626,7 +626,6 @@ State/Province,ولاية/مقاطعة,module,Magento_Checkout
 "My Cart (1 item)","عربة التسوق (1 منتج)",module,Magento_Checkout
 "My Cart (%1 items)","عربة التسوق (%1 منتج)",module,Magento_Checkout
 "My Cart","عربة التسوق",module,Magento_Checkout
-"Minimum order amount is %1","الحد الأدنى للطلب هو %1",module,Magento_Checkout
 "Customer is already registered","هذا العضو مسجيل بالفعل",module,Magento_Checkout
 "Your session has expired","انتهت صلاحية جلسة الدخول الخاصة بك",module,Magento_Checkout
 "You added %1 to your shopping cart.","قمت بإضافة %1 إلى عربة التسوق الخاصة بك.",module,Magento_Checkout
@@ -1404,8 +1403,6 @@ Yes,موافق,module,Magento_Payment
 No,لا,module,Magento_Payment
 "Expiration Date","تاريخ الانتهاء",module,Magento_Payment
 "Card Verification Number","رقم التحقق من البطاقة",module,Magento_Payment
-"Issue Number","رقم الإصدار",module,Magento_Payment
-"Start Date","تاريخ البدء",module,Magento_Payment
 "Please Select","أختر من فضلك",module,Magento_Payment
 "--Please Select--","--أختر من فضلك--",module,Magento_Payment
 "Card Verification Number Visual Reference","بطاقه رقم التحقق من الاشارة البصريه",module,Magento_Payment
