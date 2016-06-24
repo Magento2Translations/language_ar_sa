@@ -266,7 +266,7 @@ Edit,تحرير,module,Magento_Braintree
 "Percent Discount","نسبة الخصم",module,Magento_Bundle
 "-- Select --","-- اختر --",module,Magento_Bundle
 Dynamic,ديناميكي,module,Magento_Bundle
-Fixed,تصليح,module,Magento_Bundle
+Fixed,ثابت,module,Magento_Bundle
 Close,غلق,module,Magento_Bundle
 "Delete Option","حذف خيار",module,Magento_Bundle
 ID,التعريف,module,Magento_Bundle
@@ -517,7 +517,7 @@ All,الكل,module,Magento_Catalog
 "Static block and products","تجميد المساحة والمنتجات",module,Magento_Catalog
 "Grid (default) / List","الشبكه (افتراضي) / قائمة",module,Magento_Catalog
 "List (default) / Grid","قائمة (افتراضي) / الشبكه",module,Magento_Catalog
-Fixed,تصليح,module,Magento_Catalog
+Fixed,ثابت,module,Magento_Catalog
 Percent,"النسبة المئوية",module,Magento_Catalog
 "-- Please select --","-- اختر من فضلك --",module,Magento_Catalog
 "Product Thumbnail Itself","صورة مصغرة للمنتج نفسه",module,Magento_Catalog
@@ -816,6 +816,7 @@ Download,تحميل,module,Magento_Customer
 "Wrong email.","بريد إلكتروني خاطئ.",module,Magento_Customer
 "Account Information","معلومات الحساب",module,Magento_Customer
 "Invalid input","إدخال غير صالح",module,Magento_Customer
+"Please correct the email address.","الرجاء تصحيح عنوان البريد الإلكتروني.",module,Magento_Customer
 "Please enter your email.","الرجاء ادخال بريدك الالكتروني.",module,Magento_Customer
 "My Account",حسابي,module,Magento_Customer
 "Invalid login or password.","البريد الإلكتروني أو كلمة المرور غير صحيحة.",module,Magento_Customer
@@ -982,6 +983,7 @@ Date,التاريخ,module,Magento_Eav
 Yes/No,نعم/لا,module,Magento_Eav
 "Multiple Select","خيارات متعددة",module,Magento_Eav
 Dropdown,انزال,module,Magento_Eav
+"""%1"" is not a valid email address.","'%1' ليس عنوان بريد إلكتروني صحيحا.",module,Magento_Eav
 "Entity is not initialized","الكيان لم تتم تهيئة",module,Magento_Eav
 "Unknown parameter","معامل غير معروف",module,Magento_Eav
 "Invalid entity supplied","غير صالح الكيان الموردة",module,Magento_Eav
@@ -1140,6 +1142,7 @@ Total,إجمالي,module,Magento_Multishipping
 "Please agree to all Terms and Conditions before placing the order.","الرجاء الموافقة على كل الشروط والأحكام قبل انهاء طلبك.",module,Magento_Multishipping
 "Please check shipping address information.","يرجى التحقق من المعلومات عنوان الشحن.",module,Magento_Multishipping
 "Please check billing address information.","يرجى التحقق من المعلومات عنوان الفواتير.",module,Magento_Multishipping
+"Please select shipping methods for all addresses.","من فضلك قم باختيار طرق الشحن لكل العناوين.",module,Magento_Multishipping
 "Item not found or already ordered","عدم عثور على منتجاتكم أو أمر بالفعل",module,Magento_Multishipping
 "Please check shipping addresses information.","يرجى التحقق من عناوين الشحن المعلومات.",module,Magento_Multishipping
 "Please specify shipping methods for all addresses.","يرجى تحديد وسائل النقل البحري لكافة عناوين.",module,Magento_Multishipping
@@ -1229,6 +1232,8 @@ Subscribers,مشتركون,module,Magento_Newsletter
 "New Template","قالب جديد",module,Magento_Newsletter
 "Create Newsletter Template","إنشاء قالب نشرة بريدية",module,Magento_Newsletter
 "Newsletter Subscription","الاشتراك بالقائمة البريدية",module,Magento_Newsletter
+"This email address is already assigned to another user.","يرتبط عنوان هذا البريد الإلكتروني مع حساب آخر بالفعل.",module,Magento_Newsletter
+"Please enter a valid email address.","الرجاء ادخال عنوان بريد الكتروني صحيح.",module,Magento_Newsletter
 "Thank you for your subscription.","شكراً لتسجيلك",module,Magento_Newsletter
 Sent,"تم الإرسال",module,Magento_Newsletter
 Cancelled,"تم الإلغاء",module,Magento_Newsletter
@@ -1369,6 +1374,7 @@ Url,"عنوان Url",module,Magento_ProductVideo
 "Shipping & Handling","الشحن و المناولة",module,Magento_Quote
 Shipping,الشحن,module,Magento_Quote
 Subtotal,"مبلغ إجمالي",module,Magento_Quote
+"Please select a valid payment method.","الرجاء إختيار طريقة دفع سليمة.",module,Magento_Quote
 "Store Credit","المخزن الائتماني",module,Magento_Quote
 Discount,خصم,module,Magento_Quote
 Tax,الضريبة,module,Magento_Quote
@@ -1865,8 +1871,10 @@ Close,غلق,module,Magento_Sales
 "Recent Orders","طلبات الشراء الاخيرة",module,Magento_Sales
 "View All","عرض الكل",module,Magento_Sales
 "Add to Cart","أضف لسلة التسوق",module,Magento_Sales
+"Please enter a correct recipient email address.","الرجاء إدخال عنوان بريد إلكتروني صحيح.",module,Magento_SendFriend
 Name,اسم,module,Magento_SendFriend
 "* Required Fields","* حقول مطلوبة",module,Magento_SendFriend
+"Maximum %1 email addresses allowed.","مسموح %1 عنوان بريد الكتروني بحد اقصى.",module,Magento_SendFriend
 Back,الرجوع,module,Magento_SendFriend
 "New Shipment for Order #%1","شحنة جديدة للطلب #%1",module,Magento_Shipping
 "Submit Shipment","ارسال الشحنه",module,Magento_Shipping
@@ -1893,7 +1901,7 @@ Weight,الوزن,module,Magento_Shipping
 Qty,الكميّة,module,Magento_Shipping
 "Per Order","لكل طلب",module,Magento_Shipping
 "Per Package","لكل مجموعة",module,Magento_Shipping
-Fixed,تصليح,module,Magento_Shipping
+Fixed,ثابت,module,Magento_Shipping
 Percent,"النسبة المئوية",module,Magento_Shipping
 "Payment Information","معلومات الدفع",module,Magento_Shipping
 "Shipping Information","بيانات الشحن",module,Magento_Shipping
@@ -2118,6 +2126,7 @@ Role,دور,module,Magento_User
 "User Information","معلومات المستخدم",module,Magento_User
 "User Info","معلومات المستخدم",module,Magento_User
 "User Role","دور المستخدم",module,Magento_User
+"Please correct this email address:","الرجاء تصحيح عنوان البريد الإلكتروني هذا:",module,Magento_User
 System,النظام,module,Magento_User
 Permissions,تصريحات,module,Magento_User
 "Edit User","تعديل مستخدم",module,Magento_User
@@ -2141,6 +2150,8 @@ Letter,رسالة,module,Magento_Usps
 Flat,مسطحة,module,Magento_Usps
 Parcel,طرد,module,Magento_Usps
 Variable,متغير,module,Magento_Usps
+"Flat-Rate Box","صندوق ذو تسعيرة موحدة",module,Magento_Usps
+"Flat-Rate Envelope","غلاف ذو تسعيرة موحدة",module,Magento_Usps
 Rectangular,مستطيل,module,Magento_Usps
 Non-rectangular,"غير مستطيل",module,Magento_Usps
 Regular,عادي,module,Magento_Usps
@@ -2454,7 +2465,7 @@ Enabled,تفعيل,module,Magento_OfflinePayments
 "Sort Order",الترتيب,module,Magento_OfflinePayments
 Title,العنوان,module,Magento_OfflinePayments
 "Zero Subtotal Checkout","المجموع الفرعي الخروج صفر",module,Magento_OfflinePayments
-"Flat Rate","معدل ثابت",module,Magento_OfflineShipping
+"Flat Rate","تسعيرة موحدة",module,Magento_OfflineShipping
 Enabled,تفعيل,module,Magento_OfflineShipping
 Price,السعر,module,Magento_OfflineShipping
 "Calculate Handling Fee","حساب أجر المعاملة",module,Magento_OfflineShipping
