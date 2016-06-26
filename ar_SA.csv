@@ -186,7 +186,7 @@ Submit,إرسال,module,Magento_Backend
 "An error occurred while enabling cache.","حدث خطأ أثناء تفعيل ذاكرة التخزين المؤقت.",module,Magento_Backend
 "%1 cache type(s) refreshed.","لقد نم تفعيل انواع ذاكرة التخزين المؤقت %1",module,Magento_Backend
 "An error occurred while refreshing cache.","حدث خطأ أثناء تحديث ذاكرة التخزين المؤقت.",module,Magento_Backend
-Dashboard,"لوحة المعلومات",module,Magento_Backend
+Dashboard,"لوحة التحكم",module,Magento_Backend
 "invalid request","طلب غير صالح",module,Magento_Backend
 "see error log for details","راجع سجل الأخطاء للحصول على التفاصيل",module,Magento_Backend
 "Service unavailable: %1","الخدمة غير متاحة: %1",module,Magento_Backend
@@ -973,7 +973,7 @@ Currency,العملة,module,Magento_Directory
 Unlimited,"غير محدود",module,Magento_Downloadable
 "Something went wrong while getting the requested content.","حدث خطأ أثناء الحصول على المحتوى المطلوب.",module,Magento_Downloadable
 "My Downloadable Products","المنتجات التي تم تحملها",module,Magento_Downloadable
-Pending,معلق,module,Magento_Downloadable
+Pending,"في إنتظار المُراجعة",module,Magento_Downloadable
 Invoiced,فاتورة,module,Magento_Downloadable
 Title,العنوان,module,Magento_Downloadable
 "Use Default Value","استخدام قيمة افتراضية",module,Magento_Downloadable
@@ -989,7 +989,7 @@ SKU,"رمز المنتج",module,Magento_Downloadable
 "Order #","رقم الطلب",module,Magento_Downloadable
 Date,التاريخ,module,Magento_Downloadable
 Status,الحاله,module,Magento_Downloadable
-"View Order","مشاهدة الطلب",module,Magento_Downloadable
+"View Order","تفاصيل الطلب",module,Magento_Downloadable
 "You have not purchased any downloadable products yet.","أنت لم تشترى اى منتج قابل للتحميل",module,Magento_Downloadable
 Back,الرجوع,module,Magento_Downloadable
 "Gift Message","رسالة الاهداء",module,Magento_Downloadable
@@ -1416,7 +1416,7 @@ Status:,الحالة:,module,Magento_Paypal
 Date,التاريخ,module,Magento_Paypal
 "Ship To","يرسل الي",module,Magento_Paypal
 "Order Status","حالة الطلب",module,Magento_Paypal
-"View Order","مشاهدة الطلب",module,Magento_Paypal
+"View Order","تفاصيل الطلب",module,Magento_Paypal
 "Payment Method","طريقة الدفع",module,Magento_Paypal
 View,عرض,module,Magento_Paypal
 "There are no billing agreements yet.","لا يوجد اتفاقية دفع حتى الان",module,Magento_Paypal
@@ -1571,7 +1571,7 @@ Edit,تحرير,module,Magento_Review
 Delete,احذف,module,Magento_Review
 "Are you sure?","هل أنت متأكد؟",module,Magento_Review
 Customer,زبون,module,Magento_Review
-"Pending Reviews","مراجعة معلقة",module,Magento_Review
+"Pending Reviews","مراجعة تنتظر المراجعة",module,Magento_Review
 "All Reviews","كل التقييمات",module,Magento_Review
 Name,اسم,module,Magento_Review
 Price,السعر,module,Magento_Review
@@ -1588,12 +1588,12 @@ Websites,الموقع,module,Magento_Review
 "Sort Order",الترتيب,module,Magento_Review
 "Rating Information","معلومات التقييم",module,Magento_Review
 "Product Reviews","مراجعات المنتج",module,Magento_Review
-"Pending Reviews RSS","استعرضات معلقة RSS",module,Magento_Review
+"Pending Reviews RSS","RSS التقييمات المعلقة",module,Magento_Review
 Reviews,المراجعات,module,Magento_Review
 "Customer Reviews","مراجعات العميل",module,Magento_Review
 "My Product Reviews",مراجعاتي,module,Magento_Review
 Approved,وافق,module,Magento_Review
-Pending,معلق,module,Magento_Review
+Pending,"في إنتظار المُراجعة",module,Magento_Review
 "Rating isn't Available","التقييم غير متاح",module,Magento_Review
 "Assigned Options","الخيارات المخصصة",module,Magento_Review
 "Option Title:","عنوان الاختيار:",module,Magento_Review
@@ -1820,7 +1820,7 @@ Sales,المبيعات,module,Magento_Sales
 Home,"الصفحة الرئيسية",module,Magento_Sales
 "Go to Home Page","الانتقال إلى الصفحة الرئيسية",module,Magento_Sales
 Guest,زائر,module,Magento_Sales
-Pending,معلق,module,Magento_Sales
+Pending,"في إنتظار المُراجعة",module,Magento_Sales
 Refunded,"اعادة ايجاد",module,Magento_Sales
 Canceled,"تم الإلغاء",module,Magento_Sales
 "Unknown State","دول غير معروفة",module,Magento_Sales
@@ -1957,7 +1957,7 @@ Continue,استمر,module,Magento_Sales
 "Order #","رقم الطلب",module,Magento_Sales
 Date,التاريخ,module,Magento_Sales
 "Ship To","يرسل الي",module,Magento_Sales
-"View Order","مشاهدة الطلب",module,Magento_Sales
+"View Order","تفاصيل الطلب",module,Magento_Sales
 "You have placed no orders.","لم تقم باي طلبات شراء.",module,Magento_Sales
 "No shipping information available","معلومات الشحن غير متوفرة",module,Magento_Sales
 "Print Order","طباعة الطلب",module,Magento_Sales
@@ -2499,6 +2499,7 @@ Contacts,المتصلين,module,Magento_Contact
 "Forgot Email Template","نسيت البريد الالكتروني للقالب",module,Magento_Customer
 "Recovery Link Expiration Period (days)","فترة انتهاء صلاحية رابط الاسترداد (الأيام)",module,Magento_Customer
 "Always optional.","اختياري دائماً.",module,Magento_Customer
+"Redirect Customer to Account Dashboard after Logging in","إعادة توجيه العملاء إلى لوحة تحكم الحساب بعد تسجيل الدخول",module,Magento_Customer
 "Address Templates","عنوان القالب",module,Magento_Customer
 Group,مجموعة,module,Magento_Customer
 "Add New Customer","أضف عميل جديد",module,Magento_Customer
@@ -2650,7 +2651,7 @@ Frequency,التردد,module,Magento_ProductAlert
 "Sign up for price alert","الاشتراك في تنبيه السعر",module,Magento_ProductAlert
 "Recently Viewed/Compared Products","المنتجات المشاهدة/المقارنة حديثا",module,Magento_Reports
 "Show for Current","مشاهدة للاحلالية",module,Magento_Reports
-Dashboard,"لوحة المعلومات",module,Magento_Reports
+Dashboard,"لوحة التحكم",module,Magento_Reports
 "Recently Viewed Products","المنتجات المشاهدة حديثا",module,Magento_Reports
 "Recently Compared Products","المنتجات المقارنة حديثا",module,Magento_Reports
 Average,متوسط,module,Magento_Reports
@@ -2669,7 +2670,7 @@ General,عام,module,Magento_Sales
 "Allow Reorder","السماح بإعادة الطلب",module,Magento_Sales
 Address,العنوان,module,Magento_Sales
 Enable,تفعيل,module,Magento_Sales
-Dashboard,"لوحة المعلومات",module,Magento_Sales
+Dashboard,"لوحة التحكم",module,Magento_Sales
 "Sales Emails","البريد الالكتروني للبيع",module,Magento_Sales
 Enabled,تفعيل,module,Magento_Sales
 "New Order Confirmation Email Sender","النظام الجديد تأكيد البريد الألكتروني المرسل",module,Magento_Sales
