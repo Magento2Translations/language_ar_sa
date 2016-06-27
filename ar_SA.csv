@@ -98,15 +98,15 @@ Email,"البريد الإلكتروني",module,Magento_Backend
 "Current User Identity Verification","التحقق من هوية المستخدم الحالية",module,Magento_Backend
 "Your Password","كلمة المرور الخاصة بك",module,Magento_Backend
 "Save Cache Settings","حفظ إعدادات الذاكرة المؤقتة",module,Magento_Backend
-"Catalog Rewrites","استنساخ الكاتالوج",module,Magento_Backend
+"Catalog Rewrites","Rewrites دليل المنتجات",module,Magento_Backend
 Refresh,التحديث,module,Magento_Backend
 "Images Cache","ذاكرة التخزين المؤقت للصور",module,Magento_Backend
 Clear,مسح,module,Magento_Backend
 "Search Index","فهرس البحث",module,Magento_Backend
 Rebuild,"إعادة بناء",module,Magento_Backend
 "Inventory Stock Status","حالة جرد المخزون",module,Magento_Backend
-"Rebuild Catalog Index","إعادة إنشاء فهرس الكتالوج",module,Magento_Backend
-"Rebuild Flat Catalog Category","إعادة إنشاء flat category للكاتالوج",module,Magento_Backend
+"Rebuild Catalog Index","إعادة إنشاء فهرس دليل المنتجات",module,Magento_Backend
+"Rebuild Flat Catalog Category","إعادة إنشاء flat category لدليل المنتجات",module,Magento_Backend
 "Rebuild Flat Catalog Product","إعادة بناء  Flat Catalog Product",module,Magento_Backend
 "Cache Control","التحكم في التخزين المؤقت",module,Magento_Backend
 "All Cache","ذاكرة التخزين المؤقت",module,Magento_Backend
@@ -114,7 +114,7 @@ Rebuild,"إعادة بناء",module,Magento_Backend
 Disable,إبطال,module,Magento_Backend
 Enable,تفعيل,module,Magento_Backend
 "Add Design Change","إضافة تغيير التصميم",module,Magento_Backend
-Back,الرجوع,module,Magento_Backend
+Back,رجوع,module,Magento_Backend
 Delete,احذف,module,Magento_Backend
 "Are you sure?","هل أنت متأكد؟",module,Magento_Backend
 Save,حفظ,module,Magento_Backend
@@ -130,7 +130,7 @@ Store,متجر,module,Magento_Backend
 General,عام,module,Magento_Backend
 Cancel,إلغاء,module,Magento_Backend
 "Block Information","اغلاق المعلومات",module,Magento_Backend
-Yes,موافق,module,Magento_Backend
+Yes,نعم,module,Magento_Backend
 No,لا,module,Magento_Backend
 "Delete Store","حذف متجر",module,Magento_Backend
 "Save Store","حفظ المتجر",module,Magento_Backend
@@ -217,12 +217,12 @@ Next,التالي,module,Magento_Backend
 Time,الزمن,module,Magento_Backend
 "Stores Configuration","ضبط المتاجر",module,Magento_Backend
 "Themes JavaScript and CSS files combined to one file.","ملفات CSS وجافا سكريبت للثيم مجتمعة في ملف واحد.",module,Magento_Backend
-Catalog,دليل,module,Magento_Backend
+Catalog,"دليل المنتجات",module,Magento_Backend
 "No records found.","لم يتم العثور على تسجيلات.",module,Magento_Backend
 Images,صور,module,Magento_Backend
 "Big Image","صورة كبيرة",module,Magento_Backend
 Thumbnail,"صورة مصغره",module,Magento_Backend
-"per page",بالصفحة,module,Magento_Backend
+"per page","لكل صفحة",module,Magento_Backend
 "Previous page","الصفحة السابقة",module,Magento_Backend
 "Next page","الصفحة التالية",module,Magento_Backend
 "Export to:","تصدر الى:",module,Magento_Backend
@@ -237,7 +237,7 @@ Loading...,تحميل...,module,Magento_Backend
 Backups,الاحتياطات,module,Magento_Backup
 System,النظام,module,Magento_Backup
 Tools,ادوات,module,Magento_Backup
-Backup,الاحتياطية,module,Magento_Backup
+Backup,"نسخة احتياطية",module,Magento_Backup
 Database,"قاعدة البيانات",module,Magento_Backup
 "Please enter the password to confirm rollback.","الرجاء إدخال كلمة المرور لتأكيد العودة إلى الحالة السابقة.",module,Magento_Backup
 "User Password","كلمة المرور",module,Magento_Backup
@@ -279,7 +279,6 @@ Close,غلق,module,Magento_Bundle
 "Delete Option","حذف خيار",module,Magento_Bundle
 ID,التعريف,module,Magento_Bundle
 Product,المنتج,module,Magento_Bundle
-SKU,"رمز المنتج",module,Magento_Bundle
 Price,السعر,module,Magento_Bundle
 Delete,احذف,module,Magento_Bundle
 "Use Default Value","استخدام قيمة افتراضية",module,Magento_Bundle
@@ -302,7 +301,7 @@ To,إلى,module,Magento_Bundle
 "Go back to product details","العودة إلى تفاصيل المنتج",module,Magento_Bundle
 "* Required Fields","* حقول مطلوبة",module,Magento_Bundle
 "In stock",متوفر,module,Magento_Bundle
-"Out of stock","غير متوفر حالياً",module,Magento_Bundle
+"Out of stock","غير متوفر بالمخزن",module,Magento_Bundle
 Summary,خلاصة,module,Magento_Bundle
 Availability:,متوفر:,module,Magento_Bundle
 "No options of this product are available.","لا توجد خيارات متوفرة لهذا المنتج.",module,Magento_Bundle
@@ -318,14 +317,15 @@ Always,دائماً,module,Magento_Captcha
 "Customer Group","مجموعات العملاء",module,Magento_CatalogInventory
 "Minimum Qty","الحد الأدنى من الكمية",module,Magento_CatalogInventory
 "Add Minimum Qty","اضف حد أدنى للكمية",module,Magento_CatalogInventory
+"This product is out of stock.","هذا المنتج غير متوفر في المخزن.",module,Magento_CatalogInventory
 "No Backorders","لا توجد طلبات لمنتجات غير متوفرة",module,Magento_CatalogInventory
 "Allow Qty Below 0","السماح بالكمية 0",module,Magento_CatalogInventory
 "Allow Qty Below 0 and Notify Customer","السماح بكمية تحت ال 0 و أعلام العميل",module,Magento_CatalogInventory
-"In Stock","متوفر في المستودع",module,Magento_CatalogInventory
-"Out of Stock","غير متوفر",module,Magento_CatalogInventory
+"In Stock","متوفر في المخزن",module,Magento_CatalogInventory
+"Out of Stock","غير متوفر بالمخزن",module,Magento_CatalogInventory
 "Product Name","اسم المنتج",module,Magento_CatalogInventory
 Qty,الكميّة,module,Magento_CatalogInventory
-"Catalog Price Rule","قاعدة الاسعار فى الكتالوج",module,Magento_CatalogRule
+"Catalog Price Rule","قاعدة الاسعار فى دليل المنتجات",module,Magento_CatalogRule
 "Add New Rule","إضافة قاعدة جديدة",module,Magento_CatalogRule
 "Apply Rules","طبق القواعد",module,Magento_CatalogRule
 "Save and Apply","احفظ و طبق",module,Magento_CatalogRule
@@ -337,7 +337,7 @@ Actions,اعمال,module,Magento_CatalogRule
 Apply,تطبيق,module,Magento_CatalogRule
 "Discount Amount","تخفيض الكمية",module,Magento_CatalogRule
 No,لا,module,Magento_CatalogRule
-Yes,موافق,module,Magento_CatalogRule
+Yes,نعم,module,Magento_CatalogRule
 Conditions,الحالات,module,Magento_CatalogRule
 "General Information","المعلومات العامة",module,Magento_CatalogRule
 "Rule Name","أسم القاعدة",module,Magento_CatalogRule
@@ -352,12 +352,11 @@ To,إلى,module,Magento_CatalogRule
 Priority,أولوية,module,Magento_CatalogRule
 ID,التعريف,module,Magento_CatalogRule
 Type,النوع,module,Magento_CatalogRule
-"Attribute Set","وضع السمة",module,Magento_CatalogRule
-SKU,"رمز المنتج",module,Magento_CatalogRule
+"Attribute Set","مجموعة السمة",module,Magento_CatalogRule
 Product,المنتج,module,Magento_CatalogRule
 Promotions,الترقيات,module,Magento_CatalogRule
 "Edit Rule","تحرير قاعدة",module,Magento_CatalogRule
-Catalog,دليل,module,Magento_CatalogRule
+Catalog,"دليل المنتجات",module,Magento_CatalogRule
 Promo,الترويج,module,Magento_CatalogRule
 "Update the Product","تحديث المنتج",module,Magento_CatalogRule
 "Rule price","السعر الاساسى",module,Magento_CatalogRule
@@ -369,9 +368,9 @@ Promo,الترويج,module,Magento_CatalogRule
 "Product Attribute","سمة المنتج",module,Magento_CatalogRule
 Home,"الصفحة الرئيسية",module,Magento_CatalogSearch
 "Go to Home Page","الانتقال إلى الصفحة الرئيسية",module,Magento_CatalogSearch
-"Catalog Advanced Search","بحث متقدم فى الكتالوج",module,Magento_CatalogSearch
+"Catalog Advanced Search","بحث متقدم فى دليل المنتجات",module,Magento_CatalogSearch
 All,الكل,module,Magento_CatalogSearch
-Yes,موافق,module,Magento_CatalogSearch
+Yes,نعم,module,Magento_CatalogSearch
 No,لا,module,Magento_CatalogSearch
 Results,نتائج,module,Magento_CatalogSearch
 Grid,الشبكة,module,Magento_CatalogSearch
@@ -393,7 +392,6 @@ Reset,"اعادة ضبط",module,Magento_Catalog
 "Custom Design","خيارات التصميم",module,Magento_Catalog
 ID,التعريف,module,Magento_Catalog
 Name,اسم,module,Magento_Catalog
-SKU,"رمز المنتج",module,Magento_Catalog
 Price,السعر,module,Magento_Catalog
 Position,موقع,module,Magento_Catalog
 "Category Data","بيانات الفئة",module,Magento_Catalog
@@ -432,7 +430,7 @@ Scope,مدى,module,Magento_Catalog
 Gallery,البوم,module,Magento_Catalog
 "System Properties","خصائص النظام",module,Magento_Catalog
 No,لا,module,Magento_Catalog
-Yes,موافق,module,Magento_Catalog
+Yes,نعم,module,Magento_Catalog
 "Data Type for Saving in Database","نوع البيان للحفظ في قاعدة البيانات",module,Magento_Catalog
 Text,نص,module,Magento_Catalog
 Static,ساكنة,module,Magento_Catalog
@@ -448,16 +446,16 @@ Searchable,"امكانية البحث",module,Magento_Catalog
 Comparable,"قابل للمقارنه",module,Magento_Catalog
 "Delete Selected Group","حذف المجموعة المختارة",module,Magento_Catalog
 "Add New","إضافة جديد",module,Magento_Catalog
-Back,الرجوع,module,Magento_Catalog
+Back,رجوع,module,Magento_Catalog
 Delete,احذف,module,Magento_Catalog
 Save,حفظ,module,Magento_Catalog
-"New Set Name","وضع اسم جديد",module,Magento_Catalog
+"New Set Name","اسم المجموعة الجديدة",module,Magento_Catalog
 Empty,فارغ,module,Magento_Catalog
 "Add Attribute","اضافة السمة",module,Magento_Catalog
 "Add New Group","اضف مجموعة جديدة",module,Magento_Catalog
 "Add Group","اضافة مجموعة",module,Magento_Catalog
 "Based On","اعتمادا على",module,Magento_Catalog
-"Add New Attribute Set","اضف وضع السمات الجديد",module,Magento_Catalog
+"Add New Attribute Set","اضف مجموعة سمات جديد",module,Magento_Catalog
 "Close Window","أغلق النافذه",module,Magento_Catalog
 "New Product","منتج جديد",module,Magento_Catalog
 "Save & Edit","حفظ ومواصلة التعديل",module,Magento_Catalog
@@ -477,7 +475,7 @@ Websites,الموقع,module,Magento_Catalog
 Email,"البريد الإلكتروني",module,Magento_Catalog
 "Send Count","ارسال عدد",module,Magento_Catalog
 Type,النوع,module,Magento_Catalog
-"Attribute Set","وضع السمة",module,Magento_Catalog
+"Attribute Set","مجموعة السمة",module,Magento_Catalog
 Status,الحاله,module,Magento_Catalog
 Visibility,الظهور,module,Magento_Catalog
 "Add New Option","اضف خيار جديد",module,Magento_Catalog
@@ -512,9 +510,10 @@ None,"لا شئ",module,Magento_Catalog
 "New Products","المنتجات الجديدة",module,Magento_Catalog
 "Click for price","اضغط هنا للأسعار",module,Magento_Catalog
 Categories,فئات,module,Magento_Catalog
-"Manage Catalog Categories","ادارة دليل الفئات",module,Magento_Catalog
+"Manage Catalog Categories","ادارة اقسام دليل المنتجات",module,Magento_Catalog
 "Manage Categories","ادارة الفئات",module,Magento_Catalog
-Catalog,دليل,module,Magento_Catalog
+"Please select products for attributes update.","الرجاء اختيار المنتجات للصفات المحدثة.",module,Magento_Catalog
+Catalog,"دليل المنتجات",module,Magento_Catalog
 "Manage Product Attributes","ادارة منتج السمات",module,Magento_Catalog
 "Edit Product Attribute","اضافة سمة المنتج",module,Magento_Catalog
 "This product no longer exists.","هذا المنتج لم يعد موجوداً.",module,Magento_Catalog
@@ -554,7 +553,7 @@ Category,القسم,module,Magento_Catalog
 Enabled,تفعيل,module,Magento_Catalog
 Disabled,"غير مفعل",module,Magento_Catalog
 Search,بحث,module,Magento_Catalog
-"Catalog, Search","دليل, بحث",module,Magento_Catalog
+"Catalog, Search","دليل المنتجات و البحث",module,Magento_Catalog
 "Multiple Select","خيارات متعددة",module,Magento_Catalog
 Dropdown,انزال,module,Magento_Catalog
 "Are you sure you want to delete this category?","هل أنت متأكد أنك تريد حذف هذه الفئة؟",module,Magento_Catalog
@@ -573,11 +572,11 @@ Qty,الكميّة,module,Magento_Catalog
 "Minimum Qty Allowed in Shopping Cart","الكمية الدنيا المسموح بها في عربة التسوق",module,Magento_Catalog
 "Maximum Qty Allowed in Shopping Cart","الكمية القصوى المسموح بها في عربة التسوق",module,Magento_Catalog
 "Qty Uses Decimals","Qty تستخدم عشري",module,Magento_Catalog
-Backorders,الخلفيات,module,Magento_Catalog
+Backorders,"طلبات لمنتجات غير متوفرة",module,Magento_Catalog
 "Notify for Quantity Below","اخطار لكمية ادناه",module,Magento_Catalog
-"Stock Availability","الاسهم المتوفرة",module,Magento_Catalog
-"In Stock","متوفر في المستودع",module,Magento_Catalog
-"Out of Stock","غير متوفر",module,Magento_Catalog
+"Stock Availability","توفر المخزون",module,Magento_Catalog
+"In Stock","متوفر في المخزن",module,Magento_Catalog
+"Out of Stock","غير متوفر بالمخزن",module,Magento_Catalog
 "Add Product To Websites","اضف منتج الى الموقع",module,Magento_Catalog
 "Remove Product From Websites","حذف المنتج من الموقع",module,Magento_Catalog
 "Option Title","عنوان الاختيار",module,Magento_Catalog
@@ -602,7 +601,7 @@ Role,دور,module,Magento_Catalog
 "Remove Product","إزالة منتج",module,Magento_Catalog
 "Add to Cart","أضف لسلة التسوق",module,Magento_Catalog
 "In stock",متوفر,module,Magento_Catalog
-"Out of stock","غير متوفر حالياً",module,Magento_Catalog
+"Out of stock","غير متوفر بالمخزن",module,Magento_Catalog
 "You have no items to compare.","لا يوجد منتجات للمقارنة الآن.",module,Magento_Catalog
 "Remove This Item","حذف هذا العنصر",module,Magento_Catalog
 Compare,مقارنة,module,Magento_Catalog
@@ -613,7 +612,7 @@ Next,التالي,module,Magento_Catalog
 "Learn More","تعلم المزيد",module,Magento_Catalog
 "select all","اختار الجميع",module,Magento_Catalog
 Show,أعرض,module,Magento_Catalog
-"per page",بالصفحة,module,Magento_Catalog
+"per page","لكل صفحة",module,Magento_Catalog
 "Sort By","رتب حسب",module,Magento_Catalog
 "Set Ascending Direction","الصعود الى مجموعة التنبيه",module,Magento_Catalog
 "Set Descending Direction","تحديد الاتجاه التنازلي",module,Magento_Catalog
@@ -724,9 +723,9 @@ Design,تصميم,module,Magento_Cms
 "Page Status","حالة الصفحة",module,Magento_Cms
 "Meta Data","بيانات الميتا",module,Magento_Cms
 Keywords,"كلمات مفتاحية",module,Magento_Cms
-"Meta Keywords","الكلمات الرئيسية للميتا",module,Magento_Cms
+"Meta Keywords","Meta: الكلمات الدلالية",module,Magento_Cms
 Description,الوصف,module,Magento_Cms
-"Meta Description","وصف الميتا",module,Magento_Cms
+"Meta Description","Meta: الوصف",module,Magento_Cms
 Created,إنشاء,module,Magento_Cms
 Action,إجراء,module,Magento_Cms
 Preview,"اعادة المشاهدة",module,Magento_Cms
@@ -739,12 +738,14 @@ Home,"الصفحة الرئيسية",module,Magento_Cms
 "Browse Files...","استعراض ملفات...",module,Magento_Cms
 Configuration,الضبط,module,Magento_Config
 "Choose an Option...","اختار خيار...",module,Magento_ConfigurableProduct
+"This attribute is used in configurable products.","يتم استخدام هذه السمة في المنتجات القابلة للتخصيص.",module,Magento_ConfigurableProduct
+"This group contains attributes used in configurable products. Please move these attributes to another group and try again.","تحتوي هذه المجموعة على السمات المستخدمة في المنتجات القابلة للتخصيص. الرجاء نقل هذه السمات إلى مجموعة أخرى، وحاول مرة أخرى.",module,Magento_ConfigurableProduct
+"This attribute is used in configurable products. You cannot remove it from the attribute set.","هذه السمة مستخدمة بالفعل في منتجات قابلة للتخصيص. لا يمكن إزالته من مجموعة السمات.",module,Magento_ConfigurableProduct
 "Associated Products","المنتجات المرتبطه بها",module,Magento_ConfigurableProduct
 Price,السعر,module,Magento_ConfigurableProduct
 Quantity,الكمية,module,Magento_ConfigurableProduct
 Image,صورة,module,Magento_ConfigurableProduct
 Name,اسم,module,Magento_ConfigurableProduct
-SKU,"رمز المنتج",module,Magento_ConfigurableProduct
 Weight,الوزن,module,Magento_ConfigurableProduct
 Cancel,إلغاء,module,Magento_ConfigurableProduct
 "* Required Fields","* حقول مطلوبة",module,Magento_Contact
@@ -776,11 +777,10 @@ region,المنطقة,module,Magento_Customer
 "Reset Password","إعادة تعيين كلمة المرور",module,Magento_Customer
 "New Customer","عميل جديد",module,Magento_Customer
 "Save and Continue Edit","حفظ ومواصلة التعديل",module,Magento_Customer
-Back,الرجوع,module,Magento_Customer
+Back,رجوع,module,Magento_Customer
 "Please select","أختر من فضلك",module,Magento_Customer
 ID,التعريف,module,Magento_Customer
 Product,المنتج,module,Magento_Customer
-SKU,"رمز المنتج",module,Magento_Customer
 Quantity,الكمية,module,Magento_Customer
 Price,السعر,module,Magento_Customer
 Total,إجمالي,module,Magento_Customer
@@ -824,7 +824,7 @@ Never,مطلقاً,module,Magento_Customer
 "Add Date","إضافة التاريخ",module,Magento_Customer
 "Days in Wish List","الأيام في قائمة الأمنيات",module,Magento_Customer
 No,لا,module,Magento_Customer
-Yes,موافق,module,Magento_Customer
+Yes,نعم,module,Magento_Customer
 "Delete File","حذف ملف",module,Magento_Customer
 Download,تحميل,module,Magento_Customer
 "Delete Image","حذف الصورة",module,Magento_Customer
@@ -983,15 +983,14 @@ Price,السعر,module,Magento_Downloadable
 File,ملف,module,Magento_Downloadable
 "Browse Files...","استعراض ملفات...",module,Magento_Downloadable
 Delete,احذف,module,Magento_Downloadable
-SKU,"رمز المنتج",module,Magento_Downloadable
 "In stock",متوفر,module,Magento_Downloadable
-"Out of stock","غير متوفر حالياً",module,Magento_Downloadable
+"Out of stock","غير متوفر بالمخزن",module,Magento_Downloadable
 "Order #","رقم الطلب",module,Magento_Downloadable
 Date,التاريخ,module,Magento_Downloadable
 Status,الحاله,module,Magento_Downloadable
 "View Order","تفاصيل الطلب",module,Magento_Downloadable
 "You have not purchased any downloadable products yet.","أنت لم تشترى اى منتج قابل للتحميل",module,Magento_Downloadable
-Back,الرجوع,module,Magento_Downloadable
+Back,رجوع,module,Magento_Downloadable
 "Gift Message","رسالة الاهداء",module,Magento_Downloadable
 From:,من:,module,Magento_Downloadable
 To:,إلى:,module,Magento_Downloadable
@@ -1003,7 +1002,7 @@ Canceled,"تم الإلغاء",module,Magento_Downloadable
 Refunded,"اعادة ايجاد",module,Magento_Downloadable
 "Attribute Properties","خصائص السمة",module,Magento_Eav
 "Attribute Code","رمز السمة",module,Magento_Eav
-"Catalog Input Type for Store Owner","الكاتالوج نوع المدخلات لصاحب المتجر",module,Magento_Eav
+"Catalog Input Type for Store Owner","نوع الإدخال لصاحب المتجر",module,Magento_Eav
 "Values Required","القيم مطلوبة",module,Magento_Eav
 "Default Value","القيمة الاعتيادية",module,Magento_Eav
 "Unique Value","قيمة نادرة",module,Magento_Eav
@@ -1011,7 +1010,7 @@ Refunded,"اعادة ايجاد",module,Magento_Downloadable
 "Not shared with other products","غير مشارك مع المنتجات الأخرى",module,Magento_Eav
 "Input Validation for Store Owner","اثبات المدخلات لصاحب المتجر",module,Magento_Eav
 Required,مطلوب,module,Magento_Eav
-Yes,موافق,module,Magento_Eav
+Yes,نعم,module,Magento_Eav
 No,لا,module,Magento_Eav
 System,النظام,module,Magento_Eav
 None,"لا شئ",module,Magento_Eav
@@ -1045,7 +1044,7 @@ Dropdown,انزال,module,Magento_Eav
 "Wrong attribute group ID","تعيين مجموعة معرف خاطئة",module,Magento_Eav
 "Add New Template","إضافة قالب جديد",module,Magento_Email
 "Transactional Emails","معاملات رسائل البريد الالكتروني",module,Magento_Email
-Back,الرجوع,module,Magento_Email
+Back,رجوع,module,Magento_Email
 Reset,"اعادة ضبط",module,Magento_Email
 "Delete Template","حذف القالب",module,Magento_Email
 "Convert to Plain Text","تحويل إلى نص عادي",module,Magento_Email
@@ -1085,7 +1084,7 @@ Template,قالب,module,Magento_Email
 "Encryption Key","مفتاح التشفير",module,Magento_EncryptionKey
 "New Encryption Key","مفتاح تشفير جديد",module,Magento_EncryptionKey
 No,لا,module,Magento_EncryptionKey
-Yes,موافق,module,Magento_EncryptionKey
+Yes,نعم,module,Magento_EncryptionKey
 "Europe First Priority","الأولوية الأولى في أوروبا",module,Magento_Fedex
 "1 Day Freight","الشحن بيوم واحد",module,Magento_Fedex
 "2 Day Freight","الشحن في يومين",module,Magento_Fedex
@@ -1131,9 +1130,8 @@ Constant,ثابت,module,Magento_GoogleAdwords
 "Please specify the quantity of product(s).","الرجاء تحديد كمية المنتج (المنتجات).",module,Magento_GroupedProduct
 "Associated Products","المنتجات المرتبطه بها",module,Magento_GroupedProduct
 Availability:,متوفر:,module,Magento_GroupedProduct
-"Out of stock","غير متوفر حالياً",module,Magento_GroupedProduct
+"Out of stock","غير متوفر بالمخزن",module,Magento_GroupedProduct
 ID,التعريف,module,Magento_GroupedProduct
-SKU,"رمز المنتج",module,Magento_GroupedProduct
 "Product Name","اسم المنتج",module,Magento_GroupedProduct
 Price,السعر,module,Magento_GroupedProduct
 Qty,الكميّة,module,Magento_GroupedProduct
@@ -1178,7 +1176,7 @@ Active,فعال,module,Magento_Integration
 "Filterable (with results)","يمكن تصفيتها (مع النتائج)",module,Magento_LayeredNavigation
 "Filterable (no results)","ترشيح (لا توجد نتائج).",module,Magento_LayeredNavigation
 No,لا,module,Magento_LayeredNavigation
-"Can be used only with catalog input type Dropdown, Multiple Select and Price","ولا يمكن استخدامها الا مع نوع المدخلات الدليل منسدله ، اختر المتعددة والأسعار",module,Magento_LayeredNavigation
+"Can be used only with catalog input type Dropdown, Multiple Select and Price","يمكن استخدامه فقط مع نوع الحق القائمة المنسدلة، واختيار المتعدد والسعر",module,Magento_LayeredNavigation
 Position,موقع,module,Magento_LayeredNavigation
 "Position of attribute in layered navigation block","موقف السمة عرقلة الملاحة في الطبقات",module,Magento_LayeredNavigation
 Previous,السابق,module,Magento_LayeredNavigation
@@ -1222,7 +1220,7 @@ Total,إجمالي,module,Magento_Multishipping
 "Default Shipping","الشحن الافتراضي",module,Magento_Multishipping
 "Select Address","اختيار عنوان",module,Magento_Multishipping
 "Add New Address","أضف عنوان جديد",module,Magento_Multishipping
-"Back to Billing Information","الرجوع إلى معلومات الفوترة",module,Magento_Multishipping
+"Back to Billing Information","العودة إلى بيانات الدفع",module,Magento_Multishipping
 Product,المنتج,module,Magento_Multishipping
 Qty,الكميّة,module,Magento_Multishipping
 "Send To","أرسل إلى",module,Magento_Multishipping
@@ -1251,7 +1249,7 @@ Items,المنتجات,module,Magento_Multishipping
 "Continue Shopping","الاستمرار بالتسوق",module,Magento_Multishipping
 "Delete Selected Problems","حذف المشاكل المحددة",module,Magento_Newsletter
 "Unsubscribe Selected","الغاء الاشتراك مختارة",module,Magento_Newsletter
-Back,الرجوع,module,Magento_Newsletter
+Back,رجوع,module,Magento_Newsletter
 Reset,"اعادة ضبط",module,Magento_Newsletter
 "Preview Template","معاينة القالب",module,Magento_Newsletter
 "Save Newsletter","حفظ النشرة البريدية",module,Magento_Newsletter
@@ -1351,7 +1349,7 @@ Discount,خصم,module,Magento_Payment
 Shipping,الشحن,module,Magento_Payment
 "All Allowed Countries","يسمح لجميع البلدان",module,Magento_Payment
 "Specific Countries","بلدان مخصصة",module,Magento_Payment
-Yes,موافق,module,Magento_Payment
+Yes,نعم,module,Magento_Payment
 No,لا,module,Magento_Payment
 "Expiration Date","تاريخ الانتهاء",module,Magento_Payment
 "Card Verification Number","رقم التحقق من البطاقة",module,Magento_Payment
@@ -1370,7 +1368,7 @@ Status,الحاله,module,Magento_Paypal
 Created,"تم الانشاء",module,Magento_Paypal
 N/A,"غير متاح",module,Magento_Paypal
 Updated,محدث,module,Magento_Paypal
-Back,الرجوع,module,Magento_Paypal
+Back,رجوع,module,Magento_Paypal
 "Are you sure you want to do this?","هل أنت متأكد أنك تريد فعل ذلك؟",module,Magento_Paypal
 Cancel,إلغاء,module,Magento_Paypal
 "General Information","المعلومات العامة",module,Magento_Paypal
@@ -1394,7 +1392,7 @@ Dynamic,ديناميكي,module,Magento_Paypal
 Static,ساكنة,module,Magento_Paypal
 Authorization,التفويض,module,Magento_Paypal
 Sale,بيع,module,Magento_Paypal
-Yes,موافق,module,Magento_Paypal
+Yes,نعم,module,Magento_Paypal
 No,لا,module,Magento_Paypal
 Never,مطلقاً,module,Magento_Paypal
 "API Signature","API التوقيع",module,Magento_Paypal
@@ -1417,6 +1415,7 @@ Date,التاريخ,module,Magento_Paypal
 "Ship To","يرسل الي",module,Magento_Paypal
 "Order Status","حالة الطلب",module,Magento_Paypal
 "View Order","تفاصيل الطلب",module,Magento_Paypal
+"Back to Billing Agreements","العودة إلى اتفاقية الدفع",module,Magento_Paypal
 "Payment Method","طريقة الدفع",module,Magento_Paypal
 View,عرض,module,Magento_Paypal
 "There are no billing agreements yet.","لا يوجد اتفاقية دفع حتى الان",module,Magento_Paypal
@@ -1466,14 +1465,13 @@ Year,السنة,module,Magento_Reports
 Period,الفترة,module,Magento_Reports
 From,من,module,Magento_Reports
 To,إلى,module,Magento_Reports
-Yes,موافق,module,Magento_Reports
+Yes,نعم,module,Magento_Reports
 No,لا,module,Magento_Reports
 "Empty Rows","صفوف فارغة",module,Magento_Reports
 Refresh,التحديث,module,Magento_Reports
 "Products Report","تقرير المنتجات",module,Magento_Reports
 Downloads,التحميلات,module,Magento_Reports
 Product,المنتج,module,Magento_Reports
-SKU,"رمز المنتج",module,Magento_Reports
 Purchases,المشتريات,module,Magento_Reports
 Unlimited,"غير محدود",module,Magento_Reports
 "Low stock","انخفاض المخزون",module,Magento_Reports
@@ -1541,7 +1539,7 @@ Bestsellers,"الأكثر مبيعاً",module,Magento_Reports
 "Recently Viewed","المشاهد حديثا",module,Magento_Reports
 "Add to Cart","أضف لسلة التسوق",module,Magento_Reports
 "In stock",متوفر,module,Magento_Reports
-"Out of stock","غير متوفر حالياً",module,Magento_Reports
+"Out of stock","غير متوفر بالمخزن",module,Magento_Reports
 "Add to Compare","إضافة إلى المقارنة",module,Magento_Reports
 "Save Review","حفظ المشاهدة",module,Magento_Review
 "New Review","مراجعة جديدة",module,Magento_Review
@@ -1565,7 +1563,6 @@ ID,التعريف,module,Magento_Review
 Created,إنشاء,module,Magento_Review
 Title,العنوان,module,Magento_Review
 Type,النوع,module,Magento_Review
-SKU,"رمز المنتج",module,Magento_Review
 Action,إجراء,module,Magento_Review
 Edit,تحرير,module,Magento_Review
 Delete,احذف,module,Magento_Review
@@ -1599,7 +1596,7 @@ Pending,"في إنتظار المُراجعة",module,Magento_Review
 "Option Title:","عنوان الاختيار:",module,Magento_Review
 "Product Name","اسم المنتج",module,Magento_Review
 "You have submitted no reviews.","لم تقم بإرسال اي مراجعات.",module,Magento_Review
-Back,الرجوع,module,Magento_Review
+Back,رجوع,module,Magento_Review
 "My Recent Reviews","مراجعاتي الاخيرة",module,Magento_Review
 "Average Customer Rating:","متوسط تقييم العميل:",module,Magento_Review
 "Back to My Reviews","العودة إلى تقييماتي",module,Magento_Review
@@ -1630,7 +1627,7 @@ ANY,أى,module,Magento_Rule
 TRUE,صحيح,module,Magento_Rule
 FALSE,خاطئ,module,Magento_Rule
 "Conditions Combination","الجمع بين الشروط",module,Magento_Rule
-"Attribute Set","وضع السمة",module,Magento_Rule
+"Attribute Set","مجموعة السمة",module,Magento_Rule
 Category,القسم,module,Magento_Rule
 "Open Chooser","افتح الاختيارى",module,Magento_Rule
 "Cart Price Rules","قواعد سلة الأسعار",module,Magento_SalesRule
@@ -1648,7 +1645,7 @@ Apply,تطبيق,module,Magento_SalesRule
 "Discount Amount","تخفيض الكمية",module,Magento_SalesRule
 "Discount Qty Step (Buy X)","تخفيض Qty خطوة (Buy X)",module,Magento_SalesRule
 "Apply to Shipping Amount","تنطبق على كمية الشحن",module,Magento_SalesRule
-Yes,موافق,module,Magento_SalesRule
+Yes,نعم,module,Magento_SalesRule
 No,لا,module,Magento_SalesRule
 "Apply To","طبق على",module,Magento_SalesRule
 Conditions,الحالات,module,Magento_SalesRule
@@ -1678,7 +1675,7 @@ Promotions,الترقيات,module,Magento_SalesRule
 "Edit Rule","تحرير قاعدة",module,Magento_SalesRule
 "Rule is not defined","القاعدة لم يتم تعريفها",module,Magento_SalesRule
 "Invalid data provided","البيانات المقدمة غير صحيحة",module,Magento_SalesRule
-Catalog,دليل,module,Magento_SalesRule
+Catalog,"دليل المنتجات",module,Magento_SalesRule
 "The wrong rule is specified.","تم تحديد قاعدة خاطئة.",module,Magento_SalesRule
 "Specified rule does not allow coupons","القاعدة المحددة لا تسمح بالقسائم",module,Magento_SalesRule
 "Specified rule only allows auto generated coupons","القاعدة المحددة تسمح فقط بقسائم التي تم إنشاؤها بشكل اتوماتيكي",module,Magento_SalesRule
@@ -1739,11 +1736,11 @@ Message,رسالة,module,Magento_Sales
 "Create New Order for New Customer","إنشاء طلب شراء جديد لعميل جديد",module,Magento_Sales
 "Items Ordered","عناصر الطلب",module,Magento_Sales
 Configure,ضبط,module,Magento_Sales
+"This product does not have any configurable options","هذا المنتج ليس لديه أية خيارات للتخصيص",module,Magento_Sales
 "Newsletter Subscription","الاشتراك بالقائمة البريدية",module,Magento_Sales
 "Add Selected Product(s) to Order","اضف المنتج المختار الى الطلب",module,Magento_Sales
 ID,التعريف,module,Magento_Sales
 Product,المنتج,module,Magento_Sales
-SKU,"رمز المنتج",module,Magento_Sales
 Price,السعر,module,Magento_Sales
 Quantity,الكمية,module,Magento_Sales
 "Shipping Address","عنوان الشحن",module,Magento_Sales
@@ -1797,14 +1794,14 @@ Shipments,الشحنات,module,Magento_Sales
 Transactions,المعاملات,module,Magento_Sales
 "Order View","عرض طلب الشراء",module,Magento_Sales
 Any,اي,module,Magento_Sales
-Yes,موافق,module,Magento_Sales
+Yes,نعم,module,Magento_Sales
 No,لا,module,Magento_Sales
 "New Order RSS","RSS الطلبات الجديدة",module,Magento_Sales
-Back,الرجوع,module,Magento_Sales
+Back,رجوع,module,Magento_Sales
 "Transaction # %1 | %2","المعاملة # %1 | %2",module,Magento_Sales
 N/A,"غير متاح",module,Magento_Sales
 "Order # %1","رقم الطلب # %1",module,Magento_Sales
-"Back to My Orders","الرجوع الى طلباتي",module,Magento_Sales
+"Back to My Orders","العودة إلى طلباتي",module,Magento_Sales
 "My Orders",طلباتي,module,Magento_Sales
 "Subscribe to Order Status","من اجل الاشتراك في حالة",module,Magento_Sales
 "Print Order # %1","طباعة طلب الشراء # %1",module,Magento_Sales
@@ -1829,7 +1826,7 @@ Paid,مدفوع,module,Magento_Sales
 Ordered,"تم الطلب",module,Magento_Sales
 Shipped,"تم الشحن",module,Magento_Sales
 Invoiced,فاتورة,module,Magento_Sales
-Backordered,"طلبات مؤخرة",module,Magento_Sales
+Backordered,"طلبات لمنتجات غير متوفرة",module,Magento_Sales
 Returned,اعادة,module,Magento_Sales
 Partial,جزئي,module,Magento_Sales
 Mixed,مختلط,module,Magento_Sales
@@ -1976,7 +1973,7 @@ Close,غلق,module,Magento_Sales
 Name,اسم,module,Magento_SendFriend
 "* Required Fields","* حقول مطلوبة",module,Magento_SendFriend
 "Maximum %1 email addresses allowed.","مسموح %1 عنوان بريد الكتروني بحد اقصى.",module,Magento_SendFriend
-Back,الرجوع,module,Magento_SendFriend
+Back,رجوع,module,Magento_SendFriend
 "New Shipment for Order #%1","شحنة جديدة للطلب #%1",module,Magento_Shipping
 "Submit Shipment","ارسال الشحنه",module,Magento_Shipping
 "Add Tracking Number","إضافة رقم تعقب",module,Magento_Shipping
@@ -1985,7 +1982,7 @@ Add,إضافة,module,Magento_Shipping
 "Send Tracking Information","إرسال بيانات التعقب",module,Magento_Shipping
 Print,طباعة,module,Magento_Shipping
 "Order # %1","رقم الطلب # %1",module,Magento_Shipping
-"Back to My Orders","الرجوع الى طلباتي",module,Magento_Shipping
+"Back to My Orders","العودة إلى طلباتي",module,Magento_Shipping
 Shipments,الشحنات,module,Magento_Shipping
 "New Shipment","شحن جديد",module,Magento_Shipping
 "No packages for request","لا يوجد حزم في الطلب",module,Magento_Shipping
@@ -2035,7 +2032,6 @@ Action,إجراء,module,Magento_Shipping
 "Print All Shipments","طباعة جميع الشحنات",module,Magento_Shipping
 "Shipment #","شحنه #",module,Magento_Shipping
 "Print Shipment","طباعة الشحنة",module,Magento_Shipping
-SKU,"رمز المنتج",module,Magento_Shipping
 "Tracking Number:","رقم التتبع:",module,Magento_Shipping
 Carrier:,الناقل:,module,Magento_Shipping
 Error:,خطأ:,module,Magento_Shipping
@@ -2068,7 +2064,7 @@ Path,المسار,module,Magento_Sitemap
 "Store View","عرض المتجر",module,Magento_Sitemap
 Generate,توليد,module,Magento_Sitemap
 "Add Sitemap","أضف خريطة للموقع",module,Magento_Sitemap
-Catalog,دليل,module,Magento_Sitemap
+Catalog,"دليل المنتجات",module,Magento_Sitemap
 "This sitemap no longer exists.","خريطة الموقع لم تعد موجودة.",module,Magento_Sitemap
 "Site Map","خريطة الموقع",module,Magento_Sitemap
 "New Site Map","خريطة موقع جديد",module,Magento_Sitemap
@@ -2099,7 +2095,7 @@ Language,لغة,module,Magento_Store
 State,ولاية,module,Magento_Tax
 Country,الدولة,module,Magento_Tax
 "Add New Tax Rate","إضافة معدل ضريبة جديد",module,Magento_Tax
-Back,الرجوع,module,Magento_Tax
+Back,رجوع,module,Magento_Tax
 Reset,"اعادة ضبط",module,Magento_Tax
 "Delete Rate","حذف معدل",module,Magento_Tax
 "Are you sure you want to do this?","هل أنت متأكد أنك تريد فعل ذلك؟",module,Magento_Tax
@@ -2171,7 +2167,7 @@ Page,حقيبة,module,Magento_Theme
 Previous,السابق,module,Magento_Theme
 Next,التالي,module,Magento_Theme
 Show,أعرض,module,Magento_Theme
-"per page",بالصفحة,module,Magento_Theme
+"per page","لكل صفحة",module,Magento_Theme
 Close,غلق,module,Magento_Theme
 Time,الزمن,module,Magento_Theme
 "Dictionary (Translation on Storefront side)","قاموس (الترجمة من ناحية الواجهة)",module,Magento_Translation
@@ -2195,12 +2191,11 @@ Product:,المنتج:,module,Magento_UrlRewrite
 "Skip Category Selection","تخطي اختيار القسم",module,Magento_UrlRewrite
 ID,التعريف,module,Magento_UrlRewrite
 Name,اسم,module,Magento_UrlRewrite
-SKU,"رمز المنتج",module,Magento_UrlRewrite
 Status,الحاله,module,Magento_UrlRewrite
 Title,العنوان,module,Magento_UrlRewrite
 "Store View","عرض المتجر",module,Magento_UrlRewrite
 Reset,"اعادة ضبط",module,Magento_UrlRewrite
-Back,الرجوع,module,Magento_UrlRewrite
+Back,رجوع,module,Magento_UrlRewrite
 Delete,احذف,module,Magento_UrlRewrite
 "Are you sure you want to do this?","هل أنت متأكد أنك تريد فعل ذلك؟",module,Magento_UrlRewrite
 Save,حفظ,module,Magento_UrlRewrite
@@ -2212,7 +2207,7 @@ Store,متجر,module,Magento_UrlRewrite
 Custom,مخصص,module,Magento_UrlRewrite
 No,لا,module,Magento_UrlRewrite
 "Select Category","اختر قسم",module,Magento_UrlRewrite
-Back,الرجوع,module,Magento_User
+Back,رجوع,module,Magento_User
 Reset,"اعادة ضبط",module,Magento_User
 "Delete Role","حذف الدور",module,Magento_User
 "Are you sure you want to do this?","هل أنت متأكد أنك تريد فعل ذلك؟",module,Magento_User
@@ -2282,7 +2277,7 @@ Rectangular,مستطيل,module,Magento_Usps
 Non-rectangular,"غير مستطيل",module,Magento_Usps
 Regular,عادي,module,Magento_Usps
 Large,كبير,module,Magento_Usps
-Yes,موافق,module,Magento_Usps
+Yes,نعم,module,Magento_Usps
 No,لا,module,Magento_Usps
 "Not Required","غير مطلوب",module,Magento_Usps
 Required,مطلوب,module,Magento_Usps
@@ -2323,6 +2318,7 @@ Page,حقيبة,module,Magento_Widget
 "Wish List Sharing","مشاركة قائمة الأمنيات",module,Magento_Wishlist
 "My Wish List","قائمة الامنيات",module,Magento_Wishlist
 "You added %1 to your shopping cart.","قمت بإضافة %1 إلى عربة التسوق.",module,Magento_Wishlist
+"This product(s) is out of stock.","هذا المنتج (المنتجات) غير متوفر في المخزن.",module,Magento_Wishlist
 "%1 items","%1 قطعة",module,Magento_Wishlist
 "1 item","منتج ١",module,Magento_Wishlist
 Comment,تعليق,module,Magento_Wishlist
@@ -2335,13 +2331,13 @@ Message,رسالة,module,Magento_Wishlist
 "View Product","عرض المنتج",module,Magento_Wishlist
 "Add to Cart","أضف لسلة التسوق",module,Magento_Wishlist
 "In stock",متوفر,module,Magento_Wishlist
-"Out of stock","غير متوفر حالياً",module,Magento_Wishlist
+"Out of stock","غير متوفر بالمخزن",module,Magento_Wishlist
 Edit,تحرير,module,Magento_Wishlist
 "Remove Item","إزالة سلعة",module,Magento_Wishlist
 "Remove item","أزل المنتج",module,Magento_Wishlist
 "Add to Compare","إضافة إلى المقارنة",module,Magento_Wishlist
 "RSS Feed","RSS تغذية",module,Magento_Wishlist
-Back,الرجوع,module,Magento_Wishlist
+Back,رجوع,module,Magento_Wishlist
 "* Required Fields","* حقول مطلوبة",module,Magento_Wishlist
 "Sharing Information","بيانات المشاركة",module,Magento_Wishlist
 "Email addresses, separated by commas","عناوين البريد الالكتروني ، تفصل بينها فواصل",module,Magento_Wishlist
@@ -2438,7 +2434,8 @@ Debug,نقح,module,Magento_Braintree
 Inventory,الجرد,module,Magento_CatalogInventory
 "Stock Options","خيارات المخزون",module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed","ازل من المخزون عند استلام الطلب الجديد",module,Magento_CatalogInventory
-Backorders,الخلفيات,module,Magento_CatalogInventory
+"Display Out of Stock Products","عرض المنتجات الغير متوفرة بالمخزن",module,Magento_CatalogInventory
+Backorders,"طلبات لمنتجات غير متوفرة",module,Magento_CatalogInventory
 "Maximum Qty Allowed in Shopping Cart","الكمية القصوى المسموح بها في عربة التسوق",module,Magento_CatalogInventory
 "Minimum Qty Allowed in Shopping Cart","الكمية الدنيا المسموح بها في عربة التسوق",module,Magento_CatalogInventory
 "Notify for Quantity Below","اخطار لكمية ادناه",module,Magento_CatalogInventory
@@ -2446,18 +2443,20 @@ Rule,قاعدة,module,Magento_CatalogRule
 "Web Site",موقع,module,Magento_CatalogRule
 "Popular Search Terms","كلمات البحث الشائعة",module,Magento_CatalogSearch
 "List Mode","وضع القائمة",module,Magento_Catalog
+"Use Flat Catalog Product","إستخدام Flat Catalog Product",module,Magento_Catalog
 "Product Listing Sort by","ترتيب المنتجات حسب",module,Magento_Catalog
 "Product Image Placeholders","صورة المنتج placeholders",module,Magento_Catalog
 "Page Title Separator","فاصل عنوان الصفحة",module,Magento_Catalog
-"Catalog Price Scope","نطاق دليل الاسعار",module,Magento_Catalog
+"Catalog Price Scope","نطاق اسعار دليل المنتجات",module,Magento_Catalog
 "Product Image Watermarks","صورة المنتج ماءيه",module,Magento_Catalog
 "Watermark Default Size","الحجم الافتراضي للعلامة المائية",module,Magento_Catalog
 "Watermark Opacity, Percent","العلامة المائية غير شفافة, بنسبة",module,Magento_Catalog
 Watermark,"علامة مائية",module,Magento_Catalog
 "Watermark Position","مكان العلامة المائية",module,Magento_Catalog
 "Product Categories","فئات المنتج",module,Magento_Catalog
+"Number of Products per Page","عدد المنتجات في الصفحة",module,Magento_Catalog
 Template,قالب,module,Magento_Catalog
-"Change status","تغير الوضع",module,Magento_Catalog
+"Change status","تغيير الحالة",module,Magento_Catalog
 Overview,"نظره عامة",module,Magento_Catalog
 Details,التفاصيل,module,Magento_Catalog
 "Checkout Options","خيارات إتمام الدفع",module,Magento_Checkout
@@ -2479,6 +2478,7 @@ Details,التفاصيل,module,Magento_Catalog
 "CMS No Route Page","CMS لا يوجد مسار للصفحة",module,Magento_Cms
 Template,قالب,module,Magento_Cms
 Block,"رقم القطعة",module,Magento_Cms
+"Configurable Product Image","صورة المنتج القابل للضبط",module,Magento_ConfigurableProduct
 ID,التعريف,module,Magento_ConfigurableProduct
 Contacts,المتصلين,module,Magento_Contact
 "Contact Us","اتصل بنا",module,Magento_Contact
@@ -2642,7 +2642,7 @@ User,المستخدم,module,Magento_Paypal
 "Allow Alert When Product Price Changes","اتاحة تنبيه تغيير السعر",module,Magento_ProductAlert
 "Price Alert Email Template","قالب رسالة تنبيه تغيير السعر",module,Magento_ProductAlert
 "Alert Email Sender","تنبيه البريد الالكتروني للمرسل",module,Magento_ProductAlert
-"Product Alerts Run Settings","تنبيهات وضع تثبيت المنتج",module,Magento_ProductAlert
+"Product Alerts Run Settings","إعدادات تنبيهات المنتج",module,Magento_ProductAlert
 Frequency,التردد,module,Magento_ProductAlert
 "Start Time","زمن البداية",module,Magento_ProductAlert
 "Error Email Recipient","خطأ فى مستقبل الرسالة",module,Magento_ProductAlert
