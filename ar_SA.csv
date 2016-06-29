@@ -291,6 +291,7 @@ Required,مطلوب,module,Magento_Bundle
 Position,موقع,module,Magento_Bundle
 Default,الافتراضي,module,Magento_Bundle
 Name,اسم,module,Magento_Bundle
+"Default Quantity","الكمية الافتراضية",module,Magento_Bundle
 Ordered,"تم الطلب",module,Magento_Bundle
 Invoiced,فاتورة,module,Magento_Bundle
 Shipped,"تم الشحن",module,Magento_Bundle
@@ -569,9 +570,9 @@ Groups,مجموعات,module,Magento_Catalog
 "This group contains system attributes. Please move system attributes to another group and try again.","وهذا النظام يحتوي على مجموعة من الصفات. نظام الانتقال الرجاء الصفات الى مجموعة أخرى وحاول مرة أخرى.",module,Magento_Catalog
 "This is a required option.","هذا الخيار مطلوب.",module,Magento_Catalog
 Qty,الكميّة,module,Magento_Catalog
-"Minimum Qty Allowed in Shopping Cart","الكمية الدنيا المسموح بها في عربة التسوق",module,Magento_Catalog
-"Maximum Qty Allowed in Shopping Cart","الكمية القصوى المسموح بها في عربة التسوق",module,Magento_Catalog
-"Qty Uses Decimals","Qty تستخدم عشري",module,Magento_Catalog
+"Minimum Qty Allowed in Shopping Cart","اقل كمية مسموح بها في سلة التسوق",module,Magento_Catalog
+"Maximum Qty Allowed in Shopping Cart","اكبر كمية مسموح بها في سلة التسوق",module,Magento_Catalog
+"Qty Uses Decimals","كمية تستخدم ارقام عشرية",module,Magento_Catalog
 Backorders,"طلبات لمنتجات غير متوفرة",module,Magento_Catalog
 "Notify for Quantity Below","اخطار لكمية ادناه",module,Magento_Catalog
 "Stock Availability","توفر المخزون",module,Magento_Catalog
@@ -640,15 +641,15 @@ Sales,المبيعات,module,Magento_CheckoutAgreements
 "Checkout Terms and Conditions","أحكام وقواعد الشراء",module,Magento_CheckoutAgreements
 "This condition no longer exists.","هذا الشرط لم يعد موجودا.",module,Magento_CheckoutAgreements
 "New Condition","حالة جديدة",module,Magento_CheckoutAgreements
-"Shopping Cart","عربة التسوق",module,Magento_Checkout
+"Shopping Cart","سلة التسوق",module,Magento_Checkout
 "Invalid method: %1","طريقة غير صحيحة: %1",module,Magento_Checkout
 City,المدينة,module,Magento_Checkout
 Country,الدولة,module,Magento_Checkout
 State/Province,ولاية/مقاطعة,module,Magento_Checkout
 "Zip/Postal Code","الرمز البريدي",module,Magento_Checkout
-"My Cart (1 item)","عربة التسوق (1 منتج)",module,Magento_Checkout
-"My Cart (%1 items)","عربة التسوق (%1 منتج)",module,Magento_Checkout
-"My Cart","عربة التسوق",module,Magento_Checkout
+"My Cart (1 item)","سلة السلة (منتج واحد)",module,Magento_Checkout
+"My Cart (%1 items)","سلة التسوق (%1 منتج)",module,Magento_Checkout
+"My Cart","سلة التسوق",module,Magento_Checkout
 "Minimum order amount is %1","الحد الأدنى للطلب هو %1",module,Magento_Checkout
 "You added %1 to your shopping cart.","قمت بإضافة %1 إلى عربة التسوق.",module,Magento_Checkout
 "We can't find the quote item.","لا يمكن العثور على المنتج المطلوب.",module,Magento_Checkout
@@ -661,20 +662,20 @@ Checkout,"إنهاء الطلب",module,Magento_Checkout
 "We don't have some of the products you want.","ليس لدينا بعض المنتجات التي تريدها.",module,Magento_Checkout
 "We don't have as many of some products as you want.","الكمية التي تريدها غير متوفرة.",module,Magento_Checkout
 "Quantity was recalculated from %1 to %2","تم اعادة حساب الكمية من %1 إلى %2",module,Magento_Checkout
-"Display number of items in cart","عرض عدد السلع في عربة التسوق",module,Magento_Checkout
+"Display number of items in cart","عرض عدد القطع في سلة التسوق",module,Magento_Checkout
 "Display item quantities","عرض كميات السلع",module,Magento_Checkout
 "Invalid data","بيانات غير صحيحة",module,Magento_Checkout
 "Invalid shipping method","طريقة شحن غير صحيحة",module,Magento_Checkout
 "Load customer quote error","تحميل خطأ اقتباس العميل",module,Magento_Checkout
 "Cancel Coupon","إلغاء قسيمة الخصم",module,Magento_Checkout
-"Shopping Cart Items","بنود عربة التسوق",module,Magento_Checkout
+"Shopping Cart Items","بنود سلة التسوق",module,Magento_Checkout
 Item,سلعة,module,Magento_Checkout
 Price,السعر,module,Magento_Checkout
 Qty,الكميّة,module,Magento_Checkout
 Subtotal,المجموع,module,Magento_Checkout
 "Continue Shopping","الاستمرار بالتسوق",module,Magento_Checkout
-"Clear Shopping Cart","مسح عربة التسوق",module,Magento_Checkout
-"Update Shopping Cart","تحديث عربة التسوق",module,Magento_Checkout
+"Clear Shopping Cart","إفراغ سلة التسوق",module,Magento_Checkout
+"Update Shopping Cart","تحديث سلة التسوق",module,Magento_Checkout
 "Update Cart","تحديث السلة",module,Magento_Checkout
 "See price before order confirmation.","انظر السعر قبل تأكيد الطلب.",module,Magento_Checkout
 "What's this?","ما هذا؟",module,Magento_Checkout
@@ -787,7 +788,7 @@ Total,إجمالي,module,Magento_Customer
 Action,إجراء,module,Magento_Customer
 Configure,ضبط,module,Magento_Customer
 Delete,احذف,module,Magento_Customer
-"Shopping Cart from %1","عربة التسوق من %1",module,Magento_Customer
+"Shopping Cart from %1","سلة التسوق من %1",module,Magento_Customer
 Newsletter,"القائمة البريدية",module,Magento_Customer
 "Newsletter Information","معلومات القائمة البريدية",module,Magento_Customer
 "Subscribed to Newsletter","اشتركت في القائمة البريدية",module,Magento_Customer
@@ -1137,7 +1138,7 @@ Price,السعر,module,Magento_GroupedProduct
 Qty,الكميّة,module,Magento_GroupedProduct
 "No options of this product are available.","لا توجد خيارات متوفرة لهذا المنتج.",module,Magento_GroupedProduct
 Name,اسم,module,Magento_GroupedProduct
-"Default Qty","افتراضي Qty",module,Magento_GroupedProduct
+"Default Qty","الكمية الافتراضية",module,Magento_GroupedProduct
 "In stock",متوفر,module,Magento_GroupedProduct
 Export,استخراج,module,Magento_ImportExport
 "Export Settings","إعدادات التصدير",module,Magento_ImportExport
@@ -1228,7 +1229,7 @@ Qty,الكميّة,module,Magento_Multishipping
 "Remove item","أزل المنتج",module,Magento_Multishipping
 "Update Qty &amp; Addresses","تحديث الكمية والعناوين",module,Magento_Multishipping
 "Enter a New Address","قم بإدخال عنوانا جديدا",module,Magento_Multishipping
-"Back to Shopping Cart","العودة إلى عربة التسوق",module,Magento_Multishipping
+"Back to Shopping Cart","العودة إلى سلة التسوق",module,Magento_Multishipping
 "Billing Address","عنوان الفاتورة",module,Magento_Multishipping
 Change,تغير,module,Magento_Multishipping
 "Payment Method","طريقة الدفع",module,Magento_Multishipping
@@ -1425,8 +1426,8 @@ View,عرض,module,Magento_Paypal
 "Update Shipping Method","تحديث طريقة الشحن",module,Magento_Paypal
 "Shipping Address","عنوان الشحن",module,Magento_Paypal
 Edit,تحرير,module,Magento_Paypal
-"Items in Your Shopping Cart","السلع في عربة تسوقك",module,Magento_Paypal
-"Edit Shopping Cart","تحرير عربة التسوق",module,Magento_Paypal
+"Items in Your Shopping Cart","السلع في سلة تسوقك",module,Magento_Paypal
+"Edit Shopping Cart","تحرير سلة التسوق",module,Magento_Paypal
 "Place Order","إنشاء الطلب",module,Magento_Paypal
 "Submitting order information...","تقديم بيانات طلب الشراء...",module,Magento_Paypal
 Price,السعر,module,Magento_Paypal
@@ -1485,6 +1486,7 @@ Title,العنوان,module,Magento_Reports
 Detail,التفاصيل,module,Magento_Reports
 Created,إنشاء,module,Magento_Reports
 "Products Reviews","مراجعات المنتجات",module,Magento_Reports
+"Order Quantity","كمية الطلب",module,Magento_Reports
 "Coupons Usage Report","تقرير استخدام القسائم",module,Magento_Reports
 Subtotal,المجموع,module,Magento_Reports
 "Coupon Code","رمز قسيمة الخصم",module,Magento_Reports
@@ -1531,7 +1533,7 @@ Coupons,"قسائم الخصم",module,Magento_Reports
 "Coupons Report","تقرير قسائم الخصم",module,Magento_Reports
 "Sales Report","تقرير المبيعات",module,Magento_Reports
 "Shipping Report","تقرير الشحن",module,Magento_Reports
-"Shopping Cart","عربة التسوق",module,Magento_Reports
+"Shopping Cart","سلة التسوق",module,Magento_Reports
 "Customer Shopping Carts","عربات تسوق الزبون",module,Magento_Reports
 Bestsellers,"الأكثر مبيعاً",module,Magento_Reports
 "Select Date","اختيار التاريخ",module,Magento_Reports
@@ -1640,10 +1642,10 @@ Actions,اعمال,module,Magento_SalesRule
 Apply,تطبيق,module,Magento_SalesRule
 "Percent of product price discount","النسبة المئوية للخصم من سعر المنتج",module,Magento_SalesRule
 "Fixed amount discount","كمية خصم ثابتة",module,Magento_SalesRule
-"Fixed amount discount for whole cart","كمية خصم ثابتة لعربة التسوق كلها",module,Magento_SalesRule
+"Fixed amount discount for whole cart","نسبة خصم ثابتة لسلة التسوق كلها",module,Magento_SalesRule
 "Buy X get Y free (discount amount is Y)","قم بشراء س تحصل على ص مجانا (كمية الخصم في ص).",module,Magento_SalesRule
 "Discount Amount","تخفيض الكمية",module,Magento_SalesRule
-"Discount Qty Step (Buy X)","تخفيض Qty خطوة (Buy X)",module,Magento_SalesRule
+"Discount Qty Step (Buy X)","خطوة خصم الكمية (شراء X)",module,Magento_SalesRule
 "Apply to Shipping Amount","تنطبق على كمية الشحن",module,Magento_SalesRule
 Yes,نعم,module,Magento_SalesRule
 No,لا,module,Magento_SalesRule
@@ -1651,7 +1653,7 @@ No,لا,module,Magento_SalesRule
 Conditions,الحالات,module,Magento_SalesRule
 "Manage Coupon Codes","إدارة قسيمة الخصم",module,Magento_SalesRule
 "Coupons Information","معلومات قسائم الخصم",module,Magento_SalesRule
-"Coupon Qty","Qty قسيمة الخصم",module,Magento_SalesRule
+"Coupon Qty","كمية قسيمة الخصم",module,Magento_SalesRule
 Generate,توليد,module,Magento_SalesRule
 "Coupon Code","رمز قسيمة الخصم",module,Magento_SalesRule
 Created,إنشاء,module,Magento_SalesRule
@@ -1701,7 +1703,7 @@ Subtotal,المجموع,module,Magento_SalesRule
 "Product attribute combination","سمة الجمع بين المنتجات",module,Magento_SalesRule
 "Conditions combination","الجمع بين الشروط",module,Magento_SalesRule
 "Cart Attribute","سمة السلة",module,Magento_SalesRule
-"Quantity in cart","الكمية بعربة التسوق",module,Magento_SalesRule
+"Quantity in cart","الكمية في سلة التسوق",module,Magento_SalesRule
 "Price in cart","السعر في السلة",module,Magento_SalesRule
 "Row total in cart","على التوالى فى اجمالى السلة",module,Magento_SalesRule
 "Conditions Combination","الجمع بين الشروط",module,Magento_SalesRule
@@ -1735,6 +1737,7 @@ Message,رسالة,module,Magento_Sales
 "Edit Order #%1","تحرير طلب #%1",module,Magento_Sales
 "Create New Order for New Customer","إنشاء طلب شراء جديد لعميل جديد",module,Magento_Sales
 "Items Ordered","عناصر الطلب",module,Magento_Sales
+"Item ordered qty","الكمية المطلوبة من هذا المنتج",module,Magento_Sales
 Configure,ضبط,module,Magento_Sales
 "This product does not have any configurable options","هذا المنتج ليس لديه أية خيارات للتخصيص",module,Magento_Sales
 "Newsletter Subscription","الاشتراك بالقائمة البريدية",module,Magento_Sales
@@ -1746,8 +1749,8 @@ Quantity,الكمية,module,Magento_Sales
 "Shipping Address","عنوان الشحن",module,Magento_Sales
 "Shipping Method","طريقة الشحن",module,Magento_Sales
 "Update Changes","تحديث التغييرات",module,Magento_Sales
-"Shopping Cart","عربة التسوق",module,Magento_Sales
-"Clear Shopping Cart","مسح عربة التسوق",module,Magento_Sales
+"Shopping Cart","سلة التسوق",module,Magento_Sales
+"Clear Shopping Cart","إفراغ سلة التسوق",module,Magento_Sales
 "Recently Compared Products","المنتجات المقارنة حديثا",module,Magento_Sales
 "Recently Viewed Products","المنتجات المشاهدة حديثا",module,Magento_Sales
 "Last Ordered Items","اخير طلب",module,Magento_Sales
@@ -1813,6 +1816,7 @@ Sales,المبيعات,module,Magento_Sales
 "New Order","طلب شراء جديد",module,Magento_Sales
 "You created the order.","قمت بإنشاء الطلب.",module,Magento_Sales
 "New Invoice","فاتورة جديدة",module,Magento_Sales
+"Cannot update item quantity.","لا يمكن تحديث كمية المنتج.",module,Magento_Sales
 "Orders and Returns","الطلبات والمرتجعات",module,Magento_Sales
 Home,"الصفحة الرئيسية",module,Magento_Sales
 "Go to Home Page","الانتقال إلى الصفحة الرئيسية",module,Magento_Sales
@@ -1874,7 +1878,7 @@ Remove,ازالة,module,Magento_Sales
 Action,إجراء,module,Magento_Sales
 Subtotal:,الاجمالي,module,Magento_Sales
 "Tier Pricing","تسعير الطبقة",module,Magento_Sales
-"Move to Shopping Cart","الانتقال إلى عربة التسوق",module,Magento_Sales
+"Move to Shopping Cart","الانتقال إلى سلة التسوق",module,Magento_Sales
 "Subscribe to Newsletter","الاشتراك في القائمة البريدية",module,Magento_Sales
 "Click to change shipping method","اضغط لتغيير طريقة الشحن",module,Magento_Sales
 "Get shipping methods and rates","الحصول على طرق ومعدلات الشحن",module,Magento_Sales
@@ -1891,6 +1895,7 @@ Item,سلعة,module,Magento_Sales
 "Payment Information","معلومات الدفع",module,Magento_Sales
 "Shipping Information","بيانات الشحن",module,Magento_Sales
 "Items to Refund","عناصر للاسترداد",module,Magento_Sales
+"Qty to Refund","الكمية للإسترداد",module,Magento_Sales
 "Tax Amount","كمية الضريبة",module,Magento_Sales
 "Discount Amount","تخفيض الكمية",module,Magento_Sales
 "Row Total","مجموع الصف",module,Magento_Sales
@@ -1905,7 +1910,7 @@ To:,إلى:,module,Magento_Sales
 Message:,الرسالة:,module,Magento_Sales
 "Shipping &amp; Handling","الشحن &amp; التوصيل",module,Magento_Sales
 "Create Shipment","إنشاء شحن",module,Magento_Sales
-"Qty to Invoice","Qty للفاتورة",module,Magento_Sales
+"Qty to Invoice","الكمية للفوترة",module,Magento_Sales
 "Invoice History","تاريخ الفاتورة",module,Magento_Sales
 "Invoice Comments","تعليقات الفاتورة",module,Magento_Sales
 "Invoice Totals","مجموع الفاتورة",module,Magento_Sales
@@ -1961,10 +1966,10 @@ Date,التاريخ,module,Magento_Sales
 "Print All Invoices","طباعة كافة الفواتير",module,Magento_Sales
 "Invoice #","فاتورة #",module,Magento_Sales
 "Print Invoice","طباعة الفاتورة",module,Magento_Sales
-"Qty Invoiced","Qty فاتورة",module,Magento_Sales
+"Qty Invoiced","الكمية المفوترة",module,Magento_Sales
 Close,غلق,module,Magento_Sales
 "About Your Order","حول طلبك",module,Magento_Sales
-"Qty Shipped","Qty شحنه",module,Magento_Sales
+"Qty Shipped","الكمية المشحونة",module,Magento_Sales
 "Recent Orders","طلبات الشراء الاخيرة",module,Magento_Sales
 "View All","عرض الكل",module,Magento_Sales
 "Add to Cart","أضف لسلة التسوق",module,Magento_Sales
@@ -2008,6 +2013,7 @@ Percent,"النسبة المئوية",module,Magento_Shipping
 "Total Shipping Charges","إجمالي رسوم الشحن",module,Magento_Shipping
 "Incl. Tax","شامل الضريبة",module,Magento_Shipping
 "Items to Ship","العناصر للشحن",module,Magento_Shipping
+"Qty to Ship","الكمية للشحن",module,Magento_Shipping
 Ship,شحن,module,Magento_Shipping
 "Shipment Comments","تعليقات الشحنه",module,Magento_Shipping
 "Append Comments","ارفاق التعليقات",module,Magento_Shipping
@@ -2028,7 +2034,7 @@ Action,إجراء,module,Magento_Shipping
 "Track this shipment","متابعة هذه الشحنه",module,Magento_Shipping
 "Items Shipped","شحن البنود",module,Magento_Shipping
 "Shipment History","تاريخ الشحنه",module,Magento_Shipping
-"Qty Shipped","Qty شحنه",module,Magento_Shipping
+"Qty Shipped","الكمية المشحونة",module,Magento_Shipping
 "Print All Shipments","طباعة جميع الشحنات",module,Magento_Shipping
 "Shipment #","شحنه #",module,Magento_Shipping
 "Print Shipment","طباعة الشحنة",module,Magento_Shipping
@@ -2323,11 +2329,11 @@ Page,حقيبة,module,Magento_Widget
 "1 item","منتج ١",module,Magento_Wishlist
 Comment,تعليق,module,Magento_Wishlist
 "Display number of items in wish list","عرض عدد العناصر في قائمة الامنيات",module,Magento_Wishlist
-"Display item quantities","عرض الكميات",module,Magento_Wishlist
+"Display item quantities","عرض كميات السلع",module,Magento_Wishlist
 "The product does not exist.","هذا المنتج غير موجود.",module,Magento_Wishlist
 Message,رسالة,module,Magento_Wishlist
 "Share Wish List","مشاركة قائمة الامنيات",module,Magento_Wishlist
-"Add All to Cart","إضافة الكل إلى عربة التسوق",module,Magento_Wishlist
+"Add All to Cart","إضافة الكل إلى سلة التسوق",module,Magento_Wishlist
 "View Product","عرض المنتج",module,Magento_Wishlist
 "Add to Cart","أضف لسلة التسوق",module,Magento_Wishlist
 "In stock",متوفر,module,Magento_Wishlist
@@ -2343,6 +2349,7 @@ Back,رجوع,module,Magento_Wishlist
 "Email addresses, separated by commas","عناوين البريد الالكتروني ، تفصل بينها فواصل",module,Magento_Wishlist
 "Last Added Items","أخر السلع المضافة",module,Magento_Wishlist
 "Remove This Item","حذف هذا العنصر",module,Magento_Wishlist
+"Go to Wish List","الذهاب إلى قائمة الأمنيات",module,Magento_Wishlist
 "You have no items in your wish list.","لا يوجد اي منتجات في قائمة الامنيات الخاصة بك.",module,Magento_Wishlist
 "Shop By","تصفح عبر",theme,frontend/Magento/luma
 Total:,الإجمالي:,module,Magento_Checkout
@@ -2436,8 +2443,8 @@ Inventory,الجرد,module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed","ازل من المخزون عند استلام الطلب الجديد",module,Magento_CatalogInventory
 "Display Out of Stock Products","عرض المنتجات الغير متوفرة بالمخزن",module,Magento_CatalogInventory
 Backorders,"طلبات لمنتجات غير متوفرة",module,Magento_CatalogInventory
-"Maximum Qty Allowed in Shopping Cart","الكمية القصوى المسموح بها في عربة التسوق",module,Magento_CatalogInventory
-"Minimum Qty Allowed in Shopping Cart","الكمية الدنيا المسموح بها في عربة التسوق",module,Magento_CatalogInventory
+"Maximum Qty Allowed in Shopping Cart","الكمية القصوى المسموح بها في سلة التسوق",module,Magento_CatalogInventory
+"Minimum Qty Allowed in Shopping Cart","الكمية الدنيا المسموح بها في سلة التسوق",module,Magento_CatalogInventory
 "Notify for Quantity Below","اخطار لكمية ادناه",module,Magento_CatalogInventory
 Rule,قاعدة,module,Magento_CatalogRule
 "Web Site",موقع,module,Magento_CatalogRule
@@ -2466,12 +2473,12 @@ Details,التفاصيل,module,Magento_Catalog
 "Quote Lifetime (days)","اقتبس من العمر (أيام)",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart","بعد إضافة المنتج إلى سلة التسوق إعادة توجيه",module,Magento_Checkout
 "My Cart Link","وصلة سلتي",module,Magento_Checkout
-"Display Cart Summary","عرض ملخص عربة التسوق",module,Magento_Checkout
+"Display Cart Summary","عرض ملخص سلة التسوق",module,Magento_Checkout
 "Send Payment Failed Email Copy To","ارسال دفعة نسخ البريد الإلكتروني إلى فشل",module,Magento_Checkout
 "Send Payment Failed Email Copy Method","إرسال البريد الإلكتروني الدفع فشل أسلوب نسخ",module,Magento_Checkout
 "Shipping Address","عنوان الشحن",module,Magento_Checkout
 "For delivery questions.","لإسئلة التوصيل.",module,Magento_Checkout
-"Cart Subtotal","المجموع الإجمالي لعربة التسوق",module,Magento_Checkout
+"Cart Subtotal","المجموع الإجمالي لسلة التسوق",module,Magento_Checkout
 "Not yet calculated","لم يتم حسابها",module,Magento_Checkout
 "Thank you for your purchase!","شكراً لطلبكم معنا!",module,Magento_Checkout
 "CMS Home Page","CMS الصفحة الرئيسية",module,Magento_Cms
@@ -2655,6 +2662,8 @@ Dashboard,"لوحة التحكم",module,Magento_Reports
 "Recently Viewed Products","المنتجات المشاهدة حديثا",module,Magento_Reports
 "Recently Compared Products","المنتجات المقارنة حديثا",module,Magento_Reports
 Average,متوسط,module,Magento_Reports
+"Stock Quantity","كمية المخزون",module,Magento_Reports
+"Ordered Quantity","الكمية المطلوبة",module,Magento_Reports
 Guest,زائر,module,Magento_Reports
 Action,إجراء,module,Magento_Reports
 "Last Review","المراجعة الأخيرة",module,Magento_Reports
