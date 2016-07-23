@@ -247,6 +247,16 @@ Country,الدولة,module,Magento_Braintree
 "Stored Card","بطاقة مخزنة",module,Magento_Braintree
 "Credit Card Type","نوع بطاقة الائتمان",module,Magento_Braintree
 "Credit Card Number","رقم بطاقة الائتمان",module,Magento_Braintree
+"Credit card successfully added","تم إضافة بطاقة الائتمان بنجاح",module,Magento_Braintree
+"Delete Credit Card","حذف بطاقة الائتمان",module,Magento_Braintree
+"Credit card successfully deleted","تم حذف بطاقة الائتمان بنجاح",module,Magento_Braintree
+"Edit Credit Card","تحرير بطاقة الائتمان",module,Magento_Braintree
+"My Credit Cards","بطاقات الائتمان",module,Magento_Braintree
+"There was error during saving card data","حدث خطأ أثناء حفظ بيانات البطاقة",module,Magento_Braintree
+"Transaction declined by gateway: Check card details or try another card","العملية رفضت من المصدر: تحقق من تفاصيل البطاقة او جرب بطاقة اخرى",module,Magento_Braintree
+"Credit card type is not allowed for your country.","نوع بطاقة الائتمان غير مسموح به في بلدك.",module,Magento_Braintree
+"Credit card type is not allowed for this payment method.","غير مسموح بنوع بطاقة الائتمان لطريقة الدفع هذه.",module,Magento_Braintree
+"Selected payment type is not allowed for billing country.","غير مسموح بنوع الدفع المحدد للفوترة في البلد.",module,Magento_Braintree
 "Please try again later","من فضلك حاول مرة أخرى",module,Magento_Braintree
 "Payment Information","معلومات الدفع",module,Magento_Braintree
 "Please Select","أختر من فضلك",module,Magento_Braintree
@@ -1153,6 +1163,8 @@ Filter,الفلتر,module,Magento_ImportExport
 Import,استيراد,module,Magento_ImportExport
 Import/Export,استيراد/تصدير,module,Magento_ImportExport
 Status,الحاله,module,Magento_ImportExport
+"in rows:","في صفوف:",module,Magento_ImportExport
+"in rows","في صفوف",module,Magento_ImportExport
 "-- Please Select --","--الرجاء الاختيار-",module,Magento_ImportExport
 Continue,استمر,module,Magento_ImportExport
 "Indexer Management","إدارة الفهرس",module,Magento_Indexer
