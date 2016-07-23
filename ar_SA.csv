@@ -1293,6 +1293,7 @@ Download,تحميل,module,Magento_ImportExport
 Import,استيراد,module,Magento_ImportExport
 Import/Export,استيراد/تصدير,module,Magento_ImportExport
 Status,الحاله,module,Magento_ImportExport
+"Following Error(s) has been occurred during importing process:","تم حدوث الخطأ (الأخطاء) التالية أثناء عملية الاستيراد:",module,Magento_ImportExport
 "-- Please Select --","--الرجاء الاختيار-",module,Magento_ImportExport
 Delete,احذف,module,Magento_ImportExport
 Continue,استمر,module,Magento_ImportExport
