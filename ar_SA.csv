@@ -288,12 +288,29 @@ Year,سنة,module,Magento_Braintree
 "Stored Card","بطاقة مخزنة",module,Magento_Braintree
 "Credit Card Type","نوع بطاقة الائتمان",module,Magento_Braintree
 "Credit Card Number","رقم بطاقة الائتمان",module,Magento_Braintree
+"Credit card successfully added","تم إضافة بطاقة الائتمان بنجاح",module,Magento_Braintree
+"Something went wrong while saving the card.","حدث خطأ أثناء حفظ البطاقة.",module,Magento_Braintree
+"Credit card does not exist","لا توجد بطاقة الائتمان",module,Magento_Braintree
+"Delete Credit Card","حذف بطاقة الائتمان",module,Magento_Braintree
+"There was error deleting the credit card","حدث خطأ أثناء حذف بطاقة الائتمان",module,Magento_Braintree
+"Credit card successfully deleted","تم حذف بطاقة الائتمان بنجاح",module,Magento_Braintree
+"Edit Credit Card","تحرير بطاقة الائتمان",module,Magento_Braintree
+"My Credit Cards","بطاقات الائتمان",module,Magento_Braintree
+"New Credit Card","بطاقة ائتمان جديدة",module,Magento_Braintree
+"There was error during saving card data","حدث خطأ أثناء حفظ بيانات البطاقة",module,Magento_Braintree
 "We can't initialize checkout.","لايمكننا تهيئة عملية الدفع.",module,Magento_Braintree
 "Please agree to all the terms and conditions before placing the order.","الرجاء الموافقة على كل الشروط والأحكام قبل انهاء طلبك.",module,Magento_Braintree
 "We can't place the order.","لا يمكننا اتمام عملية الشراء.",module,Magento_Braintree
 "Incorrect payment method.","طريقة الدفع غير صحيحة.",module,Magento_Braintree
 "We can't initialize checkout review.","ونحن لا يمكن تهيئة استعراض الخروج.",module,Magento_Braintree
 "We can't update shipping method.","لا يمكننا تحديث طريقة الشحن.",module,Magento_Braintree
+"The processor declined your transaction, please re-enter your payment information","المعالج رفض لعملية, الرجاء إعادة إدخال معلومات الشراء",module,Magento_Braintree
+"Transaction declined by gateway: Check card details or try another card","العملية رفضت من المصدر: تحقق من تفاصيل البطاقة او جرب بطاقة اخرى",module,Magento_Braintree
+"The processor responded with an unknown error","رد المعالج بخطأ غير معروف",module,Magento_Braintree
+"Credit card type is not allowed for your country.","نوع بطاقة الائتمان غير مسموح به في بلدك.",module,Magento_Braintree
+"Credit card type is not allowed for this payment method.","غير مسموح بنوع بطاقة الائتمان لطريقة الدفع هذه.",module,Magento_Braintree
+"Selected payment type is not allowed for billing country.","غير مسموح بنوع الدفع المحدد للفوترة في البلد.",module,Magento_Braintree
+"Incomplete payment information.","معلومات الدفع غير مكتملة.",module,Magento_Braintree
 "Please try again later","من فضلك حاول مرة أخرى",module,Magento_Braintree
 Invoice,فاتورة,module,Magento_Braintree
 Shipment,شحنه,module,Magento_Braintree
@@ -382,6 +399,7 @@ Always,دائماً,module,Magento_Captcha
 "Incorrect CAPTCHA.","كلمة التحقق غير صحيحة.",module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>تنبيه</strong>: كلمة التحقق حساسة لحالة الأحرف.",module,Magento_Captcha
 "Entity type model '%1' is not found","نموذج الكيان '%1' غير موجود",module,Magento_CatalogImportExport
+"File directory '%1' is not readable.","دليل ملف '%1' غير قابل للقراءة.",module,Magento_CatalogImportExport
 "ALL GROUPS","جميع المجموعات",module,Magento_CatalogInventory
 "Customer Group","مجموعات العملاء",module,Magento_CatalogInventory
 "Minimum Qty","الحد الأدنى من الكمية",module,Magento_CatalogInventory
@@ -1462,6 +1480,7 @@ Export,استخراج,module,Magento_ImportExport
 "Export File Format","تنسيق ملف التصدير",module,Magento_ImportExport
 From,من,module,Magento_ImportExport
 To,إلى,module,Magento_ImportExport
+"We can't filter an attribute with no attribute options.","لا يمكن تصفية سمة مع عدم وجود خيارات سمة اخرى.",module,Magento_ImportExport
 Exclude,استبعاد,module,Magento_ImportExport
 "Attribute Label","علامة السمة",module,Magento_ImportExport
 "Attribute Code","رمز السمة",module,Magento_ImportExport
@@ -1470,6 +1489,17 @@ Download,تحميل,module,Magento_ImportExport
 Import,استيراد,module,Magento_ImportExport
 Import/Export,استيراد/تصدير,module,Magento_ImportExport
 Status,الحاله,module,Magento_ImportExport
+"Data validation is failed. Please fix errors and re-upload the file..","فشل التحقق من صحة البيانات. الرجاء تصحيح الأخطاء وإعادة تحميل الملف..",module,Magento_ImportExport
+"The file is valid, but we can't import it for some reason.","الملف صالح, لكن لا نستطيع استيراده لسبب ما.",module,Magento_ImportExport
+"Following Error(s) has been occurred during importing process:","تم حدوث الخطأ (الأخطاء) التالية أثناء عملية الاستيراد:",module,Magento_ImportExport
+"in rows:","في صفوف:",module,Magento_ImportExport
+"Make sure your file isn't more than %1M.","تأكد من أن الملف ليس أكثر من %1M.",module,Magento_ImportExport
+"We can't provide the upload settings right now.","لا يمكننا توفير إعدادات التحميل الآن.",module,Magento_ImportExport
+"We can't determine the attribute filter type.","لا يمكننا تحديد نوع عامل تصفية السمة.",module,Magento_ImportExport
+"We can't identify this file format.","لا يمكن التعرف على تنسيق هذا الملف.",module,Magento_ImportExport
+"Data validation is failed. Please fix errors and re-upload the file.","فشل التحقق من صحة البيانات. الرجاء تصحيح الأخطاء وإعادة تحميل الملف.",module,Magento_ImportExport
+"in rows","في صفوف",module,Magento_ImportExport
+"'%1' file extension is not supported","صيغة '%1' غير مدعومة",module,Magento_ImportExport
 "-- Please Select --","--الرجاء الاختيار-",module,Magento_ImportExport
 Delete,احذف,module,Magento_ImportExport
 Continue,استمر,module,Magento_ImportExport
