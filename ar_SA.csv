@@ -312,20 +312,40 @@ Year,سنة,module,Magento_Braintree
 "Selected payment type is not allowed for billing country.","غير مسموح بنوع الدفع المحدد للفوترة في البلد.",module,Magento_Braintree
 "Incomplete payment information.","معلومات الدفع غير مكتملة.",module,Magento_Braintree
 "Please try again later","من فضلك حاول مرة أخرى",module,Magento_Braintree
+"Can not find original authorization transaction for partial capture","لا يمكن العثور على عملية الإذن الأصلي لالتقاط جزئي",module,Magento_Braintree
+"There was an error capturing the transaction: %1.","حدث خطأ أثناء التقاط العملية: %1.",module,Magento_Braintree
+"This refund is for a partial amount but the Transaction has not settled.","هذا المبلغ المسترجع بمبلغ جزئي ولكن العملية لم تتم.",module,Magento_Braintree
+"Please wait 24 hours before trying to issue a partial refund.","الرجاء الانتظار 24 ساعة قبل محاولة إصدار مسترجع جزئي.",module,Magento_Braintree
+"There was an error refunding the transaction: %1.","حدث خطأ أثناء إسترجاع العملية: %1.",module,Magento_Braintree
+"Some transactions are already settled or voided and cannot be voided.","بعض المعاملات بالفعل تسويتها أو باطلة ولا يمكن أن تكون باطلة.",module,Magento_Braintree
+"Voided capture.","التقاط خطأ.",module,Magento_Braintree
+"There was an error voiding the transaction: %1.","حدث خطأ أثناء إسترجاع العملية: %1.",module,Magento_Braintree
 Invoice,فاتورة,module,Magento_Braintree
 Shipment,شحنه,module,Magento_Braintree
 "Authorize and Capture","التحقق و القبض",module,Magento_Braintree
 "--Please Select--","--أختر من فضلك--",module,Magento_Braintree
+"Invalid Customer ID provided","هوية عميل غير صالحة مقدمة",module,Magento_Braintree
+"some error","بعض الخطأ",module,Magento_Braintree
+"a,b,c","أ، ب، ت",module,Magento_Braintree
+"Something went wrong while processing.","حدث خطأ أثناء المعاملة.",module,Magento_Braintree
+error,خطأ,module,Magento_Braintree
+exception,إستثناء,module,Magento_Braintree
 "Payment Information","معلومات الدفع",module,Magento_Braintree
+"Add new card","إضافة بطاقة جديد",module,Magento_Braintree
 "Please Select","أختر من فضلك",module,Magento_Braintree
 "Expiration Date","تاريخ الانتهاء",module,Magento_Braintree
 "Card Verification Number","رقم التحقق من البطاقة",module,Magento_Braintree
+"Save this card for future use","حفظ هذه البطاقة للاستخدام في المستقبل",module,Magento_Braintree
 or,أو,module,Magento_Braintree
+"Please confirm that you want to delete this credit card","الرجاء التأكيد من أنك تريد حذف هذه البطاقة الائتمانية",module,Magento_Braintree
+"Cardholder Name","اسم حامل البطاقة",module,Magento_Braintree
 Delete,احذف,module,Magento_Braintree
 Back,الرجوع,module,Magento_Braintree
 "* Required Fields","* حقول مطلوبة",module,Magento_Braintree
+"Credit Card","بطاقة إئتمان",module,Magento_Braintree
 "Card Verification Number Visual Reference","بطاقه رقم التحقق من الاشارة البصريه",module,Magento_Braintree
 "What is this?","ما هذا؟",module,Magento_Braintree
+"Make Default","جعل الافتراضي",module,Magento_Braintree
 "Billing Address","عنوان الفاتورة",module,Magento_Braintree
 "First Name","الإسم الأول",module,Magento_Braintree
 "Last Name","اسم العائلة",module,Magento_Braintree
@@ -336,6 +356,7 @@ State/Province,ولاية/مقاطعة,module,Magento_Braintree
 "Please select region, state or province","من فضلك اختر منطقة، ولاية أو مقاطعة",module,Magento_Braintree
 "Zip/Postal Code","الرمز البريدي",module,Magento_Braintree
 Submit,تسليم,module,Magento_Braintree
+"Add Credit Card","إضافة بطاقة إئتمان",module,Magento_Braintree
 Type,النوع,module,Magento_Braintree
 "Card Number","رقم الكارد",module,Magento_Braintree
 "Is Default","هي افتراضية",module,Magento_Braintree
@@ -1275,6 +1296,7 @@ WARNING:,تحذير:,module,Magento_Directory
 "Country and Format Type combination should be unique","البلد نوع وشكل الجمع بين ينبغي ان تكون فريدة من نوعها",module,Magento_Directory
 Currency,العملة,module,Magento_Directory
 Continue,استمر,module,Magento_Directory
+"File directory '%1' is not readable.","دليل ملف '%1' غير قابل للقراءة.",module,Magento_DownloadableImportExport
 Error,خطأ,module,Magento_DownloadableImportExport
 "Downloadable Information","معلومات التحميل",module,Magento_Downloadable
 "Add New Link","إضافة رابط جديد",module,Magento_Downloadable
@@ -1443,6 +1465,7 @@ Pounds,جنيهات,module,Magento_Fedex
 Kilograms,كيلوجرام,module,Magento_Fedex
 "Empty response","رد فارغ",module,Magento_Fedex
 None,"لا شئ",module,Magento_Fedex
+"Gift Messages is not applicable for empty cart","رسائل الهدايا غير متاحة على سلة فارغة",module,Magento_GiftMessage
 "Gift Message is not available","لا تتوفر رسالة هدية",module,Magento_GiftMessage
 "Could not add gift message to shopping cart","تعذر إضافة رسالة هدية إلى سلة التسوق",module,Magento_GiftMessage
 "There is no product with provided  itemId: %1 in the cart","لا يوجد أي منتج بهذا الرقم: %1 في السلة",module,Magento_GiftMessage
@@ -3156,7 +3179,7 @@ Title,العنوان,module,Magento_Braintree
 Debug,نقح,module,Magento_Braintree
 "Capture action","امسك الحدث",module,Magento_Braintree
 "New Order Status","حالة طلب جديدة",module,Magento_Braintree
-"Use Vault","استخدم الحافضة",module,Magento_Braintree
+"Use Vault","استخدم الحافظة",module,Magento_Braintree
 "Allow Duplicate Cards","اسمع لبطاقات مكررة",module,Magento_Braintree
 "CVV Verification","التحقق CVV",module,Magento_Braintree
 "Credit Card Types","أنواع بطاقة الائتمان",module,Magento_Braintree
@@ -3164,6 +3187,7 @@ Debug,نقح,module,Magento_Braintree
 "Your Kount ID","معرف الحساب الخاص بك",module,Magento_Braintree
 "Use Cache","استخدام ذاكرة التخزين المؤقت",module,Magento_Braintree
 "Sort Order",الترتيب,module,Magento_Braintree
+"Edit My Credit Cards","إضافة بطاقة الائتمان",module,Magento_Braintree
 Inventory,الجرد,module,Magento_CatalogInventory
 "Stock Options","خيارات المخزون",module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed","ازل من المخزون عند استلام الطلب الجديد",module,Magento_CatalogInventory
