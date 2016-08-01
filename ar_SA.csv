@@ -34,7 +34,9 @@ Close,غلق,module,Magento_AdminNotification
 "Entity type model '%1' is not found","نموذج الكيان '%1' غير موجود",module,Magento_AdvancedPricingImportExport
 "There are no product types available for export","لا تتوفر أي من أنواع المنتجات للتصدير",module,Magento_AdvancedPricingImportExport
 "We can't find the role for the user you wanted.","لا يمكننا الوصول للمستخدم الذي طلبته",module,Magento_Authorization
+"Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","حدث خطأ أثناء تجميع قائمة من الموارد المسموح بها. يمكنك العثور على مزيد من المعلومات في سجل الاستثناءات.",module,Magento_Authorization
 "You created the order.","قمت بإنشاء الطلب.",module,Magento_Authorizenet
+"Order saving error: %1","امر حفظ الخطاء: %1",module,Magento_Authorizenet
 "Please choose a payment method.","الرجاء اختيار طريقة الدفع.",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","لا يمكننا معالجة طلبك الآن. الرجاء المحاولة مرة أخرى لاحقاً.",module,Magento_Authorizenet
 "Cannot place order.","لا يمكن وضع أمر شراء.",module,Magento_Authorizenet
@@ -265,6 +267,7 @@ Actions,اعمال,module,Magento_Backend
 "The information in this tab has been changed.","المعلومات التي توجد في علامة التبويب لقد تم تغيرها.",module,Magento_Backend
 Loading...,تحميل...,module,Magento_Backend
 "System Backup","نظام النسخ الاحتياطي",module,Magento_Backup
+"Database and Media Backup","النسخ الاحتياطي لقاعدة البيانات و الوسائط",module,Magento_Backup
 "Database Backup","النسخ الاحتياطي لقاعدة البيانات",module,Magento_Backup
 "We can't create the backup right now.","لا يمكننا إنشاء النسخ الاحتياطي الآن.",module,Magento_Backup
 Backups,الاحتياطات,module,Magento_Backup
@@ -282,6 +285,7 @@ Exclude,استبعاد,module,Magento_Backup
 "User Password","كلمة المرور",module,Magento_Backup
 "Create Backup","انشئ نسخة احتياطية",module,Magento_Backup
 Country,الدولة,module,Magento_Braintree
+"Allowed Credit Card Types","أنواع بطاقات الائتمان المسموحة",module,Magento_Braintree
 "Add Rule","إضافة قاعدة",module,Magento_Braintree
 Month,شهر,module,Magento_Braintree
 Year,سنة,module,Magento_Braintree
@@ -416,6 +420,7 @@ Subtotal,المجموع,module,Magento_Bundle
 "Qty Invoiced","الكمية المفوترة",module,Magento_Bundle
 "Qty Shipped","الكمية المشحونة",module,Magento_Bundle
 Always,دائماً,module,Magento_Captcha
+"After number of attempts to login","بعد عدة محاولات لتسجيل الدخول",module,Magento_Captcha
 "Incorrect CAPTCHA","كلمة التحقق غير صحيحة",module,Magento_Captcha
 "Incorrect CAPTCHA.","كلمة التحقق غير صحيحة.",module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>تنبيه</strong>: كلمة التحقق حساسة لحالة الأحرف.",module,Magento_Captcha
@@ -1023,6 +1028,7 @@ Email,"البريد الإلكتروني",module,Magento_Contact
 "What’s on your mind?","ما الذي يجول ببالك؟",module,Magento_Contact
 Submit,إرسال,module,Magento_Contact
 "Invalid domain name: %1","اسم المجال غير صالح: %1",module,Magento_Cookie
+"Invalid cookie lifetime: %1","عمر ملف تعريف الارتباط غير صالح: %1",module,Magento_Cookie
 "We use cookies to make your experience better.","نحن نستخدم ملفات الكوكيز لتحقيق تجربة أفضل.",module,Magento_Cookie
 "<a href=""%1"">Learn more</a>.","<a href=""%1"">المزيد</a>.",module,Magento_Cookie
 "Allow Cookies","السماح بالكوكيز",module,Magento_Cookie
@@ -1527,11 +1533,13 @@ Status,الحاله,module,Magento_ImportExport
 Delete,احذف,module,Magento_ImportExport
 Continue,استمر,module,Magento_ImportExport
 "Indexer Management","إدارة الفهرس",module,Magento_Indexer
+"Update by Schedule","تحديث بالجدول الزمني",module,Magento_Indexer
 "Reindex required","يجب إعادة الفهرسة",module,Magento_Indexer
 Ready,جاهز,module,Magento_Indexer
 Processing,المعالجة,module,Magento_Indexer
 Never,مطلقاً,module,Magento_Indexer
 Integrations,الدمج,module,Magento_Integration
+"Add New Integration","دمج جديد",module,Magento_Integration
 Save,حفظ,module,Magento_Integration
 "Save & Activate","حفظ و تفعيل",module,Magento_Integration
 "New Integration","دمج جديد",module,Magento_Integration
@@ -2639,6 +2647,7 @@ Admin,المدير,module,Magento_Store
 "Your Language",لغتك,module,Magento_Store
 Language,لغة,module,Magento_Store
 "Select Store","تحديد مخزن",module,Magento_Store
+"Swatch Helper: not valid parameter for product instantiation","مساعد حامل: معامل غير صالح لإنشاء مثيل المنتج",module,Magento_Swatches
 "Admin is a required field in the each row","الإدارة تطلب خانة في كل صف",module,Magento_Swatches
 "Is Default","هي افتراضية",module,Magento_Swatches
 "Sort Option","خيار الترتيب",module,Magento_Swatches
