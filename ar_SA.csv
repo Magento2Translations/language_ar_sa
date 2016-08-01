@@ -33,6 +33,7 @@ Close,غلق,module,Magento_AdminNotification
 "Major System Messages","رسائل النظام مهمة",module,Magento_AdminNotification
 "System messages","رسائل النظام",module,Magento_AdminNotification
 "You created the order.","قمت بإنشاء الطلب.",module,Magento_Authorizenet
+"Order saving error: %1","امر حفظ الخطاء: %1",module,Magento_Authorizenet
 "Please choose a payment method.","الرجاء اختيار طريقة الدفع.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","كارت ائتماني: xxxx-%1",module,Magento_Authorizenet
 authorize,التصريح,module,Magento_Authorizenet
@@ -233,6 +234,7 @@ Actions,اعمال,module,Magento_Backend
 "The information in this tab has been changed.","المعلومات التي توجد في علامة التبويب لقد تم تغيرها.",module,Magento_Backend
 Loading...,تحميل...,module,Magento_Backend
 "System Backup","نظام النسخ الاحتياطي",module,Magento_Backup
+"Database and Media Backup","النسخ الاحتياطي لقاعدة البيانات و الوسائط",module,Magento_Backup
 "Database Backup","النسخ الاحتياطي لقاعدة البيانات",module,Magento_Backup
 Backups,الاحتياطات,module,Magento_Backup
 System,النظام,module,Magento_Backup
@@ -243,6 +245,7 @@ Database,"قاعدة البيانات",module,Magento_Backup
 "User Password","كلمة المرور",module,Magento_Backup
 "Create Backup","انشئ نسخة احتياطية",module,Magento_Backup
 Country,الدولة,module,Magento_Braintree
+"Allowed Credit Card Types","أنواع بطاقات الائتمان المسموحة",module,Magento_Braintree
 "Add Rule","إضافة قاعدة",module,Magento_Braintree
 "Stored Card","بطاقة مخزنة",module,Magento_Braintree
 "Credit Card Type","نوع بطاقة الائتمان",module,Magento_Braintree
@@ -330,6 +333,7 @@ From:,من:,module,Magento_Bundle
 To:,إلى:,module,Magento_Bundle
 Message:,الرسالة:,module,Magento_Bundle
 Always,دائماً,module,Magento_Captcha
+"After number of attempts to login","بعد عدة محاولات لتسجيل الدخول",module,Magento_Captcha
 "Incorrect CAPTCHA","كلمة التحقق غير صحيحة",module,Magento_Captcha
 "Incorrect CAPTCHA.","كلمة التحقق غير صحيحة.",module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>تنبيه</strong>: كلمة التحقق حساسة لحالة الأحرف.",module,Magento_Captcha
@@ -1177,11 +1181,13 @@ Status,الحاله,module,Magento_ImportExport
 "-- Please Select --","--الرجاء الاختيار-",module,Magento_ImportExport
 Continue,استمر,module,Magento_ImportExport
 "Indexer Management","إدارة الفهرس",module,Magento_Indexer
+"Update by Schedule","تحديث بالجدول الزمني",module,Magento_Indexer
 "Reindex required","يجب إعادة الفهرسة",module,Magento_Indexer
 Ready,جاهز,module,Magento_Indexer
 Processing,المعالجة,module,Magento_Indexer
 Never,مطلقاً,module,Magento_Indexer
 Integrations,الدمج,module,Magento_Integration
+"Add New Integration","دمج جديد",module,Magento_Integration
 Save,حفظ,module,Magento_Integration
 "Save & Activate","حفظ و تفعيل",module,Magento_Integration
 "New Integration","دمج جديد",module,Magento_Integration
