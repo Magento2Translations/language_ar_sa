@@ -761,6 +761,7 @@ Home,"الصفحة الرئيسية",module,Magento_Cms
 "Edit Page","تحرير الصفحة",module,Magento_Cms
 "Browse Files...","استعراض ملفات...",module,Magento_Cms
 Configuration,الضبط,module,Magento_Config
+"New attribute set name","تعيين اسم الصفة الجديدة",module,Magento_ConfigurableProduct
 "Choose an Option...","اختار خيار...",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products.","يتم استخدام هذه السمة في المنتجات القابلة للتخصيص.",module,Magento_ConfigurableProduct
 "This group contains attributes used in configurable products. Please move these attributes to another group and try again.","تحتوي هذه المجموعة على السمات المستخدمة في المنتجات القابلة للتخصيص. الرجاء نقل هذه السمات إلى مجموعة أخرى، وحاول مرة أخرى.",module,Magento_ConfigurableProduct
@@ -1212,6 +1213,7 @@ Previous,السابق,module,Magento_LayeredNavigation
 "Shop By","تصفح عبر",module,Magento_LayeredNavigation
 "Clear All","إلغاء الكل",module,Magento_LayeredNavigation
 "Shopping Options","خيارات تنفيذ البيع",module,Magento_LayeredNavigation
+"Platinum Partners","شركاء البلاتين",module,Magento_Marketplace
 "Partner search","البحث عن شريك",module,Magento_Marketplace
 "More Partners","المزيد من الشركاء",module,Magento_Marketplace
 "Visit Magento Marketplaces","زيارة Magento Marketplaces",module,Magento_Marketplace
@@ -1463,6 +1465,7 @@ Subtotal,المجموع,module,Magento_Paypal
 Continue,استمر,module,Magento_Paypal
 "Remember Me",تذكرني,module,Magento_Persistent
 "You saved the alert subscription.","لقد تم حفظ إشتراكك لتنبيه الأسعار.",module,Magento_ProductAlert
+"There are not enough parameters.","لا توجد معلمات كافية.",module,Magento_ProductAlert
 "You will no longer receive price alerts for this product.","لن تتسلم تنبيهات تغيير السعر لهذا المنتج مجدداً.",module,Magento_ProductAlert
 "Unable to update the alert subscription.","غير قادر على تحديث اشتراك التنبيهات.",module,Magento_ProductAlert
 Price:,السعر:,module,Magento_ProductAlert
@@ -2121,6 +2124,7 @@ Admin,المدير,module,Magento_Store
 Language,لغة,module,Magento_Store
 "Select Store","تحديد مخزن",module,Magento_Store
 "Tax Rate Information","معلومات معدل الضريبة",module,Magento_Tax
+"Tax Identifier","معرف الضريبة",module,Magento_Tax
 "Zip/Post is Range","الرمز البريدي",module,Magento_Tax
 "Zip/Post Code","الرمز البريدي",module,Magento_Tax
 "Range From","الحدود من",module,Magento_Tax
@@ -2204,6 +2208,7 @@ Show,أعرض,module,Magento_Theme
 Close,غلق,module,Magento_Theme
 Time,الزمن,module,Magento_Theme
 "Dictionary (Translation on Storefront side)","قاموس (الترجمة من ناحية الواجهة)",module,Magento_Translation
+"Embedded (Translation on Admin side)","مضمن (الترجمة على جانب المشرف)",module,Magento_Translation
 "UPS Next Day Air","الشحن في اليوم التالي عن طريق الجو UPS",module,Magento_Ups
 "UPS Next Day Air Saver","الشحن في اليوم التالي عن طريق الجو UPS",module,Magento_Ups
 "UPS Next Day Air Early A.M.","شحن في اليوم التالي صباحاً عن طريق الجو UPS.",module,Magento_Ups
@@ -2350,6 +2355,7 @@ Page,حقيبة,module,Magento_Widget
 "Wish List","قائمة الامنيات",module,Magento_Wishlist
 "Wish List Sharing","مشاركة قائمة الأمنيات",module,Magento_Wishlist
 "My Wish List","قائمة الامنيات",module,Magento_Wishlist
+"%1's Wish List","قائمة الامنيات %1 's",module,Magento_Wishlist
 "You added %1 to your shopping cart.","قمت بإضافة %1 إلى عربة التسوق.",module,Magento_Wishlist
 "This product(s) is out of stock.","هذا المنتج (المنتجات) غير متوفر في المخزن.",module,Magento_Wishlist
 "%1 items","%1 قطعة",module,Magento_Wishlist
