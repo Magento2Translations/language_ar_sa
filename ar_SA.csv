@@ -2511,12 +2511,14 @@ Time,الزمن,module,Magento_Theme
 "Dictionary (Translation on Storefront side)","قاموس (الترجمة من ناحية الواجهة)",module,Magento_Translation
 "Embedded (Translation on Admin side)","مضمن (الترجمة على جانب المشرف)",module,Magento_Translation
 "Condition type ""%1"" is not allowed","نوع الشرط ""%1"" غير مسموح",module,Magento_Ui
+"Remove %1","إزالة %1",module,Magento_Ui
 "Add New %1","اضف جديد %1",module,Magento_Ui
 Next,التالي,module,Magento_Ui
 Back,رجوع,module,Magento_Ui
 Cancel,إلغاء,module,Magento_Ui
 "UPS Next Day Air","الشحن في اليوم التالي عن طريق الجو UPS",module,Magento_Ups
 "UPS Second Day Air","الشحن في اليوم التالي عن طريق الجو UPS",module,Magento_Ups
+"UPS Ground","شحن ارضي UPS",module,Magento_Ups
 "UPS Worldwide Express","الشحن العالمي السريع UPS",module,Magento_Ups
 "UPS Next Day Air Saver","الشحن في اليوم التالي عن طريق الجو UPS",module,Magento_Ups
 "UPS Next Day Air Early A.M.","شحن في اليوم التالي صباحاً عن طريق الجو UPS.",module,Magento_Ups
@@ -2618,6 +2620,7 @@ All,الكل,module,Magento_User
 Resources,مصادر,module,Magento_User
 "First-Class Mail Large Envelope","مغلف كبير لبريد الدرجة الأولى",module,Magento_Usps
 "First-Class Mail Letter","رسالة بريد من الدرجة الأولى",module,Magento_Usps
+"First-Class Mail Parcel","الطرود البريد من الدرجة الأولى",module,Magento_Usps
 "First-Class Mail Postcards","رسالة بريد من الدرجة الأولى",module,Magento_Usps
 "Priority Mail","البريد الالكتروني الاولي",module,Magento_Usps
 "Media Mail","وسائل الاعلام البريد الالكتروني",module,Magento_Usps
@@ -2665,6 +2668,7 @@ Action,إجراء,module,Magento_Weee
 "Final Price","السعر النهائي",module,Magento_Weee
 "Widget Insertion","إدراج كائن",module,Magento_Widget
 "Insert Widget","إدراج رمز",module,Magento_Widget
+label,التسمية,module,Magento_Widget
 Choose...,اختر...,module,Magento_Widget
 Close,غلق,module,Magento_Widget
 "-- Please Select --","--الرجاء الاختيار-",module,Magento_Widget
