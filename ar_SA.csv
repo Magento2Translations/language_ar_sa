@@ -1470,6 +1470,7 @@ Price,السعر,module,Magento_Paypal
 Qty,الكميّة,module,Magento_Paypal
 Subtotal,المجموع,module,Magento_Paypal
 Continue,استمر,module,Magento_Paypal
+"Your shopping cart has been updated with new prices.","تم تحديث سلة التسوق الخاصة بك مع الأسعار الجديدة.",module,Magento_Persistent
 "Welcome, %1!","مرحبا, %1!",module,Magento_Persistent
 "We cannot load the configuration from file %1.","ونحن لا يمكن تحميل التكوين من ملف %1.",module,Magento_Persistent
 "Remember Me",تذكرني,module,Magento_Persistent
