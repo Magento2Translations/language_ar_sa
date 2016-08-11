@@ -1637,6 +1637,7 @@ Subtotal,المجموع,module,Magento_Paypal
 or,أو,module,Magento_Paypal
 Continue,استمر,module,Magento_Paypal
 "Not you?","ليس أنت؟",module,Magento_Persistent
+"Your shopping cart has been updated with new prices.","تم تحديث سلة التسوق الخاصة بك مع الأسعار الجديدة.",module,Magento_Persistent
 "Welcome, %1!","مرحبا, %1!",module,Magento_Persistent
 "We cannot load the configuration from file %1.","ونحن لا يمكن تحميل التكوين من ملف %1.",module,Magento_Persistent
 "Remember Me",تذكرني,module,Magento_Persistent
@@ -2406,6 +2407,7 @@ Language,لغة,module,Magento_Store
 "Select Store","تحديد مخزن",module,Magento_Store
 "Admin is a required field in the each row","الإدارة تطلب خانة في كل صف",module,Magento_Swatches
 "Update Product Preview Image","تحديث صورة معاينة المنتج",module,Magento_Swatches
+"Filtering by this attribute will update the product image on catalog page","تصفية بواسطة هذه الخاصية سيؤدي الى تحديث صورة المنتج في صفحة الكتالوج",module,Magento_Swatches
 "Use Product Image for Swatch if Possible","استخدام صورة المنتج لحامل إذا أمكن",module,Magento_Swatches
 "Is Default","هي افتراضية",module,Magento_Swatches
 "Sort Option","خيار الترتيب",module,Magento_Swatches
