@@ -27,7 +27,7 @@ notice,إشعار,module,Magento_AdminNotification
 "Wrong message type","نوع رسالة خاطئ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","الرجاء الانتقال إلى <a href=""%1""> إدارة ذاكرة التخزين المؤقت</a> واعدة تنشيطها.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","اكتملت مواففة وسائط التخزين.",module,Magento_AdminNotification
-"Close popup","إغلاق النافذة المنبثقة",module,Magento_AdminNotification
+"Close popup","أغلق النافذة المنبثقة",module,Magento_AdminNotification
 Close,غلق,module,Magento_AdminNotification
 "Critical System Messages","رسائل النظام خطيرة",module,Magento_AdminNotification
 "Major System Messages","رسائل النظام مهمة",module,Magento_AdminNotification
@@ -361,8 +361,10 @@ Qty,الكميّة,module,Magento_CatalogInventory
 Actions,اعمال,module,Magento_CatalogRule
 Apply,تطبيق,module,Magento_CatalogRule
 "Discount Amount","تخفيض الكمية",module,Magento_CatalogRule
+"Subproduct discounts","خصومات المنتجات الثانوية",module,Magento_CatalogRule
 No,لا,module,Magento_CatalogRule
 Yes,نعم,module,Magento_CatalogRule
+"Discard subsequent rules","تجاهل القواعد التابعة",module,Magento_CatalogRule
 Conditions,الحالات,module,Magento_CatalogRule
 "General Information","المعلومات العامة",module,Magento_CatalogRule
 "Rule Name","أسم القاعدة",module,Magento_CatalogRule
@@ -382,6 +384,7 @@ Product,المنتج,module,Magento_CatalogRule
 Promotions,الترقيات,module,Magento_CatalogRule
 "Edit Rule","تحرير قاعدة",module,Magento_CatalogRule
 Catalog,"دليل المنتجات",module,Magento_CatalogRule
+"Wrong rule specified.","قاعدة محددة خاطئة.",module,Magento_CatalogRule
 Promo,الترويج,module,Magento_CatalogRule
 "Update the Product","تحديث المنتج",module,Magento_CatalogRule
 "Rule price","السعر الاساسى",module,Magento_CatalogRule
@@ -720,8 +723,9 @@ Loading...,تحميل...,module,Magento_Checkout
 "Save Block","حفظ المساحة",module,Magento_Cms
 "Delete Block","المساحة قد حذفت",module,Magento_Cms
 "Save and Continue Edit","حفظ ومواصلة التعديل",module,Magento_Cms
+"Edit Block '%1'","تحرير قائمة '%1'",module,Magento_Cms
 "New Block","مساحة جديدة",module,Magento_Cms
-"Block Information","اغلاق المعلومات",module,Magento_Cms
+"Block Information","إغلاق المعلومات",module,Magento_Cms
 "General Information","المعلومات العامة",module,Magento_Cms
 "Block Title","حجب العنوان",module,Magento_Cms
 Identifier,معرف,module,Magento_Cms
@@ -736,15 +740,21 @@ Title,العنوان,module,Magento_Cms
 "Add New Page","إضافة صفحة جديدة",module,Magento_Cms
 "Save Page","حفظ الصفحة",module,Magento_Cms
 "Delete Page","حذف الصفحة",module,Magento_Cms
+"Edit Page '%1'","تحرير الصفحة '%1'",module,Magento_Cms
 "New Page","صفحة جديدة",module,Magento_Cms
+"Page Layout","تخطيط الصفحة",module,Magento_Cms
 Layout,تخطيط,module,Magento_Cms
 "Layout Update XML","تحديث لغة الترميز القابلة للامتداد النسق",module,Magento_Cms
 "Custom Design","خيارات التصميم",module,Magento_Cms
+"Custom Design From","تصميم مخصص من",module,Magento_Cms
+"Custom Design To","تصميم مخصص الى",module,Magento_Cms
 "-- Please Select --","--الرجاء الاختيار-",module,Magento_Cms
 "Custom Theme","قالب مخصص",module,Magento_Cms
+"Custom Layout Update XML","تخطيط مخصص تحديث XML",module,Magento_Cms
 Design,تصميم,module,Magento_Cms
 "Page Information","بيانات الصفحة",module,Magento_Cms
 "Page Title","عنوان الصفحة",module,Magento_Cms
+"Relative to Web Site Base URL","متعلق بموقع ويب محدد موقع المعلومات الأساسي",module,Magento_Cms
 "Page Status","حالة الصفحة",module,Magento_Cms
 "Meta Data","بيانات الميتا",module,Magento_Cms
 Keywords,"كلمات مفتاحية",module,Magento_Cms
@@ -863,6 +873,7 @@ Download,تحميل,module,Magento_Customer
 "New Customer Group","مجموعة عميل جديدة",module,Magento_Customer
 "Group Information","بيانات المجموعة",module,Magento_Customer
 "Group Name","اسم المجموعة",module,Magento_Customer
+"Maximum length must be less then %1 symbols","يجب أن يكون الحد الأقصى للطول أقل من %1 رموز",module,Magento_Customer
 "Tax Class","الشريحة الضريبة",module,Magento_Customer
 "Customer Login","تسجيل دخول العميل",module,Magento_Customer
 "Create New Customer Account","إنشاء حساب عميل جديد",module,Magento_Customer
@@ -1374,6 +1385,7 @@ None,"لا شئ",module,Magento_OfflineShipping
 No,لا,module,Magento_OfflineShipping
 "For matching items only","للسلع المطابقة فقط",module,Magento_OfflineShipping
 "For shipment with matching items","للشحن مع السلع المطابقة",module,Magento_OfflineShipping
+"Ttl value ""%1"" is not valid. Please use only numbers equal or greater than zero.","قيمة Ttl ""%1"" غير صحيحة. الرجاء استخدام الأرقام المساوية أو أكبر من الصفر.",module,Magento_PageCache
 "Varnish Caching","التخزين المؤقت الورنيش",module,Magento_PageCache
 "We cannot retrieve the payment method model object.","لا يمكن استرداد نمذج طريقة الدفع.",module,Magento_Payment
 Month,الشهر,module,Magento_Payment
@@ -2502,6 +2514,7 @@ Inventory,الجرد,module,Magento_CatalogInventory
 "Stock Options","خيارات المخزون",module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed","ازل من المخزون عند استلام الطلب الجديد",module,Magento_CatalogInventory
 "Display Out of Stock Products","عرض المنتجات الغير متوفرة بالمخزن",module,Magento_CatalogInventory
+"Display products availability in stock on Storefront.","عرض إتاحة المنتجات في مخزن المتجر على واجهة المتجر.",module,Magento_CatalogInventory
 Backorders,"طلبات لمنتجات غير متوفرة",module,Magento_CatalogInventory
 "Maximum Qty Allowed in Shopping Cart","الكمية القصوى المسموح بها في سلة التسوق",module,Magento_CatalogInventory
 "Minimum Qty Allowed in Shopping Cart","الكمية الدنيا المسموح بها في سلة التسوق",module,Magento_CatalogInventory
@@ -2529,7 +2542,7 @@ Details,التفاصيل,module,Magento_Catalog
 "Checkout Options","خيارات إتمام الدفع",module,Magento_Checkout
 "Enable Onepage Checkout","تفعيل الشراء في صفحة واحدة",module,Magento_Checkout
 "Allow Guest Checkout","السماح للزائر بإنهاء عملية الشراء",module,Magento_Checkout
-"Require Customer To Be Logged In To Checkout","تتطلب العملاء إلى تسجيل في أن الخروج",module,Magento_Checkout
+"Require Customer To Be Logged In To Checkout","يتطلب من العملاء التسجيل لإكمال الشراء",module,Magento_Checkout
 "Quote Lifetime (days)","اقتبس من العمر (أيام)",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart","بعد إضافة المنتج إلى سلة التسوق إعادة توجيه",module,Magento_Checkout
 "My Cart Link","وصلة سلتي",module,Magento_Checkout
