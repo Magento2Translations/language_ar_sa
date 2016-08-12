@@ -252,6 +252,8 @@ Loading...,تحميل...,module,Magento_Backend
 "System Backup","نظام النسخ الاحتياطي",module,Magento_Backup
 "Database and Media Backup","النسخ الاحتياطي لقاعدة البيانات و الوسائط",module,Magento_Backup
 "Database Backup","النسخ الاحتياطي لقاعدة البيانات",module,Magento_Backup
+"The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","يمكن أن يكون الأرشيف غير مضغوط مع <a href=""%1"">%2</a> على أنظمة وندوز.",module,Magento_Backup
+"To create the backup, please deselect ""Put store into maintenance mode"" or update your permissions.","لإنشاء النسخ الاحتياطي، الرجاء قم بإلغاء تحديد ""وضع المتجر في وضع الصيانة"" أو تحديث الأذونات الخاصة بك.",module,Magento_Backup
 Backups,الاحتياطات,module,Magento_Backup
 System,النظام,module,Magento_Backup
 Tools,ادوات,module,Magento_Backup
@@ -278,6 +280,7 @@ Type,النوع,module,Magento_Braintree
 Dynamic,ديناميكي,module,Magento_Bundle
 Fixed,ثابت,module,Magento_Bundle
 "Create New Option","إنشاء خيار جديد",module,Magento_Bundle
+"Bundle Items","عناصر حزمة",module,Magento_Bundle
 "Add Products to Option","إضافة المنتجات إلى الخيار",module,Magento_Bundle
 Close,غلق,module,Magento_Bundle
 "Delete Option","حذف خيار",module,Magento_Bundle
@@ -328,11 +331,13 @@ Always,دائماً,module,Magento_Captcha
 "Incorrect CAPTCHA","كلمة التحقق غير صحيحة",module,Magento_Captcha
 "Incorrect CAPTCHA.","كلمة التحقق غير صحيحة.",module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>تنبيه</strong>: كلمة التحقق حساسة لحالة الأحرف.",module,Magento_Captcha
+"Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","قيمة الأسم المدخلة يجب أن تكون مماثلة لـ ' \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "There are no product types available for export.","لا تتوفر أي من أنواع المنتجات للتصدير.",module,Magento_CatalogImportExport
 "ALL GROUPS","جميع المجموعات",module,Magento_CatalogInventory
 "Customer Group","مجموعات العملاء",module,Magento_CatalogInventory
 "Minimum Qty","الحد الأدنى من الكمية",module,Magento_CatalogInventory
 "Add Minimum Qty","اضف حد أدنى للكمية",module,Magento_CatalogInventory
+"Could not rebuild index for empty products array","لا يمكن إعادة إنشاء الفهرس لمجموعة منتجات فارغة",module,Magento_CatalogInventory
 "This product is out of stock.","هذا المنتج غير متوفر في المخزن.",module,Magento_CatalogInventory
 "Some of the products are out of stock.","بعض المنتجات غير متوفرة بالمخزن.",module,Magento_CatalogInventory
 "No Backorders","لا توجد طلبات لمنتجات غير متوفرة",module,Magento_CatalogInventory
@@ -1231,6 +1236,7 @@ Template,قالب,module,Magento_Email
 "Change Encryption Key","تغيير مفتاح التشفير",module,Magento_EncryptionKey
 "Encryption Key","مفتاح التشفير",module,Magento_EncryptionKey
 "New Encryption Key","مفتاح تشفير جديد",module,Magento_EncryptionKey
+"The encryption key is used to protect passwords and other sensitive data.","يتم استخدام مفتاح التشفير لحماية كلمات المرور والبيانات الحساسة الأخرى.",module,Magento_EncryptionKey
 No,لا,module,Magento_EncryptionKey
 Yes,نعم,module,Magento_EncryptionKey
 "Europe First Priority","الأولوية الأولى في أوروبا",module,Magento_Fedex
@@ -1276,6 +1282,7 @@ Cancel,إلغاء,module,Magento_GiftMessage
 Dynamic,ديناميكي,module,Magento_GoogleAdwords
 Constant,ثابت,module,Magento_GoogleAdwords
 "Conversion Color value is not valid ""%1"". Please set hexadecimal 6-digit value.","تحويل لون قيمة غير صالحة ""%1"". الرجاء تعيين قيمة 6 أرقام ست عشرية.",module,Magento_GoogleAdwords
+"Conversion Id value is not valid ""%1"". Conversion Id should be an integer.","تحويل قيمة معرف غير صالح ""%1"". يجب أن يكون معرف التحويل عدد صحيح.",module,Magento_GoogleAdwords
 "Product View Optimization","تحسين طريقة عرض المنتج",module,Magento_GoogleOptimizer
 "Page View Optimization","تحسين طريقة عرض الصفحة",module,Magento_GoogleOptimizer
 "Google Analytics Content Experiments Code","كود Google Analytics Content Experiments",module,Magento_GoogleOptimizer
@@ -1341,6 +1348,7 @@ Resources,مصادر,module,Magento_Integration
 "Filterable (with results)","يمكن تصفيتها (مع النتائج)",module,Magento_LayeredNavigation
 "Filterable (no results)","ترشيح (لا توجد نتائج).",module,Magento_LayeredNavigation
 No,لا,module,Magento_LayeredNavigation
+"Use in Layered Navigation","استخدم في طبقات الملاحة",module,Magento_LayeredNavigation
 "Can be used only with catalog input type Dropdown, Multiple Select and Price","يمكن استخدامه فقط مع نوع الحق القائمة المنسدلة، واختيار المتعدد والسعر",module,Magento_LayeredNavigation
 Position,موقع,module,Magento_LayeredNavigation
 item,قطعة,module,Magento_LayeredNavigation
@@ -1441,6 +1449,8 @@ Items,المنتجات,module,Magento_Multishipping
 "Back to Select Addresses","العودة الى اختيار عناوين",module,Magento_Multishipping
 "Thank you for your purchase!","شكراً لطلبكم معنا!",module,Magento_Multishipping
 "Continue Shopping","الاستمرار بالتسوق",module,Magento_Multishipping
+"The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
+                        information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","يتطلب إدماج ""بقايا الجديدة"" وكيل نيوريليك--php5، التي لم تثبت. يتوفر مزيد من المعلومات حول تثبيت الوكيل <a target=""_blank"" href=""%1""> هنا</a>.",module,Magento_NewRelicReporting
 "Delete Selected Problems","حذف المشاكل المحددة",module,Magento_Newsletter
 "Unsubscribe Selected","الغاء الاشتراك مختارة",module,Magento_Newsletter
 Back,رجوع,module,Magento_Newsletter
@@ -1533,6 +1543,7 @@ None,"لا شئ",module,Magento_OfflineShipping
 No,لا,module,Magento_OfflineShipping
 "For matching items only","للسلع المطابقة فقط",module,Magento_OfflineShipping
 "For shipment with matching items","للشحن مع السلع المطابقة",module,Magento_OfflineShipping
+"Ttl value ""%1"" is not valid. Please use only numbers equal or greater than zero.","قيمة Ttl ""%1"" غير صحيحة. الرجاء استخدام الأرقام المساوية أو أكبر من الصفر.",module,Magento_PageCache
 "We cannot retrieve the payment method model object.","لا يمكن استرداد نمذج طريقة الدفع.",module,Magento_Payment
 Month,الشهر,module,Magento_Payment
 Year,السنة,module,Magento_Payment
@@ -2513,6 +2524,7 @@ Time,الزمن,module,Magento_Theme
 "Dictionary (Translation on Storefront side)","قاموس (الترجمة من ناحية الواجهة)",module,Magento_Translation
 "Embedded (Translation on Admin side)","مضمن (الترجمة على جانب المشرف)",module,Magento_Translation
 "Condition type ""%1"" is not allowed","نوع الشرط ""%1"" غير مسموح",module,Magento_Ui
+"The configuration parameter ""formElement"" is a required for ""%1"" field.","متغير الإعدادات ""فورميليمينت"" مطلوب بنسبة ""%1"" حقل.",module,Magento_Ui
 "Remove %1","إزالة %1",module,Magento_Ui
 "Add New %1","اضف جديد %1",module,Magento_Ui
 Next,التالي,module,Magento_Ui
@@ -2817,6 +2829,7 @@ Password:,"كلمة السر:",theme,frontend/Magento/luma
 "Thank you for your order from %store_name.","شكرا لك على الشراء من %store_name.",theme,frontend/Magento/luma
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","يمكنك التحقق من حالة طلبك عبر <a href=""%account_url""> تسجيل الدخول إلى حسابك</a>.",theme,frontend/Magento/luma
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","إذا كان لديك أسئلة حول الطلب، يمكنك مراسلتنا على <a href=""mailto:%store_email""> %store_email</a>.",theme,frontend/Magento/luma
+"Your Credit Memo #%creditmemo_id for Order #%order_id","مذكره الإئتمان رقم #%creditmemo_id لأمر #%order_id",theme,frontend/Magento/luma
 "Billing Info","بيانات الفاتورة",theme,frontend/Magento/luma
 "Shipping Info","بيانات الشحن",theme,frontend/Magento/luma
 "Payment Method","طريقة الدفع",theme,frontend/Magento/luma
@@ -2826,6 +2839,9 @@ Password:,"كلمة السر:",theme,frontend/Magento/luma
 "%customer_name,",%customer_name،,theme,frontend/Magento/luma
 "Once your package ships we will send you a tracking number.","سوف نرسلك لم رقم بوليصة الشحن فور شحن طلبك.",theme,frontend/Magento/luma
 "Your Order <span class=""no-link"">#%increment_id</span>","طلبك <span class=""no-link"">#%increment_id</span>",theme,frontend/Magento/luma
+"Placed on <span class=""no-link"">%created_at</span>","وضع في <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
+"Your shipping confirmation is below. Thank you again for your business.","تأكيد الشحن الخاص بك أدناه. أشكركم مرة أخرى على عملك.",theme,frontend/Magento/luma
+"Your Shipment #%shipment_id for Order #%order_id","شحنتك #%shipment_id لطلب رقم #%order_id",theme,frontend/Magento/luma
 "Add Selected Products","إضافة منتجات مختارة",module,Magento_Bundle
 Cancel,إلغاء,module,Magento_Catalog
 Submit,إرسال,module,Magento_Catalog
@@ -2940,6 +2956,7 @@ End,نهاية,module,Magento_CatalogRule
 "Popular Search Terms","كلمات البحث الشائعة",module,Magento_CatalogSearch
 "Category URL Suffix","لاحقة URL القسم",module,Magento_CatalogUrlRewrite
 "You need to refresh the cache.","تحتاج إلى تحديث ذاكرة التخزين المؤقت.",module,Magento_CatalogUrlRewrite
+"Product URL Suffix","محدد موقع المعلومات اللاحقة للمنتج",module,Magento_CatalogUrlRewrite
 "Catalog Products List","قائمة المنتجات",module,Magento_CatalogWidget
 "List of Products","قائمة المنتجات",module,Magento_CatalogWidget
 Title,العنوان,module,Magento_CatalogWidget
@@ -3044,6 +3061,7 @@ Addresses,العنوان,module,Magento_Customer
 "Password forgotten","نسيت كلمة السر",module,Magento_Customer
 "My Dashboard","لوحة التحكم",module,Magento_Customer
 "Workflow type","نوع Workflow",module,Magento_Developer
+"Not available in production mode","غير متوفر في وضع الإنتاج",module,Magento_Developer
 "Developer Client Restrictions","المطور العملاء القيود",module,Magento_Developer
 "Allowed IPs (comma separated)","سمحت المءسسه (مفصوله بفواصل)",module,Magento_Developer
 "Gateway URL","رابط البوابة",module,Magento_Dhl
