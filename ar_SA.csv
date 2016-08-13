@@ -1108,6 +1108,10 @@ Error,خطأ,module,Magento_DownloadableImportExport
 Unlimited,"غير محدود",module,Magento_Downloadable
 "Something went wrong while getting the requested content.","حدث خطأ أثناء الحصول على المحتوى المطلوب.",module,Magento_Downloadable
 "My Downloadable Products","المنتجات التي تم تحملها",module,Magento_Downloadable
+"Provided link information is invalid.","معلومات الرابط المتوفر غير صالحة.",module,Magento_Downloadable
+"Provided downloadable link is not related to given product.","الرابط المقدم غير مرتبط بالمنتج المعطى.",module,Magento_Downloadable
+"Provided sample information is invalid.","المعلومات التجريبية المقدمة غير صحيحة.",module,Magento_Downloadable
+"Provided downloadable sample is not related to given product.","المعلومات التجريبية المقدمة غير مرتبطة بالمنتج المعطى.",module,Magento_Downloadable
 Pending,"في إنتظار المُراجعة",module,Magento_Downloadable
 Invoiced,فاتورة,module,Magento_Downloadable
 Title,العنوان,module,Magento_Downloadable
