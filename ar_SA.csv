@@ -253,6 +253,7 @@ Loading...,تحميل...,module,Magento_Backend
 "Database and Media Backup","النسخ الاحتياطي لقاعدة البيانات و الوسائط",module,Magento_Backup
 "Database Backup","النسخ الاحتياطي لقاعدة البيانات",module,Magento_Backup
 "The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","يمكن أن يكون الأرشيف غير مضغوط مع <a href=""%1"">%2</a> على أنظمة وندوز.",module,Magento_Backup
+"You need more permissions to activate maintenance mode right now.","تحتاج مزيد من الصلاحيات لتنشيط وضع الصيانة الآن.",module,Magento_Backup
 "To create the backup, please deselect ""Put store into maintenance mode"" or update your permissions.","لإنشاء النسخ الاحتياطي، الرجاء قم بإلغاء تحديد ""وضع المتجر في وضع الصيانة"" أو تحديث الأذونات الخاصة بك.",module,Magento_Backup
 Backups,الاحتياطات,module,Magento_Backup
 System,النظام,module,Magento_Backup
@@ -797,6 +798,7 @@ Stores,محلات,module,Magento_Config
 "Add configurable attributes to the new Attribute Set based on current","إضافة سمات قابلة للتخصيص لمجموعة سمات جديدة مبنية على الحالية",module,Magento_ConfigurableProduct
 "New attribute set name","تعيين اسم الصفة الجديدة",module,Magento_ConfigurableProduct
 "Add configurable attributes to the existing Attribute Set","إضافة سمات قابلة للتخصيص لمجموعة السمات الحالية",module,Magento_ConfigurableProduct
+"Choose existing Attribute Set","اختر ""تعيين السمة"" الحالية",module,Magento_ConfigurableProduct
 Configurations,الضبط,module,Magento_ConfigurableProduct
 "Create New Attribute","انشاء سمة جديدة",module,Magento_ConfigurableProduct
 "Select Attributes","اختر السمات",module,Magento_ConfigurableProduct
@@ -1241,6 +1243,7 @@ Template,قالب,module,Magento_Email
 "Encryption Key","مفتاح التشفير",module,Magento_EncryptionKey
 "New Encryption Key","مفتاح تشفير جديد",module,Magento_EncryptionKey
 "The encryption key is used to protect passwords and other sensitive data.","يتم استخدام مفتاح التشفير لحماية كلمات المرور والبيانات الحساسة الأخرى.",module,Magento_EncryptionKey
+"Auto-generate a Key","إنشاء تلقائي لمفتاح",module,Magento_EncryptionKey
 No,لا,module,Magento_EncryptionKey
 Yes,نعم,module,Magento_EncryptionKey
 "Europe First Priority","الأولوية الأولى في أوروبا",module,Magento_Fedex
@@ -1373,6 +1376,7 @@ Partners,الشركاء,module,Magento_Marketplace
 Synchronize,المزامنة,module,Magento_MediaStorage
 "Synchronizing %1 to %2","مزامنة %1 إلى %2",module,Magento_MediaStorage
 Synchronizing...,مزامنة...,module,Magento_MediaStorage
+"The timeout limit for response from synchronize process was reached.","مهلة للاستجابة من عملية مزامنة إنتهت.",module,Magento_MediaStorage
 "File %1 does not exist","ملف %1 غير موجود",module,Magento_MediaStorage
 "File %1 is not readable","ملف %1 غير قابل للقراءة",module,Magento_MediaStorage
 "File System","نظام الملفات",module,Magento_MediaStorage
@@ -1525,6 +1529,7 @@ Subscribe,اشتراك,module,Magento_Newsletter
 "Make Check payable to:","تقديم شيك مستحق الدفع لـ:",module,Magento_OfflinePayments
 "Send Check to:","ارسل الشيك الى:",module,Magento_OfflinePayments
 "Purchase Order Number","رقم طلب الشراء",module,Magento_OfflinePayments
+"Make Check payable to: %1","اجعل الشيك مدفوعا الى: %1",module,Magento_OfflinePayments
 "Purchase Order Number: %1","رقم الطلب: %1",module,Magento_OfflinePayments
 "Make Check payable to","اجعل الشيك مدفوعا الى",module,Magento_OfflinePayments
 "Send Check to","ارسل الشيك الى",module,Magento_OfflinePayments
@@ -1655,6 +1660,7 @@ Continue,استمر,module,Magento_Paypal
 "Your shopping cart has been updated with new prices.","تم تحديث سلة التسوق الخاصة بك مع الأسعار الجديدة.",module,Magento_Persistent
 "Welcome, %1!","مرحبا, %1!",module,Magento_Persistent
 "We cannot load the configuration from file %1.","ونحن لا يمكن تحميل التكوين من ملف %1.",module,Magento_Persistent
+"Method ""%1"" is not defined in ""%2""","لم يتم تعريف الأسلوب ""%1"" في ""%2""",module,Magento_Persistent
 "Remember Me",تذكرني,module,Magento_Persistent
 "You saved the alert subscription.","لقد تم حفظ إشتراكك لتنبيه الأسعار.",module,Magento_ProductAlert
 "There are not enough parameters.","لا توجد معلمات كافية.",module,Magento_ProductAlert
@@ -2282,6 +2288,7 @@ Reports,تقارير,module,Magento_Search
 "Page not found.","لم يتم العثور على الصفحة.",module,Magento_SendFriend
 "The link to a friend was sent.","تم إرسال الرابط لصديق.",module,Magento_SendFriend
 "We found some problems with the data.","وجدنا بعض المشاكل مع البيانات.",module,Magento_SendFriend
+"Some emails were not sent.","لم ترسل بعض رسائل البريد الإلكتروني.",module,Magento_SendFriend
 "Please enter a sender name.","يرجى ادخال اسم الراسل.",module,Magento_SendFriend
 "Invalid Sender Email","بريد الراسل غير صحيح",module,Magento_SendFriend
 "Please enter a message.","الرجاء إدخال رسالة.",module,Magento_SendFriend
@@ -2299,6 +2306,7 @@ Back,رجوع,module,Magento_SendFriend
 "New Shipment for Order #%1","شحنة جديدة للطلب #%1",module,Magento_Shipping
 "Submit Shipment","ارسال الشحنه",module,Magento_Shipping
 "Products should be added to package(s)","ينبغي إضافة المنتجات إلى الحزمة (الحزم)",module,Magento_Shipping
+"The value that you entered is not valid.","القيمة المدخلة ليست صحيحة.",module,Magento_Shipping
 "Add Tracking Number","إضافة رقم تعقب",module,Magento_Shipping
 "Custom Value","قيمة مخصصة",module,Magento_Shipping
 Add,إضافة,module,Magento_Shipping
@@ -2433,6 +2441,7 @@ Code,رمز,module,Magento_TaxImportExport
 Country,الدولة,module,Magento_TaxImportExport
 State,ولاية,module,Magento_TaxImportExport
 "Zip/Post Code","الرمز البريدي",module,Magento_TaxImportExport
+Rate,تقييم,module,Magento_TaxImportExport
 "Zip/Post is Range","الرمز البريدي",module,Magento_TaxImportExport
 "Range From","الحدود من",module,Magento_TaxImportExport
 "Range To","الحدود إلى",module,Magento_TaxImportExport
@@ -2531,6 +2540,7 @@ Time,الزمن,module,Magento_Theme
 "The configuration parameter ""formElement"" is a required for ""%1"" field.","متغير الإعدادات ""فورميليمينت"" مطلوب بنسبة ""%1"" حقل.",module,Magento_Ui
 "Remove %1","إزالة %1",module,Magento_Ui
 "Add New %1","اضف جديد %1",module,Magento_Ui
+"New %1","%1 جديد",module,Magento_Ui
 Next,التالي,module,Magento_Ui
 Back,رجوع,module,Magento_Ui
 Cancel,إلغاء,module,Magento_Ui
@@ -2538,6 +2548,7 @@ Cancel,إلغاء,module,Magento_Ui
 "UPS Second Day Air","الشحن في اليوم التالي عن طريق الجو UPS",module,Magento_Ups
 "UPS Ground","شحن ارضي UPS",module,Magento_Ups
 "UPS Worldwide Express","الشحن العالمي السريع UPS",module,Magento_Ups
+"UPS Worldwide Expedited","الشحن العالمي المستعجل UPS",module,Magento_Ups
 "UPS Next Day Air Saver","الشحن في اليوم التالي عن طريق الجو UPS",module,Magento_Ups
 "UPS Next Day Air Early A.M.","شحن في اليوم التالي صباحاً عن طريق الجو UPS.",module,Magento_Ups
 "UPS Worldwide Express Plus","UPS الدولي Express Plus",module,Magento_Ups
@@ -2665,6 +2676,7 @@ None,"لا شئ",module,Magento_Usps
 "Add New Variable","إضافة متغير جديد",module,Magento_Variable
 "Save and Continue Edit","حفظ ومواصلة التعديل",module,Magento_Variable
 "Custom Variable ""%1""","المتغيرات المخصصة ""%1""",module,Magento_Variable
+"New Custom Variable","المتغيرات المخصصة",module,Magento_Variable
 Variable,متغير,module,Magento_Variable
 No,لا,module,Magento_Variable
 Yes,نعم,module,Magento_Variable
@@ -2961,6 +2973,7 @@ End,نهاية,module,Magento_CatalogRule
 "Category URL Suffix","لاحقة URL القسم",module,Magento_CatalogUrlRewrite
 "You need to refresh the cache.","تحتاج إلى تحديث ذاكرة التخزين المؤقت.",module,Magento_CatalogUrlRewrite
 "Product URL Suffix","محدد موقع المعلومات اللاحقة للمنتج",module,Magento_CatalogUrlRewrite
+"Use Categories Path for Product URLs","استخدام فئات المسار لمحددات مواقع معلومات المنتج",module,Magento_CatalogUrlRewrite
 "Catalog Products List","قائمة المنتجات",module,Magento_CatalogWidget
 "List of Products","قائمة المنتجات",module,Magento_CatalogWidget
 Title,العنوان,module,Magento_CatalogWidget
@@ -3133,6 +3146,7 @@ Options,الخيارات,module,Magento_Multishipping
 "Review Order","مراجعة الطلب",module,Magento_Multishipping
 "Select Shipping Method","اختيار طريقة الشحن",module,Magento_Multishipping
 "We received your order!","تلقينا طلبك!",module,Magento_Multishipping
+"New Relic Reporting","قسم جديد للإبلاغ",module,Magento_NewRelicReporting
 General,عام,module,Magento_NewRelicReporting
 "Subscription Options","خيارات النشرات البريدية",module,Magento_Newsletter
 "Need to Confirm","يحتاج الى تاكيد",module,Magento_Newsletter
@@ -3178,6 +3192,7 @@ Type,النوع,module,Magento_OfflineShipping
 Condition,الشرط,module,Magento_OfflineShipping
 Export,استخراج,module,Magento_OfflineShipping
 Import,استيراد,module,Magento_OfflineShipping
+"Full Page Cache","ذاكرة التخزين المؤقت لكامل الصفحة",module,Magento_PageCache
 "Varnish Configuration","ضبط Varnish",module,Magento_PageCache
 "Payment Methods","نظم الدفع",module,Magento_Payment
 "API Password","API كلمة السر",module,Magento_Paypal
