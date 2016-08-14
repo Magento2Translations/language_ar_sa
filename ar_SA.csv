@@ -237,6 +237,7 @@ Loading...,تحميل...,module,Magento_Backend
 "Database and Media Backup","النسخ الاحتياطي لقاعدة البيانات و الوسائط",module,Magento_Backup
 "Database Backup","النسخ الاحتياطي لقاعدة البيانات",module,Magento_Backup
 "The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","يمكن أن يكون الأرشيف غير مضغوط مع <a href=""%1"">%2</a> على أنظمة وندوز.",module,Magento_Backup
+"You need more permissions to activate maintenance mode right now.","تحتاج مزيد من الصلاحيات لتنشيط وضع الصيانة الآن.",module,Magento_Backup
 Backups,الاحتياطات,module,Magento_Backup
 System,النظام,module,Magento_Backup
 Tools,ادوات,module,Magento_Backup
@@ -1124,6 +1125,7 @@ Template,قالب,module,Magento_Email
 "Encryption Key","مفتاح التشفير",module,Magento_EncryptionKey
 "New Encryption Key","مفتاح تشفير جديد",module,Magento_EncryptionKey
 "The encryption key is used to protect passwords and other sensitive data.","يتم استخدام مفتاح التشفير لحماية كلمات المرور والبيانات الحساسة الأخرى.",module,Magento_EncryptionKey
+"Auto-generate a Key","إنشاء تلقائي لمفتاح",module,Magento_EncryptionKey
 No,لا,module,Magento_EncryptionKey
 Yes,نعم,module,Magento_EncryptionKey
 "Europe First Priority","الأولوية الأولى في أوروبا",module,Magento_Fedex
@@ -1367,6 +1369,7 @@ Subscribe,اشتراك,module,Magento_Newsletter
 "Make Check payable to:","تقديم شيك مستحق الدفع لـ:",module,Magento_OfflinePayments
 "Send Check to:","ارسل الشيك الى:",module,Magento_OfflinePayments
 "Purchase Order Number","رقم طلب الشراء",module,Magento_OfflinePayments
+"Make Check payable to: %1","اجعل الشيك مدفوعا الى: %1",module,Magento_OfflinePayments
 "Purchase Order Number: %1","رقم الطلب: %1",module,Magento_OfflinePayments
 "Make Check payable to","اجعل الشيك مدفوعا الى",module,Magento_OfflinePayments
 "Send Check to","ارسل الشيك الى",module,Magento_OfflinePayments
@@ -1392,7 +1395,7 @@ No,لا,module,Magento_OfflineShipping
 "For shipment with matching items","للشحن مع السلع المطابقة",module,Magento_OfflineShipping
 "Ttl value ""%1"" is not valid. Please use only numbers equal or greater than zero.","قيمة Ttl ""%1"" غير صحيحة. الرجاء استخدام الأرقام المساوية أو أكبر من الصفر.",module,Magento_PageCache
 "Built-in Application (Not Recommended for Production Use)","التطبيق المدمج (غير مستحسن للإستخدام الإنتاجي)",module,Magento_PageCache
-"Varnish Caching","التخزين المؤقت الورنيش",module,Magento_PageCache
+"Varnish Caching","التخزين المؤقت لفارنيش",module,Magento_PageCache
 "We cannot retrieve the payment method model object.","لا يمكن استرداد نمذج طريقة الدفع.",module,Magento_Payment
 Month,الشهر,module,Magento_Payment
 Year,السنة,module,Magento_Payment
@@ -1408,6 +1411,7 @@ Yes,نعم,module,Magento_Payment
 No,لا,module,Magento_Payment
 "Expiration Date","تاريخ الانتهاء",module,Magento_Payment
 "Card Verification Number","رقم التحقق من البطاقة",module,Magento_Payment
+"Switch/Solo/Maestro Only","سويتش/سولو/مايسترو فقط",module,Magento_Payment
 "Issue Number","رقم الإصدار",module,Magento_Payment
 "Start Date","تاريخ البدء",module,Magento_Payment
 "--Please Select--","--أختر من فضلك--",module,Magento_Payment
@@ -1503,6 +1507,7 @@ Price:,السعر:,module,Magento_ProductAlert
 Url,"عنوان Url",module,Magento_ProductVideo
 "Preview Image","معاينة الصورة",module,Magento_ProductVideo
 "Get Video Information","الحصول على معلومات الفيديو",module,Magento_ProductVideo
+"Add video","اضف فيديو",module,Magento_ProductVideo
 "The requested Payment Method is not available.","طريقة الدفع المطلوبة لم تعد موجودة.",module,Magento_Quote
 "Grand Total","المجموع الاجمالى",module,Magento_Quote
 "Shipping & Handling (%1)","الشحن & التوصيل (%1)",module,Magento_Quote
@@ -1797,6 +1802,7 @@ From,من,module,Magento_Sales
 To,إلى,module,Magento_Sales
 Message,رسالة,module,Magento_Sales
 "Edit Order #%1","تحرير طلب #%1",module,Magento_Sales
+"Create New Order for New Customer in %1","إنشاء طلب شراء جديد لعميل جديد في %1",module,Magento_Sales
 "Create New Order for New Customer","إنشاء طلب شراء جديد لعميل جديد",module,Magento_Sales
 "Items Ordered","عناصر الطلب",module,Magento_Sales
 "Item ordered qty","الكمية المطلوبة من هذا المنتج",module,Magento_Sales
@@ -2037,6 +2043,7 @@ Close,غلق,module,Magento_Sales
 "Add to Cart","أضف لسلة التسوق",module,Magento_Sales
 "The link to a friend was sent.","تم إرسال الرابط لصديق.",module,Magento_SendFriend
 "We found some problems with the data.","وجدنا بعض المشاكل مع البيانات.",module,Magento_SendFriend
+"Some emails were not sent.","لم ترسل بعض رسائل البريد الإلكتروني.",module,Magento_SendFriend
 "Invalid Sender Email","بريد الراسل غير صحيح",module,Magento_SendFriend
 "Please enter a correct recipient email address.","الرجاء إدخال عنوان بريد إلكتروني صحيح.",module,Magento_SendFriend
 Name,اسم,module,Magento_SendFriend
@@ -2046,6 +2053,7 @@ Back,رجوع,module,Magento_SendFriend
 "New Shipment for Order #%1","شحنة جديدة للطلب #%1",module,Magento_Shipping
 "Submit Shipment","ارسال الشحنه",module,Magento_Shipping
 "Products should be added to package(s)","ينبغي إضافة المنتجات إلى الحزمة (الحزم)",module,Magento_Shipping
+"The value that you entered is not valid.","القيمة المدخلة ليست صحيحة.",module,Magento_Shipping
 "Add Tracking Number","إضافة رقم تعقب",module,Magento_Shipping
 "Custom Value","قيمة مخصصة",module,Magento_Shipping
 Add,إضافة,module,Magento_Shipping
@@ -2248,6 +2256,7 @@ Time,الزمن,module,Magento_Theme
 "UPS Second Day Air","الشحن في اليوم التالي عن طريق الجو UPS",module,Magento_Ups
 "UPS Ground","شحن ارضي UPS",module,Magento_Ups
 "UPS Worldwide Express","الشحن العالمي السريع UPS",module,Magento_Ups
+"UPS Worldwide Expedited","الشحن العالمي المستعجل UPS",module,Magento_Ups
 "UPS Next Day Air Saver","الشحن في اليوم التالي عن طريق الجو UPS",module,Magento_Ups
 "UPS Next Day Air Early A.M.","شحن في اليوم التالي صباحاً عن طريق الجو UPS.",module,Magento_Ups
 "UPS Worldwide Express Plus","UPS الدولي Express Plus",module,Magento_Ups
@@ -2662,6 +2671,8 @@ Enable,تفعيل,module,Magento_GoogleAnalytics
 Description,الوصف,module,Magento_Indexer
 Status,الحاله,module,Magento_Indexer
 Updated,محدث,module,Magento_Indexer
+"Integration configuration file.","ملف تكوين الإندماج.",module,Magento_Integration
+"No Integrations Found","لايوجد إندماجات",module,Magento_Integration
 Status,الحاله,module,Magento_Integration
 Options,الخيارات,module,Magento_Multishipping
 "Review Order","مراجعة الطلب",module,Magento_Multishipping
@@ -2709,7 +2720,9 @@ Type,النوع,module,Magento_OfflineShipping
 Condition,الشرط,module,Magento_OfflineShipping
 Export,استخراج,module,Magento_OfflineShipping
 Import,استيراد,module,Magento_OfflineShipping
+"Full Page Cache","ذاكرة التخزين المؤقت لكامل الصفحة",module,Magento_PageCache
 "Varnish Configuration","ضبط Varnish",module,Magento_PageCache
+"Full page caching.","التخزين المؤقت لكامل الصفحة.",module,Magento_PageCache
 "Payment Methods","نظم الدفع",module,Magento_Payment
 "API Password","API كلمة السر",module,Magento_Paypal
 "Proxy Host","مضيف البروكسي",module,Magento_Paypal
@@ -2738,6 +2751,7 @@ Frequency,التردد,module,Magento_ProductAlert
 "Error Email Sender","خطأ فى ارسال الرسالة",module,Magento_ProductAlert
 "Error Email Template","خطأ فى قالب الرسالة",module,Magento_ProductAlert
 "Sign up for price alert","الاشتراك في تنبيه السعر",module,Magento_ProductAlert
+"Sign up to be notified when this product is back in stock.","إشترك لتلقي تنبيه عندما يتوفر هذا المنتج بالمفخزون مرة أخرى.",module,Magento_ProductAlert
 "Recently Viewed/Compared Products","المنتجات المشاهدة/المقارنة حديثا",module,Magento_Reports
 "Show for Current","مشاهدة للاحلالية",module,Magento_Reports
 Dashboard,"لوحة التحكم",module,Magento_Reports
