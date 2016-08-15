@@ -238,6 +238,7 @@ Loading...,تحميل...,module,Magento_Backend
 "Database Backup","النسخ الاحتياطي لقاعدة البيانات",module,Magento_Backup
 "The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","يمكن أن يكون الأرشيف غير مضغوط مع <a href=""%1"">%2</a> على أنظمة وندوز.",module,Magento_Backup
 "You need more permissions to activate maintenance mode right now.","تحتاج مزيد من الصلاحيات لتنشيط وضع الصيانة الآن.",module,Magento_Backup
+"You need more free space to create a backup.","كنت بحاجة إلى مزيد من المساحة الحرة لإنشاء نسخة احتياطية.",module,Magento_Backup
 Backups,الاحتياطات,module,Magento_Backup
 System,النظام,module,Magento_Backup
 Tools,ادوات,module,Magento_Backup
@@ -263,6 +264,7 @@ Country,الدولة,module,Magento_Braintree
 "Credit card type is not allowed for this payment method.","غير مسموح بنوع بطاقة الائتمان لطريقة الدفع هذه.",module,Magento_Braintree
 "Selected payment type is not allowed for billing country.","غير مسموح بنوع الدفع المحدد للفوترة في البلد.",module,Magento_Braintree
 "Please try again later","من فضلك حاول مرة أخرى",module,Magento_Braintree
+"This refund is for a partial amount but the Transaction has not settled.","إسترداد المبالغ هذا هو إسترجاع لمبلغ جزئي ولكن العملية التجارية لم تتم.",module,Magento_Braintree
 "Please wait 24 hours before trying to issue a partial refund.","الرجاء الانتظار 24 ساعة قبل محاولة إصدار مسترجع جزئي.",module,Magento_Braintree
 "Some transactions are already settled or voided and cannot be voided.","بعض المعاملات بالفعل تسويتها أو باطلة ولا يمكن أن تكون باطلة.",module,Magento_Braintree
 "Invalid Customer ID provided","هوية عميل غير صالحة مقدمة",module,Magento_Braintree
@@ -657,6 +659,7 @@ Loading...,تحميل...,module,Magento_Catalog
 "Edit Terms and Conditions","تحرير شروط الإستخدام",module,Magento_CheckoutAgreements
 "New Terms and Conditions","البنود والشروط الجديدة",module,Magento_CheckoutAgreements
 "Terms and Conditions Information","الشروط والأحكام معلومات",module,Magento_CheckoutAgreements
+"Condition Name","اسم الشرط",module,Magento_CheckoutAgreements
 Status,الحاله,module,Magento_CheckoutAgreements
 Enabled,تفعيل,module,Magento_CheckoutAgreements
 Disabled,"غير مفعل",module,Magento_CheckoutAgreements
@@ -800,6 +803,7 @@ Import,استيراد,module,Magento_CurrencySymbol
 "Manage Currency Rates","إدارة أسعار العملات",module,Magento_CurrencySymbol
 "Import Service","خدمة الاستيراد",module,Magento_CurrencySymbol
 "Save Currency Symbols","حفظ رموز العملات",module,Magento_CurrencySymbol
+"Currency Symbols","رمز العملة",module,Magento_CurrencySymbol
 "Please correct the input data for %1 => %2 rate","الرجاء تصحيح البيانات المدخلة ل %1 => معدل %2",module,Magento_CurrencySymbol
 System,النظام,module,Magento_CurrencySymbol
 "Old rate:","معدل العمر:",module,Magento_CurrencySymbol
@@ -975,6 +979,7 @@ Kilograms,كيلوجرام,module,Magento_Dhl
 Inches,بوصة,module,Magento_Dhl
 Centimeters,سنتيمتر,module,Magento_Dhl
 inch,بوصة,module,Magento_Dhl
+cm,سم,module,Magento_Dhl
 Width,العرض,module,Magento_Dhl
 Regular,عادي,module,Magento_Dhl
 "Same day","في اليوم نفسه",module,Magento_Dhl
@@ -1003,6 +1008,7 @@ None,"لا شئ",module,Magento_Dhl
 "--Please Select--"," --- الرجاء الإختيار --- ",module,Magento_Directory
 "Please correct the target currency.","الرجاء تصحيح العملة المستهدفة.",module,Magento_Directory
 "Undefined rate from ""%1-%2"".","معدل غير معرف من ""%1-%2"".",module,Magento_Directory
+label,التسمية,module,Magento_Directory
 "FATAL ERROR:","خطأ حيوي:",module,Magento_Directory
 WARNING:,تحذير:,module,Magento_Directory
 "Country and Format Type combination should be unique","البلد نوع وشكل الجمع بين ينبغي ان تكون فريدة من نوعها",module,Magento_Directory
@@ -1013,6 +1019,7 @@ Currency,العملة,module,Magento_Directory
 Unlimited,"غير محدود",module,Magento_Downloadable
 "Something went wrong while getting the requested content.","حدث خطأ أثناء الحصول على المحتوى المطلوب.",module,Magento_Downloadable
 "My Downloadable Products","المنتجات التي تم تحملها",module,Magento_Downloadable
+"We can't find the link you requested.","لا يمكن أن نجد الارتباط المطلوب.",module,Magento_Downloadable
 Pending,"في إنتظار المُراجعة",module,Magento_Downloadable
 Invoiced,فاتورة,module,Magento_Downloadable
 Title,العنوان,module,Magento_Downloadable
@@ -1128,6 +1135,7 @@ Template,قالب,module,Magento_Email
 "Auto-generate a Key","إنشاء تلقائي لمفتاح",module,Magento_EncryptionKey
 No,لا,module,Magento_EncryptionKey
 Yes,نعم,module,Magento_EncryptionKey
+"The generated key will be displayed after changing.","سيتم عرض المفتاح الذي تم إنشاؤه بعد تغيير.",module,Magento_EncryptionKey
 "Europe First Priority","الأولوية الأولى في أوروبا",module,Magento_Fedex
 "1 Day Freight","الشحن بيوم واحد",module,Magento_Fedex
 "2 Day Freight","الشحن في يومين",module,Magento_Fedex
@@ -1236,6 +1244,7 @@ Previous,السابق,module,Magento_LayeredNavigation
 "Clear All","إلغاء الكل",module,Magento_LayeredNavigation
 "Shopping Options","خيارات تنفيذ البيع",module,Magento_LayeredNavigation
 "Platinum Partners","شركاء البلاتين",module,Magento_Marketplace
+"Featured Platinum Partners","الشركاء البلاتين الموصى بها",module,Magento_Marketplace
 "Partner search","البحث عن شريك",module,Magento_Marketplace
 "More Partners","المزيد من الشركاء",module,Magento_Marketplace
 "Visit Magento Marketplaces","زيارة Magento Marketplaces",module,Magento_Marketplace
@@ -1403,6 +1412,7 @@ Year,السنة,module,Magento_Payment
 N/A,"غير متاح",module,Magento_Payment
 "Credit Card Type","نوع بطاقة الائتمان",module,Magento_Payment
 "Credit Card Number","رقم بطاقة الائتمان",module,Magento_Payment
+"Switch/Solo/Maestro Issue Number","رمز التبديل/سولو/مايسترو العدد",module,Magento_Payment
 Discount,خصم,module,Magento_Payment
 Shipping,الشحن,module,Magento_Payment
 "All Allowed Countries","يسمح لجميع البلدان",module,Magento_Payment
@@ -1499,6 +1509,7 @@ Continue,استمر,module,Magento_Paypal
 "You saved the alert subscription.","لقد تم حفظ إشتراكك لتنبيه الأسعار.",module,Magento_ProductAlert
 "There are not enough parameters.","لا توجد معلمات كافية.",module,Magento_ProductAlert
 "Alert subscription has been saved.","لقد تم حفظ التنبيه الاشتراك.",module,Magento_ProductAlert
+"You deleted the alert subscription.","لقد تم إلغاء إشتراكك في الإشعارات.",module,Magento_ProductAlert
 "You will no longer receive price alerts for this product.","لن تتسلم تنبيهات تغيير السعر لهذا المنتج مجدداً.",module,Magento_ProductAlert
 "Unable to update the alert subscription.","غير قادر على تحديث اشتراك التنبيهات.",module,Magento_ProductAlert
 Price:,السعر:,module,Magento_ProductAlert
@@ -2170,6 +2181,7 @@ Language,لغة,module,Magento_Store
 "Tax Identifier","معرف الضريبة",module,Magento_Tax
 "Zip/Post is Range","الرمز البريدي",module,Magento_Tax
 "Zip/Post Code","الرمز البريدي",module,Magento_Tax
+"'*' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.","'*'-يطابق أي؛ 'xyz *'-يطابق أي التي تبدأ في 'xyz'، وهي ليست أطول من %1.",module,Magento_Tax
 "Range From","الحدود من",module,Magento_Tax
 "Range To","الحدود إلى",module,Magento_Tax
 State,ولاية,module,Magento_Tax
@@ -2257,6 +2269,7 @@ Time,الزمن,module,Magento_Theme
 "UPS Ground","شحن ارضي UPS",module,Magento_Ups
 "UPS Worldwide Express","الشحن العالمي السريع UPS",module,Magento_Ups
 "UPS Worldwide Expedited","الشحن العالمي المستعجل UPS",module,Magento_Ups
+"UPS Standard","UPS عادي",module,Magento_Ups
 "UPS Next Day Air Saver","الشحن في اليوم التالي عن طريق الجو UPS",module,Magento_Ups
 "UPS Next Day Air Early A.M.","شحن في اليوم التالي صباحاً عن طريق الجو UPS.",module,Magento_Ups
 "UPS Worldwide Express Plus","UPS الدولي Express Plus",module,Magento_Ups
@@ -2272,6 +2285,7 @@ None,"لا شئ",module,Magento_Ups
 "Edit URL Rewrite for a Category","تحرير كتابة عنوان URL لقسم",module,Magento_UrlRewrite
 "Add URL Rewrite for a Category","اضافة URL لقسم",module,Magento_UrlRewrite
 Category:,القسم:,module,Magento_UrlRewrite
+"Add URL Rewrite for a Product","اضافة URL إعادة كتابة لمنتج",module,Magento_UrlRewrite
 Product:,المنتج:,module,Magento_UrlRewrite
 "Skip Category Selection","تخطي اختيار القسم",module,Magento_UrlRewrite
 ID,التعريف,module,Magento_UrlRewrite
@@ -2354,6 +2368,8 @@ Resources,مصادر,module,Magento_User
 "First-Class Mail Parcel","الطرود البريد من الدرجة الأولى",module,Magento_Usps
 "First-Class Mail Postcards","رسالة بريد من الدرجة الأولى",module,Magento_Usps
 "Priority Mail","البريد الالكتروني الاولي",module,Magento_Usps
+"Priority Mail Express","أولوية البريد السريع",module,Magento_Usps
+"Retail Ground","أرض البيع بالتجزئة",module,Magento_Usps
 "Media Mail","وسائل الاعلام البريد الالكتروني",module,Magento_Usps
 Letter,رسالة,module,Magento_Usps
 Flat,مسطحة,module,Magento_Usps
@@ -2378,9 +2394,14 @@ None,"لا شئ",module,Magento_Usps
 "Insert Variable...","إدراج متغير...",module,Magento_Variable
 "Operation allowed only in HTTPS","العمليات المسموح بها فقط في HTTPS",module,Magento_Webapi
 "Request does not match any route.","طلب لا يتطابق مع أي مسار.",module,Magento_Webapi
+"Not allowed parameters: %1. Please use only %2 and %3.","لا يسمح معلمات: %1. الرجاء استخدام %2 و %3 فقط.",module,Magento_Webapi
+"Operation ""%1"" not found.","عملية ""%1"" لم يتم العثور على.",module,Magento_Webapi
 "Add Tax","إضافة ضريبة",module,Magento_Weee
 "Delete Tax","حذف الضرائب",module,Magento_Weee
 "All Websites","جميع المواقع",module,Magento_Weee
+"We found a duplicate of website, country and state fields for a fixed product tax","وجدنا نسخة مكررة حقول الموقع والبلد والدولة لفرض ضريبة على منتجات الثابتة",module,Magento_Weee
+"Including FPT and FPT description","بما في ذلك FPT و FPT الوصف",module,Magento_Weee
+"Excluding FPT. Including FPT description and final price","باستثناء FPT. بما في ذلك وصف FPT والسعر النهائي",module,Magento_Weee
 Website,الموقع,module,Magento_Weee
 Tax,الضريبة,module,Magento_Weee
 Action,إجراء,module,Magento_Weee
@@ -2389,6 +2410,7 @@ Action,إجراء,module,Magento_Weee
 label,التسمية,module,Magento_Widget
 Choose...,اختر...,module,Magento_Widget
 Close,غلق,module,Magento_Widget
+Widget,ويدجت,module,Magento_Widget
 "-- Please Select --","--الرجاء الاختيار-",module,Magento_Widget
 "Save and Continue Edit","حفظ ومواصلة التعديل",module,Magento_Widget
 Type,النوع,module,Magento_Widget
@@ -2662,6 +2684,7 @@ Debug,نقح,module,Magento_Fedex
 "Allow Gift Messages on Order Level","رسائل تسمح هدية على مستوى النظام",module,Magento_GiftMessage
 "Allow Gift Messages for Order Items","السماح للرسائل هدية من اجل بنود",module,Magento_GiftMessage
 Enable,تفعيل,module,Magento_GoogleAdwords
+"Conversion Language","تحويل اللغة",module,Magento_GoogleAdwords
 "Google API","جوجل API",module,Magento_GoogleAnalytics
 "Google Analytics","تحليلات غوغل",module,Magento_GoogleAnalytics
 Enable,تفعيل,module,Magento_GoogleAnalytics
@@ -2721,7 +2744,9 @@ Condition,الشرط,module,Magento_OfflineShipping
 Export,استخراج,module,Magento_OfflineShipping
 Import,استيراد,module,Magento_OfflineShipping
 "Full Page Cache","ذاكرة التخزين المؤقت لكامل الصفحة",module,Magento_PageCache
+"Caching Application","التخزين المؤقت للتطبيق",module,Magento_PageCache
 "Varnish Configuration","ضبط Varnish",module,Magento_PageCache
+"Access list","قائمة الوصول",module,Magento_PageCache
 "Full page caching.","التخزين المؤقت لكامل الصفحة.",module,Magento_PageCache
 "Payment Methods","نظم الدفع",module,Magento_Payment
 "API Password","API كلمة السر",module,Magento_Paypal
