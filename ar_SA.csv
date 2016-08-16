@@ -38,10 +38,12 @@ Close,غلق,module,Magento_AdminNotification
 "Order saving error: %1","امر حفظ الخطاء: %1",module,Magento_Authorizenet
 "Please choose a payment method.","الرجاء اختيار طريقة الدفع.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","كارت ائتماني: xxxx-%1",module,Magento_Authorizenet
+"amount %1","%1 كمية",module,Magento_Authorizenet
 failed.,فشل.,module,Magento_Authorizenet
 successful.,بنجاح.,module,Magento_Authorizenet
 "Authorize.Net Transaction ID %1.","رقم معاملة Authorize.Net %1.",module,Magento_Authorizenet
 authorize,التصريح,module,Magento_Authorizenet
+"authorize and capture","التحقق و القبض",module,Magento_Authorizenet
 capture,التقاط,module,Magento_Authorizenet
 refund,"اعادة المبلغ المدفوع",module,Magento_Authorizenet
 void,الفراغ,module,Magento_Authorizenet
