@@ -25,9 +25,11 @@ major,مهم,module,Magento_AdminNotification
 minor,ثانوي,module,Magento_AdminNotification
 notice,إشعار,module,Magento_AdminNotification
 "Wrong message type","نوع رسالة خاطئ",module,Magento_AdminNotification
+"Wrong notification ID specified.","معرف الإشعار المحدد خاطئ.",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","الرجاء الانتقال إلى <a href=""%1""> إدارة ذاكرة التخزين المؤقت</a> واعدة تنشيطها.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","اكتملت مواففة وسائط التخزين.",module,Magento_AdminNotification
 Close,غلق,module,Magento_AdminNotification
+"System Messages:","رسائل النظام:",module,Magento_AdminNotification
 "Critical System Messages","رسائل النظام خطيرة",module,Magento_AdminNotification
 "Major System Messages","رسائل النظام مهمة",module,Magento_AdminNotification
 "System messages","رسائل النظام",module,Magento_AdminNotification
@@ -2932,6 +2934,10 @@ Ok,موافق,module,Magento_Sales
 Attention,تنبيه,module,Magento_Ui
 Close,غلق,module,Magento_Ui
 Ok,موافق,module,Magento_Ui
+"Use HTTPS to Get Feed","استخدام HTTPS للحصول على تغذية",module,Magento_AdminNotification
+"Update Frequency","تردد التحديث",module,Magento_AdminNotification
+"Last Update","آخر تحديث",module,Magento_AdminNotification
+Severity,خطورة,module,Magento_AdminNotification
 "Date Added","اضافة تاريخ",module,Magento_AdminNotification
 Message,رسالة,module,Magento_AdminNotification
 Actions,اعمال,module,Magento_AdminNotification
