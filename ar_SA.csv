@@ -2476,6 +2476,10 @@ Cancel,إلغاء,module,Magento_Catalog
 Done,انتهى,module,Magento_Integration
 "Add Products","إضافة منتجات",module,Magento_Sales
 Ok,موافق,module,Magento_Sales
+"Use HTTPS to Get Feed","استخدام HTTPS للحصول على تغذية",module,Magento_AdminNotification
+"Update Frequency","تردد التحديث",module,Magento_AdminNotification
+"Last Update","آخر تحديث",module,Magento_AdminNotification
+Severity,خطورة,module,Magento_AdminNotification
 "Date Added","اضافة تاريخ",module,Magento_AdminNotification
 Message,رسالة,module,Magento_AdminNotification
 Actions,اعمال,module,Magento_AdminNotification
