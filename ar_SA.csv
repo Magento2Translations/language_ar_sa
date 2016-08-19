@@ -1180,6 +1180,7 @@ Constant,ثابت,module,Magento_GoogleAdwords
 "Product View Optimization","تحسين طريقة عرض المنتج",module,Magento_GoogleOptimizer
 "Page View Optimization","تحسين طريقة عرض الصفحة",module,Magento_GoogleOptimizer
 "Google Analytics Content Experiments Code","كود Google Analytics Content Experiments",module,Magento_GoogleOptimizer
+"Experiment Code","رمز التجربة",module,Magento_GoogleOptimizer
 "Category View Optimization","تحسين طريقة عرض القسم",module,Magento_GoogleOptimizer
 "Grouped Products","المنتجات المجمعة",module,Magento_GroupedProduct
 "Please specify the quantity of product(s).","الرجاء تحديد كمية المنتج (المنتجات).",module,Magento_GroupedProduct
@@ -1239,6 +1240,7 @@ No,لا,module,Magento_LayeredNavigation
 "Use in Layered Navigation","استخدم في طبقات الملاحة",module,Magento_LayeredNavigation
 "Can be used only with catalog input type Dropdown, Multiple Select and Price","يمكن استخدامه فقط مع نوع الحق القائمة المنسدلة، واختيار المتعدد والسعر",module,Magento_LayeredNavigation
 Position,موقع,module,Magento_LayeredNavigation
+"Position in Layered Navigation","وضع في الملاحة الطبقات",module,Magento_LayeredNavigation
 "Position of attribute in layered navigation block","موقف السمة عرقلة الملاحة في الطبقات",module,Magento_LayeredNavigation
 Previous,السابق,module,Magento_LayeredNavigation
 "Remove This Item","حذف هذا العنصر",module,Magento_LayeredNavigation
@@ -2287,6 +2289,7 @@ None,"لا شئ",module,Magento_Ups
 "Edit URL Rewrite for a Category","تحرير كتابة عنوان URL لقسم",module,Magento_UrlRewrite
 "Add URL Rewrite for a Category","اضافة URL لقسم",module,Magento_UrlRewrite
 Category:,القسم:,module,Magento_UrlRewrite
+"Edit URL Rewrite for a Product","تحرير كتابة عنوان URL للمنتج",module,Magento_UrlRewrite
 "Add URL Rewrite for a Product","اضافة URL إعادة كتابة لمنتج",module,Magento_UrlRewrite
 Product:,المنتج:,module,Magento_UrlRewrite
 "Skip Category Selection","تخطي اختيار القسم",module,Magento_UrlRewrite
@@ -2397,11 +2400,13 @@ None,"لا شئ",module,Magento_Usps
 "Operation allowed only in HTTPS","العمليات المسموح بها فقط في HTTPS",module,Magento_Webapi
 "Request does not match any route.","طلب لا يتطابق مع أي مسار.",module,Magento_Webapi
 "Not allowed parameters: %1. Please use only %2 and %3.","لا يسمح معلمات: %1. الرجاء استخدام %2 و %3 فقط.",module,Magento_Webapi
+"Requested service is not available: ""%1""","طلب خدمة غير متوفرة: ""%1""",module,Magento_Webapi
 "Operation ""%1"" not found.","عملية ""%1"" لم يتم العثور على.",module,Magento_Webapi
 "Add Tax","إضافة ضريبة",module,Magento_Weee
 "Delete Tax","حذف الضرائب",module,Magento_Weee
 "All Websites","جميع المواقع",module,Magento_Weee
 "We found a duplicate of website, country and state fields for a fixed product tax","وجدنا نسخة مكررة حقول الموقع والبلد والدولة لفرض ضريبة على منتجات الثابتة",module,Magento_Weee
+"Including FPT only","بما في ذلك FPT فقط",module,Magento_Weee
 "Including FPT and FPT description","بما في ذلك FPT و FPT الوصف",module,Magento_Weee
 "Excluding FPT. Including FPT description and final price","باستثناء FPT. بما في ذلك وصف FPT والسعر النهائي",module,Magento_Weee
 Website,الموقع,module,Magento_Weee
@@ -2412,7 +2417,9 @@ Action,إجراء,module,Magento_Weee
 label,التسمية,module,Magento_Widget
 Choose...,اختر...,module,Magento_Widget
 Close,غلق,module,Magento_Widget
+"Not Selected","غير محدد",module,Magento_Widget
 Widget,ويدجت,module,Magento_Widget
+"Widget Type","نوع الأداة",module,Magento_Widget
 "-- Please Select --","--الرجاء الاختيار-",module,Magento_Widget
 "Save and Continue Edit","حفظ ومواصلة التعديل",module,Magento_Widget
 Type,النوع,module,Magento_Widget
@@ -2690,7 +2697,9 @@ Debug,نقح,module,Magento_Fedex
 "Allow Gift Messages on Order Level","رسائل تسمح هدية على مستوى النظام",module,Magento_GiftMessage
 "Allow Gift Messages for Order Items","السماح للرسائل هدية من اجل بنود",module,Magento_GiftMessage
 Enable,تفعيل,module,Magento_GoogleAdwords
+"Conversion ID","معرف التحويل",module,Magento_GoogleAdwords
 "Conversion Language","تحويل اللغة",module,Magento_GoogleAdwords
+"Conversion Format","نوع التحويل",module,Magento_GoogleAdwords
 "Google API","جوجل API",module,Magento_GoogleAnalytics
 "Google Analytics","تحليلات غوغل",module,Magento_GoogleAnalytics
 Enable,تفعيل,module,Magento_GoogleAnalytics
