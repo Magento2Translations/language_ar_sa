@@ -199,7 +199,7 @@ Error,خطأ,module,Magento_Backend
 "Please make sure that all global admin search modules are installed and activated.","يرجى التأكد من ان جميع وحدات البحث العالمية الادارة تثبيت وتفعيل.",module,Magento_Backend
 System,النظام,module,Magento_Backend
 "Manage Stores","إدارة المتاجر",module,Magento_Backend
-"Unable to delete store. Please, try again later.","غير قادر على حذف متجر. من فضلك، حاول مرة أخرى لاحقاً.",module,Magento_Backend
+"Unable to delete store. Please, try again later.","غير قادر على حذف المتجر. من فضلك، حاول مرة أخرى لاحقاً.",module,Magento_Backend
 "Store View","عرض المتجر",module,Magento_Backend
 "Unable to delete store view. Please, try again later.","غير قادر على حذف واجهة متجر. من فضلك، حاول مرة أخرى لاحقاً.",module,Magento_Backend
 "Unable to delete website. Please, try again later.","غير قادر على حذف الموقع. من فضلك، حاول مرة أخرى لاحقاً.",module,Magento_Backend
@@ -282,7 +282,7 @@ Delete,احذف,module,Magento_Braintree
 Back,الرجوع,module,Magento_Braintree
 "* Required Fields","* حقول مطلوبة",module,Magento_Braintree
 "What is this?","ما هذا؟",module,Magento_Braintree
-"Make Default","جعل الافتراضي",module,Magento_Braintree
+"Make Default","جعلها الافتراضية",module,Magento_Braintree
 "Billing Address","عنوان الفاتورة",module,Magento_Braintree
 "First Name","الإسم الأول",module,Magento_Braintree
 "Last Name","اسم العائلة",module,Magento_Braintree
@@ -290,7 +290,7 @@ Company,الشركة,module,Magento_Braintree
 City,المدينة,module,Magento_Braintree
 State/Province,ولاية/مقاطعة,module,Magento_Braintree
 "Please select region, state or province","من فضلك اختر منطقة، ولاية أو مقاطعة",module,Magento_Braintree
-Submit,تسليم,module,Magento_Braintree
+Submit,ارسال,module,Magento_Braintree
 "Add Credit Card","إضافة بطاقة إئتمان",module,Magento_Braintree
 Type,النوع,module,Magento_Braintree
 "Is Default","هي افتراضية",module,Magento_Braintree
@@ -417,11 +417,11 @@ Search,بحث,module,Magento_CatalogSearch
 "Modify your search","تعديل البحث",module,Magento_CatalogSearch
 Root,الجذر,module,Magento_Catalog
 "Save Category","حفظ الفئة",module,Magento_Catalog
-"Delete Category","حذف فئة",module,Magento_Catalog
+"Delete Category","حذف التصنيف",module,Magento_Catalog
 Reset,"اعادة ضبط",module,Magento_Catalog
-"New Subcategory","فئة فرعية جديدة",module,Magento_Catalog
-"New Root Category","فئة رئيسية جديدة",module,Magento_Catalog
-"Set Root Category for Store","تكوين فئة جذور للمتجر",module,Magento_Catalog
+"New Subcategory","تصنيف فرعي جديد",module,Magento_Catalog
+"New Root Category","تصنيف رئيسي جديد",module,Magento_Catalog
+"Set Root Category for Store","تكوين تصنيف جذري للمتجر",module,Magento_Catalog
 "Use Config Settings","استخدام اعداد الاعدادات",module,Magento_Catalog
 "Use All Available Attributes","استخدام كافة السمات المتاحة",module,Magento_Catalog
 "Custom Design","خيارات التصميم",module,Magento_Catalog
@@ -429,7 +429,7 @@ ID,التعريف,module,Magento_Catalog
 Name,اسم,module,Magento_Catalog
 Price,السعر,module,Magento_Catalog
 Position,موقع,module,Magento_Catalog
-"Category Data","بيانات الفئة",module,Magento_Catalog
+"Category Data","بيانات التصنيف",module,Magento_Catalog
 "Category Products","قسم المنتجات",module,Magento_Catalog
 "Add Subcategory","قسم فرعي جديد",module,Magento_Catalog
 "Add Root Category","اضف قسم رئيسي",module,Magento_Catalog
@@ -2506,7 +2506,7 @@ Advanced,متقدم,module,Magento_Backend
 "Sender Email","البريد الإلكتروني للمرسل",module,Magento_Backend
 "Sender Name","اسم المرسل",module,Magento_Backend
 Design,تصميم,module,Magento_Backend
-"Design Theme","تصميم ثيم",module,Magento_Backend
+"Design Theme","انشاء تصميم",module,Magento_Backend
 "User-Agent Exceptions","إستثناءات وكيل المستخدم",module,Magento_Backend
 "Find a string in client user-agent header and switch to specific design theme for that browser.","اعثر على سلسلة في رأس وكيل- المستخدم العميل وقم بالتبديل إلى تصمي ثيمم المحددة الخاصة بهذا المستعرض.",module,Magento_Backend
 "If the current frame position does not cover utmost pages, will render link to current position plus/minus this value.","إذا كان موضع الإطار الحالي لا يغطي صفحات قصوى، ستؤدي إلى الارتباط إلى الموضع الحالي علامة زائد/ناقص من هذه القيمة.",module,Magento_Backend
@@ -2530,7 +2530,7 @@ Host,المضيف,module,Magento_Backend
 Admin,المدير,module,Magento_Backend
 "Forgot Password Email Template","نسيت كلمة السر البريد الالكتروني قالب",module,Magento_Backend
 "Recovery Link Expiration Period (days)","فترة انتهاء صلاحية رابط الاسترداد (الأيام)",module,Magento_Backend
-"Values less than 60 are ignored.","يتم تجاهل قيم أقل من 60.",module,Magento_Backend
+"Values less than 60 are ignored.","تجاهل القيم الاقل من 60.",module,Magento_Backend
 Web,موقع,module,Magento_Backend
 "Url Options","خيارات الموقع",module,Magento_Backend
 "Add Store Code to Urls","رمز المخزن اضافة الى عناوين المواقع",module,Magento_Backend
