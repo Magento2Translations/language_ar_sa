@@ -2783,6 +2783,7 @@ Page,حقيبة,module,Magento_Widget
 Comment,تعليق,module,Magento_Wishlist
 "Display number of items in wish list","عرض عدد العناصر في قائمة الامنيات",module,Magento_Wishlist
 "Display item quantities","عرض كميات السلع",module,Magento_Wishlist
+Comment:,التعليق:,module,Magento_Wishlist
 "The product does not exist.","هذا المنتج غير موجود.",module,Magento_Wishlist
 message,رسالة,module,Magento_Wishlist
 Message,رسالة,module,Magento_Wishlist
@@ -2794,6 +2795,7 @@ error-message,"رسالة الخطأ",module,Magento_Wishlist
 "View Product","عرض المنتج",module,Magento_Wishlist
 Qty,الكميّة,module,Magento_Wishlist
 "Add to Cart","أضف لسلة التسوق",module,Magento_Wishlist
+Availability,التوفر,module,Magento_Wishlist
 "In stock",متوفر,module,Magento_Wishlist
 "Out of stock","غير متوفر بالمخزن",module,Magento_Wishlist
 Edit,تحرير,module,Magento_Wishlist
@@ -2803,6 +2805,7 @@ Edit,تحرير,module,Magento_Wishlist
 "See Details","عرض التفاصيل",module,Magento_Wishlist
 "RSS Feed","RSS تغذية",module,Magento_Wishlist
 Product,المنتج,module,Magento_Wishlist
+"Add to Wish List","أضف لقائمة الرغبات",module,Magento_Wishlist
 Back,رجوع,module,Magento_Wishlist
 "* Required Fields","* حقول مطلوبة",module,Magento_Wishlist
 "Sharing Information","بيانات المشاركة",module,Magento_Wishlist
@@ -2871,6 +2874,7 @@ Password:,"الرقم السري:",module,Magento_Customer
 "Thank you,","شكرا لك،",module,Magento_User
 "There was recently a request to change the password for your account.","تم طلب تغيير كلمة المرور الخاصة بك مؤخراَ.",module,Magento_User
 "If you did not make this request, you can ignore this email and your password will remain the same.","إذا لم تقم بإجراء هذا الطلب، يمكنك تجاهل هذا البريد الإلكتروني وكلمة المرور الخاصة بك وسوف تبقى كما هي.",module,Magento_User
+"View all Wish List items","عرض كافة عناصر قائمة الأمنيات",module,Magento_Wishlist
 "%name,",%name،,theme,frontend/Magento/luma
 "Welcome to %store_name.","مرحبا بك في %store_name.",theme,frontend/Magento/luma
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","لتسجيل الدخول إلى موقعنا استخدم بيانات الدخول هذه أثناء للشراء أو من خلال صفحة <a href=""%customer_url""> حسابي</a>:",theme,frontend/Magento/luma
@@ -3459,6 +3463,7 @@ Name,اسم,module,Magento_Variable
 "Orders and Returns Search Form","نموزج بحث الطلبات والمرتجعات",module,Magento_Widget
 Product,المنتج,module,Magento_Widget
 Conditions,الحالات,module,Magento_Widget
+"Share Options","خيارات المشاركة",module,Magento_Wishlist
 "Email Sender","مرسل البريد الإلكتروني",module,Magento_Wishlist
 "Email Template","قالب البريد الإلكتروني",module,Magento_Wishlist
 "General Options","خيارات عامة",module,Magento_Wishlist
