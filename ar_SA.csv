@@ -4,7 +4,7 @@
 Remove,ازالة,module,Magento_AdminNotification
 "Messages Inbox","رسائل علبة الوارد",module,Magento_AdminNotification
 "You have %1 new system messages","لديك %1 من رسائل النظام الجديدة",module,Magento_AdminNotification
-"You have %1 new system message","لديك %1 من رسالة النظام الجديدة",module,Magento_AdminNotification
+"You have %1 new system message","لديك %1 رسالة نظام جديدة",module,Magento_AdminNotification
 "Incoming Message","رسالة واردة",module,Magento_AdminNotification
 close,إغلاق,module,Magento_AdminNotification
 Notifications,اشعارات,module,Magento_AdminNotification
@@ -935,6 +935,7 @@ Change,تغير,module,Magento_Customer
 "Contact Information","بيانات الاتصال",module,Magento_Customer
 "Change Password","تغيير كلمة المرور",module,Magento_Customer
 Newsletters,"النشرات البريدية",module,Magento_Customer
+or,او,module,Magento_Customer
 "Default Addresses","العناوين الافتراضية",module,Magento_Customer
 "Change Billing Address","تغيير عنوان الدفع",module,Magento_Customer
 "You have no default billing address in your address book.","لا يوجد لديك عنوان فوتورة افتراضي في دفتر العناوين.",module,Magento_Customer
@@ -1741,6 +1742,7 @@ Generate,توليد,module,Magento_SalesRule
 Created,إنشاء,module,Magento_SalesRule
 Uses,استخدام,module,Magento_SalesRule
 Delete,احذف,module,Magento_SalesRule
+"Default Label","الملصق الافتراضي",module,Magento_SalesRule
 "General Information","المعلومات العامة",module,Magento_SalesRule
 "Rule Name","أسم القاعدة",module,Magento_SalesRule
 Description,الوصف,module,Magento_SalesRule
@@ -1750,7 +1752,9 @@ Inactive,خاملة,module,Magento_SalesRule
 Websites,الموقع,module,Magento_SalesRule
 "Customer Groups","مجموعات العملاء",module,Magento_SalesRule
 Coupon,"قسيمة الخصم",module,Magento_SalesRule
+"If you select and save the rule you will be able to generate multiple coupon codes.","إذا قمت بتحديد حفظ القاعدة سوف تكون قادر على توليد عدة رموز للقسيمة.",module,Magento_SalesRule
 "Uses per Coupon","مستخدم كل قسيمة الخصم",module,Magento_SalesRule
+"Usage limit enforced for logged in customers only.","حد الاستخدام القسري لتسجيل العملاء فقط.",module,Magento_SalesRule
 Priority,أولوية,module,Magento_SalesRule
 "Public In RSS Feed","النشر في موجز ويب ل RSS",module,Magento_SalesRule
 ID,التعريف,module,Magento_SalesRule
@@ -2405,7 +2409,7 @@ None,"لا شئ",module,Magento_Usps
 "Add Tax","إضافة ضريبة",module,Magento_Weee
 "Delete Tax","حذف الضرائب",module,Magento_Weee
 "All Websites","جميع المواقع",module,Magento_Weee
-"We found a duplicate of website, country and state fields for a fixed product tax","وجدنا نسخة مكررة حقول الموقع والبلد والدولة لفرض ضريبة على منتجات الثابتة",module,Magento_Weee
+"We found a duplicate of website, country and state fields for a fixed product tax","وجدنا نسخة مكررة، حقول الموقع والبلد والدولة لفرض ضريبة ثابتة على المنتجات",module,Magento_Weee
 "Including FPT only","بما في ذلك FPT فقط",module,Magento_Weee
 "Including FPT and FPT description","بما في ذلك FPT و FPT الوصف",module,Magento_Weee
 "Excluding FPT. Including FPT description and final price","باستثناء FPT. بما في ذلك وصف FPT والسعر النهائي",module,Magento_Weee
@@ -2440,7 +2444,7 @@ Page,حقيبة,module,Magento_Widget
 "Wish List","قائمة الامنيات",module,Magento_Wishlist
 "Wish List Sharing","مشاركة قائمة الأمنيات",module,Magento_Wishlist
 "My Wish List","قائمة الامنيات",module,Magento_Wishlist
-"%1's Wish List","قائمة الامنيات %1 's",module,Magento_Wishlist
+"%1's Wish List","قائمة الأمنيات %1 's",module,Magento_Wishlist
 "You added %1 to your shopping cart.","قمت بإضافة %1 إلى عربة التسوق.",module,Magento_Wishlist
 "This product(s) is out of stock.","هذا المنتج (المنتجات) غير متوفر في المخزن.",module,Magento_Wishlist
 "%1 items","%1 قطعة",module,Magento_Wishlist
@@ -2454,6 +2458,7 @@ Message,رسالة,module,Magento_Wishlist
 "Add All to Cart","إضافة الكل إلى سلة التسوق",module,Magento_Wishlist
 "View Product","عرض المنتج",module,Magento_Wishlist
 "Add to Cart","أضف لسلة التسوق",module,Magento_Wishlist
+Availability,التوفر,module,Magento_Wishlist
 "In stock",متوفر,module,Magento_Wishlist
 "Out of stock","غير متوفر بالمخزن",module,Magento_Wishlist
 Edit,تحرير,module,Magento_Wishlist
@@ -2895,13 +2900,22 @@ Enabled,تفعيل,module,Magento_Sitemap
 ID,التعريف,module,Magento_Sitemap
 "Link for Google","رابط لجوجل",module,Magento_Sitemap
 Action,إجراء,module,Magento_Sitemap
+Layouts,"أشكال الصفحة",module,Magento_Store
+"Layout building instructions.","تخطيط بناء التعليمات.",module,Magento_Store
+"Blocks HTML output","مخرجات قوائم HTML",module,Magento_Store
+"Page blocks HTML.","قوائم صفحة HTML.",module,Magento_Store
+"Collections Data","مجموعات البيانات",module,Magento_Store
+"Collection data files.","جمع بيانات الملفات.",module,Magento_Store
 "Shipping Prices","أسعار الشحن",module,Magento_Tax
 "Display Shipping Prices","عرض أسعار الشحن",module,Magento_Tax
 "Display Shipping Amount","عرض أسعار الشحن",module,Magento_Tax
 State/Region,ولاية/منطقة,module,Magento_Tax
 Empty,فارغ,module,Magento_Theme
+"Allowed file types: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Not all browsers support all these formats!","السماح لأنواع الملفات: ICO،PNG، GIF، JPG، JPEG، APNG، SVG. ليس كل المتصفحات تدعم جميع هذه الصيغ!",module,Magento_Theme
 "Default Description","الوصف الاعتيادى",module,Magento_Theme
+"Miscellaneous Scripts","سكربتات متنوعة",module,Magento_Theme
 Footer,"ذيل الصفحة",module,Magento_Theme
+"This will be displayed just before body closing tag.","هذا سيتم عرضه فقط قبل علامة إغلاق الجسم.",module,Magento_Theme
 "Translation Strategy","استراتيجية الترجمة",module,Magento_Translation
 Translations,ترجمات,module,Magento_Translation
 "Translation files.","ملفات الترجمة.",module,Magento_Translation
@@ -2916,12 +2930,14 @@ Password,"كلمة المرور",module,Magento_Ups
 "Sort Order",الترتيب,module,Magento_Ups
 Title,العنوان,module,Magento_Ups
 "Tracking XML URL","متابعة XML الموقع",module,Magento_Ups
+"Live account","حساب حقيقي",module,Magento_Ups
 "Weight Unit","وحدة الوزن",module,Magento_Ups
 "User ID","رمز التعريفي للمستخدم",module,Magento_Ups
 "Displayed Error Message","رسالة الخطأ المعروضة",module,Magento_Ups
 Debug,نقح,module,Magento_Ups
 Action,إجراء,module,Magento_UrlRewrite
 Edit,تحرير,module,Magento_UrlRewrite
+"Reset Password Template","قالب إعادة تعيين كلمة المرور",module,Magento_User
 ID,التعريف,module,Magento_User
 Username,"اسم المستخدم",module,Magento_User
 "Last login","آخر تسجيل دخول",module,Magento_User
@@ -2941,6 +2957,8 @@ Machinable,"مفهوم من قبل الإله",module,Magento_Usps
 "Displayed Error Message","رسالة الخطأ المعروضة",module,Magento_Usps
 Debug,نقح,module,Magento_Usps
 "Sort Order",الترتيب,module,Magento_Usps
+"REST and SOAP configurations, generated WSDL file.","إعدادات REST و SOAP، أنشأت ملف WSDL.",module,Magento_Webapi
+"Share Options","خيارات المشاركة",module,Magento_Wishlist
 "Email Sender","مرسل البريد الإلكتروني",module,Magento_Wishlist
 "Email Template","قالب البريد الإلكتروني",module,Magento_Wishlist
 "General Options","خيارات عامة",module,Magento_Wishlist
