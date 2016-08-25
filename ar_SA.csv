@@ -4,7 +4,7 @@
 Remove,ازالة,module,Magento_AdminNotification
 "Messages Inbox","رسائل علبة الوارد",module,Magento_AdminNotification
 "You have %1 new system messages","لديك %1 من رسائل النظام الجديدة",module,Magento_AdminNotification
-"You have %1 new system message","لديك %1 من رسالة النظام الجديدة",module,Magento_AdminNotification
+"You have %1 new system message","لديك %1 رسالة نظام جديدة",module,Magento_AdminNotification
 "Incoming Message","رسالة واردة",module,Magento_AdminNotification
 close,إغلاق,module,Magento_AdminNotification
 Notifications,اشعارات,module,Magento_AdminNotification
@@ -26,13 +26,17 @@ minor,ثانوي,module,Magento_AdminNotification
 notice,إشعار,module,Magento_AdminNotification
 "Wrong message type","نوع رسالة خاطئ",module,Magento_AdminNotification
 "Wrong notification ID specified.","معرف الإشعار المحدد خاطئ.",module,Magento_AdminNotification
+"{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","لا ينصح باستخدام {{base_url}} في بيئة الإنتاج لتوضيح Unsecure ' 'URL / Base Secure URL. نوصي بشدة بتغيير هذه القيمة في ماجنتو الخاص بك ' '<a href=""%1"">configuration</a>.",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","الرجاء الانتقال إلى <a href=""%1""> إدارة ذاكرة التخزين المؤقت</a> واعدة تنشيطها.",module,Magento_AdminNotification
+"We were unable to synchronize one or more media files. Please refer to the log file for details.","لم نستطع موافقة واحد أو أكثر من ملفات الوسائط. الرجاء الرجوع إلى ملف السجل للحصول على التفاصيل.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","اكتملت مواففة وسائط التخزين.",module,Magento_AdminNotification
+"Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","قاعدة بيانات الأنترنت الخاصة بك معدة بشكل غير صحيح، وتسمح بدخول غير المصرح به إلى الملفات الحساسة. الرجاء الاتصال بموفر خدمة الاستضافة.",module,Magento_AdminNotification
 Close,غلق,module,Magento_AdminNotification
 "System Messages:","رسائل النظام:",module,Magento_AdminNotification
 "Critical System Messages","رسائل النظام خطيرة",module,Magento_AdminNotification
 "Major System Messages","رسائل النظام مهمة",module,Magento_AdminNotification
 "System messages","رسائل النظام",module,Magento_AdminNotification
+"See All (","انظر (جميع",module,Magento_AdminNotification
 "Please correct the data sent.","الرجاء تصحيح البيانات التي تم إرسالها.",module,Magento_AdvancedPricingImportExport
 "There are no product types available for export","لا تتوفر أي من أنواع المنتجات للتصدير",module,Magento_AdvancedPricingImportExport
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","حدث خطأ أثناء تجميع قائمة من الموارد المسموح بها. يمكنك العثور على مزيد من المعلومات في سجل الاستثناءات.",module,Magento_Authorization
@@ -853,7 +857,7 @@ Email,"البريد الإلكتروني",module,Magento_Contact
 Submit,إرسال,module,Magento_Contact
 "Invalid domain name: %1","اسم المجال غير صالح: %1",module,Magento_Cookie
 "Invalid cookie lifetime: %1","عمر ملف تعريف الارتباط غير صالح: %1",module,Magento_Cookie
-"Invalid cookie path","مسار ملف تعريف الارتباط غير صالح",module,Magento_Cookie
+"Invalid cookie path","مسار معلومات المستخدم المؤقتة غير صالح",module,Magento_Cookie
 "We use cookies to make your experience better.","نحن نستخدم ملفات الكوكيز لتحقيق تجربة أفضل.",module,Magento_Cookie
 "To comply with the new e-Privacy directive, we need to ask for your consent to set the cookies.","للامتثال للتوجيه الخصوصية الإلكترونية الجديدة، علينا أن نطلب منك الموافقة لتعيين ملفات تعريف الارتباط.",module,Magento_Cookie
 "<a href=""%1"">Learn more</a>.","<a href=""%1"">المزيد</a>.",module,Magento_Cookie
@@ -2449,6 +2453,8 @@ All,الكل,module,Magento_Sitemap
 "Store with the same code","متجر له نفس الكود",module,Magento_Store
 "Website with the same code","موقع له نفس الكود",module,Magento_Store
 "Name is required","الاسم مطلوب",module,Magento_Store
+"Store is inactive","المتجر غير نشط",module,Magento_Store
+"Default store is inactive","المتجر الافتراضي غير نشط",module,Magento_Store
 "All Store Views","واجهه جميع المواقع",module,Magento_Store
 "-- Please Select --","--الرجاء الاختيار-",module,Magento_Store
 Admin,المدير,module,Magento_Store
@@ -2772,7 +2778,7 @@ Page,حقيبة,module,Magento_Widget
 "Wish List","قائمة الامنيات",module,Magento_Wishlist
 "Wish List Sharing","مشاركة قائمة الأمنيات",module,Magento_Wishlist
 "My Wish List","قائمة الامنيات",module,Magento_Wishlist
-"%1's Wish List","قائمة الامنيات %1 's",module,Magento_Wishlist
+"%1's Wish List","قائمة الأمنيات %1 's",module,Magento_Wishlist
 "Page not found.","لم يتم العثور على الصفحة.",module,Magento_Wishlist
 "You added %1 to your shopping cart.","قمت بإضافة %1 إلى عربة التسوق.",module,Magento_Wishlist
 "This product(s) is out of stock.","هذا المنتج (المنتجات) غير متوفر في المخزن.",module,Magento_Wishlist
@@ -3406,6 +3412,11 @@ ID,التعريف,module,Magento_Sitemap
 "Link for Google","رابط لجوجل",module,Magento_Sitemap
 Action,إجراء,module,Magento_Sitemap
 Configuration,الضبط,module,Magento_Store
+Layouts,"أشكال الصفحة",module,Magento_Store
+"Blocks HTML output","مخرجات قوائم HTML",module,Magento_Store
+"Collections Data","مجموعات البيانات",module,Magento_Store
+"Reflection Data","بيانات الانعكاس",module,Magento_Store
+"Database DDL operations","عمليات قاعدة البيانات DDL",module,Magento_Store
 "Shipping Prices","أسعار الشحن",module,Magento_Tax
 "Display Shipping Prices","عرض أسعار الشحن",module,Magento_Tax
 "Display Shipping Amount","عرض أسعار الشحن",module,Magento_Tax
