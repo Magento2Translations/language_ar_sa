@@ -307,11 +307,13 @@ Fixed,ثابت,module,Magento_Bundle
 "Add Products to Option","إضافة المنتجات إلى الخيار",module,Magento_Bundle
 Close,غلق,module,Magento_Bundle
 "Delete Option","حذف خيار",module,Magento_Bundle
-ID,التعريف,module,Magento_Bundle
+ID,"رقم المعرف",module,Magento_Bundle
 Product,المنتج,module,Magento_Bundle
+SKU,"رمز المنتج",module,Magento_Bundle
 Price,السعر,module,Magento_Bundle
 Delete,احذف,module,Magento_Bundle
 "Use Default Value","استخدام قيمة افتراضية",module,Magento_Bundle
+"There is no defined renderer for ""%1"" option type.","لا يوجد أي عارض محدد لنوع الخيار ""%1"".",module,Magento_Bundle
 "Please specify product option(s).","يرجى تحديد خيار(ات) المنتج.",module,Magento_Bundle
 N/A,"غير متاح",module,Magento_Bundle
 Percent,"النسبة المئوية",module,Magento_Bundle
@@ -2565,7 +2567,7 @@ Debug,نقح,module,Magento_Braintree
 "Credit Card Types","أنواع بطاقة الائتمان",module,Magento_Braintree
 "Your Kount ID","معرف الحساب الخاص بك",module,Magento_Braintree
 "Use Cache","استخدام ذاكرة التخزين المؤقت",module,Magento_Braintree
-Inventory,الجرد,module,Magento_CatalogInventory
+Inventory,المخزون,module,Magento_CatalogInventory
 "Stock Options","خيارات المخزون",module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed","ازل من المخزون عند استلام الطلب الجديد",module,Magento_CatalogInventory
 "Display Out of Stock Products","عرض المنتجات الغير متوفرة بالمخزن",module,Magento_CatalogInventory
