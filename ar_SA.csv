@@ -3614,6 +3614,7 @@ Title,العنوان,module,Magento_OfflinePayments
 "Payment from Applicable Countries","الدفع من البلدان المطبقة",module,Magento_OfflinePayments
 "Make Check Payable to","تقديم شيك مستحق الدفع لـ",module,Magento_OfflinePayments
 "Minimum Order Total","إجمالي الحد الأدنى للطلب",module,Magento_OfflinePayments
+"Purchase Order","طلب الشراء",module,Magento_OfflinePayments
 "Zero Subtotal Checkout","المجموع الفرعي الخروج صفر",module,Magento_OfflinePayments
 "Flat Rate","تسعيرة موحدة",module,Magento_OfflineShipping
 Enabled,تفعيل,module,Magento_OfflineShipping
