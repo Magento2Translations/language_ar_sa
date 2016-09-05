@@ -162,6 +162,7 @@ Store,متجر,module,Magento_Backend
 General,عام,module,Magento_Backend
 Cancel,إلغاء,module,Magento_Backend
 "Delete %1 '%2'","حذف %1 '%2'",module,Magento_Backend
+"Delete %1","حذف %1",module,Magento_Backend
 "Block Information","اغلاق المعلومات",module,Magento_Backend
 "Backup Options","خيارات النسخ الاحتياطي",module,Magento_Backend
 "Create DB Backup","إنشاء نسخة احتياطية لقاعدة البيانات",module,Magento_Backend
@@ -264,6 +265,15 @@ System,النظام,module,Magento_Backend
 "Unable to delete the store. Please try again later.","غير قادر على حذف المتجر. من فضلك، حاول مرة أخرى لاحقاً.",module,Magento_Backend
 "This store view cannot be deleted.","لا يمكن حذف عرض المتجر هذا.",module,Magento_Backend
 "Store View","عرض المتجر",module,Magento_Backend
+"Unable to delete the store view. Please try again later.","غير قادر على حذف واجهة المتجر. من فضلك، حاول مرة أخرى لاحقاً.",module,Magento_Backend
+"This website cannot be deleted.","لا يمكن حذف هذا الموقع.",module,Magento_Backend
+"You deleted the website.","لقد حذفت الموقع.",module,Magento_Backend
+"Unable to delete the website. Please try again later.","غير قادر على حذف الموقع. من فضلك، حاول مرة أخرى لاحقاً.",module,Magento_Backend
+"The website does not exist.","الموقع غير موجود.",module,Magento_Backend
+"Before modifying the website code please make sure it is not used in index.php.","قبل تعديل رمز الموقع يرجى التأكد من أنها لا تستخدم في index.php.",module,Magento_Backend
+"The store does not exist","المتجر غير موجود",module,Magento_Backend
+"Store view doesn't exist","عرض المتجر غير موجود",module,Magento_Backend
+"Before modifying the store view code please make sure it is not used in index.php.","قبل تعديل رمز عرض المتجر يرجى التأكد من أنها لا تستخدم في index.php.",module,Magento_Backend
 "You saved the website.","قمت بحفظ موقع شبكة الإنترنت.",module,Magento_Backend
 "Last 24 Hours","ال 24 ساعة الماضية",module,Magento_Backend
 "Last 7 Days","آخر 7 أيام",module,Magento_Backend
@@ -653,24 +663,40 @@ Year,السنة,module,Magento_Catalog
 [WEBSITE],[الموقع],module,Magento_Catalog
 "WYSIWYG Editor","محرر WYSIWYG",module,Magento_Catalog
 "Add Product","اضف منتج",module,Magento_Catalog
+label,التسمية,module,Magento_Catalog
 "Product Attributes","سمات المنتج",module,Magento_Catalog
 "Add New Attribute","اضافة سمة جديدة",module,Magento_Catalog
 Cancel,إلغاء,module,Magento_Catalog
 "Save Attribute","حفظ السمات",module,Magento_Catalog
+"Save in New Attribute Set","حفظ في مجموعة سمة جديدة",module,Magento_Catalog
+"Enter Name for New Attribute Set","قم بإدخال اسم لمجموعة سمة جديدة",module,Magento_Catalog
 "Save and Continue Edit","حفظ ومواصلة التعديل",module,Magento_Catalog
 "Delete Attribute","حذف السمة",module,Magento_Catalog
+"Edit Product Attribute ""%1""","تحرير السمة المنتج ""%1""",module,Magento_Catalog
 "New Product Attribute","سمة منتج جديد",module,Magento_Catalog
+"Advanced Attribute Properties","خصائص السمة المتقدمة",module,Magento_Catalog
 "Attribute Code","رمز السمة",module,Magento_Catalog
 "This is used internally. Make sure you don't use spaces or more than %1 symbols.","إستخدام داخلي. تأكد من أن كنت لا تستخدم مسافات أو أكثر من %1 رمز.",module,Magento_Catalog
 "Default Value","القيمة الاعتيادية",module,Magento_Catalog
 "Unique Value","قيمة نادرة",module,Magento_Catalog
 "Unique Value (not shared with other products)","قيمة فريدة (لم يتم تقاسمها مع منتجات اخرى)",module,Magento_Catalog
+"Not shared with other products.","غير مشارك مع المنتجات الأخرى.",module,Magento_Catalog
 "Input Validation for Store Owner","اثبات المدخلات لصاحب المتجر",module,Magento_Catalog
+"Add to Column Options","إضافة إلى خيارات الأعمدة",module,Magento_Catalog
+"Select ""Yes"" to add this attribute to the list of column options in the product grid.","اختر ""نعم"" لإضافة هذه السمة إلى قائمة خيارات العمود في شبكة العميل.",module,Magento_Catalog
+"Use in Filter Options","استخدام خيارات التصفية",module,Magento_Catalog
+"Select ""Yes"" to add this attribute to the list of filter options in the product grid.","اختر ""نعم"" لإضافة هذه السمة إلى قائمة خيارات العمود في شبكة العميل.",module,Magento_Catalog
 "Store View","عرض المتجر",module,Magento_Catalog
 Website,الموقع,module,Magento_Catalog
 Global,عالمي,module,Magento_Catalog
 Scope,مدى,module,Magento_Catalog
+"Declare attribute value saving scope.","إعلان قيمة السمة لتوفير النطاق.",module,Magento_Catalog
+"Storefront Properties","خصائص الواجهة",module,Magento_Catalog
+"Use in Search","استخدام في البحث",module,Magento_Catalog
+"Visible in Advanced Search","مرئية في البحث المتقدم",module,Magento_Catalog
+"Comparable on Storefront","قابلة للمقارنة في الواجهة",module,Magento_Catalog
 "Enable WYSIWYG","تفعيل WYSIWYG",module,Magento_Catalog
+"Depends on design theme.","يعتمد على تصميم المظهر.",module,Magento_Catalog
 "Media Image","صور وسائل الاعلام",module,Magento_Catalog
 Gallery,البوم,module,Magento_Catalog
 "System Properties","خصائص النظام",module,Magento_Catalog
@@ -685,6 +711,7 @@ Integer,"رقم صحيح",module,Magento_Catalog
 "Globally Editable","على الصعيد العالمي للتحرير",module,Magento_Catalog
 "Attribute Information","معلومات السمة",module,Magento_Catalog
 Properties,خصائص,module,Magento_Catalog
+"Manage Labels","إدارة التسميات",module,Magento_Catalog
 Visible,ظاهر,module,Magento_Catalog
 "Web Site",موقع,module,Magento_Catalog
 Searchable,"امكانية البحث",module,Magento_Catalog
@@ -693,16 +720,23 @@ Comparable,"قابل للمقارنه",module,Magento_Catalog
 "Add New","إضافة جديد",module,Magento_Catalog
 Back,رجوع,module,Magento_Catalog
 Reset,"اعادة ضبط",module,Magento_Catalog
+"You are about to delete all products in this attribute set. Are you sure you want to do that?","أنت على وشك حذف كافة المنتجات في تعيين هذه السمة. هل أنت متأكد من أنك تريد القيام بذلك؟",module,Magento_Catalog
 "New Set Name","اسم المجموعة الجديدة",module,Magento_Catalog
+"Edit Attribute Set '%1'","تحرير تعيين السمة '%1'",module,Magento_Catalog
 Empty,فارغ,module,Magento_Catalog
 "Add Attribute","اضافة السمة",module,Magento_Catalog
 "Add New Group","اضف مجموعة جديدة",module,Magento_Catalog
 "Add Group","اضافة مجموعة",module,Magento_Catalog
+"Edit Attribute Set Name","تحرير اسم مجموعة السمة",module,Magento_Catalog
+"For internal use","للاستخدام الداخلي",module,Magento_Catalog
 "Based On","اعتمادا على",module,Magento_Catalog
 "Add New Attribute Set","اضف مجموعة سمات جديد",module,Magento_Catalog
+"Add Attribute Set","إضافة تعيين السمة",module,Magento_Catalog
+"Attribute Sets","مجموعة السمة",module,Magento_Catalog
 "Close Window","أغلق النافذه",module,Magento_Catalog
 "New Product","منتج جديد",module,Magento_Catalog
 "Save & Edit","حفظ ومواصلة التعديل",module,Magento_Catalog
+"Save & New","حفظ و جديد",module,Magento_Catalog
 "Save & Duplicate","حفظ & انشاء نسخة",module,Magento_Catalog
 "Save & Close","حفظ وإغلاق",module,Magento_Catalog
 Attributes,الصفات,module,Magento_Catalog
@@ -713,44 +747,65 @@ Websites,الموقع,module,Magento_Catalog
 "Create Category","إنشاء قسم جديد",module,Magento_Catalog
 "Category Name","اسم القسم",module,Magento_Catalog
 "Parent Category","القسم الرئيسي",module,Magento_Catalog
+"If there are no custom parent categories, please use the default parent category. You can reassign the category at any time in <a href=""%1"" target=""_blank"">Products > Categories</a>.","إذا كان لايوجد هناك فئات أصل مخصصة، الرجاء استخدام فئة الأصل الافتراضي. '' يمكنك تعيين الفئة في أي وقت في '' <a href=""%1"" target=""_blank""> منتجات > الفئات</a>.",module,Magento_Catalog
 "Price Alert Subscriptions","اشتراكات تغيير السعر",module,Magento_Catalog
+"Stock Alert Subscriptions","اشتراكات تنبيه الأسهم",module,Magento_Catalog
+"There are no customers for this alert.","لا يوجد عملاء لهذا التنبيه.",module,Magento_Catalog
 "First Name","الإسم الأول",module,Magento_Catalog
 "Last Name","اسم العائلة",module,Magento_Catalog
 Email,"البريد الإلكتروني",module,Magento_Catalog
+"Subscribe Date","اشترك في التاريخ",module,Magento_Catalog
+"Last Notified","آخر إشعار",module,Magento_Catalog
 "Send Count","ارسال عدد",module,Magento_Catalog
+"New Attribute","سمة جديدة",module,Magento_Catalog
 Type,النوع,module,Magento_Catalog
 "Attribute Set","مجموعة السمة",module,Magento_Catalog
 Status,الحاله,module,Magento_Catalog
 Visibility,الظهور,module,Magento_Catalog
 "Add New Option","اضف خيار جديد",module,Magento_Catalog
+"Import Options","خيارات الاستيراد",module,Magento_Catalog
 "Use Default","استخدام افتراضي",module,Magento_Catalog
 Import,استيراد,module,Magento_Catalog
+"Add New Row","إضافة صف جديد",module,Magento_Catalog
+"Delete Row","حذف صف",module,Magento_Catalog
 "Tier Pricing","تسعير الطبقة",module,Magento_Catalog
 "Default Price","سعر افتراضي",module,Magento_Catalog
 "All Websites","جميع المواقع",module,Magento_Catalog
 "ALL GROUPS","جميع المجموعات",module,Magento_Catalog
+"Add Price","إضافة الأسعار",module,Magento_Catalog
 "Default Values","القيم الافتراضية",module,Magento_Catalog
 "Related Products","منتجات متعلقة",module,Magento_Catalog
 Up-sells,"حتى يبيع",module,Magento_Catalog
 Cross-sells,"عبر المبيعات",module,Magento_Catalog
+"Size for %1","حجم الى %1",module,Magento_Catalog
+"Watermark File for %1","ملف علامة مائية ل %1",module,Magento_Catalog
+"Position of Watermark for %1","موضع علامة مائية ل %1",module,Magento_Catalog
+"Name in %1","اسم في %1",module,Magento_Catalog
 Quantity,الكمية,module,Magento_Catalog
 Edit,تحرير,module,Magento_Catalog
 "Are you sure?","هل أنت متأكد؟",module,Magento_Catalog
 "Change Status","تغيير الحالة",module,Magento_Catalog
+"Update Attributes","تحديث السمات",module,Magento_Catalog
+"start typing to search category","ابدأ الكتابة للبحث في الفئة",module,Magento_Catalog
 "New Category","قسم جديد",module,Magento_Catalog
 "Images (.gif, .jpg, .png)","الصور (.gif,.jpg,.png)",module,Magento_Catalog
 "Add New Images","اضف صور جديدة",module,Magento_Catalog
 "Inc. Tax","شامل الضريبة",module,Magento_Catalog
+"Does this have a weight?","هل هذا له وزن؟",module,Magento_Catalog
 Product,المنتج,module,Magento_Catalog
 "Notify Low Stock RSS","اخطار لانخفاض المخزونRSS",module,Magento_Catalog
+"Low Stock Products","منتجات الأسهم منخفضة",module,Magento_Catalog
+"%1 has reached a quantity of %2.","%1 وصلت الى كمية من %2.",module,Magento_Catalog
 Home,"الصفحة الرئيسية",module,Magento_Catalog
 "Go to Home Page","الانتقال إلى الصفحة الرئيسية",module,Magento_Catalog
 "Subscribe to RSS Feed","اشتراك لتغذية ال RSS",module,Magento_Catalog
+"Products Comparison List","قائمة مقارنة المنتجات",module,Magento_Catalog
 N/A,"غير متاح",module,Magento_Catalog
 AM,صباحا,module,Magento_Catalog
 PM,مساء,module,Magento_Catalog
 "-- Please Select --","--الرجاء الاختيار-",module,Magento_Catalog
 None,"لا شئ",module,Magento_Catalog
+"New Products from %1","منتجات جديدة من %1",module,Magento_Catalog
 "New Products","المنتجات الجديدة",module,Magento_Catalog
 "%1 - Special Products","%1 - منتجات بسعر خاص خاصة",module,Magento_Catalog
 "Click for price","اضغط هنا للأسعار",module,Magento_Catalog
@@ -786,33 +841,71 @@ All,الكل,module,Magento_Catalog
 "Sorry, but we can't find the new category you selected.","عذراً، لكن لا يمكن أن نجد أن الفئة الجديدة التي قمت بتحديدها.",module,Magento_Catalog
 "We can't move the category because the parent category name matches the child category name.","لا يمكن نقل الفئة لتطابق اسم الفئة الأصلية اسم فئة فرعية.",module,Magento_Catalog
 "Can't delete root category.","لا يمكن حذف فئة الجذر.",module,Magento_Catalog
+"The value of attribute ""%1"" must be unique.","يجب أن تكون قيمة السمة ""%1"" فريدة من نوعها.",module,Magento_Catalog
 "No layout updates","لا يوجد تخطيط تحديثات",module,Magento_Catalog
 "Products only","المنتجات فقط",module,Magento_Catalog
 "Static block only","تجميد المساحة فقط",module,Magento_Catalog
 "Static block and products","تجميد المساحة والمنتجات",module,Magento_Catalog
+"Please select a static block.","الرجاء تحديد كتلة ثابتة.",module,Magento_Catalog
+"Could not save product ""%1"" with position %2 to category %3","تعذر حفظ المنتج ""%1"" مع الموقع %2 للفئة %3",module,Magento_Catalog
+"Category does not contain specified product","الديلي لا يحتوي على فئة المنتج المحدد",module,Magento_Catalog
+"Could not save product ""%product"" with position %position to category %category","تعذر حفظ المنتج ""%product"" مع الموقف %position للفئة %category",module,Magento_Catalog
+"Operation do not allow to move a parent category to any of children category","لا تسمح عملية لنقل فئة أصل إلى أي من فئة الأطفال",module,Magento_Catalog
+"Could not move category","تعذر نقل الفئة",module,Magento_Catalog
+"Could not save category: %1","تعذر حفظ الفئة: %1",module,Magento_Catalog
+"Cannot delete category with id %1","لا يمكن حذف الفئة مع معرف %1",module,Magento_Catalog
+"-- Please Select a Category --","--الرجاء اختيار فئة-",module,Magento_Catalog
+"Grid Only","الشبكة فقط",module,Magento_Catalog
+"List Only","قائمة فقط",module,Magento_Catalog
 "Grid (default) / List","الشبكه (افتراضي) / قائمة",module,Magento_Catalog
 "List (default) / Grid","قائمة (افتراضي) / الشبكه",module,Magento_Catalog
+"Automatic (equalize price ranges)","التلقائي (تكافؤ الأسعار)",module,Magento_Catalog
+"Automatic (equalize product counts)","التلقائي (معادلة حساب المنتج)",module,Magento_Catalog
+Manual,دليل,module,Magento_Catalog
 Fixed,ثابت,module,Magento_Catalog
 Percent,"النسبة المئوية",module,Magento_Catalog
 "-- Please select --","-- اختر من فضلك --",module,Magento_Catalog
 "Product Thumbnail Itself","صورة مصغرة للمنتج نفسه",module,Magento_Catalog
 "Parent Product Thumbnail","الأم المنتج المصغره",module,Magento_Catalog
+"12h AM/PM","ساعة 12 ص/م",module,Magento_Catalog
+24h,"ساعة 24",module,Magento_Catalog
 Stretch,توسعة,module,Magento_Catalog
 Tile,بلاطة,module,Magento_Catalog
 Top/Left,اعلى/يسار,module,Magento_Catalog
 Top/Right,"اعلى /يمين",module,Magento_Catalog
 Bottom/Left,"اسفل / يسار",module,Magento_Catalog
 Bottom/Right,اسفل/يمين,module,Magento_Catalog
+Center,الوسط,module,Magento_Catalog
 "%1 doesn't extends \Magento\Framework\Model\AbstractModel","غير ممتد %1 \Magento\Framework\Model\AbstractModel",module,Magento_Catalog
+"Something went wrong while saving the file(s).","حدث خطأ أثناء حفظ الملفات.",module,Magento_Catalog
 "We can't rebuild the index for an undefined product.","لا يمكن إعادة إنشاء الفهرس لمنتج غير معروف.",module,Magento_Catalog
+"The Flat Catalog module has a limit of %2$d filterable and/or sortable attributes.Currently there are %1$d of them.Please reduce the number of filterable/sortable attributes in order to use this module","الوحدة النمطية للكتالوج المسطح لها حد %2\$d السمات القابلة للتصفية أو الفرز. ""حاليا هناك %1\$d منهم."" ""الرجاء تقليل عدد السمات القابلة للتصفية/الفرز من أجل استخدام هذه الوحدة النمطية",module,Magento_Catalog
+"Unsupported product type ""%1"".","نوع المنتج غير معتمد ""%1"".",module,Magento_Catalog
+"Please correct the category.","الرجاء تصحيح الفئة.",module,Magento_Catalog
+"Must be category model instance or its id.","يجب أن تكون الفئة مثيل الطراز أو المعرف الخاص به.",module,Magento_Catalog
+"The attribute model is not defined.","لم يتم تعريف نموذج السمة.",module,Magento_Catalog
 Category,القسم,module,Magento_Catalog
+"%1 - %2",%1-%2,module,Magento_Catalog
+"%1 was not found in algorithms","لم يتم العثور على %1 في الخوارزميات",module,Magento_Catalog
 "%1 doesn't extend \Magento\Catalog\Model\Layer\Filter\Dynamic\AlgorithmInterface","لا ممتد %1 \Magento\Catalog\Model\Layer\Filter\Dynamic\AlgorithmInterface",module,Magento_Catalog
 "%1 doesn't extends \Magento\Catalog\Model\Layer\Filter\AbstractFilter","غير ممتد %1 \Magento\Catalog\Model\Layer\Filter\AbstractFilter",module,Magento_Catalog
+"The filter must be an object. Please set the correct filter.","جب أن يكون عامل التصفية عامل او اختيار. الرجاء تعيين عامل التصفية الصحيح.",module,Magento_Catalog
+"Clear Price","مسح الأسعار",module,Magento_Catalog
 "%1 and above","%1 واكثر",module,Magento_Catalog
+"The filters must be an array.","يجب أن تكون عوامل التصفية صفيف.",module,Magento_Catalog
+"Product was not registered","لم يتم تسجيل المنتج",module,Magento_Catalog
+"Store was not registered","لم يتم تسجيل المتجر",module,Magento_Catalog
+"Group price must be a number greater than 0.","يجب أن تكون أسعار المجموعة رقم أكبر من 0.",module,Magento_Catalog
+"Please enter a number 0 or greater in this field.","الرجاء إدخال رقم 0 أو أكبر في هذا الحقل.",module,Magento_Catalog
+"The value of attribute ""%1"" must be set","يجب أن يتم تعيين قيمة السمة ""%1""",module,Magento_Catalog
 "Please enter a valid number in this field.","الرجاء ادخال عدد في هذا المجال.",module,Magento_Catalog
+"Invalid option id %1","خيار غير صالح معرف %1",module,Magento_Catalog
+"Use config","استخدام التكوين",module,Magento_Catalog
 Enabled,تفعيل,module,Magento_Catalog
 Disabled,"غير مفعل",module,Magento_Catalog
+"Attribute Set already exists.","تعيين السمة موجودة بالفعل.",module,Magento_Catalog
 "We couldn't copy file %1. Please delete media with non-existing images and try again.","ا أستطع نسخ الملف %1. الرجاء حذف الوسائط مع الصور غير موجودة وحاول مرة أخرى.",module,Magento_Catalog
+"The image content is not valid.","محتوى الصورة غير صالح.",module,Magento_Catalog
 "Such product doesn't exist","لا يوجد مثل هذا المنتج",module,Magento_Catalog
 "Such image doesn't exist","هذه الصورة غير موجودة",module,Magento_Catalog
 "We couldn't move this file: %1.","لا يمكن نقل هذا الملف: %1.",module,Magento_Catalog
@@ -828,6 +921,8 @@ Disabled,"غير مفعل",module,Magento_Catalog
 "%1 doesn't extends \Magento\Catalog\Model\Product\Type\Price","غير ممتد %1 \Magento\Catalog\Model\Product\Type\Price",module,Magento_Catalog
 Search,بحث,module,Magento_Catalog
 "Catalog, Search","دليل المنتجات و البحث",module,Magento_Catalog
+"Something went wrong while adding products to websites.","حدث خطأ أثناء إضافة المنتجات إلى مواقع ويب.",module,Magento_Catalog
+"Group with id ""%1"" does not exist.","لا توجد مجموعة بالمعرف ""%1"".",module,Magento_Catalog
 "Product %1 doesn't have linked %2 as %3","المنتج %1 غير مرتبط بـ %2 كـ %3",module,Magento_Catalog
 "Requested product doesn't exist","المنتج المطلوب غير موجود",module,Magento_Catalog
 "Attribute '%1' is locked. %2","السمة '%1'مقفلة. %2",module,Magento_Catalog
@@ -3857,6 +3952,7 @@ Admin,المدير,module,Magento_Backend
 "Forgot Password Email Template","نسيت كلمة السر البريد الالكتروني قالب",module,Magento_Backend
 "Email template chosen based on theme fallback when ""Default"" option is selected.","اختيار قالب البريد الإلكتروني استناداً إلى موضوع الرجوع عند تحديد الخيار ""الإفتراضي"".",module,Magento_Backend
 "Startup Page","صفحة بدء التشغيل",module,Magento_Backend
+"Enable Charts","تمكين المخططات",module,Magento_Backend
 Web,موقع,module,Magento_Backend
 "Url Options","خيارات الموقع",module,Magento_Backend
 "Add Store Code to Urls","رمز المخزن اضافة الى عناوين المواقع",module,Magento_Backend
