@@ -1182,6 +1182,7 @@ View,عرض,module,Magento_Cms
 "Use Website","استخدام موقع",module,Magento_Config
 Add,إضافة,module,Magento_Config
 "Delete File","حذف ملف",module,Magento_Config
+"Search String","البحث النصي",module,Magento_Config
 "Design Theme","تصميم ثيم",module,Magento_Config
 Enable,تفعيل,module,Magento_Config
 Disable,إبطال,module,Magento_Config
@@ -1218,6 +1219,7 @@ Save,حفظ,module,Magento_ConfigurableProduct
 "Save & Duplicate","حفظ & انشاء نسخة",module,Magento_ConfigurableProduct
 "Save & Close","حفظ وإغلاق",module,Magento_ConfigurableProduct
 Configurations,الضبط,module,Magento_ConfigurableProduct
+"Attribute Values","قيم السمات",module,Magento_ConfigurableProduct
 "Create New Attribute","انشاء سمة جديدة",module,Magento_ConfigurableProduct
 "Select Attributes","اختر السمات",module,Magento_ConfigurableProduct
 Summary,خلاصة,module,Magento_ConfigurableProduct
@@ -1298,6 +1300,7 @@ Import,استيراد,module,Magento_CurrencySymbol
 "Please specify a correct Import Service.","الرجاء تحديد ""خدمة الاستيراد"" الصحيحة.",module,Magento_CurrencySymbol
 "We can't initialize the import model.","لا يمكن تهيئة نموذج الاستيراد.",module,Magento_CurrencySymbol
 "Currency Rates","أسعار العملات",module,Magento_CurrencySymbol
+"Please correct the input data for ""%1 => %2"" rate.","الرجاء تصحيح البيانات المدخلة ل %1 => معدل %2.",module,Magento_CurrencySymbol
 System,النظام,module,Magento_CurrencySymbol
 "Old rate:","معدل العمر:",module,Magento_CurrencySymbol
 "Please specify a website.","الرجاء تحديد الموقع على شبكة الإنترنت.",module,Magento_CustomerImportExport
@@ -1588,6 +1591,7 @@ Unlimited,"غير محدود",module,Magento_Downloadable
 "We can't find the link you requested.","لا يمكن أن نجد الارتباط المطلوب.",module,Magento_Downloadable
 "Please sign in to download your product or purchase <a href=""%1"">%2</a>.","يرجى تسجيل الدخول لتنزيل المنتج الخاص بك أو الشراء <a href=""%1"">%2</a>.",module,Magento_Downloadable
 "Please sign in to download your product.","يرجى تسجيل الدخول لتنزيل المنتج الخاص بك.",module,Magento_Downloadable
+"The link has expired.","انتهت صلاحية الرابط.",module,Magento_Downloadable
 "Something went wrong while saving the file(s).","حدث خطأ أثناء حفظ الملفات.",module,Magento_Downloadable
 "Provided link information is invalid.","معلومات الرابط المتوفر غير صالحة.",module,Magento_Downloadable
 "Provided downloadable link is not related to given product.","الرابط المقدم غير مرتبط بالمنتج المعطى.",module,Magento_Downloadable
@@ -1640,6 +1644,7 @@ Refunded,"اعادة ايجاد",module,Magento_Downloadable
 "Default Value","القيمة الاعتيادية",module,Magento_Eav
 "Unique Value","قيمة نادرة",module,Magento_Eav
 "Unique Value (not shared with other products)","قيمة فريدة (لم يتم تقاسمها مع منتجات اخرى)",module,Magento_Eav
+"Not shared with other products.","غير مشارك مع المنتجات الأخرى.",module,Magento_Eav
 "Input Validation for Store Owner","اثبات المدخلات لصاحب المتجر",module,Magento_Eav
 Required,مطلوب,module,Magento_Eav
 Yes,نعم,module,Magento_Eav
@@ -1735,6 +1740,7 @@ Template,قالب,module,Magento_Email
 No,لا,module,Magento_EncryptionKey
 Yes,نعم,module,Magento_EncryptionKey
 "The generated key will be displayed after changing.","سيتم عرض المفتاح الذي تم إنشاؤه بعد تغيير.",module,Magento_EncryptionKey
+"Please enter an encryption key.","الرجاء إدخال مفتاح تشفير.",module,Magento_EncryptionKey
 "Europe First Priority","الأولوية الأولى في أوروبا",module,Magento_Fedex
 "1 Day Freight","الشحن بيوم واحد",module,Magento_Fedex
 "2 Day Freight","الشحن في يومين",module,Magento_Fedex
@@ -1775,6 +1781,7 @@ None,"لا شئ",module,Magento_Fedex
 "There is no item with provided id in the order or gift message isn't allowed","لا يوجد عنصر مع رقم هوية المعطى في النظام أو رسالة الهدية غير مسموح بها",module,Magento_GiftMessage
 "There is no order with provided id or gift message isn't allowed","لا يوجد أي طلب مع رقم الهوية المعطى أو رسالة الهدية غير مسموح بها",module,Magento_GiftMessage
 "Gift Messages are not applicable for empty order","رسائل الهدايا لا تنطبق على الطلبات الفارغة",module,Magento_GiftMessage
+"Could not add gift message to order's item: ""%1""","تعذر إضافة رسالة الهدية لعنصر الطلب: \"%1\"",module,Magento_GiftMessage
 "Unknown entity type","غير معروف نوع الكيان",module,Magento_GiftMessage
 "Test label","اختبار التسمية",module,Magento_GiftMessage
 "Use Config Settings","استخدام اعداد الاعدادات",module,Magento_GiftMessage
@@ -2516,6 +2523,7 @@ Actions,اعمال,module,Magento_SalesRule
 "Apply the rule only to cart items matching the following conditions (leave blank for all items).","تطبيق القاعده فقط على عناصر سلة التسوق المطابقه للشروط التالية (اتركه فارغا لجميع البنود).",module,Magento_SalesRule
 "Apply To","طبق على",module,Magento_SalesRule
 Conditions,الحالات,module,Magento_SalesRule
+"Apply the rule only if the following conditions are met (leave blank for all products).","تطبيق القاعده الا اذا كانت الشروط التالية (اتركه فارغا لكافة المنتجات).",module,Magento_SalesRule
 "Manage Coupon Codes","إدارة قسيمة الخصم",module,Magento_SalesRule
 "Coupon Qty","كمية قسيمة الخصم",module,Magento_SalesRule
 "Code Length","طول الرمز",module,Magento_SalesRule
@@ -3066,6 +3074,7 @@ Sitemap,"خريطة الموقع",module,Magento_Sitemap
 Filename,"اسم الملف",module,Magento_Sitemap
 "example: sitemap.xml","مثال: sitemap.xml",module,Magento_Sitemap
 Path,المسار,module,Magento_Sitemap
+"example: ""/sitemap/"" or ""/"" for base path (path must be writeable)","مثال: ""خريطة الموقع/"" أو ""/"" للمسار الأساسي (يجب أن يكون المسار قابل للكتابة)",module,Magento_Sitemap
 "Store View","عرض المتجر",module,Magento_Sitemap
 Generate,توليد,module,Magento_Sitemap
 "Add Sitemap","أضف خريطة للموقع",module,Magento_Sitemap
@@ -3095,7 +3104,9 @@ All,الكل,module,Magento_Sitemap
 "Invalid scope object","كائن النطاق غير صالح",module,Magento_Store
 "Store with the same code","متجر له نفس الكود",module,Magento_Store
 "Website with the same code","موقع له نفس الكود",module,Magento_Store
+"Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","رمز الموقع قد يحتوي فقط على أحرف (أ-ي), الأرقام (0-9) أو تسطير, يجب أن يكون الحرف الأول حرف.",module,Magento_Store
 "Name is required","الاسم مطلوب",module,Magento_Store
+"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","رمز المتجر قد يحتوي على حروف فقط (أ-ي), الأرقام (0-9) أو تسطير، '' يجب أن يكون الحرف الأول حرف.",module,Magento_Store
 "Store is inactive","المتجر غير نشط",module,Magento_Store
 "Default store is inactive","المتجر الافتراضي غير نشط",module,Magento_Store
 "All Store Views","واجهه جميع المواقع",module,Magento_Store
@@ -3276,6 +3287,7 @@ Next,التالي,module,Magento_Ui
 "UPS Next Day Air Saver","الشحن في اليوم التالي عن طريق الجو UPS",module,Magento_Ups
 "UPS Next Day Air Early A.M.","شحن في اليوم التالي صباحاً عن طريق الجو UPS.",module,Magento_Ups
 "UPS Worldwide Express Plus","UPS الدولي Express Plus",module,Magento_Ups
+"UPS Saver","UPS الإدخار",module,Magento_Ups
 "UPS Express","UPS السريع",module,Magento_Ups
 "UPS Expedited","UPS مستعجل",module,Magento_Ups
 Ground,"سطح الأرض",module,Magento_Ups
@@ -3430,8 +3442,10 @@ None,"لا شئ",module,Magento_Usps
 Variable,متغير,module,Magento_Variable
 "Variable Code","رمز متغير",module,Magento_Variable
 "Variable Name","اسم متغير",module,Magento_Variable
+"Use Default Variable Values","استخدام القيم الافتراضية المتغيرة",module,Magento_Variable
 No,لا,module,Magento_Variable
 Yes,نعم,module,Magento_Variable
+"Variable HTML Value","قيمة متغير HTML",module,Magento_Variable
 "Variable Plain Value","قيمة متغير عادي",module,Magento_Variable
 "You deleted the custom variable.","قمت بحذف المتغير المخصص.",module,Magento_Variable
 "You saved the custom variable.","قمت بحفظ المتغير المخصص.",module,Magento_Variable
@@ -3456,6 +3470,7 @@ Delete,حذف,module,Magento_Vault
 "Requested service is not available: ""%1""","طلب خدمة غير متوفرة: ""%1""",module,Magento_Webapi
 "Operation ""%1"" not found.","عملية ""%1"" لم يتم العثور على.",module,Magento_Webapi
 "SOAP extension is not loaded.","لم يتم تحميل الملحق .",module,Magento_Webapi
+"Invalid XML","XML غير صالح",module,Magento_Webapi
 message,رسالة,module,Magento_Webapi
 Message,رسالة,module,Magento_Webapi
 "Add Tax","إضافة ضريبة",module,Magento_Weee
@@ -3465,6 +3480,7 @@ Message,رسالة,module,Magento_Webapi
 "Including FPT only","بما في ذلك FPT فقط",module,Magento_Weee
 "Including FPT and FPT description","بما في ذلك FPT و FPT الوصف",module,Magento_Weee
 "Excluding FPT. Including FPT description and final price","باستثناء FPT. بما في ذلك وصف FPT والسعر النهائي",module,Magento_Weee
+"Excluding FPT","باستثناء FPT",module,Magento_Weee
 Country/State,البلد/الدولة,module,Magento_Weee
 Tax,الضريبة,module,Magento_Weee
 Website,الموقع,module,Magento_Weee
@@ -4001,6 +4017,7 @@ Thumbnail,"صورة مصغره",module,Magento_Bundle
 Type,النوع,module,Magento_Bundle
 CAPTCHA,"كلمة التحقق",module,Magento_Captcha
 "Enable CAPTCHA in Admin","تمكين كلمة التحقق للمشرف",module,Magento_Captcha
+Font,الخط,module,Magento_Captcha
 Forms,النماذج,module,Magento_Captcha
 "Displaying Mode","وضع العرض",module,Magento_Captcha
 Inventory,المخزون,module,Magento_CatalogInventory
@@ -4039,6 +4056,7 @@ No,لا,module,Magento_CatalogRule
 "Catalog Products List","قائمة المنتجات",module,Magento_CatalogWidget
 "List of Products","قائمة المنتجات",module,Magento_CatalogWidget
 Title,العنوان,module,Magento_CatalogWidget
+"Number of Products per Page","عدد المنتجات في الصفحة",module,Magento_CatalogWidget
 "Number of Products to Display","عدد من المنتجات للعرض",module,Magento_CatalogWidget
 Template,قالب,module,Magento_CatalogWidget
 "Cache Lifetime (Seconds)","عمر ذاكرة التخزين المؤقت (بالثواني)",module,Magento_CatalogWidget
