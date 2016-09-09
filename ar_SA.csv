@@ -497,6 +497,8 @@ Type,النوع,module,Magento_CatalogRule
 "Attribute Set","مجموعة السمة",module,Magento_CatalogRule
 Product,المنتج,module,Magento_CatalogRule
 Promotions,الترقيات,module,Magento_CatalogRule
+"This rule no longer exists.","هذة القاعدة لم تعد موجودة.",module,Magento_CatalogRule
+"New Catalog Price Rule","قاعدة جديدة لسعر الكتالوج",module,Magento_CatalogRule
 "Edit Rule","تحرير قاعدة",module,Magento_CatalogRule
 Catalog,"دليل المنتجات",module,Magento_CatalogRule
 "Wrong rule specified.","قاعدة محددة خاطئة.",module,Magento_CatalogRule
@@ -942,8 +944,10 @@ Keywords,"كلمات مفتاحية",module,Magento_Cms
 Description,الوصف,module,Magento_Cms
 "Meta Description","Meta: الوصف",module,Magento_Cms
 Created,إنشاء,module,Magento_Cms
+Modified,عدل,module,Magento_Cms
 Action,إجراء,module,Magento_Cms
 Preview,"اعادة المشاهدة",module,Magento_Cms
+"Media Storage","وسائط التخزين",module,Magento_Cms
 "Delete File","حذف ملف",module,Magento_Cms
 Home,"الصفحة الرئيسية",module,Magento_Cms
 "Go to Home Page","الانتقال إلى الصفحة الرئيسية",module,Magento_Cms
@@ -1165,6 +1169,7 @@ Width,العرض,module,Magento_Dhl
 Regular,عادي,module,Magento_Dhl
 Specific,محددة,module,Magento_Dhl
 Secureline,"الخط الآمن",module,Magento_Dhl
+"Express worldwide","إكسبريس في جميع أنحاء العالم",module,Magento_Dhl
 "Same day","في اليوم نفسه",module,Magento_Dhl
 "Express 12:00","سريع 12:00",module,Magento_Dhl
 "Express envelope","مغلف بالشحن السريع",module,Magento_Dhl
@@ -1197,6 +1202,7 @@ label,التسمية,module,Magento_Directory
 WARNING:,تحذير:,module,Magento_Directory
 "Country and Format Type combination should be unique","البلد نوع وشكل الجمع بين ينبغي ان تكون فريدة من نوعها",module,Magento_Directory
 Currency,العملة,module,Magento_Directory
+"Your current currency is: %1.","العملة الحالية الخاصة بك: %1.",module,Magento_Directory
 "Downloadable Information","معلومات التحميل",module,Magento_Downloadable
 "Upload Files","تحميل الملف",module,Magento_Downloadable
 "All Files","كل الملفات",module,Magento_Downloadable
@@ -1204,6 +1210,7 @@ Unlimited,"غير محدود",module,Magento_Downloadable
 "Something went wrong while getting the requested content.","حدث خطأ أثناء الحصول على المحتوى المطلوب.",module,Magento_Downloadable
 "My Downloadable Products","المنتجات التي تم تحملها",module,Magento_Downloadable
 "We can't find the link you requested.","لا يمكن أن نجد الارتباط المطلوب.",module,Magento_Downloadable
+"The link has expired.","انتهت صلاحية الرابط.",module,Magento_Downloadable
 "Something went wrong while saving the file(s).","حدث خطأ أثناء حفظ الملفات.",module,Magento_Downloadable
 Pending,"في إنتظار المُراجعة",module,Magento_Downloadable
 Invoiced,فاتورة,module,Magento_Downloadable
@@ -1321,6 +1328,7 @@ Template,قالب,module,Magento_Email
 No,لا,module,Magento_EncryptionKey
 Yes,نعم,module,Magento_EncryptionKey
 "The generated key will be displayed after changing.","سيتم عرض المفتاح الذي تم إنشاؤه بعد تغيير.",module,Magento_EncryptionKey
+"Please enter an encryption key.","الرجاء إدخال مفتاح تشفير.",module,Magento_EncryptionKey
 "Europe First Priority","الأولوية الأولى في أوروبا",module,Magento_Fedex
 "1 Day Freight","الشحن بيوم واحد",module,Magento_Fedex
 "2 Day Freight","الشحن في يومين",module,Magento_Fedex
@@ -1337,7 +1345,10 @@ Ground,"سطح الأرض",module,Magento_Fedex
 "International Priority","اولوية دولية",module,Magento_Fedex
 "Intl Priority Freight","Intl اولوية الشحن",module,Magento_Fedex
 "Priority Overnight","اولوية الليل",module,Magento_Fedex
+"Smart Post","الموقع الذكي",module,Magento_Fedex
 "Standard Overnight","الموحدة بين عشية وضحاها",module,Magento_Fedex
+Freight,الشحن,module,Magento_Fedex
+"National Freight","الشحن الوطنية",module,Magento_Fedex
 "Regular Pickup","التقاط عادي",module,Magento_Fedex
 "Request Courier","طلب الساعي",module,Magento_Fedex
 "Drop Box","صندوق الحذف",module,Magento_Fedex
@@ -1354,8 +1365,11 @@ From,من,module,Magento_GiftMessage
 To,إلى,module,Magento_GiftMessage
 Message,رسالة,module,Magento_GiftMessage
 Cancel,إلغاء,module,Magento_GiftMessage
+OK,موافق,module,Magento_GiftMessage
+"Gift Options","خيارات الهدية",module,Magento_GiftMessage
 "Gift Message","رسالة الاهداء",module,Magento_GiftMessage
 "Do you have any gift items in your order?","هل لديك أي هدايا في هذا الطلب؟",module,Magento_GiftMessage
+"Add gift options","إضافة خيارات هدية",module,Magento_GiftMessage
 Dynamic,ديناميكي,module,Magento_GoogleAdwords
 Constant,ثابت,module,Magento_GoogleAdwords
 "Conversion Color value is not valid ""%1"". Please set hexadecimal 6-digit value.","تحويل لون قيمة غير صالحة ""%1"". الرجاء تعيين قيمة 6 أرقام ست عشرية.",module,Magento_GoogleAdwords
@@ -1392,6 +1406,7 @@ Filter,الفلتر,module,Magento_ImportExport
 Import,استيراد,module,Magento_ImportExport
 "Import Settings","استيراد الإعدادات",module,Magento_ImportExport
 "Import Behavior","سلوك الاستيراد",module,Magento_ImportExport
+"Images File Directory","دليل ملف الصور",module,Magento_ImportExport
 Import/Export,استيراد/تصدير,module,Magento_ImportExport
 Status,الحاله,module,Magento_ImportExport
 "in rows:","في صفوف:",module,Magento_ImportExport
@@ -1418,6 +1433,8 @@ Name,اسم,module,Magento_Integration
 Email,"البريد الإلكتروني",module,Magento_Integration
 "Callback URL","عنوان رد الاتصال",module,Magento_Integration
 "Basic Settings","الإعدادات الأساسيّة",module,Magento_Integration
+"Consumer Key","مفتاح المستهلك",module,Magento_Integration
+"Consumer Secret","سر المستهلك",module,Magento_Integration
 Remove,ازالة,module,Magento_Integration
 View,عرض,module,Magento_Integration
 Edit,تحرير,module,Magento_Integration
@@ -1450,6 +1467,7 @@ Previous,السابق,module,Magento_LayeredNavigation
 "File system","نظام الملفات",module,Magento_MediaStorage
 "Unable to save file ""%1"" at ""%2""","غير قادر على حفظ ملف ""%1"" في ""%2""",module,Magento_MediaStorage
 "Unable to create directory: %1","غير قادر على إنشاء الدليل: %1",module,Magento_MediaStorage
+"Unable to save file: %1","غير قادر على حفظ ملف: %1",module,Magento_MediaStorage
 "Change Billing Address","تغيير عنوان الدفع",module,Magento_Multishipping
 "Ship to Multiple Addresses","الشحن إلى عدة عناوين",module,Magento_Multishipping
 "Billing Information - %1","بيانات الفاتورة - %1",module,Magento_Multishipping
@@ -1469,6 +1487,7 @@ Total,إجمالي,module,Magento_Multishipping
 "Please check billing address information.","يرجى التحقق من المعلومات عنوان الفواتير.",module,Magento_Multishipping
 "Please select shipping methods for all addresses.","من فضلك قم باختيار طرق الشحن لكل العناوين.",module,Magento_Multishipping
 "Item not found or already ordered","عدم عثور على منتجاتكم أو أمر بالفعل",module,Magento_Multishipping
+"Please specify a payment method.","يرجى تحديد طريقة الدفع.",module,Magento_Multishipping
 "Please check shipping addresses information.","يرجى التحقق من عناوين الشحن المعلومات.",module,Magento_Multishipping
 "Please specify shipping methods for all addresses.","يرجى تحديد وسائل النقل البحري لكافة عناوين.",module,Magento_Multishipping
 "Select Addresses","اختيار عناوين",module,Magento_Multishipping
@@ -1754,6 +1773,7 @@ Refresh,التحديث,module,Magento_Reports
 "Products Report","تقرير المنتجات",module,Magento_Reports
 Downloads,التحميلات,module,Magento_Reports
 Product,المنتج,module,Magento_Reports
+Link,الرابط,module,Magento_Reports
 Purchases,المشتريات,module,Magento_Reports
 Unlimited,"غير محدود",module,Magento_Reports
 "Low stock","انخفاض المخزون",module,Magento_Reports
@@ -1909,6 +1929,7 @@ is,هو,module,Magento_Rule
 "equals or less than","يساوي أو أقل من",module,Magento_Rule
 "greater than","اكبر من",module,Magento_Rule
 "less than","أقل من",module,Magento_Rule
+contains,"يحتوي على",module,Magento_Rule
 "does not contain","لا يحتوي على",module,Magento_Rule
 "Please choose a condition to add.","من فضلك اختر شرطا لاضافتة.",module,Magento_Rule
 Add,إضافة,module,Magento_Rule
@@ -1940,6 +1961,7 @@ Yes,نعم,module,Magento_SalesRule
 No,لا,module,Magento_SalesRule
 "Apply To","طبق على",module,Magento_SalesRule
 Conditions,الحالات,module,Magento_SalesRule
+"Apply the rule only if the following conditions are met (leave blank for all products).","تطبيق القاعده الا اذا كانت الشروط التالية (اتركه فارغا لكافة المنتجات).",module,Magento_SalesRule
 "Manage Coupon Codes","إدارة قسيمة الخصم",module,Magento_SalesRule
 "Coupons Information","معلومات قسائم الخصم",module,Magento_SalesRule
 "Coupon Qty","كمية قسيمة الخصم",module,Magento_SalesRule
@@ -2289,6 +2311,7 @@ Print,طباعة,module,Magento_Shipping
 "the shipment email is not sent","لم يتم إرسال شحنة البريد الإلكتروني",module,Magento_Shipping
 "Create Shipping Label...","إنشاء بطاقة عنونة الشحن...",module,Magento_Shipping
 "Show Packages","إظهار الحزم",module,Magento_Shipping
+"About Your Shipment","حول الشحنة الخاصة بك",module,Magento_Shipping
 "Order # %1","رقم الطلب # %1",module,Magento_Shipping
 "Back to My Orders","العودة إلى طلباتي",module,Magento_Shipping
 Shipments,الشحنات,module,Magento_Shipping
@@ -2473,6 +2496,7 @@ Themes,مواضيع,module,Magento_Theme
 "Custom CSS","CSS مخصص",module,Magento_Theme
 "Upload CSS File","رفع ملف CSS",module,Magento_Theme
 Manage,إدارة,module,Magento_Theme
+"Upload Images","رفع صور",module,Magento_Theme
 General,عام,module,Magento_Theme
 "Delete File","حذف ملف",module,Magento_Theme
 "-- Please Select --","--الرجاء الاختيار-",module,Magento_Theme
@@ -2497,8 +2521,16 @@ Time,الزمن,module,Magento_Theme
 "UPS Next Day Air Saver","الشحن في اليوم التالي عن طريق الجو UPS",module,Magento_Ups
 "UPS Next Day Air Early A.M.","شحن في اليوم التالي صباحاً عن طريق الجو UPS.",module,Magento_Ups
 "UPS Worldwide Express Plus","UPS الدولي Express Plus",module,Magento_Ups
+"UPS Saver","UPS الإدخار",module,Magento_Ups
 "UPS Express","UPS السريع",module,Magento_Ups
 "UPS Expedited","UPS مستعجل",module,Magento_Ups
+"UPS Express Early A.M.","UPS الشحن السريع توصيل الصباح.",module,Magento_Ups
+"UPS Worldwide Express PlusSM","الشحن العالمي السريع (متقدم) UPS",module,Magento_Ups
+"UPS Today Standard","خدمة اليوم من UPS",module,Magento_Ups
+"UPS Today Dedicated Courrier","UPS شحن مستقل اليوم",module,Magento_Ups
+"UPS Today Express","خدمة اليوم UPS إكسبريس",module,Magento_Ups
+"UPS Today Express Saver","خدمة اليوم إكسبريس التوفيرية من UPS",module,Magento_Ups
+"UPS Express Plus","UPS السريع (متقدم)",module,Magento_Ups
 Ground,"سطح الأرض",module,Magento_Ups
 Pounds,جنيهات,module,Magento_Ups
 Kilograms,كيلوجرام,module,Magento_Ups
@@ -2520,8 +2552,12 @@ Name,اسم,module,Magento_UrlRewrite
 Status,الحاله,module,Magento_UrlRewrite
 "Edit URL Rewrite for CMS page","تحرير كتابة عنوان URL لصفحة نظام إدارة المحتويات",module,Magento_UrlRewrite
 "Add URL Rewrite for CMS page","إضافة إعادة كتابة عنوان URL لصفحة نظام إدارة المحتويات",module,Magento_UrlRewrite
+"CMS page:","صفحة نظام إدارة المحتويات:",module,Magento_UrlRewrite
 Title,العنوان,module,Magento_UrlRewrite
+"URL Key","مفتاح URL",module,Magento_UrlRewrite
 "Store View","عرض المتجر",module,Magento_UrlRewrite
+"Edit URL Rewrite","تحرير إعادة كتابة URL",module,Magento_UrlRewrite
+"Add New URL Rewrite","إضافة إعادة كتابة URL جديد",module,Magento_UrlRewrite
 Reset,"اعادة ضبط",module,Magento_UrlRewrite
 Back,رجوع,module,Magento_UrlRewrite
 Delete,احذف,module,Magento_UrlRewrite
@@ -2628,6 +2664,7 @@ None,"لا شئ",module,Magento_Usps
 "Not allowed parameters: %1. Please use only %2 and %3.","لا يسمح معلمات: %1. الرجاء استخدام %2 و %3 فقط.",module,Magento_Webapi
 "Requested service is not available: ""%1""","طلب خدمة غير متوفرة: ""%1""",module,Magento_Webapi
 "Operation ""%1"" not found.","عملية ""%1"" لم يتم العثور على.",module,Magento_Webapi
+"Invalid XML","XML غير صالح",module,Magento_Webapi
 "Add Tax","إضافة ضريبة",module,Magento_Weee
 "Delete Tax","حذف الضرائب",module,Magento_Weee
 "All Websites","جميع المواقع",module,Magento_Weee
@@ -2635,6 +2672,7 @@ None,"لا شئ",module,Magento_Usps
 "Including FPT only","بما في ذلك FPT فقط",module,Magento_Weee
 "Including FPT and FPT description","بما في ذلك FPT و FPT الوصف",module,Magento_Weee
 "Excluding FPT. Including FPT description and final price","باستثناء FPT. بما في ذلك وصف FPT والسعر النهائي",module,Magento_Weee
+"Excluding FPT","باستثناء FPT",module,Magento_Weee
 Website,الموقع,module,Magento_Weee
 Country/State,البلد/الدولة,module,Magento_Weee
 Tax,الضريبة,module,Magento_Weee
@@ -2650,6 +2688,7 @@ Widget,ويدجت,module,Magento_Widget
 "-- Please Select --","--الرجاء الاختيار-",module,Magento_Widget
 "Save and Continue Edit","حفظ ومواصلة التعديل",module,Magento_Widget
 "Custom Layouts","تخطيطات مخصصة",module,Magento_Widget
+"Page Layouts","تخطيطات الصفحة",module,Magento_Widget
 "Please Select Container First","الرجاء تحديد الحاوية أولاً",module,Magento_Widget
 Type,النوع,module,Magento_Widget
 "Sort Order",الترتيب,module,Magento_Widget
@@ -2858,6 +2897,7 @@ Debug,نقح,module,Magento_Braintree
 "Use Cache","استخدام ذاكرة التخزين المؤقت",module,Magento_Braintree
 CAPTCHA,"كلمة التحقق",module,Magento_Captcha
 "Enable CAPTCHA in Admin","تمكين كلمة التحقق للمشرف",module,Magento_Captcha
+Font,الخط,module,Magento_Captcha
 Forms,النماذج,module,Magento_Captcha
 "Displaying Mode","وضع العرض",module,Magento_Captcha
 Inventory,المخزون,module,Magento_CatalogInventory
@@ -2975,6 +3015,7 @@ Size,الحجم,module,Magento_Dhl
 Debug,نقح,module,Magento_Dhl
 "Currency Setup","اعدادات العملة",module,Magento_Directory
 "Currency Options","خيارات العملة""",module,Magento_Directory
+"Base Currency","العملية الاساسية",module,Magento_Directory
 "Scheduled Import Settings","اعدادات الاستيراد المجدول",module,Magento_Directory
 Enabled,تفعيل,module,Magento_Directory
 "Error Email Recipient","خطأ فى مستقبل الرسالة",module,Magento_Directory
@@ -3017,6 +3058,7 @@ Enable,تفعيل,module,Magento_GoogleAnalytics
 "Account Number","رقم الحساب",module,Magento_GoogleAnalytics
 "Enable Content Experiments","تفعيل Content Experiments",module,Magento_GoogleOptimizer
 "Grouped Product Image","تجميع صورة المنتج",module,Magento_GroupedProduct
+Indexer,المفهرس,module,Magento_Indexer
 Description,الوصف,module,Magento_Indexer
 Status,الحاله,module,Magento_Indexer
 Updated,محدث,module,Magento_Indexer
@@ -3057,9 +3099,13 @@ Enabled,تفعيل,module,Magento_OfflinePayments
 "Sort Order",الترتيب,module,Magento_OfflinePayments
 Title,العنوان,module,Magento_OfflinePayments
 "Payment from Applicable Countries","الدفع من البلدان المطبقة",module,Magento_OfflinePayments
+"Payment from Specific Countries","الدفع من بلدان معينة",module,Magento_OfflinePayments
 "Make Check Payable to","تقديم شيك مستحق الدفع لـ",module,Magento_OfflinePayments
 "Minimum Order Total","إجمالي الحد الأدنى للطلب",module,Magento_OfflinePayments
+"Maximum Order Total","إجمالي الحد الأعلى للطلب",module,Magento_OfflinePayments
 "Purchase Order","طلب الشراء",module,Magento_OfflinePayments
+Instructions,التعليمات,module,Magento_OfflinePayments
+"Cash On Delivery Payment","الدفع عند الاستلام",module,Magento_OfflinePayments
 "Zero Subtotal Checkout","المجموع الفرعي الخروج صفر",module,Magento_OfflinePayments
 "Flat Rate","تسعيرة موحدة",module,Magento_OfflineShipping
 Enabled,تفعيل,module,Magento_OfflineShipping
@@ -3097,6 +3143,7 @@ Partner,ِشريك,module,Magento_Paypal
 User,المستخدم,module,Magento_Paypal
 "Use Proxy","استخدام بروكسي",module,Magento_Paypal
 "General Options","خيارات عامة",module,Magento_Persistent
+"Enable ""Remember Me""","تمكين ""تذكرني""",module,Magento_Persistent
 """Remember Me"" Default Value","القيمة الافتراضية ""تذكرني""",module,Magento_Persistent
 "Product Alerts","تنبيهات المنتج",module,Magento_ProductAlert
 "Allow Alert When Product Price Changes","اتاحة تنبيه تغيير السعر",module,Magento_ProductAlert
@@ -3271,6 +3318,7 @@ Machinable,"مفهوم من قبل الإله",module,Magento_Usps
 Debug,نقح,module,Magento_Usps
 "Sort Order",الترتيب,module,Magento_Usps
 "REST and SOAP configurations, generated WSDL file.","إعدادات REST و SOAP، أنشأت ملف WSDL.",module,Magento_Webapi
+"Enable FPT","تمكين FPT",module,Magento_Weee
 "Share Options","خيارات المشاركة",module,Magento_Wishlist
 "Email Sender","مرسل البريد الإلكتروني",module,Magento_Wishlist
 "Email Template","قالب البريد الإلكتروني",module,Magento_Wishlist
