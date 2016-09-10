@@ -265,6 +265,7 @@ System,النظام,module,Magento_Backend
 "Unable to delete the store. Please try again later.","غير قادر على حذف المتجر. من فضلك، حاول مرة أخرى لاحقاً.",module,Magento_Backend
 "This store view cannot be deleted.","لا يمكن حذف عرض المتجر هذا.",module,Magento_Backend
 "Store View","عرض المتجر",module,Magento_Backend
+"You deleted the store view.","تم حذف واجهة المتجر.",module,Magento_Backend
 "Unable to delete the store view. Please try again later.","غير قادر على حذف واجهة المتجر. من فضلك، حاول مرة أخرى لاحقاً.",module,Magento_Backend
 "This website cannot be deleted.","لا يمكن حذف هذا الموقع.",module,Magento_Backend
 "You deleted the website.","لقد حذفت الموقع.",module,Magento_Backend
@@ -275,16 +276,26 @@ System,النظام,module,Magento_Backend
 "Store view doesn't exist","عرض المتجر غير موجود",module,Magento_Backend
 "Before modifying the store view code please make sure it is not used in index.php.","قبل تعديل رمز عرض المتجر يرجى التأكد من أنها لا تستخدم في index.php.",module,Magento_Backend
 "You saved the website.","قمت بحفظ موقع شبكة الإنترنت.",module,Magento_Backend
+"An inactive store view cannot be saved as default store view","لا يمكن حفظ واجهة متجر غير نشط كواجهة افتراضية",module,Magento_Backend
+"You saved the store.","قمت بحفظ المتجر.",module,Magento_Backend
+"The default store cannot be disabled","لا يمكن تعطيل المتجر الافتراضي",module,Magento_Backend
+"You saved the store view.","لقد حفظت واجهة المتجر.",module,Magento_Backend
+"Something went wrong while saving. Please review the error log.","حدث خطأ أثناء الحفظ. الرجاء مراجعة سجل الأخطاء.",module,Magento_Backend
 "Last 24 Hours","ال 24 ساعة الماضية",module,Magento_Backend
 "Last 7 Days","آخر 7 أيام",module,Magento_Backend
 "Current Month","الشهر الحالي",module,Magento_Backend
 YTD,"منذ سنة",module,Magento_Backend
 2YTD,"منذ سنتين",module,Magento_Backend
+"You did not sign in correctly or your account is temporarily disabled.","لم تقم بتسجيل الدخول بشكل صحيح أو أن حسابك معطل مؤقتاً.",module,Magento_Backend
 "Authentication error occurred.","حدث خطأ مصادقة.",module,Magento_Backend
+"Admin session lifetime must be less than or equal to 31536000 seconds (one year)","جلسة المدير يجب أن تكون أقل من أو يساوي إلى 31536000 ثانية (سنة واحدة)",module,Magento_Backend
+"Admin session lifetime must be greater than or equal to 60 seconds","جلسة المدير يجب أن تكون أكبر من أو تساوي 60 ثانية",module,Magento_Backend
 Order,طلب,module,Magento_Backend
 "Order #%1","رقم الطلب #%1",module,Magento_Backend
 "Access denied","إمكانية الوصول غير متاحة",module,Magento_Backend
 "Please try to sign out and sign in again.","الرجاء محاولة تسجيل الخروج وتسجيل الدخول مرة أخرى.",module,Magento_Backend
+"If you continue to receive this message, please contact the store owner.","إذا استمر ظهور هذه الرسالة، الرجاء الاتصال بمالك المتجر.",module,Magento_Backend
+"You need more permissions to access this.","تحتاج لمزيد من الصلاحيات للوصول إلى هذا.",module,Magento_Backend
 "Welcome, please sign in","مرحبا، الرجاء تسجيل الدخول",module,Magento_Backend
 Username,"اسم المستخدم",module,Magento_Backend
 "user name","اسم المستخدم",module,Magento_Backend
@@ -297,6 +308,7 @@ password,"كلمة المرو",module,Magento_Backend
 "Last Orders","آخر الطلبات",module,Magento_Backend
 "Last Search Terms","كلمات البحث الأخيرة",module,Magento_Backend
 "Top Search Terms","أعلى كلمات البحث",module,Magento_Backend
+"There are no search keywords.","لا يوجد كلمات بحث.",module,Magento_Backend
 "View Statistics For:","عرض إحصائيات عن:",module,Magento_Backend
 "All Websites","جميع المواقع",module,Magento_Backend
 "Reload Data","إعادة تحميل البيانات",module,Magento_Backend
@@ -325,8 +337,15 @@ Minute,دقيقة,module,Magento_Backend
 "Stores Configuration","ضبط المتاجر",module,Magento_Backend
 "Please confirm scope switching. All data that hasn't been saved will be lost.","الرجاء التأكد من تحويل النطاق. سيتم فقدان كافة البيانات التي لم يتم حفظها.",module,Magento_Backend
 "Additional Cache Management","إدارة ذاكرة التخزين المؤقت الإضافية",module,Magento_Backend
+"Flush Catalog Images Cache","مسح التخزين المؤقت للصور",module,Magento_Backend
+"Pregenerated product images files","ملفات صور منتجة سابقا للمنتج",module,Magento_Backend
+"Flush JavaScript/CSS Cache","مسح ملفات جافا سكريبت/الثيم من ذاكرة التخزين المؤقت",module,Magento_Backend
 "Themes JavaScript and CSS files combined to one file","ملفات CSS وجافا سكريبت للثيم مجتمعة في ملف واحد",module,Magento_Backend
+"Flush Static Files Cache","مسح ذاكرة التخزين المؤقت للملفات الثابتة",module,Magento_Backend
+"Preprocessed view files and static files","ملفات الواجهة والملفات الثابتة معالجة مسبقا",module,Magento_Backend
 Catalog,"دليل المنتجات",module,Magento_Backend
+JavaScript/CSS,"جافا سكريبت/المغلق",module,Magento_Backend
+"JavaScript/CSS Cache","ذاكرة التخزين المؤقت للجافا سكريبت/المغلق",module,Magento_Backend
 "No records found.","لم يتم العثور على تسجيلات.",module,Magento_Backend
 Images,صور,module,Magento_Backend
 "Big Image","صورة كبيرة",module,Magento_Backend
@@ -356,6 +375,7 @@ Loading...,"جاري التحميل...",module,Magento_Backend
 "To create the backup, please deselect ""Put store into maintenance mode"" or update your permissions.","لإنشاء النسخ الاحتياطي، الرجاء قم بإلغاء تحديد ""وضع المتجر في وضع الصيانة"" أو تحديث الأذونات الخاصة بك.",module,Magento_Backup
 "Something went wrong while putting your store into maintenance mode.","حدث خطأ في وضع المتجر الخاص بك في وضع الصيانة.",module,Magento_Backup
 "You need more free space to create a backup.","كنت بحاجة إلى مزيد من المساحة الحرة لإنشاء نسخة احتياطية.",module,Magento_Backup
+"You need more permissions to create a backup.","انت بحاجة إلى مزيد من الأذونات لإنشاء نسخة احتياطية.",module,Magento_Backup
 "We can't create the backup right now.","لا يمكننا إنشاء النسخ الاحتياطي الآن.",module,Magento_Backup
 Backups,الاحتياطات,module,Magento_Backup
 System,النظام,module,Magento_Backup
@@ -377,6 +397,7 @@ Database,"قاعدة البيانات",module,Magento_Backup
 "Database and Media","قاعدة البيانات و الوسائط",module,Magento_Backup
 "System (excluding Media)","النظام (باستثناء الوسائط)",module,Magento_Backup
 "You created the system backup.","تم إنشاء نظام النسخ الاحتياطي.",module,Magento_Backup
+"You created the system backup (excluding media).","لقد قمت بإنشاء نظام النسخ الاحتياطي (باستثناء الوسائط).",module,Magento_Backup
 "You created the database backup.","قمت بإنشاء قاعدة البيانات الاحتياطية.",module,Magento_Backup
 "Please correct the order of creation for a new backup.","الرجاء تصحيح الطلب لإنشاء نسخة احتياطية جديدة.",module,Magento_Backup
 "The backup file does not exist.","ملف النسخة الاحتياطية غير موجود.",module,Magento_Backup
@@ -389,6 +410,7 @@ Database,"قاعدة البيانات",module,Magento_Backup
 "Are you sure you want to continue?","هل انت متأكد انك تريد الاستمرار؟",module,Magento_Backup
 "This may take a few moments.","قد يستغرق هذا بضع لحظات.",module,Magento_Backup
 "Backup Name","اسم النسخة الاحتياطية",module,Magento_Backup
+"Please use only letters (a-z or A-Z), numbers (0-9) or spaces in this field.","الرجاء استخدام الأحرف (إلى z أو A إلى Z)، الأرقام (0-9) أو مسافات فقط في هذا الحقل.",module,Magento_Backup
 "Maintenance mode","وضع الصيانة",module,Magento_Backup
 "Please put your store into maintenance mode during backup.","الرجاء وضع المتجر الخاص بك في وضع الصيانة أثناء النسخ الاحتياطي.",module,Magento_Backup
 Exclude,استبعاد,module,Magento_Backup
@@ -413,23 +435,43 @@ Country,الدولة,module,Magento_Braintree
 "We can't initialize checkout.","لايمكننا تهيئة عملية الدفع.",module,Magento_Braintree
 "No authorization transaction to proceed capture.","لا إذن لمتابعة المعاملة الالتقاط.",module,Magento_Braintree
 "Braintree error response.","رد خطأ Braintree.",module,Magento_Braintree
+"Payment method nonce can't be retrieved.","لا يمكن استرداد الرقم الاعتباطي أسلوب الدفع.",module,Magento_Braintree
 "Wrong transaction status","حالة المعاملة غير صحيحة",module,Magento_Braintree
 Authorize,تصريح,module,Magento_Braintree
 "Authorize and Capture","التحقق و القبض",module,Magento_Braintree
 "--Please Select--","--أختر من فضلك--",module,Magento_Braintree
 "Please agree to all the terms and conditions before placing the order.","الرجاء الموافقة على كل الشروط والأحكام قبل انهاء طلبك.",module,Magento_Braintree
 "Paypal account","حساب باي بال",module,Magento_Braintree
+"Coinbase account","حساب Coinbase",module,Magento_Braintree
 "Europe bank account","حساب مصرفي في أوروبا",module,Magento_Braintree
 "Credit card","بطاقة الإئتمان",module,Magento_Braintree
 "Apple pay card","بطاقة دفع أبل",module,Magento_Braintree
 "Android pay card","بطاقة دفع اندرويد",module,Magento_Braintree
+"Authorization expired","انتهت مدة صلاحية الترخيص",module,Magento_Braintree
 Authorizing,الإذن,module,Magento_Braintree
+Authorized,مصرّح,module,Magento_Braintree
+"Gateway rejected","بوابة الدفع رفضت",module,Magento_Braintree
 Failed,فشل,module,Magento_Braintree
+"Processor declined","رفض المعالج",module,Magento_Braintree
+Settled,"تمت التسوية",module,Magento_Braintree
+Settling,"جاري التسوية",module,Magento_Braintree
+"Submitted for settlement","أرسلت للتسوية",module,Magento_Braintree
+Voided,أبطلت,module,Magento_Braintree
+Unrecognized,"غير معروف",module,Magento_Braintree
+"Settlement declined","رفضت التسوية",module,Magento_Braintree
+"Settlement pending","التسوية معلقة",module,Magento_Braintree
+"Settlement confirmed","التسوية مأكدة",module,Magento_Braintree
 Sale,بيع,module,Magento_Braintree
+Credit,الرصيد,module,Magento_Braintree
 "Credit Card Type","نوع بطاقة الائتمان",module,Magento_Braintree
 "Credit Card Number","رقم بطاقة الائتمان",module,Magento_Braintree
+"Please, enter valid Credit Card Number","الرجاء إدخال ""رقم بطاقة ائتمان"" صالح",module,Magento_Braintree
 "Expiration Date","تاريخ الانتهاء",module,Magento_Braintree
+"Please, enter valid Expiration Date","الرجاء إدخال ""تاريخ انتهاء صلاحية"" صالح",module,Magento_Braintree
 "Card Verification Number","رقم التحقق من البطاقة",module,Magento_Braintree
+"Please, enter valid Card Verification Number","الرجاء إدخال رقم تحقق صالح",module,Magento_Braintree
+ending,"يتم الإنهاء",module,Magento_Braintree
+expires,"انتهاء صلاحية",module,Magento_Braintree
 "Percent Discount","نسبة الخصم",module,Magento_Bundle
 "-- Select --","-- اختر --",module,Magento_Bundle
 Dynamic,ديناميكي,module,Magento_Bundle
@@ -454,6 +496,7 @@ Delete,احذف,module,Magento_Bundle
 "Can not find product link with id ""%1""","لا يمكن العثور على معرف ارتباط المنتج ""%1""",module,Magento_Bundle
 "Could not save child: ""%1""","تعذر حفظ الطفل: ""%1""",module,Magento_Bundle
 "Product with specified sku: ""%1"" does not contain option: ""%2""","المنتج مع رمز المنتج المحدد: ""%1"" لا يحتوي على خيار: ""%2""",module,Magento_Bundle
+"Child with specified sku: ""%1"" already assigned to product: ""%2""","رمز المنتج للفرع: ""%1"" تم تعيينه بالفعل للمنتج: ""%2""",module,Magento_Bundle
 "Product with specified sku: %1 is not a bundle product","المنتج مع رمز المنتج المحدد: ""%1"" ليس حزمة منتج",module,Magento_Bundle
 "Requested bundle option product doesn't exist","خيار الحزمة للمنتج المطلوب غير موجود",module,Magento_Bundle
 "%fieldName is a required field.","%fieldName حقل مطلوب.",module,Magento_Bundle
@@ -597,6 +640,7 @@ Promotions,الترقيات,module,Magento_CatalogRule
 "We can't delete this rule right now. Please review the log and try again.","لا يمكن حذف هذه القاعدة الآن. الرجاء مراجعة السجل وحاول مرة أخرى.",module,Magento_CatalogRule
 "We can't find a rule to delete.","لا يمكن أن نجد قاعدة للحذف.",module,Magento_CatalogRule
 "This rule no longer exists.","هذة القاعدة لم تعد موجودة.",module,Magento_CatalogRule
+"New Catalog Price Rule","قاعدة جديدة لسعر الكتالوج",module,Magento_CatalogRule
 "Edit Rule","تحرير قاعدة",module,Magento_CatalogRule
 "New Rule","قاعدة جديدة",module,Magento_CatalogRule
 Catalog,"دليل المنتجات",module,Magento_CatalogRule
@@ -1159,6 +1203,7 @@ Created,إنشاء,module,Magento_Cms
 Modified,عدل,module,Magento_Cms
 Action,إجراء,module,Magento_Cms
 Preview,"اعادة المشاهدة",module,Magento_Cms
+"Media Storage","وسائط التخزين",module,Magento_Cms
 "Delete File","حذف ملف",module,Magento_Cms
 Home,"الصفحة الرئيسية",module,Magento_Cms
 "Go to Home Page","الانتقال إلى الصفحة الرئيسية",module,Magento_Cms
@@ -1198,6 +1243,9 @@ System,النظام,module,Magento_Config
 "Something went wrong while saving this configuration:","حدث خطأ أثناء حفظ هذا التكوين:",module,Magento_Config
 "Page not found.","لم يتم العثور على الصفحة.",module,Magento_Config
 "Invalid %1. %2","%1 غير صالح. %2",module,Magento_Config
+"Value must be a URL or one of placeholders: %1","يجب أن تكون قيمة URL أو واحد من العناصر النائبة: %1",module,Magento_Config
+"Specify a URL or path that starts with placeholder(s): %1, and ends with ""/"".","تحديد URL أو المسار الذي يبدأ ب placeholder(s): %1، وينتهي مع ""/"".",module,Magento_Config
+"%1 An empty value is allowed as well.","%1 كذلك يسمح بقيمة فارغة.",module,Magento_Config
 "Sorry, we haven't installed the base currency you selected.","عذراً، لم تقم بتثبيت العملة الأساسية التي قمت بتحديدها.",module,Magento_Config
 "We can't save the Cron expression.","لايمكننا حفظ تعبير Cron.",module,Magento_Config
 "Sorry, we haven't installed the default display currency you selected.","عذراً،لم تقم بتثبيت عملة العرض الافتراضية التي حددتها.",module,Magento_Config
@@ -1753,6 +1801,7 @@ Template,قالب,module,Magento_Email
 No,لا,module,Magento_EncryptionKey
 Yes,نعم,module,Magento_EncryptionKey
 "The generated key will be displayed after changing.","سيتم عرض المفتاح الذي تم إنشاؤه بعد تغيير.",module,Magento_EncryptionKey
+"New Key","مفتاح جديد",module,Magento_EncryptionKey
 "Please enter an encryption key.","الرجاء إدخال مفتاح تشفير.",module,Magento_EncryptionKey
 "Europe First Priority","الأولوية الأولى في أوروبا",module,Magento_Fedex
 "1 Day Freight","الشحن بيوم واحد",module,Magento_Fedex
@@ -1809,6 +1858,7 @@ OK,موافق,module,Magento_GiftMessage
 "Gift Options","خيارات الهدية",module,Magento_GiftMessage
 "Gift Message","رسالة الاهداء",module,Magento_GiftMessage
 "Do you have any gift items in your order?","هل لديك أي هدايا في هذا الطلب؟",module,Magento_GiftMessage
+"Add gift options","إضافة خيارات هدية",module,Magento_GiftMessage
 "Leave this box blank if you don't want to leave a gift message for the entire order.","اترك هذا المربع فارغاً إذا كنت لا تريد أن تترك رسالة هدية للطلبية بأكملها.",module,Magento_GiftMessage
 "Leave a box blank if you don't want to add a gift message for that item.","اترك المربع فارغاً إذا كنت لا تريد إضافة رسالة هدية لهذا العنصر.",module,Magento_GiftMessage
 "You can leave this box blank if you don't want to add a gift message for this address.","تستطيع ترك هذا المربع فارغاً إذا كنت لا تريد إضافة رسالة هدية لهذا العنوان.",module,Magento_GiftMessage
@@ -1847,7 +1897,7 @@ Qty,الكميّة,module,Magento_GroupedProduct
 "No options of this product are available.","لا توجد خيارات متوفرة لهذا المنتج.",module,Magento_GroupedProduct
 "Default Qty","الكمية الافتراضية",module,Magento_GroupedProduct
 "In stock",متوفر,module,Magento_GroupedProduct
-Export,استخراج,module,Magento_ImportExport
+Export,تصدير,module,Magento_ImportExport
 "Export Settings","إعدادات التصدير",module,Magento_ImportExport
 "Entity Type","نوع الكيان",module,Magento_ImportExport
 "Export File Format","تنسيق ملف التصدير",module,Magento_ImportExport
@@ -1863,6 +1913,7 @@ Download,تحميل,module,Magento_ImportExport
 Import,استيراد,module,Magento_ImportExport
 "Import Settings","استيراد الإعدادات",module,Magento_ImportExport
 "Import Behavior","سلوك الاستيراد",module,Magento_ImportExport
+"Images File Directory","دليل ملف الصور",module,Magento_ImportExport
 Import/Export,استيراد/تصدير,module,Magento_ImportExport
 Status,الحاله,module,Magento_ImportExport
 "The file is valid, but we can't import it for some reason.","الملف صالح, لكن لا نستطيع استيراده لسبب ما.",module,Magento_ImportExport
@@ -1994,6 +2045,7 @@ Total,إجمالي,module,Magento_Multishipping
 "A payment method is not defined.","طريقة الدفع غير معرفة.",module,Magento_Multishipping
 "The requested payment method is not available for multishipping.","طريقة الدفع المطلوبة غير متوفرة للشحن المتعدد.",module,Magento_Multishipping
 "Item not found or already ordered","عدم عثور على منتجاتكم أو أمر بالفعل",module,Magento_Multishipping
+"Please specify a payment method.","يرجى تحديد طريقة الدفع.",module,Magento_Multishipping
 "Please check shipping addresses information.","يرجى التحقق من عناوين الشحن المعلومات.",module,Magento_Multishipping
 "Please specify shipping methods for all addresses.","يرجى تحديد وسائل النقل البحري لكافة عناوين.",module,Magento_Multishipping
 "Select Addresses","اختيار عناوين",module,Magento_Multishipping
@@ -2300,6 +2352,7 @@ Hidden,مخفي,module,Magento_ProductVideo
 "Image Resolution","دقة الصورة",module,Magento_ProductVideo
 Title:,العنوان:,module,Magento_ProductVideo
 Uploaded:,"تم الرفع:",module,Magento_ProductVideo
+Duration:,المدة:,module,Magento_ProductVideo
 "Unable to save address. Please check input data.","غير قادر على حفظ العنوان. الرجاء التحقق من إدخال البيانات.",module,Magento_Quote
 "Cart %1 doesn't contain products","سلة %1 لا يحتوي على منتجات",module,Magento_Quote
 "Could not apply coupon code","لا يمكن تطبيق رمز قسيمة الخصم",module,Magento_Quote
@@ -2946,6 +2999,7 @@ No,لا,module,Magento_Search
 Yes,نعم,module,Magento_Search
 "Search Query","استفسار البحث",module,Magento_Search
 Store,متجر,module,Magento_Search
+"Number of results","عدد النتائج",module,Magento_Search
 "Number of Uses","عدد من الاستخدامات",module,Magento_Search
 "Redirect URL","اعادة توجيه الموقع",module,Magento_Search
 "Display in Suggested Terms","العرض في العناصر المقترحة",module,Magento_Search
@@ -3170,6 +3224,8 @@ Options,الخيارات,module,Magento_Swatches
 "Select All","اختيار الكل",module,Magento_Swatches
 "Deselect All","الغاء تحديد الكل",module,Magento_Swatches
 "Remove Attribute","إزالة السمة",module,Magento_Swatches
+"Remove Option","إزالة خيار",module,Magento_Swatches
+"Create New Value","إنشاء قيمة جديدة",module,Magento_Swatches
 Code,رمز,module,Magento_TaxImportExport
 Country,الدولة,module,Magento_TaxImportExport
 State,ولاية,module,Magento_TaxImportExport
@@ -3646,7 +3702,9 @@ Remove,ازالة,theme,frontend/Magento/luma
 "Clear All","إلغاء الكل",theme,frontend/Magento/luma
 "Shopping Options","خيارات التسوق",theme,frontend/Magento/luma
 "Place Order","إنشاء الطلب",module,Magento_Authorizenet
+"Credit Card Information","معلومات بطاقة الائتمان",module,Magento_Braintree
 "What is this?","ما هذا؟",module,Magento_Braintree
+"Save for later use.","حفظ لاستخدامها في وقت لاحق.",module,Magento_Braintree
 "Place Order","إنشاء الطلب",module,Magento_Braintree
 "Attention: Captcha is case sensitive.","انتباه: كلمة التحقق حساسة لحالة الأحرف.",module,Magento_Captcha
 "Payment Transaction Failed","فشلت عملية الدفع",module,Magento_Checkout
@@ -3848,6 +3906,9 @@ Footer,"ذيل الصفحة",theme,frontend/Magento/luma
 "Update to your %store_name shipment","تحديث للشحنة الخاصة بك %store_name",theme,frontend/Magento/luma
 "We could not detect a size.","تعذر الكشف عن الحجم.",module,Magento_Backend
 "We don't recognize or support this file extension type.","لم نتعرف او ندعم ملحق هذا الملف.",module,Magento_Backend
+"This payment is not available","طريقة الدفع غير متوفرة",module,Magento_Braintree
+"Please try again with another form of payment.","الرجاء المحاولة مرة أخرى بطريقة دفع أخرى.",module,Magento_Braintree
+"Sorry, but something went wrong.","عفواً، حدث خطأ.",module,Magento_Braintree
 "Add Products to New Option","إضافة المنتجات إلى خيار جديد",module,Magento_Bundle
 "Add Products to Option ""%1""","إضافة المنتجات إلى الخيار ""%1""",module,Magento_Bundle
 Submit,إرسال,module,Magento_Catalog
@@ -3878,6 +3939,7 @@ Delete,احذف,module,Magento_ProductVideo
 "Add Products","إضافة منتجات",module,Magento_Sales
 Ok,موافق,module,Magento_Sales
 Add,إضافة,module,Magento_Ui
+"Something went wrong.","لقد حدث خطأ ما.",module,Magento_Ui
 Yes,نعم,module,Magento_Ui
 No,لا,module,Magento_Ui
 Done,انتهى,module,Magento_Ui
@@ -3938,6 +4000,7 @@ Debug,تنقيح,module,Magento_Authorizenet
 "Magento Admin","مشرف ماجنتو",module,Magento_Backend
 "Global Search","بحث عام",module,Magento_Backend
 Marketing,التسويق,module,Magento_Backend
+"SEO & Search","البحث ومحسنات محركات البحث",module,Magento_Backend
 "User Content","محتويات المستخدم",module,Magento_Backend
 Content,المُحتوى,module,Magento_Backend
 Elements,عناصر,module,Magento_Backend
@@ -4021,21 +4084,51 @@ Host,المضيف,module,Magento_Backend
 "Set Return-Path","تعيين مسار العودة",module,Magento_Backend
 "Return-Path Email","مسار العودة-البريد الإلكتروني",module,Magento_Backend
 Admin,المدير,module,Magento_Backend
+"Admin User Emails","البريد الإلكتروني للمدير",module,Magento_Backend
 "Forgot Password Email Template","نسيت كلمة السر البريد الالكتروني قالب",module,Magento_Backend
 "Email template chosen based on theme fallback when ""Default"" option is selected.","اختيار قالب البريد الإلكتروني استناداً إلى موضوع الرجوع عند تحديد الخيار ""الإفتراضي"".",module,Magento_Backend
+"Forgot and Reset Email Sender","البريد الإلكنروني لـ نسيت كلمة السر",module,Magento_Backend
 "Startup Page","صفحة بدء التشغيل",module,Magento_Backend
+"Admin Base URL","عنوان صفحة المدير",module,Magento_Backend
+"Use Custom Admin URL","استخدام URL مخصص للمدير",module,Magento_Backend
+"Custom Admin URL","عنوان URL مخصص للمدير",module,Magento_Backend
+"Make sure that base URL ends with '/' (slash), e.g. http://yourdomain/magento/","تأكد من أن عنوان URL الأساسي ينتهي ب '/' ، مثل http://yourdomain/magento/",module,Magento_Backend
+"Use Custom Admin Path","استخدام المسار المعدل للمدير",module,Magento_Backend
+"Custom Admin Path","مسار المسؤول معدل",module,Magento_Backend
+"You will have to sign in after you save your custom admin path.","يجب عليك إعادة تسجيل الدخول بعد أن قمت بحفظ مسار المدير المخصص.",module,Magento_Backend
+Security,الحماية,module,Magento_Backend
+"Recovery Link Expiration Period (hours)","عمر الصلاحية لرابط الاسترداد (ساعات)",module,Magento_Backend
+"Please enter a number 1 or greater in this field.","الرجاء إدخال رقم 1 أو أكبر في هذا الحقل.",module,Magento_Backend
+"Add Secret Key to URLs","أضف مفتاح سري للروابط",module,Magento_Backend
+"Login is Case Sensitive","تسجيل الدخول يحتسب حالة الأحرف",module,Magento_Backend
+"Admin Session Lifetime (seconds)","مدة جلسة المدير (بالثواني)",module,Magento_Backend
+"Please enter at least 60 and at most 31536000 (one year).","الرجاء إدخال 60 على الأقل، وعلى الأكثر 31536000 (سنة واحدة).",module,Magento_Backend
 "Enable Charts","تمكين المخططات",module,Magento_Backend
 Web,موقع,module,Magento_Backend
 "Url Options","خيارات الموقع",module,Magento_Backend
 "Add Store Code to Urls","رمز المخزن اضافة الى عناوين المواقع",module,Magento_Backend
+"Auto-redirect to Base URL","إعادة التوجيه آلية إلى الربط الأساس",module,Magento_Backend
+"Search Engine Optimization","تحسين محرك البحث",module,Magento_Backend
 "Use Web Server Rewrites","إعادة كتابة باستخدام خادم الويب",module,Magento_Backend
+"Base URLs","الرابط الأساس",module,Magento_Backend
 "Base URL","قاعدة الموقع",module,Magento_Backend
+"Specify URL or {{base_url}} placeholder.","تحديد رابط أو {{base_url}}.",module,Magento_Backend
 "Base Link URL","قاعدة وصلة الموقع",module,Magento_Backend
+"Base URL for Static View Files","رابط أساس أو ملف عرض ثابت",module,Magento_Backend
+"Base URL for User Media Files","الرابط الأساس لمفات الوسائط",module,Magento_Backend
+"Base URLs (Secure)","الرابط الأساس (مؤمن)",module,Magento_Backend
 "Secure Base URL","موقع قاعدة مامونه",module,Magento_Backend
 "Use Secure URLs in Admin","استخدام عناوين في ادارة امن",module,Magento_Backend
 "Default Pages","الصفحات الافتراضية",module,Magento_Backend
 Description,الوصف,module,Magento_Backend
 Tags,علامات,module,Magento_Backend
+"Community Edition","النسخة العامة",module,Magento_Backend
+"Default Theme","القالب الافتراضي",module,Magento_Backend
+"Applied Theme","القالب المطبق",module,Magento_Backend
+"Design Rule","تصميم القاعدة",module,Magento_Backend
+Pagination,"ترقيم الصفحات",module,Magento_Backend
+"How many links to display at once.","كم عدد الروابط التي يتم عرضها في وقت واحد.",module,Magento_Backend
+"Theme Name","اسم السمة",module,Magento_Backend
 Rollback,"العودة إلى الحالة السابقة",module,Magento_Backup
 "Scheduled Backup Settings","إعدادات النسخ الاحتياطي المجدولة",module,Magento_Backup
 "Enable Scheduled Backup","تمكين النسخ الاحتياطي المجدول",module,Magento_Backup
@@ -4047,25 +4140,58 @@ Delete,احذف,module,Magento_Backup
 "Are you sure you want to delete the selected backup(s)?","هل أنت متأكد من أنك تريد حذف النسخة أو النسخ الاحتياطية المحددة؟",module,Magento_Backup
 Time,الزمن,module,Magento_Backup
 Name,اسم,module,Magento_Backup
+Size(bytes),الحجم(بايت),module,Magento_Backup
 Type,النوع,module,Magento_Backup
 Download,تحميل,module,Magento_Backup
 Action,إجراء,module,Magento_Backup
+"Enable this Solution","تمكين هذا الحل",module,Magento_Braintree
+"Enable PayPal through Braintree","تمكين باي بال عن طريق Braintree",module,Magento_Braintree
+"Vault enabled","تم تمكين الخزنة",module,Magento_Braintree
+"Basic Braintree Settings","الإعدادات الأساسية Braintree",module,Magento_Braintree
 Title,العنوان,module,Magento_Braintree
+Environment,البيئة,module,Magento_Braintree
 "Payment Action","فعل الدفع",module,Magento_Braintree
 "Merchant ID","رمز تعريف التاجر",module,Magento_Braintree
+"Public Key","المفتاح العمومي",module,Magento_Braintree
+"Private Key","المفتاح الخاص",module,Magento_Braintree
+"Advanced Braintree Settings","إعدادات متقدمة Braintree",module,Magento_Braintree
+"Vault Title","اسم الخزنة",module,Magento_Braintree
+"Merchant Account ID","معرف حساب التاجر",module,Magento_Braintree
+"Advanced Fraud Protection","الحماية المتقدمة من الاحتيال",module,Magento_Braintree
+"Kount Merchant ID","معرف تاجر Kount",module,Magento_Braintree
 Debug,نقح,module,Magento_Braintree
 "CVV Verification","التحقق CVV",module,Magento_Braintree
 "Credit Card Types","أنواع بطاقة الائتمان",module,Magento_Braintree
 "Sort Order",الترتيب,module,Magento_Braintree
+"Country Specific Settings","إعدادات محددة للبلد",module,Magento_Braintree
+"Payment from Applicable Countries","الدفع من البلدان المطابقة",module,Magento_Braintree
+"Payment from Specific Countries","الدفع من بلدان معينة",module,Magento_Braintree
+"Country Specific Credit Card Types","أنواع بطاقات الائتمان المحددة للبلد",module,Magento_Braintree
+"PayPal through Braintree","باي بال عن طريق Braintree",module,Magento_Braintree
+"Override Merchant Name","تجاوز اسم التاجر",module,Magento_Braintree
+"Require Customer's Billing Address","تتطلب المعالجة عناوين الفواتير للعميل",module,Magento_Braintree
+"Allow to Edit Shipping Address Entered During Checkout on PayPal Side","السماح بتحرير عنوان السحن خلال مرحلة الدفع بـ بأي بال",module,Magento_Braintree
+"Display on Shopping Cart","العرض في سلة التسوق",module,Magento_Braintree
+"3D Secure Verification Settings","إعدادات التحقق آمنة 3D",module,Magento_Braintree
+"3D Secure Verification","التحقق الآمن بستخدام 3D",module,Magento_Braintree
+"Threshold Amount","مبلغ الحد الأعلى",module,Magento_Braintree
+"Verify for Applicable Countries","تحقق من البلدان المطابقة",module,Magento_Braintree
+"Verify for Specific Countries","تحقق من بلدان محددة",module,Magento_Braintree
+"Apply filters in order to get results. Only first 100 records will be displayed in the grid, you will be able to download full version of the report in .csv format.","تطبيق عامل تصفية من أجل الحصول على النتائج. سيتم عرض السجلات أول 100 فقط في الشبكة، سوف تكون قادرة على تحميل النسخة الكاملة من التقرير بتنسيق csv.",module,Magento_Braintree
 Select...,اختر...,module,Magento_Braintree
 Status,الحاله,module,Magento_Braintree
 "Transaction Type","نوع المعاملة التجارية",module,Magento_Braintree
+"PayPal Payment ID","معرف الدفع بأي بال",module,Magento_Braintree
 "Transaction ID","رقم المعاملة",module,Magento_Braintree
 "Order ID","رقم الطلب",module,Magento_Braintree
 "Payment Type","وسيلة الدفع",module,Magento_Braintree
 Type,النوع,module,Magento_Braintree
 "Created At","انشئة في",module,Magento_Braintree
 Amount,الكمية,module,Magento_Braintree
+"Settlement Code","رمز التسوية",module,Magento_Braintree
+"Settlement Response Text","نص استجابة التسوية",module,Magento_Braintree
+"Refund Ids","معرفات الإسترداد",module,Magento_Braintree
+"Settlement Batch ID","معرف التسوية المجمعة",module,Magento_Braintree
 Currency,العملة,module,Magento_Braintree
 Select...,اختر...,module,Magento_Bundle
 Status,الحاله,module,Magento_Bundle
@@ -4220,6 +4346,7 @@ Contacts,المتصلين,module,Magento_Contact
 "Send Emails To","ارسل رسائل الى",module,Magento_Contact
 "Email Sender","مرسل البريد الإلكتروني",module,Magento_Contact
 "Email Template","قالب البريد الإلكتروني",module,Magento_Contact
+"Email template chosen based on theme fallback when ""Default"" option is selected.","اختيار قالب البريد الإلكتروني استناداً إلى موضوع الرجوع عند تحديد الخيار ""الإفتراضي"".",module,Magento_Contact
 "Default Cookie Settings","إعدادات ملفات تعريف الارتباط الافتراضي",module,Magento_Cookie
 "Cookie Lifetime","Cookie المده الزمنية",module,Magento_Cookie
 "Cookie Path","Cookie الطريق",module,Magento_Cookie
@@ -4279,6 +4406,7 @@ Size,الحجم,module,Magento_Dhl
 Debug,نقح,module,Magento_Dhl
 "Currency Setup","اعدادات العملة",module,Magento_Directory
 "Currency Options","خيارات العملة""",module,Magento_Directory
+"Base Currency","العملية الاساسية",module,Magento_Directory
 "Scheduled Import Settings","اعدادات الاستيراد المجدول",module,Magento_Directory
 Enabled,تفعيل,module,Magento_Directory
 "Error Email Recipient","خطأ فى مستقبل الرسالة",module,Magento_Directory
@@ -4340,6 +4468,8 @@ Extensions,تحويلات,module,Magento_Integration
 Status,الحاله,module,Magento_Integration
 "Storage Configuration for Media","إعدادات مخزن الوسائط",module,Magento_MediaStorage
 "Media Storage","وسائط التخزين",module,Magento_MediaStorage
+"After selecting a new media storage location, press the Synchronize button to transfer all media to that location. Media will not be available in the new location until the synchronization process is complete.","بعد تحديد موقع تخزين وسائط الإعلام الجديد، اضغط على زر مزامنة لنقل جميع وسائل الإعلام إلى هذا الموقع. وسائل الإعلام لن تتوفر في الموقع الجديد حتى يتم إكمال عملية المزامنة.",module,Magento_MediaStorage
+"Environment Update Time","وقت تحديث البيئة",module,Magento_MediaStorage
 "Minimum Advertised Price","أدنى الأسعار المعلن عنها",module,Magento_Msrp
 "Enable MAP","تمكين MAP",module,Magento_Msrp
 "Display Actual Price","عرض السعر الفعلي",module,Magento_Msrp
