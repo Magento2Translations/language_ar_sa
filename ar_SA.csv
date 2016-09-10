@@ -237,10 +237,12 @@ System,النظام,module,Magento_Backend
 "Current Month","الشهر الحالي",module,Magento_Backend
 YTD,"منذ سنة",module,Magento_Backend
 2YTD,"منذ سنتين",module,Magento_Backend
+"You did not sign in correctly or your account is temporarily disabled.","لم تقم بتسجيل الدخول بشكل صحيح أو أن حسابك معطل مؤقتاً.",module,Magento_Backend
 "Authentication error occurred.","حدث خطأ مصادقة.",module,Magento_Backend
 Order,طلب,module,Magento_Backend
 "Order #%1","رقم الطلب #%1",module,Magento_Backend
 "Access denied","إمكانية الوصول غير متاحة",module,Magento_Backend
+"If you continue to receive this message, please contact the store owner.","إذا استمر ظهور هذه الرسالة، الرجاء الاتصال بمالك المتجر.",module,Magento_Backend
 "Welcome, please sign in","مرحبا، الرجاء تسجيل الدخول",module,Magento_Backend
 "user name","اسم المستخدم",module,Magento_Backend
 password,"كلمة المرو",module,Magento_Backend
@@ -251,6 +253,7 @@ password,"كلمة المرو",module,Magento_Backend
 "Last Orders","آخر الطلبات",module,Magento_Backend
 "Last Search Terms","كلمات البحث الأخيرة",module,Magento_Backend
 "Top Search Terms","أعلى كلمات البحث",module,Magento_Backend
+"There are no search keywords.","لا يوجد كلمات بحث.",module,Magento_Backend
 "View Statistics For:","عرض إحصائيات عن:",module,Magento_Backend
 "All Websites","جميع المواقع",module,Magento_Backend
 "Reload Data","إعادة تحميل البيانات",module,Magento_Backend
@@ -274,8 +277,15 @@ Minute,دقيقة,module,Magento_Backend
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","هذا متجر تجريبي فقط. يمكنك استعراض ووضع الأوامر، ولكن لا شيء سيتم تجهيزه.",module,Magento_Backend
 "Stores Configuration","ضبط المتاجر",module,Magento_Backend
 "Additional Cache Management","إدارة ذاكرة التخزين المؤقت الإضافية",module,Magento_Backend
+"Flush Catalog Images Cache","مسح التخزين المؤقت للصور",module,Magento_Backend
+"Pregenerated product images files","ملفات صور منتجة سابقا للمنتج",module,Magento_Backend
+"Flush JavaScript/CSS Cache","مسح ملفات جافا سكريبت/الثيم من ذاكرة التخزين المؤقت",module,Magento_Backend
 "Themes JavaScript and CSS files combined to one file.","ملفات CSS وجافا سكريبت للثيم مجتمعة في ملف واحد.",module,Magento_Backend
+"Flush Static Files Cache","مسح ذاكرة التخزين المؤقت للملفات الثابتة",module,Magento_Backend
+"Preprocessed view files and static files","ملفات الواجهة والملفات الثابتة معالجة مسبقا",module,Magento_Backend
 Catalog,"دليل المنتجات",module,Magento_Backend
+JavaScript/CSS,"جافا سكريبت/المغلق",module,Magento_Backend
+"JavaScript/CSS Cache","ذاكرة التخزين المؤقت للجافا سكريبت/المغلق",module,Magento_Backend
 "No records found.","لم يتم العثور على تسجيلات.",module,Magento_Backend
 Images,صور,module,Magento_Backend
 "Big Image","صورة كبيرة",module,Magento_Backend
@@ -299,6 +309,7 @@ Loading...,"جاري التحميل...",module,Magento_Backend
 "The archive can be uncompressed with <a href=""%1"">%2</a> on Windows systems.","يمكن أن يكون الأرشيف غير مضغوط مع <a href=""%1"">%2</a> على أنظمة وندوز.",module,Magento_Backup
 "You need more permissions to activate maintenance mode right now.","تحتاج مزيد من الصلاحيات لتنشيط وضع الصيانة الآن.",module,Magento_Backup
 "You need more free space to create a backup.","كنت بحاجة إلى مزيد من المساحة الحرة لإنشاء نسخة احتياطية.",module,Magento_Backup
+"You need more permissions to create a backup.","انت بحاجة إلى مزيد من الأذونات لإنشاء نسخة احتياطية.",module,Magento_Backup
 Backups,الاحتياطات,module,Magento_Backup
 System,النظام,module,Magento_Backup
 Tools,ادوات,module,Magento_Backup
@@ -317,6 +328,7 @@ Database,"قاعدة البيانات",module,Magento_Backup
 "Are you sure you want to continue?","هل انت متأكد انك تريد الاستمرار؟",module,Magento_Backup
 "This may take a few moments.","قد يستغرق هذا بضع لحظات.",module,Magento_Backup
 "Backup Name","اسم النسخة الاحتياطية",module,Magento_Backup
+"Please use only letters (a-z or A-Z), numbers (0-9) or spaces in this field.","الرجاء استخدام الأحرف (إلى z أو A إلى Z)، الأرقام (0-9) أو مسافات فقط في هذا الحقل.",module,Magento_Backup
 "Maintenance mode","وضع الصيانة",module,Magento_Backup
 "Please put your store into maintenance mode during backup.","الرجاء وضع المتجر الخاص بك في وضع الصيانة أثناء النسخ الاحتياطي.",module,Magento_Backup
 "Exclude media folder from backup","استبعاد المجلد وسائط من النسخ الاحتياطي",module,Magento_Backup
@@ -1392,7 +1404,7 @@ Qty,الكميّة,module,Magento_GroupedProduct
 Name,اسم,module,Magento_GroupedProduct
 "Default Qty","الكمية الافتراضية",module,Magento_GroupedProduct
 "In stock",متوفر,module,Magento_GroupedProduct
-Export,استخراج,module,Magento_ImportExport
+Export,تصدير,module,Magento_ImportExport
 "Export Settings","إعدادات التصدير",module,Magento_ImportExport
 "Entity Type","نوع الكيان",module,Magento_ImportExport
 "Export File Format","تنسيق ملف التصدير",module,Magento_ImportExport
@@ -2797,6 +2809,8 @@ Design,تصميم,module,Magento_Backend
 "Design Theme","انشاء تصميم",module,Magento_Backend
 "User-Agent Exceptions","إستثناءات وكيل المستخدم",module,Magento_Backend
 "Find a string in client user-agent header and switch to specific design theme for that browser.","اعثر على سلسلة في رأس وكيل- المستخدم العميل وقم بالتبديل إلى تصمي ثيمم المحددة الخاصة بهذا المستعرض.",module,Magento_Backend
+Pagination,"ترقيم الصفحات",module,Magento_Backend
+"How many links to display at once.","كم عدد الروابط التي يتم عرضها في وقت واحد.",module,Magento_Backend
 "If the current frame position does not cover utmost pages, will render link to current position plus/minus this value.","إذا كان موضع الإطار الحالي لا يغطي صفحات قصوى، ستؤدي إلى الارتباط إلى الموضع الحالي علامة زائد/ناقص من هذه القيمة.",module,Magento_Backend
 "Alternative text for previous link in pagination menu. If empty, default arrow image will used.","نص بديل للرابط السابق في القائمة الحدود الفاصلة للصفحات. إذا كان فارغاً، سوف يستخدم صورة سهم الافتراضي.",module,Magento_Backend
 "Alternative text for next link in pagination menu. If empty, default arrow image will used.","نص بديل للرابط التالي في القائمة الحدود الفاصلة للصفحات. إذا كان فارغاً، سوف يستخدم صورة سهم الافتراضي.",module,Magento_Backend
@@ -2854,23 +2868,44 @@ Host,المضيف,module,Magento_Backend
 "Set Return-Path","تعيين مسار العودة",module,Magento_Backend
 "Return-Path Email","مسار العودة-البريد الإلكتروني",module,Magento_Backend
 Admin,المدير,module,Magento_Backend
+"Admin User Emails","البريد الإلكتروني للمدير",module,Magento_Backend
 "Forgot Password Email Template","نسيت كلمة السر البريد الالكتروني قالب",module,Magento_Backend
 "Email template chosen based on theme fallback when ""Default"" option is selected.","اختيار قالب البريد الإلكتروني استناداً إلى موضوع الرجوع عند تحديد الخيار ""الإفتراضي"".",module,Magento_Backend
+"Forgot and Reset Email Sender","البريد الإلكنروني لـ نسيت كلمة السر",module,Magento_Backend
 "Recovery Link Expiration Period (days)","فترة انتهاء صلاحية رابط الاسترداد (الأيام)",module,Magento_Backend
+"Please enter a number 1 or greater in this field.","الرجاء إدخال رقم 1 أو أكبر في هذا الحقل.",module,Magento_Backend
 "Startup Page","صفحة بدء التشغيل",module,Magento_Backend
+"Admin Base URL","عنوان صفحة المدير",module,Magento_Backend
+"Use Custom Admin URL","استخدام URL مخصص للمدير",module,Magento_Backend
+"Custom Admin URL","عنوان URL مخصص للمدير",module,Magento_Backend
+"Make sure that base URL ends with '/' (slash), e.g. http://yourdomain/magento/","تأكد من أن عنوان URL الأساسي ينتهي ب '/' ، مثل http://yourdomain/magento/",module,Magento_Backend
+"Use Custom Admin Path","استخدام المسار المعدل للمدير",module,Magento_Backend
+"Custom Admin Path","مسار المسؤول معدل",module,Magento_Backend
+Security,الحماية,module,Magento_Backend
+"Add Secret Key to URLs","أضف مفتاح سري للروابط",module,Magento_Backend
+"Login is Case Sensitive","تسجيل الدخول يحتسب حالة الأحرف",module,Magento_Backend
+"Admin Session Lifetime (seconds)","مدة جلسة المدير (بالثواني)",module,Magento_Backend
 "Values less than 60 are ignored.","تجاهل القيم الاقل من 60.",module,Magento_Backend
 "Enable Charts","تمكين المخططات",module,Magento_Backend
 Web,موقع,module,Magento_Backend
 "Url Options","خيارات الموقع",module,Magento_Backend
 "Add Store Code to Urls","رمز المخزن اضافة الى عناوين المواقع",module,Magento_Backend
+"Auto-redirect to Base URL","إعادة التوجيه آلية إلى الربط الأساس",module,Magento_Backend
+"Search Engine Optimization","تحسين محرك البحث",module,Magento_Backend
 "Use Web Server Rewrites","إعادة كتابة باستخدام خادم الويب",module,Magento_Backend
+"Base URLs","الرابط الأساس",module,Magento_Backend
 "Base URL","قاعدة الموقع",module,Magento_Backend
+"Specify URL or {{base_url}} placeholder.","تحديد رابط أو {{base_url}}.",module,Magento_Backend
 "Base Link URL","قاعدة وصلة الموقع",module,Magento_Backend
+"Base URL for Static View Files","رابط أساس أو ملف عرض ثابت",module,Magento_Backend
+"Base URL for User Media Files","الرابط الأساس لمفات الوسائط",module,Magento_Backend
+"Base URLs (Secure)","الرابط الأساس (مؤمن)",module,Magento_Backend
 "Secure Base URL","موقع قاعدة مامونه",module,Magento_Backend
 "Use Secure URLs in Admin","استخدام عناوين في ادارة امن",module,Magento_Backend
 "Default Pages","الصفحات الافتراضية",module,Magento_Backend
 Description,الوصف,module,Magento_Backend
 Tags,علامات,module,Magento_Backend
+"Community Edition","النسخة العامة",module,Magento_Backend
 "Scheduled Backup Settings","إعدادات النسخ الاحتياطي المجدولة",module,Magento_Backup
 "Enable Scheduled Backup","تمكين النسخ الاحتياطي المجدول",module,Magento_Backup
 "Backup Type","نوع النسخ الاحتياطي",module,Magento_Backup
@@ -2881,20 +2916,33 @@ Delete,احذف,module,Magento_Backup
 "Are you sure you want to delete the selected backup(s)?","هل أنت متأكد من أنك تريد حذف النسخة أو النسخ الاحتياطية المحددة؟",module,Magento_Backup
 Time,الزمن,module,Magento_Backup
 Name,اسم,module,Magento_Backup
+Size(bytes),الحجم(بايت),module,Magento_Backup
 Type,النوع,module,Magento_Backup
 Download,تحميل,module,Magento_Backup
 Action,إجراء,module,Magento_Backup
 Rollback,"العودة إلى الحالة السابقة",module,Magento_Backup
+"Enable this Solution","تمكين هذا الحل",module,Magento_Braintree
+"Enable PayPal through Braintree","تمكين باي بال عن طريق Braintree",module,Magento_Braintree
 Title,العنوان,module,Magento_Braintree
+Environment,البيئة,module,Magento_Braintree
+"Merchant Account ID","معرف حساب التاجر",module,Magento_Braintree
 "Merchant ID","رمز تعريف التاجر",module,Magento_Braintree
+"Public Key","المفتاح العمومي",module,Magento_Braintree
+"Private Key","المفتاح الخاص",module,Magento_Braintree
 Debug,نقح,module,Magento_Braintree
 "Capture action","امسك الحدث",module,Magento_Braintree
 "Use Vault","استخدم الحافظة",module,Magento_Braintree
 "Allow Duplicate Cards","اسمع لبطاقات مكررة",module,Magento_Braintree
 "CVV Verification","التحقق CVV",module,Magento_Braintree
 "Credit Card Types","أنواع بطاقة الائتمان",module,Magento_Braintree
+"Advanced Fraud Protection","الحماية المتقدمة من الاحتيال",module,Magento_Braintree
 "Your Kount ID","معرف الحساب الخاص بك",module,Magento_Braintree
 "Use Cache","استخدام ذاكرة التخزين المؤقت",module,Magento_Braintree
+"Payment from Applicable Countries","الدفع من البلدان المطابقة",module,Magento_Braintree
+"Payment from Specific Countries","الدفع من بلدان معينة",module,Magento_Braintree
+"Country Specific Credit Card Types","أنواع بطاقات الائتمان المحددة للبلد",module,Magento_Braintree
+"3D Secure Verification Settings","إعدادات التحقق آمنة 3D",module,Magento_Braintree
+"3D Secure Verification","التحقق الآمن بستخدام 3D",module,Magento_Braintree
 CAPTCHA,"كلمة التحقق",module,Magento_Captcha
 "Enable CAPTCHA in Admin","تمكين كلمة التحقق للمشرف",module,Magento_Captcha
 Font,الخط,module,Magento_Captcha
