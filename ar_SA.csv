@@ -96,22 +96,22 @@ Bestsellers,"الأكثر مبيعاً",module,Magento_Backend
 "Most Viewed Products","المنتجات الأكثر مشاهدة",module,Magento_Backend
 "New Customers","عضو جديد",module,Magento_Backend
 Customers,العملاء,module,Magento_Backend
-Customer,زبون,module,Magento_Backend
+Customer,العميل,module,Magento_Backend
 Guest,زائر,module,Magento_Backend
 Items,المنتجات,module,Magento_Backend
-Total,إجمالي,module,Magento_Backend
+Total,الإجمالي,module,Magento_Backend
 "Lifetime Sales","مبيعات مدى الحياة",module,Magento_Backend
-"Average Order","طلب متوسط",module,Magento_Backend
-Average,متوسط,module,Magento_Backend
+"Average Order","متوسط الطلبات",module,Magento_Backend
+Average,المتوسط,module,Magento_Backend
 Product,المنتج,module,Magento_Backend
 Price,السعر,module,Magento_Backend
 Quantity,الكمية,module,Magento_Backend
-Views,مشاهدات,module,Magento_Backend
+Views,"عدد المشاهدات",module,Magento_Backend
 Revenue,الإيرادات,module,Magento_Backend
 Tax,الضريبة,module,Magento_Backend
 Shipping,الشحن,module,Magento_Backend
 "Images (.gif, .jpg, .png)","الصور (.gif,.jpg,.png)",module,Magento_Backend
-"Media (.avi, .flv, .swf)","وسائل الإعلام  (.avi, .flv, .swf)",module,Magento_Backend
+"Media (.avi, .flv, .swf)","الوسائط (.avi, .flv, .swf)",module,Magento_Backend
 "All Files","كل الملفات",module,Magento_Backend
 "Reset to Default","إعادة ضبط للإعدادات الإفتراضية",module,Magento_Backend
 "All Store Views","واجهه جميع المواقع",module,Magento_Backend
@@ -581,6 +581,7 @@ Always,دائماً,module,Magento_Captcha
 "Please enter the letters from the image","الرجاء إدخال الحروف التي في الصورة",module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>تنبيه</strong>: كلمة التحقق حساسة لحالة الأحرف.",module,Magento_Captcha
 "Reload captcha","إعادة تحميل كلمة التحقق",module,Magento_Captcha
+"Please type the letters below","الرجاء كتابة الأحرف أدناه",module,Magento_Captcha
 "Entity type model '%1' is not found","نموذج الكيان '%1' غير موجود",module,Magento_CatalogImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","قيمة الأسم المدخلة يجب أن تكون مماثلة لـ ' \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_CatalogImportExport
 "There are no product types available for export.","لا تتوفر أي من أنواع المنتجات للتصدير.",module,Magento_CatalogImportExport
@@ -4202,6 +4203,15 @@ CAPTCHA,"كلمة التحقق",module,Magento_Captcha
 Font,الخط,module,Magento_Captcha
 Forms,النماذج,module,Magento_Captcha
 "Displaying Mode","وضع العرض",module,Magento_Captcha
+"Number of Unsuccessful Attempts to Login","عدد المحاولات الغير ناجحة لتسجيل الدخول",module,Magento_Captcha
+"If 0 is specified, CAPTCHA on the Login form will be always available.","إذا تم تحديد ""0""، كلمة التحقق في نموذج تسجيل الدخول سوف تكون متاحة دائماً.",module,Magento_Captcha
+"CAPTCHA Timeout (minutes)","مهلة كلمة التحقق (بالدقائق)",module,Magento_Captcha
+"Number of Symbols","عدد الرموز",module,Magento_Captcha
+"Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","الرجاء تحديد 8رموز على الأكثر. النطاق المسموح به (مثلاً 3-5)",module,Magento_Captcha
+"Symbols Used in CAPTCHA","الرموز المستخدمة في كلمة التحقق",module,Magento_Captcha
+"Case Sensitive","تحسس حالة الأحرف",module,Magento_Captcha
+"Enable CAPTCHA on Storefront","تمكين كلمة التحقق في الواجهة",module,Magento_Captcha
+"CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","يتم دوماً تمكين كلمة التحقق لأشكال ""نسيت كلمة المرور"" و ""إنشاء مستخدم"" إذا تم الإختيار.",module,Magento_Captcha
 Inventory,المخزون,module,Magento_CatalogInventory
 "Stock Options","خيارات المخزون",module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed","ازل من المخزون عند استلام الطلب الجديد",module,Magento_CatalogInventory
@@ -4238,9 +4248,11 @@ No,لا,module,Magento_CatalogRule
 "Catalog Products List","قائمة المنتجات",module,Magento_CatalogWidget
 "List of Products","قائمة المنتجات",module,Magento_CatalogWidget
 Title,العنوان,module,Magento_CatalogWidget
+"Display Page Control","عرض عنصر التحكم في الصفحة",module,Magento_CatalogWidget
 "Number of Products per Page","عدد المنتجات في الصفحة",module,Magento_CatalogWidget
 "Number of Products to Display","عدد من المنتجات للعرض",module,Magento_CatalogWidget
 Template,قالب,module,Magento_CatalogWidget
+"Products Grid Template","قالب الشبكة للمنتجات",module,Magento_CatalogWidget
 "Cache Lifetime (Seconds)","عمر ذاكرة التخزين المؤقت (بالثواني)",module,Magento_CatalogWidget
 Conditions,الحالات,module,Magento_CatalogWidget
 Inventory,الجرد,module,Magento_Catalog
