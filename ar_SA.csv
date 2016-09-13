@@ -2245,6 +2245,8 @@ Purchased,"تم الشراء",module,Magento_Paypal
 "Purchase Point","تكلفة الشراء",module,Magento_Paypal
 "View Transaction Details","عرض تفاصيل المعاملة",module,Magento_Paypal
 "Transaction Information","معلومات المعاملة",module,Magento_Paypal
+button_label,"تسمية الزر",module,Magento_Paypal
+Help,مساعدة,module,Magento_Paypal
 Configure,ضبط,module,Magento_Paypal
 Close,غلق,module,Magento_Paypal
 "Learn More","تعلم المزيد",module,Magento_Paypal
@@ -2254,8 +2256,11 @@ Close,غلق,module,Magento_Paypal
 Reports,تقارير,module,Magento_Paypal
 Sales,المبيعات,module,Magento_Paypal
 "View Transaction","عرض المعاملة",module,Magento_Paypal
+"We can't fetch reports from ""%1@%2.""","لا يمكن إحضار تقارير من \"%1@%2.\"",module,Magento_Paypal
 "Please agree to all the terms and conditions before placing the order.","الرجاء الموافقة على كل الشروط والأحكام قبل انهاء طلبك.",module,Magento_Paypal
+"To check out, please sign in with your email address.","لتسجيل الخروج ، الرجاء تسجيل الدخول باستخدام عنوان البريد الإلكتروني الخاص بك.",module,Magento_Paypal
 "Sorry, but something went wrong","عفواً، حدث خطأ",module,Magento_Paypal
+"The PayPal gateway rejected the request. %1","بوابة PayPal رفضت الطلب. %1",module,Magento_Paypal
 Active,فعال,module,Magento_Paypal
 Canceled,"تم الإلغاء",module,Magento_Paypal
 Dynamic,ديناميكي,module,Magento_Paypal
