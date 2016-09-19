@@ -747,6 +747,7 @@ Scope,مدى,module,Magento_Catalog
 "Comparable on Storefront","قابلة للمقارنة في الواجهة",module,Magento_Catalog
 "Enable WYSIWYG","تفعيل WYSIWYG",module,Magento_Catalog
 "Depends on design theme.","يعتمد على تصميم المظهر.",module,Magento_Catalog
+"Used for Sorting in Product Listing","يستخدم لفرز في قائمة المنتجات",module,Magento_Catalog
 "Media Image","صور وسائل الاعلام",module,Magento_Catalog
 Gallery,البوم,module,Magento_Catalog
 "System Properties","خصائص النظام",module,Magento_Catalog
@@ -859,21 +860,34 @@ None,"لا شئ",module,Magento_Catalog
 "New Products","المنتجات الجديدة",module,Magento_Catalog
 "%1 - Special Products","%1 - منتجات بسعر خاص خاصة",module,Magento_Catalog
 "Click for price","اضغط هنا للأسعار",module,Magento_Catalog
+"Special Expires On: %1","الخاص ينتهي في: %1",module,Magento_Catalog
 "Price: %1","السعر: %1",module,Magento_Catalog
 "Special Price: %1","السعر الخاص: %1",module,Magento_Catalog
 "Special Products","منتجات خاصة",module,Magento_Catalog
 "Manage Catalog Categories","ادارة اقسام دليل المنتجات",module,Magento_Catalog
 "Manage Categories","ادارة الفئات",module,Magento_Catalog
 Categories,فئات,module,Magento_Catalog
+"There was a category move error. %1","كان هناك خطأ في نقل الفئة %1",module,Magento_Catalog
+"There was a category move error.","كان هناك خطأ في نقل الفئة %1.",module,Magento_Catalog
+"Attribute ""%1"" is required.","صفة ""%1"" مطلوبة.",module,Magento_Catalog
 "Please select products for attributes update.","الرجاء اختيار المنتجات للصفات المحدثة.",module,Magento_Catalog
 Catalog,"دليل المنتجات",module,Magento_Catalog
 "Manage Product Attributes","ادارة منتج السمات",module,Magento_Catalog
 "We can't delete the attribute.","لا نستطيع حذف السمة.",module,Magento_Catalog
 "We can't find an attribute to delete.","لا يمكن أن نجد سمة لحذفها.",module,Magento_Catalog
+"This attribute no longer exists.","هذه السمة لم تعد موجودة.",module,Magento_Catalog
+"This attribute cannot be edited.","لا يمكن تحرير هذه السمة.",module,Magento_Catalog
 "Edit Product Attribute","اضافة سمة المنتج",module,Magento_Catalog
 "An attribute set named '%1' already exists.","السمة بهذا الإسم '%1' موجودة بالفعل.",module,Magento_Catalog
+"Something went wrong while saving the attribute.","حدث خطأ أثناء حفظ السمة.",module,Magento_Catalog
+"Attribute code ""%1"" is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","رمز السمة ""%1"" غير صحيح. الرجاء استخدام أحرف فقط من (أ-ي)، '' أرقام من (0-9) أو (_) في هذا الحقل، يجب أن يكون الحرف الأول حرف.",module,Magento_Catalog
 "We can't update the attribute.","لا يمكن أن نقوم بتحديث السمة.",module,Magento_Catalog
+"An attribute with the same code (%1) already exists.","السمة مع نفس الكود (%1) موجودة بالفعل.",module,Magento_Catalog
+"This product doesn't exist.","هذا المنتج غير موجود.",module,Magento_Catalog
+"Invalid product id. Should be numeric value greater than 0","معرف المنتج غير صالح. يجب أن تكون القيمة الرقمية أكبر من 0",module,Magento_Catalog
 Products,المنتجات,module,Magento_Catalog
+"A total of %1 record(s) have been deleted.","عدد %1 سجلات تم حذفها.",module,Magento_Catalog
+"A total of %1 record(s) have been updated.","عدد %1 سجلات تم تحديثها.",module,Magento_Catalog
 "Unable to save product","تعذر حفظ المنتح",module,Magento_Catalog
 "We can't delete this set right now.","لا يمكن حذف هذه المجموعة الآن.",module,Magento_Catalog
 "Manage Product Sets","اوضاع ادارة المنتج",module,Magento_Catalog
@@ -958,12 +972,16 @@ Disabled,"غير مفعل",module,Magento_Catalog
 "The image content is not valid.","محتوى الصورة غير صالح.",module,Magento_Catalog
 "Such product doesn't exist","لا يوجد مثل هذا المنتج",module,Magento_Catalog
 "Such image doesn't exist","هذه الصورة غير موجودة",module,Magento_Catalog
+"The image does not exist.","الصورة غير موجودة.",module,Magento_Catalog
+"Please correct the image file type.","الرجاء تصحيح نوع ملف الصورة.",module,Magento_Catalog
 "We couldn't move this file: %1.","لا يمكن نقل هذا الملف: %1.",module,Magento_Catalog
 "We can't find the image file.","لا يمكن العثور على الصورة.",module,Magento_Catalog
 "Please specify product's required option(s).","الرجاء تحديد خيار (خيارات) المنتج.",module,Magento_Catalog
 "We can't add the product to the cart because of an option validation issue.","لا يمكنك إضافة المنتج إلى السلة بسبب خيار التحقق من الصحة.",module,Magento_Catalog
 "%1 doesn't extends \Magento\Catalog\Model\Product\Option\Type\DefaultType","غير ممتد %1 \Magento\Catalog\Model\Product\Option\Type\DefaultType",module,Magento_Catalog
+"The maximum allowed image size for '%1' is %2x%3 px.","الحد الأقصى المسموح لحجم الصورة لـ '%1' هو %2x%3 بيكسل.",module,Magento_Catalog
 "File '%1' is not an image.","الملف '%1' ليس صورة.",module,Magento_Catalog
+"The text is too long.","النص طويل جداً.",module,Magento_Catalog
 "This product doesn't have tier price","هذا المنتج لا يملك سعر",module,Magento_Catalog
 "Product hasn't group price with such data: customerGroupId = '%1', website = %2, qty = %3","المنتج لا ينتمي لمجموعة سعرية برقم = '%1' و الموقع = %2 والكمية = %3",module,Magento_Catalog
 "We can't create writeable directory ""%1"".","لا يمكن إنشاء دليل قابل للكتابة ""%1"".",module,Magento_Catalog
@@ -971,6 +989,7 @@ Disabled,"غير مفعل",module,Magento_Catalog
 "%1 doesn't extends \Magento\Catalog\Model\Product\Type\Price","غير ممتد %1 \Magento\Catalog\Model\Product\Type\Price",module,Magento_Catalog
 Search,بحث,module,Magento_Catalog
 "Catalog, Search","دليل المنتجات و البحث",module,Magento_Catalog
+"Something went wrong while removing products from the websites.","حدث خطأ ما أثناء إزالة منتجات من المواقع.",module,Magento_Catalog
 "Something went wrong while adding products to websites.","حدث خطأ أثناء إضافة المنتجات إلى مواقع ويب.",module,Magento_Catalog
 "Group with id ""%1"" does not exist.","لا توجد مجموعة بالمعرف ""%1"".",module,Magento_Catalog
 "Product %1 doesn't have linked %2 as %3","المنتج %1 غير مرتبط بـ %2 كـ %3",module,Magento_Catalog
@@ -986,11 +1005,20 @@ Select...,اختر...,module,Magento_Catalog
 "Customer Group","مجموعات العملاء",module,Magento_Catalog
 To,إلى,module,Magento_Catalog
 Done,انتهى,module,Magento_Catalog
+"Add Selected","إضافة المحدد",module,Magento_Catalog
+"Select Attribute","حدد السمة",module,Magento_Catalog
 "Create New Attribute","انشاء سمة جديدة",module,Magento_Catalog
 "Add Option","اضف خيار",module,Magento_Catalog
+"New Option","خيار جديد",module,Magento_Catalog
+"Select Product","حدد المنتج",module,Magento_Catalog
 "Option Title","عنوان الاختيار",module,Magento_Catalog
+"Add Value","اضف قيمة",module,Magento_Catalog
 Title,العنوان,module,Magento_Catalog
+"Option Type","نوع الخيار",module,Magento_Catalog
 Required,مطلوب,module,Magento_Catalog
+"Price Type","نوع الأسعار",module,Magento_Catalog
+"This item has weight","يحتوي هذا العنصر على وزن",module,Magento_Catalog
+"This item has no weight","لا يحتوي هذا العنصر على وزن",module,Magento_Catalog
 "Add Selected Products","إضافة منتجات مختارة",module,Magento_Catalog
 Remove,إزالة,module,Magento_Catalog
 Thumbnail,"صورة مصغره",module,Magento_Catalog
