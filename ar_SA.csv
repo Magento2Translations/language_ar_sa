@@ -1983,6 +1983,8 @@ Email,"البريد الإلكتروني",module,Magento_Integration
 Remove,ازالة,module,Magento_Integration
 View,عرض,module,Magento_Integration
 Edit,تحرير,module,Magento_Integration
+Reauthorize,"إعادة اذن",module,Magento_Integration
+"The integration '%1' has been deleted.","لقد تم حذف التكامل '%1'.",module,Magento_Integration
 "The integration '%1' has been saved.","لقد تم حفظ الإندماج '%1'.",module,Magento_Integration
 "%fieldName is a required field.","%fieldName حقل مطلوب.",module,Magento_Integration
 Inactive,خاملة,module,Magento_Integration
