@@ -70,22 +70,22 @@ Bestsellers,"الأكثر مبيعاً",module,Magento_Backend
 "Most Viewed Products","المنتجات الأكثر مشاهدة",module,Magento_Backend
 "New Customers","عضو جديد",module,Magento_Backend
 Customers,العملاء,module,Magento_Backend
-Customer,زبون,module,Magento_Backend
+Customer,العميل,module,Magento_Backend
 Guest,زائر,module,Magento_Backend
 Items,المنتجات,module,Magento_Backend
-Total,إجمالي,module,Magento_Backend
+Total,الإجمالي,module,Magento_Backend
 "Lifetime Sales","مبيعات مدى الحياة",module,Magento_Backend
-"Average Order","طلب متوسط",module,Magento_Backend
-Average,متوسط,module,Magento_Backend
+"Average Order","متوسط الطلبات",module,Magento_Backend
+Average,المتوسط,module,Magento_Backend
 Product,المنتج,module,Magento_Backend
 Price,السعر,module,Magento_Backend
 Quantity,الكمية,module,Magento_Backend
-Views,مشاهدات,module,Magento_Backend
+Views,"عدد المشاهدات",module,Magento_Backend
 Revenue,الإيرادات,module,Magento_Backend
 Tax,الضريبة,module,Magento_Backend
 Shipping,الشحن,module,Magento_Backend
 "Images (.gif, .jpg, .png)","الصور (.gif,.jpg,.png)",module,Magento_Backend
-"Media (.avi, .flv, .swf)","وسائل الإعلام  (.avi, .flv, .swf)",module,Magento_Backend
+"Media (.avi, .flv, .swf)","الوسائط (.avi, .flv, .swf)",module,Magento_Backend
 "All Files","كل الملفات",module,Magento_Backend
 "Reset to Default","إعادة ضبط للإعدادات الإفتراضية",module,Magento_Backend
 "All Store Views","واجهه جميع المواقع",module,Magento_Backend
@@ -462,6 +462,7 @@ Always,دائماً,module,Magento_Captcha
 "Incorrect CAPTCHA.","كلمة التحقق غير صحيحة.",module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>تنبيه</strong>: كلمة التحقق حساسة لحالة الأحرف.",module,Magento_Captcha
 "Reload captcha","إعادة تحميل كلمة التحقق",module,Magento_Captcha
+"Please type the letters below","الرجاء كتابة الأحرف أدناه",module,Magento_Captcha
 "Custom options have different types.","خيارات مخصصة لها أنواع مختلفة.",module,Magento_CatalogImportExport
 "Please correct the parameters.","الرجاء تصحيح المعلمات.",module,Magento_CatalogImportExport
 "ALL GROUPS","جميع المجموعات",module,Magento_CatalogInventory
@@ -595,6 +596,7 @@ Scope,مدى,module,Magento_Catalog
 "Declare attribute value saving scope","إعلان قيمة السمة لتوفير النطاق",module,Magento_Catalog
 "Enable WYSIWYG","تفعيل WYSIWYG",module,Magento_Catalog
 "Depends on design theme","يعتمد على التصميم المظهر",module,Magento_Catalog
+"Used for Sorting in Product Listing","يستخدم لفرز في قائمة المنتجات",module,Magento_Catalog
 "Media Image","صور وسائل الاعلام",module,Magento_Catalog
 Gallery,البوم,module,Magento_Catalog
 "System Properties","خصائص النظام",module,Magento_Catalog
@@ -702,12 +704,18 @@ None,"لا شئ",module,Magento_Catalog
 Categories,فئات,module,Magento_Catalog
 "Manage Catalog Categories","ادارة اقسام دليل المنتجات",module,Magento_Catalog
 "Manage Categories","ادارة الفئات",module,Magento_Catalog
+"There was a category move error.","كان هناك خطأ في نقل الفئة %1.",module,Magento_Catalog
+"Attribute ""%1"" is required.","صفة ""%1"" مطلوبة.",module,Magento_Catalog
 "Please select products for attributes update.","الرجاء اختيار المنتجات للصفات المحدثة.",module,Magento_Catalog
 Catalog,"دليل المنتجات",module,Magento_Catalog
 "Manage Product Attributes","ادارة منتج السمات",module,Magento_Catalog
+"This attribute no longer exists.","هذه السمة لم تعد موجودة.",module,Magento_Catalog
+"This attribute cannot be edited.","لا يمكن تحرير هذه السمة.",module,Magento_Catalog
 "Edit Product Attribute","اضافة سمة المنتج",module,Magento_Catalog
 "This product no longer exists.","هذا المنتج لم يعد موجوداً.",module,Magento_Catalog
 Products,المنتجات,module,Magento_Catalog
+"A total of %1 record(s) have been deleted.","عدد %1 سجلات تم حذفها.",module,Magento_Catalog
+"A total of %1 record(s) have been updated.","عدد %1 سجلات تم تحديثها.",module,Magento_Catalog
 "Unable to save product","تعذر حفظ المنتح",module,Magento_Catalog
 "Manage Product Sets","اوضاع ادارة المنتج",module,Magento_Catalog
 "Manage Attribute Sets","ادارة مجموعات السمات",module,Magento_Catalog
@@ -756,6 +764,8 @@ Category,القسم,module,Magento_Catalog
 "Clear Price","مسح الأسعار",module,Magento_Catalog
 "%1 and above","%1 واكثر",module,Magento_Catalog
 "The filters must be an array.","يجب أن تكون عوامل التصفية صفيف.",module,Magento_Catalog
+"The image does not exist.","الصورة غير موجودة.",module,Magento_Catalog
+"Please correct the image file type.","الرجاء تصحيح نوع ملف الصورة.",module,Magento_Catalog
 "Group price must be a number greater than 0.","يجب أن تكون أسعار المجموعة رقم أكبر من 0.",module,Magento_Catalog
 "Please enter a number 0 or greater in this field.","الرجاء إدخال رقم 0 أو أكبر في هذا الحقل.",module,Magento_Catalog
 "The value of attribute ""%1"" must be set","يجب أن يتم تعيين قيمة السمة ""%1""",module,Magento_Catalog
@@ -763,6 +773,7 @@ Category,القسم,module,Magento_Catalog
 "Use config","استخدام التكوين",module,Magento_Catalog
 Enabled,تفعيل,module,Magento_Catalog
 Disabled,"غير مفعل",module,Magento_Catalog
+"The text is too long.","النص طويل جداً.",module,Magento_Catalog
 Search,بحث,module,Magento_Catalog
 "Catalog, Search","دليل المنتجات و البحث",module,Magento_Catalog
 "Multiple Select","خيارات متعددة",module,Magento_Catalog
@@ -792,6 +803,7 @@ Backorders,"طلبات لمنتجات غير متوفرة",module,Magento_Catalo
 "Remove Product From Websites","حذف المنتج من الموقع",module,Magento_Catalog
 "Option Title","عنوان الاختيار",module,Magento_Catalog
 Required,مطلوب,module,Magento_Catalog
+"Price Type","نوع الأسعار",module,Magento_Catalog
 Title,العنوان,module,Magento_Catalog
 "Customer Group","مجموعات العملاء",module,Magento_Catalog
 Action,إجراء,module,Magento_Catalog
@@ -1340,6 +1352,7 @@ Template,قالب,module,Magento_Email
 No,لا,module,Magento_EncryptionKey
 Yes,نعم,module,Magento_EncryptionKey
 "The generated key will be displayed after changing.","سيتم عرض المفتاح الذي تم إنشاؤه بعد تغيير.",module,Magento_EncryptionKey
+"New Key","مفتاح جديد",module,Magento_EncryptionKey
 "Please enter an encryption key.","الرجاء إدخال مفتاح تشفير.",module,Magento_EncryptionKey
 "Europe First Priority","الأولوية الأولى في أوروبا",module,Magento_Fedex
 "1 Day Freight","الشحن بيوم واحد",module,Magento_Fedex
@@ -1450,6 +1463,8 @@ Email,"البريد الإلكتروني",module,Magento_Integration
 Remove,ازالة,module,Magento_Integration
 View,عرض,module,Magento_Integration
 Edit,تحرير,module,Magento_Integration
+Reauthorize,"إعادة اذن",module,Magento_Integration
+"The integration '%1' has been deleted.","لقد تم حذف التكامل '%1'.",module,Magento_Integration
 Inactive,خاملة,module,Magento_Integration
 Active,فعال,module,Magento_Integration
 "Filterable (with results)","يمكن تصفيتها (مع النتائج)",module,Magento_LayeredNavigation
@@ -1676,6 +1691,8 @@ Order,طلب,module,Magento_Paypal
 "Order Total","إجمالي الطلب",module,Magento_Paypal
 "View Transaction Details","عرض تفاصيل المعاملة",module,Magento_Paypal
 "Transaction Information","معلومات المعاملة",module,Magento_Paypal
+button_label,"تسمية الزر",module,Magento_Paypal
+Help,مساعدة,module,Magento_Paypal
 Configure,ضبط,module,Magento_Paypal
 Close,غلق,module,Magento_Paypal
 "Learn More","تعلم المزيد",module,Magento_Paypal
@@ -2756,6 +2773,8 @@ Total:,الإجمالي:,module,Magento_Checkout
 "Add Products to Option ""%1""","إضافة المنتجات إلى الخيار ""%1""",module,Magento_Bundle
 "Add Selected Products","إضافة منتجات مختارة",module,Magento_Bundle
 Cancel,إلغاء,module,Magento_Catalog
+"New Option","خيار جديد",module,Magento_Catalog
+"Select Product","حدد المنتج",module,Magento_Catalog
 "Please select items.","يرجى تحديد الأصناف.",module,Magento_Catalog
 "Create Category","إنشاء قسم جديد",module,Magento_Catalog
 "unselect all","إلغاء تحديد الكل",module,Magento_Catalog
@@ -2948,6 +2967,15 @@ CAPTCHA,"كلمة التحقق",module,Magento_Captcha
 Font,الخط,module,Magento_Captcha
 Forms,النماذج,module,Magento_Captcha
 "Displaying Mode","وضع العرض",module,Magento_Captcha
+"Number of Unsuccessful Attempts to Login","عدد المحاولات الغير ناجحة لتسجيل الدخول",module,Magento_Captcha
+"If 0 is specified, CAPTCHA on the Login form will be always available.","إذا تم تحديد ""0""، كلمة التحقق في نموذج تسجيل الدخول سوف تكون متاحة دائماً.",module,Magento_Captcha
+"CAPTCHA Timeout (minutes)","مهلة كلمة التحقق (بالدقائق)",module,Magento_Captcha
+"Number of Symbols","عدد الرموز",module,Magento_Captcha
+"Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","الرجاء تحديد 8رموز على الأكثر. النطاق المسموح به (مثلاً 3-5)",module,Magento_Captcha
+"Symbols Used in CAPTCHA","الرموز المستخدمة في كلمة التحقق",module,Magento_Captcha
+"Case Sensitive","تحسس حالة الأحرف",module,Magento_Captcha
+"Enable CAPTCHA on Storefront","تمكين كلمة التحقق في الواجهة",module,Magento_Captcha
+"CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","يتم دوماً تمكين كلمة التحقق لأشكال ""نسيت كلمة المرور"" و ""إنشاء مستخدم"" إذا تم الإختيار.",module,Magento_Captcha
 Inventory,المخزون,module,Magento_CatalogInventory
 "Stock Options","خيارات المخزون",module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed","ازل من المخزون عند استلام الطلب الجديد",module,Magento_CatalogInventory
