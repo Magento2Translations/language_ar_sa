@@ -3048,6 +3048,7 @@ Contacts,المتصلين,module,Magento_Contact
 "Create New Account Options","خيارات إنشاء حساب جديد",module,Magento_Customer
 "Default Group","المجموعة الافتراضية",module,Magento_Customer
 "Default Email Domain","البريد الالكتروني الافتراضي النطاق",module,Magento_Customer
+"Default Welcome Email","البريد الإلكتروني الترحيبي الافتراضي",module,Magento_Customer
 "Email Sender","مرسل البريد الإلكتروني",module,Magento_Customer
 "Password Options","خيارات كلمة المرور",module,Magento_Customer
 "Forgot Email Template","نسيت البريد الالكتروني للقالب",module,Magento_Customer
@@ -3352,6 +3353,7 @@ Empty,فارغ,module,Magento_Theme
 "Miscellaneous Scripts","سكربتات متنوعة",module,Magento_Theme
 Footer,"ذيل الصفحة",module,Magento_Theme
 "This will be displayed just before body closing tag.","هذا سيتم عرضه فقط قبل علامة إغلاق الجسم.",module,Magento_Theme
+"Default welcome msg!","رسالة الترحيب الافتراضية!",module,Magento_Theme
 "Translation Strategy","استراتيجية الترجمة",module,Magento_Translation
 Translations,ترجمات,module,Magento_Translation
 "Translation files.","ملفات الترجمة.",module,Magento_Translation
