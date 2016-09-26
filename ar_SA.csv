@@ -1247,6 +1247,7 @@ Home,"الصفحة الرئيسية",module,Magento_Cms
 "Page Title","عنوان الصفحة",module,Magento_Cms
 "We can't upload the file right now.","لا يمكن تحميل الملف الآن.",module,Magento_Cms
 "We can't delete root directory %1 right now.","ونحن لا يمكن حذف جذر الدليل %1 الآن.",module,Magento_Cms
+"Privacy and Cookie Policy","سياسة الخصوصية وملفات تعريف الارتباط",module,Magento_Cms
 "All Store Views","واجهه جميع المواقع",module,Magento_Cms
 Edit,تحرير,module,Magento_Cms
 Delete,احذف,module,Magento_Cms
@@ -4409,6 +4410,7 @@ Currency,العملة,module,Magento_CurrencySymbol
 "Create New Account Options","خيارات إنشاء حساب جديد",module,Magento_Customer
 "Default Group","المجموعة الافتراضية",module,Magento_Customer
 "Default Email Domain","البريد الالكتروني الافتراضي النطاق",module,Magento_Customer
+"Default Welcome Email","البريد الإلكتروني الترحيبي الافتراضي",module,Magento_Customer
 "Email Sender","مرسل البريد الإلكتروني",module,Magento_Customer
 "Password Options","خيارات كلمة المرور",module,Magento_Customer
 "Forgot Email Template","نسيت البريد الالكتروني للقالب",module,Magento_Customer
@@ -4803,6 +4805,7 @@ State/Region,ولاية/منطقة,module,Magento_Tax
 Empty,فارغ,module,Magento_Theme
 Configuration,الضبط,module,Magento_Theme
 "Default Description","الوصف الاعتيادى",module,Magento_Theme
+"Default welcome msg!","رسالة الترحيب الافتراضية!",module,Magento_Theme
 Footer,"ذيل الصفحة",module,Magento_Theme
 Website,الموقع,module,Magento_Theme
 Store,المتجر,module,Magento_Theme
