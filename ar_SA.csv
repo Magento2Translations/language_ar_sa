@@ -325,8 +325,10 @@ Database,"قاعدة البيانات",module,Magento_Backup
 "The backup file path was not specified.","لم يتم تحديد مسار ملف النسخ الاحتياطي.",module,Magento_Backup
 "The backup file ""%1"" does not exist.","ملف النسخ الاحتياطي ""%1""غير موجود.",module,Magento_Backup
 "Sorry, but we cannot read from or write to backup file ""%1"".","عذراً، لا يمكننا القراءة أو الكتابة من و إلى ملف النسخ الاحتياطي ""%1"".",module,Magento_Backup
+"The backup file handler was unspecified.","لم يتم تحديد مسار ملف النسخ الاحتياطي.",module,Magento_Backup
 "Are you sure you want to continue?","هل انت متأكد انك تريد الاستمرار؟",module,Magento_Backup
 "This may take a few moments.","قد يستغرق هذا بضع لحظات.",module,Magento_Backup
+"Be sure your store is in maintenance mode during backup.","الرجاء وضع المتجر الخاص بك في وضع الصيانة أثناء النسخ الاحتياطي.",module,Magento_Backup
 "Backup Name","اسم النسخة الاحتياطية",module,Magento_Backup
 "Please use only letters (a-z or A-Z), numbers (0-9) or spaces in this field.","الرجاء استخدام الأحرف (إلى z أو A إلى Z)، الأرقام (0-9) أو مسافات فقط في هذا الحقل.",module,Magento_Backup
 "Maintenance mode","وضع الصيانة",module,Magento_Backup
@@ -595,6 +597,7 @@ Global,عالمي,module,Magento_Catalog
 Scope,مدى,module,Magento_Catalog
 "Declare attribute value saving scope","إعلان قيمة السمة لتوفير النطاق",module,Magento_Catalog
 "Enable WYSIWYG","تفعيل WYSIWYG",module,Magento_Catalog
+"Used in Product Listing","المستخدمة في قائمة المنتجات",module,Magento_Catalog
 "Depends on design theme","يعتمد على التصميم المظهر",module,Magento_Catalog
 "Used for Sorting in Product Listing","يستخدم لفرز في قائمة المنتجات",module,Magento_Catalog
 "Media Image","صور وسائل الاعلام",module,Magento_Catalog
@@ -701,11 +704,14 @@ PM,مساء,module,Magento_Catalog
 None,"لا شئ",module,Magento_Catalog
 "New Products","المنتجات الجديدة",module,Magento_Catalog
 "Click for price","اضغط هنا للأسعار",module,Magento_Catalog
+"You deleted the category.","لقد قمت بحذف القسم.",module,Magento_Catalog
+"Something went wrong while trying to delete the category.","حدث خطأ أثناء محاولة حذف القسم.",module,Magento_Catalog
 Categories,فئات,module,Magento_Catalog
 "Manage Catalog Categories","ادارة اقسام دليل المنتجات",module,Magento_Catalog
 "Manage Categories","ادارة الفئات",module,Magento_Catalog
 "There was a category move error.","كان هناك خطأ في نقل الفئة %1.",module,Magento_Catalog
 "Attribute ""%1"" is required.","صفة ""%1"" مطلوبة.",module,Magento_Catalog
+"You saved the category.","لقد قمت بحفظ القسم.",module,Magento_Catalog
 "Please select products for attributes update.","الرجاء اختيار المنتجات للصفات المحدثة.",module,Magento_Catalog
 Catalog,"دليل المنتجات",module,Magento_Catalog
 "Manage Product Attributes","ادارة منتج السمات",module,Magento_Catalog
