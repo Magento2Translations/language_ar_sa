@@ -286,6 +286,7 @@ System,النظام,module,Magento_Backend
 "Current Month","الشهر الحالي",module,Magento_Backend
 YTD,"منذ سنة",module,Magento_Backend
 2YTD,"منذ سنتين",module,Magento_Backend
+"Authentication storage is incorrect.","مصادقة التخزين غير صحيحة.",module,Magento_Backend
 "You did not sign in correctly or your account is temporarily disabled.","لم تقم بتسجيل الدخول بشكل صحيح أو أن حسابك معطل مؤقتاً.",module,Magento_Backend
 "Authentication error occurred.","حدث خطأ مصادقة.",module,Magento_Backend
 "Admin session lifetime must be less than or equal to 31536000 seconds (one year)","جلسة المدير يجب أن تكون أقل من أو يساوي إلى 31536000 ثانية (سنة واحدة)",module,Magento_Backend
@@ -398,17 +399,20 @@ Database,"قاعدة البيانات",module,Magento_Backup
 "System (excluding Media)","النظام (باستثناء الوسائط)",module,Magento_Backup
 "You created the system backup.","تم إنشاء نظام النسخ الاحتياطي.",module,Magento_Backup
 "You created the system backup (excluding media).","لقد قمت بإنشاء نظام النسخ الاحتياطي (باستثناء الوسائط).",module,Magento_Backup
+"You created the database and media backup.","لقد قمت بإنشاء نسخة احتياطية لقاعدة البيانات والوسائط.",module,Magento_Backup
 "You created the database backup.","قمت بإنشاء قاعدة البيانات الاحتياطية.",module,Magento_Backup
 "Please correct the order of creation for a new backup.","الرجاء تصحيح الطلب لإنشاء نسخة احتياطية جديدة.",module,Magento_Backup
 "The backup file does not exist.","ملف النسخة الاحتياطية غير موجود.",module,Magento_Backup
 "The backup file path was not specified.","لم يتم تحديد مسار ملف النسخ الاحتياطي.",module,Magento_Backup
 "The backup file ""%1"" does not exist.","ملف النسخ الاحتياطي ""%1""غير موجود.",module,Magento_Backup
 "Sorry, but we cannot read from or write to backup file ""%1"".","عذراً، لا يمكننا القراءة أو الكتابة من و إلى ملف النسخ الاحتياطي ""%1"".",module,Magento_Backup
+"The backup file handler was unspecified.","لم يتم تحديد مسار ملف النسخ الاحتياطي.",module,Magento_Backup
 "Something went wrong while writing to the backup file ""%1"".","حدث خطأ أثناء الكتابة إلى ملف النسخ الاحتياطي ""%1"".",module,Magento_Backup
 "We can't save the Cron expression.","لم نتمكن من حفظ تعبير Cron.",module,Magento_Backup
 "You will lose any data created since the backup was made, including admin users, customers and orders.","سوف تفقد أية بيانات تم إنشاؤها منذ عملية النسخ الاحتياطي، بما في ذلك المشرفين والعملاء والطلبات.",module,Magento_Backup
 "Are you sure you want to continue?","هل انت متأكد انك تريد الاستمرار؟",module,Magento_Backup
 "This may take a few moments.","قد يستغرق هذا بضع لحظات.",module,Magento_Backup
+"Be sure your store is in maintenance mode during backup.","الرجاء وضع المتجر الخاص بك في وضع الصيانة أثناء النسخ الاحتياطي.",module,Magento_Backup
 "Backup Name","اسم النسخة الاحتياطية",module,Magento_Backup
 "Please use only letters (a-z or A-Z), numbers (0-9) or spaces in this field.","الرجاء استخدام الأحرف (إلى z أو A إلى Z)، الأرقام (0-9) أو مسافات فقط في هذا الحقل.",module,Magento_Backup
 "Maintenance mode","وضع الصيانة",module,Magento_Backup
@@ -746,6 +750,7 @@ Scope,مدى,module,Magento_Catalog
 "Visible in Advanced Search","مرئية في البحث المتقدم",module,Magento_Catalog
 "Comparable on Storefront","قابلة للمقارنة في الواجهة",module,Magento_Catalog
 "Enable WYSIWYG","تفعيل WYSIWYG",module,Magento_Catalog
+"Used in Product Listing","المستخدمة في قائمة المنتجات",module,Magento_Catalog
 "Depends on design theme.","يعتمد على تصميم المظهر.",module,Magento_Catalog
 "Used for Sorting in Product Listing","يستخدم لفرز في قائمة المنتجات",module,Magento_Catalog
 "Media Image","صور وسائل الاعلام",module,Magento_Catalog
@@ -866,10 +871,16 @@ None,"لا شئ",module,Magento_Catalog
 "Special Products","منتجات خاصة",module,Magento_Catalog
 "Manage Catalog Categories","ادارة اقسام دليل المنتجات",module,Magento_Catalog
 "Manage Categories","ادارة الفئات",module,Magento_Catalog
+"You deleted the category.","لقد قمت بحذف القسم.",module,Magento_Catalog
+"Something went wrong while trying to delete the category.","حدث خطأ أثناء محاولة حذف القسم.",module,Magento_Catalog
 Categories,فئات,module,Magento_Catalog
+"Category is not available for requested store.","القسم غير متاح للمتجر المطلوب.",module,Magento_Catalog
 "There was a category move error. %1","كان هناك خطأ في نقل الفئة %1",module,Magento_Catalog
 "There was a category move error.","كان هناك خطأ في نقل الفئة %1.",module,Magento_Catalog
+"You moved the category","لقد قمت بنقل القسم",module,Magento_Catalog
 "Attribute ""%1"" is required.","صفة ""%1"" مطلوبة.",module,Magento_Catalog
+"You saved the category.","لقد قمت بحفظ القسم.",module,Magento_Catalog
+"Something went wrong while saving the category.","حدث خطأ أثناء حفظ القسم.",module,Magento_Catalog
 "Please select products for attributes update.","الرجاء اختيار المنتجات للصفات المحدثة.",module,Magento_Catalog
 Catalog,"دليل المنتجات",module,Magento_Catalog
 "Manage Product Attributes","ادارة منتج السمات",module,Magento_Catalog
@@ -970,6 +981,7 @@ Disabled,"غير مفعل",module,Magento_Catalog
 "Attribute Set already exists.","تعيين السمة موجودة بالفعل.",module,Magento_Catalog
 "We couldn't copy file %1. Please delete media with non-existing images and try again.","ا أستطع نسخ الملف %1. الرجاء حذف الوسائط مع الصور غير موجودة وحاول مرة أخرى.",module,Magento_Catalog
 "The image content is not valid.","محتوى الصورة غير صالح.",module,Magento_Catalog
+"Cannot save product.","لا يمكن حفظ المنتج.",module,Magento_Catalog
 "Such product doesn't exist","لا يوجد مثل هذا المنتج",module,Magento_Catalog
 "Such image doesn't exist","هذه الصورة غير موجودة",module,Magento_Catalog
 "The image does not exist.","الصورة غير موجودة.",module,Magento_Catalog
