@@ -3689,11 +3689,15 @@ Page,حقيبة,module,Magento_Widget
 "We can't load the Wish List item right now.","ونحن لا يمكن تحميل عنصر قائمة الرغبات الآن.",module,Magento_Wishlist
 "We can't configure the product right now.","لا يمكن إعداد المنتج الآن.",module,Magento_Wishlist
 "The requested cart item doesn't exist.","بند السلة المطلوب غير موجود.",module,Magento_Wishlist
+"%1 has been moved to your wish list.","وقد تم نقل %1 إلى رغبتكم قائمة.",module,Magento_Wishlist
 "We can't move the item to the wish list.","لا يمكن نقل العنصر إلى قائمة الرغبات.",module,Magento_Wishlist
 "We can't delete the item from Wish List right now because of an error: %1.","لا يمكن حذف العنصر من قائمة الرغبات الآن بسبب خطأ: %1.",module,Magento_Wishlist
 "We can't delete the item from the Wish List right now.","لا يمكن حذف العنصر من قائمة الرغبات الآن.",module,Magento_Wishlist
+"Message length must not exceed %1 symbols","يجب أن لا يتجاوز طول الرسالة %1 رمز",module,Magento_Wishlist
 "Please enter an email address.","الرجاء ادخال عنوان البريد الالكتروني.",module,Magento_Wishlist
+"This wish list can be shared %1 more times.","قائمة الأمنيات ممكن مشاركتها %1 مرة او مرات.",module,Magento_Wishlist
 "Please enter a valid email address.","الرجاء ادخال عنوان بريد الكتروني صحيح.",module,Magento_Wishlist
+"Your wish list has been shared.","لقد تم مشاركة قائمة رغباتكم.",module,Magento_Wishlist
 "We can't delete item from Wish List right now.","لا يمكن حذف عنصر من قائمة الرغبات الآن.",module,Magento_Wishlist
 "Can't save description %1","لا يمكن حفظ %1 الوصف",module,Magento_Wishlist
 "Can't update wish list","لا يمكن تحديث قائمة الرغبات",module,Magento_Wishlist
