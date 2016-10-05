@@ -2746,6 +2746,9 @@ Page,حقيبة,module,Magento_Widget
 "%1's Wish List","قائمة الأمنيات %1 's",module,Magento_Wishlist
 "You added %1 to your shopping cart.","قمت بإضافة %1 إلى عربة التسوق.",module,Magento_Wishlist
 "This product(s) is out of stock.","هذا المنتج (المنتجات) غير متوفر في المخزن.",module,Magento_Wishlist
+"%1 has been moved to your wish list.","وقد تم نقل %1 إلى رغبتكم قائمة.",module,Magento_Wishlist
+"Message length must not exceed %1 symbols","يجب أن لا يتجاوز طول الرسالة %1 رمز",module,Magento_Wishlist
+"Your wish list has been shared.","لقد تم مشاركة قائمة رغباتكم.",module,Magento_Wishlist
 "%1 items","%1 قطعة",module,Magento_Wishlist
 "1 item","منتج ١",module,Magento_Wishlist
 Comment,تعليق,module,Magento_Wishlist
