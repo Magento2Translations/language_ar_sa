@@ -1333,9 +1333,13 @@ Summary,خلاصة,module,Magento_ConfigurableProduct
 "You need to choose options for your item.","انت بحاجة لاختيار خيارات للبند الخاص بك.",module,Magento_ConfigurableProduct
 "Configurable product ""%1"" does not have sub-products","المنتج القابل للتخصيص ""%1"" ليس لديه منتجات فرعية",module,Magento_ConfigurableProduct
 "Add configurable attributes to the current Attribute Set","إضافة سمات قابلة للتخصيص لمجموعة السمات الحالية",module,Magento_ConfigurableProduct
+Confirm,تأكيد,module,Magento_ConfigurableProduct
+"New Attribute Set Name","اسم مجموعة السمة الجديدة",module,Magento_ConfigurableProduct
 Done,انتهى,module,Magento_ConfigurableProduct
 "Configurable products allow customers to choose options (Ex: shirt color). You need to create a simple product for each configuration (Ex: a product for each color).","المنتجات القابلة للتخصيص تسمح للعملاء بتخصيص المنتج (مثلاً: لون القميص). تحتاج لإنشاء منتج بسيط لكل تخصيص (مثلاً: منتج لكل لون من ألوان القميص).",module,Magento_ConfigurableProduct
+"Add Products Manually","إضافة المنتجات يدوياً",module,Magento_ConfigurableProduct
 "Create Configurations","انشاء ضبط",module,Magento_ConfigurableProduct
+"Current Variations","الاختلافات الحالية",module,Magento_ConfigurableProduct
 Image,صورة,module,Magento_ConfigurableProduct
 Name,اسم,module,Magento_ConfigurableProduct
 Price,السعر,module,Magento_ConfigurableProduct
@@ -1348,20 +1352,42 @@ Actions,اعمال,module,Magento_ConfigurableProduct
 "This group contains attributes used in configurable products. Please move these attributes to another group and try again.","تحتوي هذه المجموعة على السمات المستخدمة في المنتجات القابلة للتخصيص. الرجاء نقل هذه السمات إلى مجموعة أخرى، وحاول مرة أخرى.",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products. You cannot remove it from the attribute set.","هذه السمة مستخدمة بالفعل في منتجات قابلة للتخصيص. لا يمكن إزالته من مجموعة السمات.",module,Magento_ConfigurableProduct
 "Associated Products","المنتجات المرتبطه بها",module,Magento_ConfigurableProduct
+"Step 2: Attribute Values","الخطوة 2: قيم السمة",module,Magento_ConfigurableProduct
+"Select values from each attribute to include in this product. Each unique combination of values creates a unigue product SKU.","حدد القيم من كل سمة لتدرج في هذا المنتج. كل تركيبة فريدة من نوعها للقيم تنشئ SKU للمنتج.",module,Magento_ConfigurableProduct
 Options,الخيارات,module,Magento_ConfigurableProduct
 "Select All","اختيار الكل",module,Magento_ConfigurableProduct
+"Deselect All","إلغاء تحديد الكل",module,Magento_ConfigurableProduct
+"Remove Attribute","إزالة السمة",module,Magento_ConfigurableProduct
+"Save Option","حفظ الخيار",module,Magento_ConfigurableProduct
+"Remove Option","إزالة خيار",module,Magento_ConfigurableProduct
+"Create New Value","إنشاء قيمة جديدة",module,Magento_ConfigurableProduct
 "Step 3: Bulk Images, Price and Quantity","الخطوة 3: الصور والسعر والكمية",module,Magento_ConfigurableProduct
+"Based on your selections %1 new products will be created. Use this step to customize images and price for your new products.","استناداً إلى التحديدات الخاصة بك سيتم إنشاء منتجات جديدة %1. استخدم هذه الخطوة لتخصيص الصور والأسعار للمنتجات الجديدة الخاصة بك.",module,Magento_ConfigurableProduct
 Images,صور,module,Magento_ConfigurableProduct
 "Browse Files...","استعراض ملفات...",module,Magento_ConfigurableProduct
+"Remove image","إزالة الصورة",module,Magento_ConfigurableProduct
+Hidden,مخفي,module,Magento_ConfigurableProduct
+"Alt Text","النص البديل",module,Magento_ConfigurableProduct
 Role,دور,module,Magento_ConfigurableProduct
+"Image Size","حجم الصورة",module,Magento_ConfigurableProduct
+"Image Resolution","دقة الصورة",module,Magento_ConfigurableProduct
+"{width}^{height} px","{width} ^{height} px",module,Magento_ConfigurableProduct
 "Hide from Product Page","إخفاء من صفحة المنتج",module,Magento_ConfigurableProduct
+"Select attribute","حدد السمة",module,Magento_ConfigurableProduct
+Select,إختيار,module,Magento_ConfigurableProduct
+"Apply single price to all SKUs","تطبيق سعر واحد على كافة وحدات Sku",module,Magento_ConfigurableProduct
+"Apply unique prices by attribute to each SKU","تطبيق أسعار فريدة من نوعها بالسمة لكل SKU",module,Magento_ConfigurableProduct
+"Skip price at this time","تخطي السعر في هذا الوقت",module,Magento_ConfigurableProduct
 "Apply single quantity to each SKUs","تطبيق كمية محددة لكل منتج",module,Magento_ConfigurableProduct
+"Apply unique quantity by attribute to each SKU","تطبيق كمية فريدة من نوعها بالسمة لكل SKU",module,Magento_ConfigurableProduct
 "Skip quantity at this time","تخطي الكمية في الوقت الحالي",module,Magento_ConfigurableProduct
 "Step 1: Select Attributes","الخطوة 1: اختر السمات",module,Magento_ConfigurableProduct
 "Selected Attributes:","السمات المختارة:",module,Magento_ConfigurableProduct
+"Step 4: Summary","الخطوة 4: موجز",module,Magento_ConfigurableProduct
 "Configurable products allow customers to choose options (Ex: shirt color).
             You need to create a simple product for each configuration (Ex: a product for each color).","المنتجات القابلة للتخصيص تسمح للعملاء بتخصيص المنتج (مثلاً: لون القميص).
             تحتاج لإنشاء منتج بسيط لكل تخصيص (مثلاً: منتج لكل لون من ألوان القميص).",module,Magento_ConfigurableProduct
+"Edit Configurations","تحرير الإعدادات",module,Magento_ConfigurableProduct
 "Remove Product","إزالة منتج",module,Magento_ConfigurableProduct
 "Create Product Configurations","تخصيص جديد لمنتج",module,Magento_ConfigurableProduct
 Cancel,إلغاء,module,Magento_ConfigurableProduct
