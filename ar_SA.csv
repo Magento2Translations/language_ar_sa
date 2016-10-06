@@ -992,11 +992,15 @@ Configuration,الضبط,module,Magento_Config
 "This group contains attributes used in configurable products. Please move these attributes to another group and try again.","تحتوي هذه المجموعة على السمات المستخدمة في المنتجات القابلة للتخصيص. الرجاء نقل هذه السمات إلى مجموعة أخرى، وحاول مرة أخرى.",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products. You cannot remove it from the attribute set.","هذه السمة مستخدمة بالفعل في منتجات قابلة للتخصيص. لا يمكن إزالته من مجموعة السمات.",module,Magento_ConfigurableProduct
 "Associated Products","المنتجات المرتبطه بها",module,Magento_ConfigurableProduct
+Select,إختيار,module,Magento_ConfigurableProduct
 Price,السعر,module,Magento_ConfigurableProduct
 Quantity,الكمية,module,Magento_ConfigurableProduct
+"Add Products Manually","إضافة المنتجات يدوياً",module,Magento_ConfigurableProduct
+"Current Variations","الاختلافات الحالية",module,Magento_ConfigurableProduct
 Image,صورة,module,Magento_ConfigurableProduct
 Name,اسم,module,Magento_ConfigurableProduct
 Weight,الوزن,module,Magento_ConfigurableProduct
+Confirm,تأكيد,module,Magento_ConfigurableProduct
 Cancel,إلغاء,module,Magento_ConfigurableProduct
 "* Required Fields","* حقول مطلوبة",module,Magento_Contact
 Name,اسم,module,Magento_Contact
