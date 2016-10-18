@@ -3611,10 +3611,12 @@ Resources,مصادر,module,Magento_User
 "First-Class Mail Parcel","الطرود البريد من الدرجة الأولى",module,Magento_Usps
 "First-Class Mail Postcards","رسالة بريد من الدرجة الأولى",module,Magento_Usps
 "Priority Mail","البريد الالكتروني الاولي",module,Magento_Usps
+"Priority Mail Express Hold For Pickup","الأولوية البريد عقد صريح بيك آب",module,Magento_Usps
 "Priority Mail Express","أولوية البريد السريع",module,Magento_Usps
 "Retail Ground","أرض البيع بالتجزئة",module,Magento_Usps
 "Media Mail","وسائل الاعلام البريد الالكتروني",module,Magento_Usps
 "Library Mail","بريد المكتبة",module,Magento_Usps
+"Priority Mail Express Flat Rate Envelope","الأولوية البريد معدل ثابت صريح مغلف",module,Magento_Usps
 Letter,رسالة,module,Magento_Usps
 Flat,مسطحة,module,Magento_Usps
 Parcel,طرد,module,Magento_Usps
