@@ -1095,10 +1095,12 @@ Download,تحميل,module,Magento_Customer
 "Save Customer Group","حفظ مجموعة عملاء",module,Magento_Customer
 "Delete Customer Group","حذف مجموعة عملاء",module,Magento_Customer
 "New Customer Group","مجموعة عميل جديدة",module,Magento_Customer
+"Edit Customer Group ""%1""","تحرير مجموعة العملاء ""%1""",module,Magento_Customer
 "Group Information","بيانات المجموعة",module,Magento_Customer
 "Group Name","اسم المجموعة",module,Magento_Customer
 "Maximum length must be less then %1 symbols","يجب أن يكون الحد الأقصى للطول أقل من %1 رموز",module,Magento_Customer
 "Tax Class","الشريحة الضريبة",module,Magento_Customer
+"Would you like to change the Customer Group for this order?","هل تريد تغيير مجموعة العميل لهذا الطلب؟",module,Magento_Customer
 "Customer Login","تسجيل دخول العميل",module,Magento_Customer
 "Create New Customer Account","إنشاء حساب عميل جديد",module,Magento_Customer
 "Date of Birth","تاريخ الميلاد",module,Magento_Customer
@@ -1108,6 +1110,7 @@ Download,تحميل,module,Magento_Customer
 "Invalid input","إدخال غير صالح",module,Magento_Customer
 "Please correct the email address.","الرجاء تصحيح عنوان البريد الإلكتروني.",module,Magento_Customer
 "Please enter your email.","الرجاء ادخال بريدك الالكتروني.",module,Magento_Customer
+"If there is an account associated with %1 you will receive an email with a link to reset your password.","إذا كان هناك حساب مربوط بـ %1 سوف تتلقى رسالة بريد إلكتروني مع رابط لإعادة تعيين كلمة المرور الخاصة بك.",module,Magento_Customer
 "My Account",حسابي,module,Magento_Customer
 "Invalid login or password.","البريد الإلكتروني أو كلمة المرور غير صحيحة.",module,Magento_Customer
 "New Password and Confirm New Password values didn't match.","حقل تأكيد كلمة المرور و حقل كلمة المرور غير متطابقان.",module,Magento_Customer
@@ -1116,15 +1119,29 @@ Customers,العملاء,module,Magento_Customer
 "New Customer Groups","مجموعات العملاء الجديدة",module,Magento_Customer
 "Edit Group","تحرير مجموعة",module,Magento_Customer
 "Edit Customer Groups","تحرير مجموعات العملاء",module,Magento_Customer
+"Please select customer(s).","من فضلك اختر عميلا/عملاء.",module,Magento_Customer
+"You deleted the customer.","لقد حذفت العميل.",module,Magento_Customer
 "Manage Customers","إدارة العملاء",module,Magento_Customer
+"A total of %1 record(s) were updated.","عدد %1 سجلات تم تحديثها.",module,Magento_Customer
+"A total of %1 record(s) were deleted.","تم حذف %1 من السجلات.",module,Magento_Customer
+"Please enter the first name.","الرجاء ادخال الاسم الاول.",module,Magento_Customer
+"Please enter the last name.","الرجاء ادخال الاسم الاخير.",module,Magento_Customer
+"Please enter the street.","رجاء إدخال الشارع.",module,Magento_Customer
+"Please enter the city.","رجاء إدخال المدينة.",module,Magento_Customer
 Global,عالمي,module,Magento_Customer
 "Per Website","لكل موقع",module,Magento_Customer
 "Billing Address","عنوان الفاتورة",module,Magento_Customer
 "Shipping Address","عنوان الشحن",module,Magento_Customer
 "-- Please Select --","--الرجاء الاختيار-",module,Magento_Customer
 "Please correct this email address: ""%1"".","الرجاء تصحيح عنوان البريد الإلكتروني : ""%1"".",module,Magento_Customer
+"The password can not begin or end with a space.","كلمة المرور لا يمكن أن تبدأ أو تنتهي بمسافة.",module,Magento_Customer
 Admin,المدير,module,Magento_Customer
 """%1"" is not a valid email address.","'%1' ليس عنوان بريد إلكتروني صحيحا.",module,Magento_Customer
+"""%1"" is not a valid URL.","""%1"" ليس رابطًا صحيحاً.",module,Magento_Customer
+"""%1"" is not a valid date.","""%1"" ليس تاريخ صحيح.",module,Magento_Customer
+"""%1"" is not a valid file.","""%1"" ليس ملف صالح.",module,Magento_Customer
+"""%1"" exceeds the allowed file size.","""%1"" اكبر من حجم الملف المسموح به.",module,Magento_Customer
+label,التسمية,module,Magento_Customer
 "Customer Group","مجموعات العملاء",module,Magento_Customer
 Edit,تحرير,module,Magento_Customer
 Visitor,زائر,module,Magento_Customer
@@ -1132,6 +1149,7 @@ Customer,زبون,module,Magento_Customer
 "No item specified.","ولا عنصر المحدد.",module,Magento_Customer
 "Personal Information","المعلومات الشخصية",module,Magento_Customer
 "Last Logged In:","اخر تسجيل للدخول:",module,Magento_Customer
+"Last Logged In (%1):","اخر تسجيل للدخول (%1):",module,Magento_Customer
 "Confirmed email:","تأكيد البريد الإلكتروني:",module,Magento_Customer
 "Account Created on (%1):","انشاء حساب في (%1):",module,Magento_Customer
 "Account Created in:","انشاء حساب في :",module,Magento_Customer
@@ -1163,6 +1181,7 @@ Company,الشركة,module,Magento_Customer
 Fax,فاكس,module,Magento_Customer
 Address,العنوان,module,Magento_Customer
 "Street Address","عنوان الشارع",module,Magento_Customer
+"Street Address %1","عنوان الشارع %1",module,Magento_Customer
 "VAT Number","رقم ضريبة القيمة المضافة",module,Magento_Customer
 City,المدينة,module,Magento_Customer
 State/Province,ولاية/مقاطعة,module,Magento_Customer
@@ -1188,6 +1207,7 @@ Login,الدخول,module,Magento_Customer
 "Address Information","معلومات العنوان",module,Magento_Customer
 "Confirm Password","تأكيد كلمة المرور",module,Magento_Customer
 "New Customers","عضو جديد",module,Magento_Customer
+Gender,النوع,module,Magento_Customer
 Name,اسم,module,Magento_Customer
 "Client side less compilation","جانب العميل أقل تجميعا",module,Magento_Developer
 "Server side less compilation","جانب الملقم أقل تعقيد",module,Magento_Developer
@@ -1243,7 +1263,7 @@ Currency,العملة,module,Magento_Directory
 "All Files","كل الملفات",module,Magento_Downloadable
 Unlimited,"غير محدود",module,Magento_Downloadable
 "Something went wrong while getting the requested content.","حدث خطأ أثناء الحصول على المحتوى المطلوب.",module,Magento_Downloadable
-"My Downloadable Products","المنتجات التي تم تحملها",module,Magento_Downloadable
+"My Downloadable Products","ملفات التحميل",module,Magento_Downloadable
 "We can't find the link you requested.","لا يمكن أن نجد الارتباط المطلوب.",module,Magento_Downloadable
 "The link has expired.","انتهت صلاحية الرابط.",module,Magento_Downloadable
 "Something went wrong while saving the file(s).","حدث خطأ أثناء حفظ الملفات.",module,Magento_Downloadable
@@ -1353,6 +1373,8 @@ Country,الدولة,module,Magento_Email
 Region/State,"المنطقة / الولايه",module,Magento_Email
 "Zip/Postal Code","الرمز البريدي",module,Magento_Email
 City,المدينة,module,Magento_Email
+"Street Address 1","عنوان الشارع ١",module,Magento_Email
+"Street Address 2","عنوان الشارع ٢",module,Magento_Email
 "Load default template","تحميل قالب افتراضي",module,Magento_Email
 Template,قالب,module,Magento_Email
 "Change Encryption Key","تغيير مفتاح التشفير",module,Magento_EncryptionKey
@@ -1940,7 +1962,7 @@ Pending,"في إنتظار المُراجعة",module,Magento_Review
 "Assigned Options","الخيارات المخصصة",module,Magento_Review
 "Option Title:","عنوان الاختيار:",module,Magento_Review
 "Product Name","اسم المنتج",module,Magento_Review
-"You have submitted no reviews.","لم تقم بإرسال اي مراجعات.",module,Magento_Review
+"You have submitted no reviews.","لم تقم بإضافة اي مراجعات.",module,Magento_Review
 Back,رجوع,module,Magento_Review
 "My Recent Reviews","مراجعاتي الاخيرة",module,Magento_Review
 "Average Customer Rating:","متوسط تقييم العميل:",module,Magento_Review
@@ -2669,6 +2691,7 @@ Permissions,تصريحات,module,Magento_User
 "Edit User","تعديل مستخدم",module,Magento_User
 "Edit Role","تعديل الدور",module,Magento_User
 Recommended,اوصت,module,Magento_User
+"Sorry, but this password has already been used. Please create another.","عفواً، لكن كلمة المرور هذه مستخدمة بالفعل، اختر واحدة اخرى.",module,Magento_User
 "Please enter a valid email.","الرجاء إدخال عنوان بريد الكتروني صحيح.",module,Magento_User
 "Your password confirmation must match your password.","حقل تأكيد كلمة المرور يجب أن يطابق حقل كلمة المرور.",module,Magento_User
 "Retrieve Password","استرداد كلمة المرور",module,Magento_User
@@ -3084,23 +3107,35 @@ Contacts,المتصلين,module,Magento_Contact
 "Default Email Domain","البريد الالكتروني الافتراضي النطاق",module,Magento_Customer
 "Default Welcome Email","البريد الإلكتروني الترحيبي الافتراضي",module,Magento_Customer
 "Email Sender","مرسل البريد الإلكتروني",module,Magento_Customer
+"Welcome Email","الرسالة الترحيبية",module,Magento_Customer
 "Password Options","خيارات كلمة المرور",module,Magento_Customer
 "Forgot Email Template","نسيت البريد الالكتروني للقالب",module,Magento_Customer
+"Reset Password Template","قالب إعادة تعيين كلمة المرور",module,Magento_Customer
 "Recovery Link Expiration Period (days)","فترة انتهاء صلاحية رابط الاسترداد (الأيام)",module,Magento_Customer
+"Number of Lines in a Street Address","عدد الخطوط في عنوان الشارع",module,Magento_Customer
+"Show Prefix","إظهار البادئة",module,Magento_Customer
 "Always optional.","اختياري دائماً.",module,Magento_Customer
+"Show Suffix","إظهار التابعة",module,Magento_Customer
+"Show Date of Birth","تغيير تاريخ الميلاد",module,Magento_Customer
+"Login Options","خيارات تسجيل الدخول",module,Magento_Customer
 "Redirect Customer to Account Dashboard after Logging in","إعادة توجيه العملاء إلى لوحة تحكم الحساب بعد تسجيل الدخول",module,Magento_Customer
 "Address Templates","عنوان القالب",module,Magento_Customer
 Group,مجموعة,module,Magento_Customer
 "Add New Customer","أضف عميل جديد",module,Magento_Customer
 "Subscribe to Newsletter","الاشتراك في القائمة البريدية",module,Magento_Customer
+"Unsubscribe from Newsletter","إلغاء الاشتراك من القائمة البريدية",module,Magento_Customer
+Phone,"رقم الهاتف",module,Magento_Customer
 ZIP,"الرمز البريدي",module,Magento_Customer
 "Customer Since","عميل منذ",module,Magento_Customer
+"Confirmed email","تأكيد البريد الإلكتروني",module,Magento_Customer
 "Account Created in","انشاء الحساب في",module,Magento_Customer
+"Tax VAT Number","رقم ضريبة القيمة المضافة",module,Magento_Customer
 "First Name","الإسم الأول",module,Magento_Customer
 "Last Name","اسم العائلة",module,Magento_Customer
 "Last Activity","اخر نشاط",module,Magento_Customer
 Type,النوع,module,Magento_Customer
 "Customer Information","بيانات العميل",module,Magento_Customer
+"Send Welcome Email From","إرسال بريد إلكتروني ترحيبي من",module,Magento_Customer
 Addresses,العنوان,module,Magento_Customer
 "Edit Account Information","تحرير بيانات الحساب",module,Magento_Customer
 "Password forgotten","نسيت كلمة السر",module,Magento_Customer
@@ -3355,6 +3390,7 @@ Region/State,"المنطقة / الولايه",module,Magento_Shipping
 "ZIP/Postal Code","الرمز البريدي",module,Magento_Shipping
 City,المدينة,module,Magento_Shipping
 "Street Address","عنوان الشارع",module,Magento_Shipping
+"Street Address Line 2","عنوان الشارع سطر ٢",module,Magento_Shipping
 "Apply custom Shipping Policy","تطبيق ""سياسة شحن"" مخصصة",module,Magento_Shipping
 "Shipping Methods","طريقة الشحن",module,Magento_Shipping
 "Categories Options","خيارات التصنيفات",module,Magento_Sitemap
