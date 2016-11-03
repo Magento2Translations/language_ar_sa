@@ -1704,6 +1704,7 @@ Password,"كلمة المرور",module,Magento_Customer
 "Confirm Password","تأكيد كلمة المرور",module,Magento_Customer
 "Create an Account","انشاء حساب",module,Magento_Customer
 "Set a New Password","تعيين كلمة مرور جديدة",module,Magento_Customer
+"You have signed out and will go to our homepage in 5 seconds.","تم تسجيل الخروج بنجاح. سيتم تحويلك للصفحة الرئيسية بعد ٥ ثوان.",module,Magento_Customer
 "New Customers","عضو جديد",module,Magento_Customer
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","إنشاء حساب له فوائد عديدة: شراء أسرع، حفظ العناوين، متابعة الطلبات وأشياء أخرى.",module,Magento_Customer
 Gender,النوع,module,Magento_Customer
@@ -2685,7 +2686,7 @@ Pending,"في إنتظار المُراجعة",module,Magento_Review
 "Product Name","اسم المنتج",module,Magento_Review
 Actions,اعمال,module,Magento_Review
 "See Details","عرض التفاصيل",module,Magento_Review
-"You have submitted no reviews.","لم تقم بإرسال اي مراجعات.",module,Magento_Review
+"You have submitted no reviews.","لم تقم بإضافة اي مراجعات.",module,Magento_Review
 Back,رجوع,module,Magento_Review
 "My Recent Reviews","مراجعاتي الاخيرة",module,Magento_Review
 "View All","عرض الكل",module,Magento_Review
