@@ -1248,6 +1248,7 @@ Documents,الوثائق,module,Magento_Dhl
 "No packages for request","لا يوجد حزم في الطلب",module,Magento_Dhl
 "Non documents","بدون وثائق",module,Magento_Dhl
 None,"لا شئ",module,Magento_Dhl
+State/Province,"الولاية\المحافظة",module,Magento_Directory
 "--Please Select--"," --- الرجاء الإختيار --- ",module,Magento_Directory
 "Please correct the target currency.","الرجاء تصحيح العملة المستهدفة.",module,Magento_Directory
 "Undefined rate from ""%1-%2"".","معدل غير معرف من ""%1-%2"".",module,Magento_Directory
@@ -1258,6 +1259,7 @@ WARNING:,تحذير:,module,Magento_Directory
 "Country and Format Type combination should be unique","البلد نوع وشكل الجمع بين ينبغي ان تكون فريدة من نوعها",module,Magento_Directory
 Currency,العملة,module,Magento_Directory
 "Your current currency is: %1.","العملة الحالية الخاصة بك: %1.",module,Magento_Directory
+Continue,استمر,module,Magento_Directory
 "Downloadable Information","معلومات التحميل",module,Magento_Downloadable
 "Upload Files","تحميل الملف",module,Magento_Downloadable
 "All Files","كل الملفات",module,Magento_Downloadable
