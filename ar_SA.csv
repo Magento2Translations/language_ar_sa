@@ -1299,6 +1299,8 @@ Documents,الوثائق,module,Magento_Dhl
 "Unable to retrieve shipping label","غير قادر على استرداد تسمية الشحن",module,Magento_Dhl
 "Non documents","بدون وثائق",module,Magento_Dhl
 None,"لا شئ",module,Magento_Dhl
+State/Province,"الولاية\المحافظة",module,Magento_Directory
+"--Please Select--"," --- الرجاء الإختيار --- ",module,Magento_Directory
 lbs,رطل,module,Magento_Directory
 kgs,كجم,module,Magento_Directory
 "Requested country is not available.","البلد المطلوب غير متوفر.",module,Magento_Directory
