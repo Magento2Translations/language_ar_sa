@@ -839,8 +839,11 @@ Compare,مقارنة,module,Magento_Catalog
 Prev,السابق,module,Magento_Catalog
 Next,التالي,module,Magento_Catalog
 "Add to Compare","إضافة إلى المقارنة",module,Magento_Catalog
-"Learn More","تعلم المزيد",module,Magento_Catalog
+"Learn More","إعرف المزيد",module,Magento_Catalog
+"Check items to add to the cart or","تفحص المنتجات للإضافة لسلة التسوق أو",module,Magento_Catalog
 "select all","اختار الجميع",module,Magento_Catalog
+"Items %1-%2 of %3","عناصر %1-%2 من %3",module,Magento_Catalog
+"%1 Item","%1 عنصر",module,Magento_Catalog
 Show,أعرض,module,Magento_Catalog
 "per page","لكل صفحة",module,Magento_Catalog
 "Sort By","رتب حسب",module,Magento_Catalog
@@ -985,6 +988,8 @@ Home,"الصفحة الرئيسية",module,Magento_Cms
 "This block no longer exists.","هذه المجموعة لم يعد موجوداً.",module,Magento_Cms
 "Edit Block","اضافة مساحة",module,Magento_Cms
 "Edit Page","تحرير الصفحة",module,Magento_Cms
+"Enabled by Default","مفعل بشكل إفتراضي",module,Magento_Cms
+"Disabled by Default","معطل بشكل افتراضي",module,Magento_Cms
 "Browse Files...","استعراض ملفات...",module,Magento_Cms
 Configuration,الضبط,module,Magento_Config
 "New attribute set name","تعيين اسم الصفة الجديدة",module,Magento_ConfigurableProduct
@@ -1106,6 +1111,7 @@ Download,تحميل,module,Magento_Customer
 "Date of Birth","تاريخ الميلاد",module,Magento_Customer
 "Bad request.","طلب غير صحيح.",module,Magento_Customer
 "Wrong email.","بريد إلكتروني خاطئ.",module,Magento_Customer
+"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","هناك بالفعل حساب مع عنوان البريد الإلكتروني هذا. إذا كنت متأكداً من أن ذلك هو عنوان البريد الإلكتروني الخاص بك، <a href=""%1""> انقر هنا</a> للحصول على كلمة المرور والوصول إلى الحساب الخاص بك.",module,Magento_Customer
 "Account Information","معلومات الحساب",module,Magento_Customer
 "Invalid input","إدخال غير صالح",module,Magento_Customer
 "Please correct the email address.","الرجاء تصحيح عنوان البريد الإلكتروني.",module,Magento_Customer
@@ -1128,6 +1134,7 @@ Customers,العملاء,module,Magento_Customer
 "Please enter the last name.","الرجاء ادخال الاسم الاخير.",module,Magento_Customer
 "Please enter the street.","رجاء إدخال الشارع.",module,Magento_Customer
 "Please enter the city.","رجاء إدخال المدينة.",module,Magento_Customer
+"Please enter the zip/postal code.","الرجاء إدخال الرمز البريدي.",module,Magento_Customer
 Global,عالمي,module,Magento_Customer
 "Per Website","لكل موقع",module,Magento_Customer
 "Billing Address","عنوان الفاتورة",module,Magento_Customer
@@ -1202,7 +1209,7 @@ Password,"كلمة المرور",module,Magento_Customer
 Login,الدخول,module,Magento_Customer
 "Forgot Your Password?","هل نسيت كلمة المرور؟",module,Magento_Customer
 "Subscription option","قوائم النشرات البريدية",module,Magento_Customer
-"General Subscription","اشتراك عام",module,Magento_Customer
+"General Subscription","القائمة العامة",module,Magento_Customer
 "Sign Up for Newsletter","التسجيل في النشرة البريدية",module,Magento_Customer
 "Address Information","معلومات العنوان",module,Magento_Customer
 "Confirm Password","تأكيد كلمة المرور",module,Magento_Customer
@@ -1461,7 +1468,7 @@ To,إلى,module,Magento_ImportExport
 Exclude,استبعاد,module,Magento_ImportExport
 "Attribute Label","علامة السمة",module,Magento_ImportExport
 "Attribute Code","رمز السمة",module,Magento_ImportExport
-Filter,الفلتر,module,Magento_ImportExport
+Filter,تصفية,module,Magento_ImportExport
 "Check Data","التحقق من صحة البيانات",module,Magento_ImportExport
 Import,استيراد,module,Magento_ImportExport
 "Import Settings","استيراد الإعدادات",module,Magento_ImportExport
@@ -1730,7 +1737,7 @@ button_label,"تسمية الزر",module,Magento_Paypal
 Help,مساعدة,module,Magento_Paypal
 Configure,ضبط,module,Magento_Paypal
 Close,غلق,module,Magento_Paypal
-"Learn More","تعلم المزيد",module,Magento_Paypal
+"Learn More","إعرف المزيد",module,Magento_Paypal
 "Incl. Tax","شامل الضريبة",module,Magento_Paypal
 "Billing Information","بيانات الدفع",module,Magento_Paypal
 "Shipping Information","بيانات الشحن",module,Magento_Paypal
@@ -1822,7 +1829,7 @@ Tax,الضريبة,module,Magento_Quote
 "New Accounts","حسابات جديدة",module,Magento_Reports
 "Customers by number of orders","عملاء بعدد الطلبات",module,Magento_Reports
 "Customers by Orders Total","اجمالي العملاء بعدد الاوامر",module,Magento_Reports
-Filter,الفلتر,module,Magento_Reports
+Filter,تصفية,module,Magento_Reports
 "Date Used","التاريخ المستخدم",module,Magento_Reports
 Day,يوم,module,Magento_Reports
 Month,الشهر,module,Magento_Reports
@@ -1901,6 +1908,7 @@ Coupons,"قسائم الخصم",module,Magento_Reports
 "Shopping Cart","سلة التسوق",module,Magento_Reports
 "Customer Shopping Carts","عربات تسوق الزبون",module,Magento_Reports
 Bestsellers,"الأكثر مبيعاً",module,Magento_Reports
+"Show By","تصفح عبر",module,Magento_Reports
 "Select Date","اختيار التاريخ",module,Magento_Reports
 "All Websites","جميع المواقع",module,Magento_Reports
 "Recently Viewed","المشاهد حديثا",module,Magento_Reports
@@ -2241,6 +2249,7 @@ Closed,مغلق,module,Magento_Sales
 New,جديد,module,Magento_Sales
 View,عرض,module,Magento_Sales
 "Comment Text","نص التعليق",module,Magento_Sales
+"Notify Customer by Email","إعلام العميل عن طريق البريد الإلكتروني",module,Magento_Sales
 Customer,زبون,module,Magento_Sales
 Notified,اشعار,module,Magento_Sales
 "No Payment Methods","لا يوجد طرق للدفع",module,Magento_Sales
@@ -2328,7 +2337,7 @@ Comment,تعليق,module,Magento_Sales
 "Gift Message for this Order","رسالة الإهداء لهذا الطلب",module,Magento_Sales
 "Shipped By","شحنت بواسطة",module,Magento_Sales
 "Tracking Number","رقم التتبع",module,Magento_Sales
-"Billing Last Name","الفواتير الاسم الأخير",module,Magento_Sales
+"Billing Last Name","الإسم الأخير للفواتير",module,Magento_Sales
 "ZIP Code","الرمز البريدي",module,Magento_Sales
 "Billing ZIP Code","الرمز البريدي للفاتوترة",module,Magento_Sales
 Continue,استمر,module,Magento_Sales
@@ -2562,11 +2571,14 @@ Themes,مواضيع,module,Magento_Theme
 Manage,إدارة,module,Magento_Theme
 "Upload Images","رفع صور",module,Magento_Theme
 General,عام,module,Magento_Theme
+"Copy of %1","نسخة من %1",module,Magento_Theme
 "Delete File","حذف ملف",module,Magento_Theme
 "-- Please Select --","--الرجاء الاختيار-",module,Magento_Theme
 Copy,انسخ,module,Magento_Theme
 Remove,ازالة,module,Magento_Theme
 "Report All Bugs","أبلغ عن كل الثغرات",module,Magento_Theme
+"Items %1 to %2 of %3 total","عناصر %1 إلى %2 من مجموع %3",module,Magento_Theme
+"%1 Item(s)","%1 عنصر (عناصر)",module,Magento_Theme
 Page,حقيبة,module,Magento_Theme
 Previous,السابق,module,Magento_Theme
 Next,التالي,module,Magento_Theme
@@ -3173,6 +3185,7 @@ Frequency,التردد,module,Magento_Directory
 Service,الخدمة,module,Magento_Directory
 "Start Time","زمن البداية",module,Magento_Directory
 "Installed Currencies","العملات المعدة",module,Magento_Directory
+"Zip/Postal Code is Optional for","الرمز البريدي اختياري لـ",module,Magento_Directory
 "Entity types declaration cache.","أنواع المدخلات لذاكرة إعلان التخزين المؤقت.",module,Magento_Eav
 "No Templates Found","لا يوجد قوالب",module,Magento_Email
 ID,التعريف,module,Magento_Email
@@ -3287,6 +3300,7 @@ Title,العنوان,module,Magento_Paypal
 Enabled,تفعيل,module,Magento_Paypal
 Login,دخول,module,Magento_Paypal
 Password,"كلمة المرور",module,Magento_Paypal
+"By default it is ""reports.paypal.com"".","بشكل افتراضي هو ""reports.paypal.com"".",module,Magento_Paypal
 Partner,ِشريك,module,Magento_Paypal
 User,المستخدم,module,Magento_Paypal
 "Use Proxy","استخدام بروكسي",module,Magento_Paypal
