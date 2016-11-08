@@ -572,7 +572,7 @@ From:,من:,module,Magento_Bundle
 To:,إلى:,module,Magento_Bundle
 Message:,الرسالة:,module,Magento_Bundle
 "Product Name","اسم المنتج",module,Magento_Bundle
-Subtotal,المجموع,module,Magento_Bundle
+Subtotal,الإجمالي,module,Magento_Bundle
 "Discount Amount","تخفيض الكمية",module,Magento_Bundle
 "Row Total","مجموع الصف",module,Magento_Bundle
 "Qty Invoiced","الكمية المفوترة",module,Magento_Bundle
@@ -1151,7 +1151,7 @@ State/Province,ولاية/مقاطعة,module,Magento_Checkout
 "Customer is already registered","هذا العضو مسجيل بالفعل",module,Magento_Checkout
 "Your session has expired","انتهت صلاحية جلسة الدخول",module,Magento_Checkout
 "A letter with further instructions will be sent to your email.","سيتم إرسال رسالة مع مزيد من التعليمات إلى بريدك الإلكتروني.",module,Magento_Checkout
-"You added %1 to your shopping cart.","قمت بإضافة %1 إلى عربة التسوق.",module,Magento_Checkout
+"You added %1 to your shopping cart.","تمت إضافة %1 إلى عربة التسوق.",module,Magento_Checkout
 "We can't add this item to your shopping cart right now.","لا يمكننا الآن إضافة هذا البند إلى عربة التسوق الخاصة بك.",module,Magento_Checkout
 "Out of stock","غير متوفر بالمخزن",module,Magento_Checkout
 "We can't find the quote item.","لا يمكن العثور على المنتج المطلوب.",module,Magento_Checkout
@@ -1166,7 +1166,7 @@ State/Province,ولاية/مقاطعة,module,Magento_Checkout
 "We can't update the shopping cart.","لا يمكننا تحديث عربة التسوق.",module,Magento_Checkout
 "One-page checkout is turned off.","يتم إيقاف خاصية الشراء في صفحة واحدة.",module,Magento_Checkout
 "Guest checkout is disabled.","الشراء كزائر غير مفعلة في الوقت الحالي.",module,Magento_Checkout
-Checkout,"إنهاء الطلب",module,Magento_Checkout
+Checkout,شراء,module,Magento_Checkout
 "Page not found.","لم يتم العثور على الصفحة.",module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","الرجاء الموافقة على كل الشروط والأحكام قبل انهاء طلبك.",module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","حدث خطأ أثناء معالجة طلبك. الرجاء المحاولة لاحقاً.",module,Magento_Checkout
@@ -1201,7 +1201,7 @@ Message,رسالة,module,Magento_Checkout
 Item,سلعة,module,Magento_Checkout
 Price,السعر,module,Magento_Checkout
 Qty,الكميّة,module,Magento_Checkout
-Subtotal,المجموع,module,Magento_Checkout
+Subtotal,الإجمالي,module,Magento_Checkout
 "Continue Shopping","الاستمرار بالتسوق",module,Magento_Checkout
 "Clear Shopping Cart","إفراغ سلة التسوق",module,Magento_Checkout
 "Update Shopping Cart","تحديث سلة التسوق",module,Magento_Checkout
@@ -1218,7 +1218,7 @@ Edit,تحرير,module,Magento_Checkout
 "Excl. Tax","غير شامل الضريبة",module,Magento_Checkout
 Loading...,تحميل...,module,Magento_Checkout
 "Order #","رقم الطلب",module,Magento_Checkout
-"Proceed to Checkout","المواصلة لإنهاء الشراء",module,Magento_Checkout
+"Proceed to Checkout","تاكيد الطلب",module,Magento_Checkout
 "Product Name","اسم المنتج",module,Magento_Checkout
 "Incl. Tax","شامل الضريبة",module,Magento_Checkout
 "Your order number is: %1.","رقم طلبك: %1.",module,Magento_Checkout
@@ -1830,7 +1830,7 @@ To:,إلى:,module,Magento_Downloadable
 Message:,الرسالة:,module,Magento_Downloadable
 "Product Name","اسم المنتج",module,Magento_Downloadable
 Qty,الكميّة,module,Magento_Downloadable
-Subtotal,المجموع,module,Magento_Downloadable
+Subtotal,الإجمالي,module,Magento_Downloadable
 "Discount Amount","تخفيض الكمية",module,Magento_Downloadable
 "Row Total","مجموع الصف",module,Magento_Downloadable
 "Qty Invoiced","الكمية المفوترة",module,Magento_Downloadable
@@ -2231,7 +2231,7 @@ Change,تغير,module,Magento_Multishipping
 Item,سلعة,module,Magento_Multishipping
 Edit,تحرير,module,Magento_Multishipping
 Price,السعر,module,Magento_Multishipping
-Subtotal,المجموع,module,Magento_Multishipping
+Subtotal,الإجمالي,module,Magento_Multishipping
 Items,المنتجات,module,Magento_Multishipping
 "Grand Total:","المجموع الكلي:",module,Magento_Multishipping
 "Submitting order information...","ارسال ملعومات طلب الشراء...",module,Magento_Multishipping
@@ -2328,7 +2328,7 @@ Region/State,"المنطقة / الولايه",module,Magento_OfflineShipping
 "Price vs. Destination","سعر vs. مسار",module,Magento_OfflineShipping
 "# of Items vs. Destination","# للعناصر vs. مسار",module,Magento_OfflineShipping
 "Weight (and above)","الوزن (و ما فوق)",module,Magento_OfflineShipping
-"Order Subtotal (and above)","من أجل المجموع الفرعي (وما فوق)",module,Magento_OfflineShipping
+"Order Subtotal (and above)","المجموع الإجمالي (واعلى)",module,Magento_OfflineShipping
 "# of Items (and above)","# للعناصر (و اعلى)",module,Magento_OfflineShipping
 None,"لا شئ",module,Magento_OfflineShipping
 "Per Order","لكل طلب",module,Magento_OfflineShipping
@@ -2459,7 +2459,7 @@ Edit,تحرير,module,Magento_Paypal
 Item,سلعة,module,Magento_Paypal
 Price,السعر,module,Magento_Paypal
 Qty,الكميّة,module,Magento_Paypal
-Subtotal,المجموع,module,Magento_Paypal
+Subtotal,الإجمالي,module,Magento_Paypal
 or,أو,module,Magento_Paypal
 Continue,استمر,module,Magento_Paypal
 "Not you?","ليس أنت؟",module,Magento_Persistent
@@ -2518,7 +2518,7 @@ Duration:,المدة:,module,Magento_ProductVideo
 "Shipping & Handling (%1)","الشحن & التوصيل (%1)",module,Magento_Quote
 "Shipping & Handling","الشحن & التوصيل",module,Magento_Quote
 Shipping,الشحن,module,Magento_Quote
-Subtotal,المجموع,module,Magento_Quote
+Subtotal,الإجمالي,module,Magento_Quote
 "Cart %1 does not contain item %2","السلة %1 لا تحتوي على البند %2",module,Magento_Quote
 "Cart %1 doesn't contain item  %2","السلة %1 لا تحتوي على البند %2",module,Magento_Quote
 "Minimum order amount is %1","الحد الأدنى للطلب هو %1",module,Magento_Quote
@@ -2576,7 +2576,7 @@ Created,إنشاء,module,Magento_Reports
 "Products Reviews","مراجعات المنتجات",module,Magento_Reports
 "Order Quantity","كمية الطلب",module,Magento_Reports
 "Coupons Usage Report","تقرير استخدام القسائم",module,Magento_Reports
-Subtotal,المجموع,module,Magento_Reports
+Subtotal,الإجمالي,module,Magento_Reports
 "Coupon Code","رمز قسيمة الخصم",module,Magento_Reports
 Uses,استخدام,module,Magento_Reports
 Discount,خصم,module,Magento_Reports
@@ -2798,7 +2798,7 @@ Discount,خصم,module,Magento_SalesRule
 "To Percentage","الى نسبة مؤية",module,Magento_SalesRule
 "By Fixed value","بقيمة ثابتة",module,Magento_SalesRule
 "By Percentage","بنسبة مؤية",module,Magento_SalesRule
-Subtotal,المجموع,module,Magento_SalesRule
+Subtotal,الإجمالي,module,Magento_SalesRule
 "Total Items Quantity","كمية السلع الإجمالية",module,Magento_SalesRule
 "Total Weight","الوزن الإجمالي",module,Magento_SalesRule
 "Payment Method","طريقة الدفع",module,Magento_SalesRule
@@ -2919,7 +2919,7 @@ Any,اي,module,Magento_Sales
 Yes,نعم,module,Magento_Sales
 No,لا,module,Magento_Sales
 "New Order RSS","RSS الطلبات الجديدة",module,Magento_Sales
-Subtotal,المجموع,module,Magento_Sales
+Subtotal,الإجمالي,module,Magento_Sales
 "Shipping & Handling","الشحن & التوصيل",module,Magento_Sales
 "Discount (%1)","الخصم (%1)",module,Magento_Sales
 Discount,خصم,module,Magento_Sales
@@ -3044,8 +3044,8 @@ Item,سلعة,module,Magento_Sales
 "Email Order Confirmation","البريد الإلكتروني لتأكيد الطلب",module,Magento_Sales
 "Grand Total Excl. Tax","المجموع الكلي غير شامل الضريبة",module,Magento_Sales
 "Grand Total Incl. Tax","المجموع الكلي شامل الضريبة",module,Magento_Sales
-"Subtotal (Excl. Tax)","المجموع (غير شامل الضريبة)",module,Magento_Sales
-"Subtotal (Incl. Tax)","المجموع (شامل الضريبة)",module,Magento_Sales
+"Subtotal (Excl. Tax)","الإجمالي (غير شامل الضريبة)",module,Magento_Sales
+"Subtotal (Incl. Tax)","الإجمالي (شامل الضريبة)",module,Magento_Sales
 "Payment Information","معلومات الدفع",module,Magento_Sales
 "Shipping Information","بيانات الشحن",module,Magento_Sales
 "Items to Refund","عناصر للاسترداد",module,Magento_Sales
@@ -3428,8 +3428,8 @@ Priority,أولوية,module,Magento_Tax
 "Sort Order",الترتيب,module,Magento_Tax
 "Shipping Incl. Tax (%1)","الشحن شامل الضريبة (%1)",module,Magento_Tax
 "Shipping Excl. Tax (%1)","الشحن غير شامل الضريبة (%1)",module,Magento_Tax
-"Subtotal (Excl.Tax)","المجموع (غير شامل الضريبة)",module,Magento_Tax
-"Subtotal (Incl.Tax)","المجموع (شامل الضريبة)",module,Magento_Tax
+"Subtotal (Excl.Tax)","الإجمالي (غير شامل الضريبة)",module,Magento_Tax
+"Subtotal (Incl.Tax)","الإجمالي (شامل الضريبة)",module,Magento_Tax
 "Shipping & Handling (Excl.Tax)","الشحن & التوصيل (غير شامل الضريبة)",module,Magento_Tax
 "Shipping & Handling (Incl.Tax)","الشحن & التوصيل (شامل الضريبة)",module,Magento_Tax
 "Grand Total (Excl.Tax)","المجموع الكلي (غير شامل الضريبة)",module,Magento_Tax
@@ -3459,9 +3459,9 @@ Code,كود,module,Magento_Tax
 "Grand Total (Incl. Tax)","المجموع الكلي (شامل الضريبة)",module,Magento_Tax
 "Shipping (Excl. Tax)","الشحن غير شامل الضريبة (%1)",module,Magento_Tax
 "Shipping (Incl. Tax)","الشحن شامل الضريبة (%1)",module,Magento_Tax
-"Subtotal (Excl. Tax)","المجموع (غير شامل الضريبة)",module,Magento_Tax
-"Subtotal (Incl. Tax)","المجموع (شامل الضريبة)",module,Magento_Tax
-Subtotal,المجموع,module,Magento_Tax
+"Subtotal (Excl. Tax)","الإجمالي (غير شامل الضريبة)",module,Magento_Tax
+"Subtotal (Incl. Tax)","الإجمالي (شامل الضريبة)",module,Magento_Tax
+Subtotal,الإجمالي,module,Magento_Tax
 "Unit Price","سعر الوحدة",module,Magento_Tax
 "Row Total","مجموع الصف",module,Magento_Tax
 Total,إجمالي,module,Magento_Tax
@@ -3819,7 +3819,7 @@ Page,حقيبة,module,Magento_Widget
 "We can't specify a product.","لا يمكن تحديد منتج.",module,Magento_Wishlist
 "We can't add the item to Wish List right now: %1.","لا يمكن إضافة العنصر إلى قائمة الرغبات الآن: %1.",module,Magento_Wishlist
 "We can't add the item to Wish List right now.","لا يمكن إضافة العنصر إلى قائمة الرغبات الآن.",module,Magento_Wishlist
-"You added %1 to your shopping cart.","قمت بإضافة %1 إلى عربة التسوق.",module,Magento_Wishlist
+"You added %1 to your shopping cart.","تمت إضافة %1 إلى عربة التسوق.",module,Magento_Wishlist
 "This product(s) is out of stock.","هذا المنتج (المنتجات) غير متوفر في المخزن.",module,Magento_Wishlist
 "We can't add the item to the cart right now.","لا يمكن إضافة العنصر إلى السلة المشتريات الآن.",module,Magento_Wishlist
 "We can't load the Wish List item right now.","ونحن لا يمكن تحميل عنصر قائمة الرغبات الآن.",module,Magento_Wishlist
@@ -3922,13 +3922,13 @@ Login,دخول,module,Magento_Checkout
 Close,غلق,module,Magento_Checkout
 item,عنصر,module,Magento_Checkout
 items,قطع,module,Magento_Checkout
-"Go to Checkout","الذهاب إلى الشراء",module,Magento_Checkout
+"Go to Checkout",شراء,module,Magento_Checkout
 "Recently added item(s)","القطع المضافة مؤخرا",module,Magento_Checkout
 "View and edit cart","عرض وتعديل سلة التسوق",module,Magento_Checkout
 "See Details","عرض التفاصيل",module,Magento_Checkout
 "Options Details","تفاصيل الخيارات",module,Magento_Checkout
 Remove,ازالة,module,Magento_Checkout
-"Cart Subtotal","المجموع الإجمالي لسلة التسوق",module,Magento_Checkout
+"Cart Subtotal",الإجمالي,module,Magento_Checkout
 "No Payment Methods","لا يوجد طرق للدفع",module,Magento_Checkout
 "Payment Information","معلومات الدفع",module,Magento_Checkout
 "No Payment method available.","لا توجد طريقة دفع متاحة.",module,Magento_Checkout
@@ -4758,7 +4758,7 @@ Title,العنوان,module,Magento_OfflinePayments
 "Purchase Order","طلب الشراء",module,Magento_OfflinePayments
 Instructions,التعليمات,module,Magento_OfflinePayments
 "Cash On Delivery Payment","الدفع عند الاستلام",module,Magento_OfflinePayments
-"Zero Subtotal Checkout","المجموع الفرعي الخروج صفر",module,Magento_OfflinePayments
+"Zero Subtotal Checkout","الإجمالي صفر",module,Magento_OfflinePayments
 "Flat Rate","تسعيرة موحدة",module,Magento_OfflineShipping
 Enabled,تفعيل,module,Magento_OfflineShipping
 Price,السعر,module,Magento_OfflineShipping
@@ -4987,6 +4987,7 @@ Admin,المدير,module,Magento_Swatches
 "Display Shipping Prices","عرض أسعار الشحن",module,Magento_Tax
 "Display Shipping Amount","عرض أسعار الشحن",module,Magento_Tax
 State/Region,ولاية/منطقة,module,Magento_Tax
+"Subtotal Only","الإجمالي فقط",module,Magento_Tax
 "(Excl. Tax)","(غير شامل الضريبة)",module,Magento_Tax
 "(Incl. Tax)","(شامل الضريبة)",module,Magento_Tax
 "Order Total Excl. Tax","المجموع الكلي غير شامل الضريبة",module,Magento_Tax
