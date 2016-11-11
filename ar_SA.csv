@@ -831,7 +831,7 @@ Import,استيراد,module,Magento_Catalog
 "ALL GROUPS","جميع المجموعات",module,Magento_Catalog
 "Add Price","إضافة الأسعار",module,Magento_Catalog
 "Default Values","القيم الافتراضية",module,Magento_Catalog
-"Related Products","منتجات متعلقة",module,Magento_Catalog
+"Related Products","منتجات ذات الصلة",module,Magento_Catalog
 Up-sells,"حتى يبيع",module,Magento_Catalog
 Cross-sells,"عبر المبيعات",module,Magento_Catalog
 "Size for %1","حجم الى %1",module,Magento_Catalog
@@ -1089,10 +1089,10 @@ Next,التالي,module,Magento_Catalog
 "We can't find products matching the selection.","لا يمكن العثور على منتجات مطابقة لإختيارك.",module,Magento_Catalog
 "Learn More","إعرف المزيد",module,Magento_Catalog
 "Add to Compare","إضافة إلى المقارنة",module,Magento_Catalog
-"We found other products you might like!","وجدنا منتجات أخرى قد تعجبك!",module,Magento_Catalog
+"We found other products you might like!","منتجات أخرى قد تعجبك!",module,Magento_Catalog
 "Check items to add to the cart or","تفحص المنتجات للإضافة لسلة التسوق أو",module,Magento_Catalog
 "select all","اختار الجميع",module,Magento_Catalog
-"Items %1-%2 of %3","عناصر %1-%2 من %3",module,Magento_Catalog
+"Items %1-%2 of %3","%1-%2 من %3 منتج",module,Magento_Catalog
 "%1 Item","%1 عنصر",module,Magento_Catalog
 "%1 Items","%1 عناصر",module,Magento_Catalog
 Show,أعرض,module,Magento_Catalog
@@ -1101,6 +1101,7 @@ Show,أعرض,module,Magento_Catalog
 "Set Ascending Direction","الصعود الى مجموعة التنبيه",module,Magento_Catalog
 "Set Descending Direction","تحديد الاتجاه التنازلي",module,Magento_Catalog
 "View as","مشاهدة كا",module,Magento_Catalog
+"More Information","معلومات اخرى",module,Magento_Catalog
 Loading...,تحميل...,module,Magento_Catalog
 "* Required Fields","* حقول مطلوبة",module,Magento_Catalog
 "Terms and Conditions","الشروط والأحكام",module,Magento_CheckoutAgreements
@@ -1211,7 +1212,7 @@ Subtotal,الإجمالي,module,Magento_Checkout
 "Edit item parameters","تعديل خصائص المنتج",module,Magento_Checkout
 Edit,تحرير,module,Magento_Checkout
 "Remove item","أزل المنتج",module,Magento_Checkout
-"You have no items in your shopping cart.","لا يوجد اي منتجات في عربة التسوق الخاصة بك.",module,Magento_Checkout
+"You have no items in your shopping cart.","لا يوجد منتجات في عربة التسوق.",module,Magento_Checkout
 "Click <a href=""%1"">here</a> to continue shopping.","<a href=""%1"">اضفط هنا</a> لمواصلة التسوق.",module,Magento_Checkout
 "Estimate Tax","تقدير الضريبة",module,Magento_Checkout
 "Estimate Shipping and Tax","تقدير الشحن والضريبة",module,Magento_Checkout
@@ -3920,7 +3921,7 @@ Cancel,إلغاء,module,Magento_Checkout
 "You already have an account with us. Sign in or continue as guest.","لديك حساب بالفعل معنا. قم بتسجيل الدخول أو الاستمرار كضيف.",module,Magento_Checkout
 Login,دخول,module,Magento_Checkout
 Close,غلق,module,Magento_Checkout
-item,عنصر,module,Magento_Checkout
+item,قطعة,module,Magento_Checkout
 items,قطع,module,Magento_Checkout
 "Go to Checkout",شراء,module,Magento_Checkout
 "Recently added item(s)","القطع المضافة مؤخرا",module,Magento_Checkout
@@ -4317,6 +4318,8 @@ Web,موقع,module,Magento_Backend
 "Secure Base Link URL","رابط المتجر الأساسي الأمن",module,Magento_Backend
 "Secure Base URL for Static View Files","رابط المتجر الأساسي الآمن لملفات العرض الثابت",module,Magento_Backend
 "May be empty or start with {{secure_base_url}}, or {{unsecure_base_url}} placeholder.","قد تكون فارغة أو تبدأ بـ {{secure_base_url}} ، أو {{unsecure_base_url}}.",module,Magento_Backend
+"Secure Base URL for User Media Files","حماية الرابط الاساسي لملفات الواسائط للمستخدم",module,Magento_Backend
+"Use Secure URLs on Storefront","استخدم روابط آمنة في واجهة الموقع",module,Magento_Backend
 "Use Secure URLs in Admin","استخدام عناوين في ادارة امن",module,Magento_Backend
 "Default Pages","الصفحات الافتراضية",module,Magento_Backend
 Description,الوصف,module,Magento_Backend
