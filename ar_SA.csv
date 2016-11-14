@@ -623,6 +623,7 @@ Always,دائماً,module,Magento_Captcha
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","ليس لدينا ""%1"" بالكمية المطلوبة، حيث أننا سوف نعيد أمر %2 المتبقية.",module,Magento_CatalogInventory
 Quantity,الكمية,module,Magento_CatalogInventory
 "Advanced Inventory","المخزون المتقدم",module,Magento_CatalogInventory
+"Only %1 left","متوفرتين %1 فقط",module,Magento_CatalogInventory
 "Product Name","اسم المنتج",module,Magento_CatalogInventory
 Qty,الكميّة,module,Magento_CatalogInventory
 "Delete Rule","حذف قاعدة",module,Magento_CatalogRule
@@ -3924,8 +3925,8 @@ Close,غلق,module,Magento_Checkout
 item,قطعة,module,Magento_Checkout
 items,قطع,module,Magento_Checkout
 "Go to Checkout",شراء,module,Magento_Checkout
-"Recently added item(s)","القطع المضافة مؤخرا",module,Magento_Checkout
-"View and edit cart","عرض وتعديل سلة التسوق",module,Magento_Checkout
+"Recently added item(s)","المنتجات المضافة مؤخرا",module,Magento_Checkout
+"View and edit cart","عرض وتعديل السلة",module,Magento_Checkout
 "See Details","عرض التفاصيل",module,Magento_Checkout
 "Options Details","تفاصيل الخيارات",module,Magento_Checkout
 Remove,ازالة,module,Magento_Checkout
