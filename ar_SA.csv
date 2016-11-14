@@ -479,6 +479,7 @@ Always,دائماً,module,Magento_Captcha
 "Allow Qty Below 0 and Notify Customer","السماح بكمية تحت ال 0 و أعلام العميل",module,Magento_CatalogInventory
 "In Stock","متوفر في المخزن",module,Magento_CatalogInventory
 "Out of Stock","غير متوفر بالمخزن",module,Magento_CatalogInventory
+"Only %1 left","متوفرتين %1 فقط",module,Magento_CatalogInventory
 "Product Name","اسم المنتج",module,Magento_CatalogInventory
 Qty,الكميّة,module,Magento_CatalogInventory
 "Catalog Price Rule","قاعدة الاسعار فى دليل المنتجات",module,Magento_CatalogRule
