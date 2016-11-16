@@ -640,6 +640,7 @@ Always,دائماً,module,Magento_Captcha
 "Out of Stock","غير متوفر بالمخزن",module,Magento_CatalogInventory
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","ليس لدينا العديد من ""%1"" كما طلبت، ولكن سوف نعيد أمر %2 المتبقية.",module,Magento_CatalogInventory
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","ليس لدينا ""%1"" بالكمية المطلوبة، حيث أننا سوف نعيد أمر %2 المتبقية.",module,Magento_CatalogInventory
+"Only %1 left","متوفرتين %1 فقط",module,Magento_CatalogInventory
 "Product Name","اسم المنتج",module,Magento_CatalogInventory
 Qty,الكميّة,module,Magento_CatalogInventory
 "Catalog Price Rule","قاعدة الاسعار فى دليل المنتجات",module,Magento_CatalogRule
@@ -872,7 +873,7 @@ Import,استيراد,module,Magento_Catalog
 "ALL GROUPS","جميع المجموعات",module,Magento_Catalog
 "Add Price","إضافة الأسعار",module,Magento_Catalog
 "Default Values","القيم الافتراضية",module,Magento_Catalog
-"Related Products","منتجات متعلقة",module,Magento_Catalog
+"Related Products","منتجات ذات الصلة",module,Magento_Catalog
 Up-sells,"حتى يبيع",module,Magento_Catalog
 Cross-sells,"عبر المبيعات",module,Magento_Catalog
 "Size for %1","حجم الى %1",module,Magento_Catalog
@@ -1120,10 +1121,10 @@ Next,التالي,module,Magento_Catalog
 "We can't find products matching the selection.","لا يمكن العثور على منتجات مطابقة لإختيارك.",module,Magento_Catalog
 "Add to Compare","إضافة إلى المقارنة",module,Magento_Catalog
 "Learn More","إعرف المزيد",module,Magento_Catalog
-"We found other products you might like!","وجدنا منتجات أخرى قد تعجبك!",module,Magento_Catalog
+"We found other products you might like!","منتجات أخرى قد تعجبك!",module,Magento_Catalog
 "Check items to add to the cart or","تفحص المنتجات للإضافة لسلة التسوق أو",module,Magento_Catalog
 "select all","اختار الجميع",module,Magento_Catalog
-"Items %1-%2 of %3","عناصر %1-%2 من %3",module,Magento_Catalog
+"Items %1-%2 of %3","%1-%2 من %3 منتج",module,Magento_Catalog
 "%1 Item","%1 عنصر",module,Magento_Catalog
 "%1 Items","%1 عناصر",module,Magento_Catalog
 Show,أعرض,module,Magento_Catalog
@@ -1132,6 +1133,7 @@ Show,أعرض,module,Magento_Catalog
 "Set Ascending Direction","الصعود الى مجموعة التنبيه",module,Magento_Catalog
 "Set Descending Direction","تحديد الاتجاه التنازلي",module,Magento_Catalog
 "View as","مشاهدة كا",module,Magento_Catalog
+"More Information","معلومات اخرى",module,Magento_Catalog
 Loading...,تحميل...,module,Magento_Catalog
 "* Required Fields","* حقول مطلوبة",module,Magento_Catalog
 "Terms and Conditions","الشروط والأحكام",module,Magento_CheckoutAgreements
@@ -1239,7 +1241,7 @@ Subtotal,الإجمالي,module,Magento_Checkout
 "Edit item parameters","تعديل خصائص المنتج",module,Magento_Checkout
 Edit,تحرير,module,Magento_Checkout
 "Remove item","أزل المنتج",module,Magento_Checkout
-"You have no items in your shopping cart.","لا يوجد اي منتجات في عربة التسوق الخاصة بك.",module,Magento_Checkout
+"You have no items in your shopping cart.","لا يوجد منتجات في عربة التسوق.",module,Magento_Checkout
 "Click <a href=""%1"">here</a> to continue shopping.","<a href=""%1"">اضفط هنا</a> لمواصلة التسوق.",module,Magento_Checkout
 "Estimate Tax","تقدير الضريبة",module,Magento_Checkout
 "Estimate Shipping and Tax","تقدير الشحن والضريبة",module,Magento_Checkout
@@ -1276,6 +1278,7 @@ Title,العنوان,module,Magento_Cms
 "Delete Page","حذف الصفحة",module,Magento_Cms
 "Edit Page '%1'","تحرير الصفحة '%1'",module,Magento_Cms
 "New Page","صفحة جديدة",module,Magento_Cms
+"Content Heading","عنوان المحتوى",module,Magento_Cms
 "Page Layout","تخطيط الصفحة",module,Magento_Cms
 Layout,تخطيط,module,Magento_Cms
 "Layout Update XML","تحديث لغة الترميز القابلة للامتداد النسق",module,Magento_Cms
@@ -1284,6 +1287,7 @@ Layout,تخطيط,module,Magento_Cms
 "Custom Design To","تصميم مخصص الى",module,Magento_Cms
 "-- Please Select --","--الرجاء الاختيار-",module,Magento_Cms
 "Custom Theme","قالب مخصص",module,Magento_Cms
+"Custom Layout","تخطيطات مخصصة",module,Magento_Cms
 "Custom Layout Update XML","تخطيط مخصص تحديث XML",module,Magento_Cms
 Design,تصميم,module,Magento_Cms
 "Page Information","بيانات الصفحة",module,Magento_Cms
@@ -1301,18 +1305,42 @@ Modified,عدل,module,Magento_Cms
 Action,إجراء,module,Magento_Cms
 Preview,"اعادة المشاهدة",module,Magento_Cms
 "Media Storage","وسائط التخزين",module,Magento_Cms
+"Create Folder...","إنشاء المجلد...",module,Magento_Cms
+"Delete Folder","حذف المجلد",module,Magento_Cms
 "Delete File","حذف ملف",module,Magento_Cms
+"Insert File","إدراج ملف",module,Magento_Cms
+"New Folder Name:","اسم المجلد الجديد:",module,Magento_Cms
+"Are you sure you want to delete this folder?","هل أنت متأكد أنك تريد حذف هذا المجلد؟",module,Magento_Cms
+"Are you sure you want to delete this file?","هل أنت متأكد من أنك تريد حذف هذا الملف؟",module,Magento_Cms
+"Images (%1)","الصور (%1)",module,Magento_Cms
+"Storage Root","جذر الذاكرة",module,Magento_Cms
 Home,"الصفحة الرئيسية",module,Magento_Cms
 "Go to Home Page","الانتقال إلى الصفحة الرئيسية",module,Magento_Cms
+CMS,"نظام ادارة المحتوى",module,Magento_Cms
+"You deleted the block.","تم حذف القطعة.",module,Magento_Cms
 "We can't find a block to delete.","لا يمكن أن نجد قائمة لحذفها.",module,Magento_Cms
 "This block no longer exists.","هذه المجموعة لم يعد موجوداً.",module,Magento_Cms
 "Edit Block","اضافة مساحة",module,Magento_Cms
+Blocks,قطع,module,Magento_Cms
 "Please correct the data sent.","الرجاء تصحيح البيانات التي تم إرسالها.",module,Magento_Cms
+"A total of %1 record(s) have been deleted.","عدد %1 سجلات تم حذفها.",module,Magento_Cms
+"You saved the block.","قمت بحفظ القطعة.",module,Magento_Cms
+"The page has been deleted.","تم حذف الصفحة.",module,Magento_Cms
 "We can't find a page to delete.","لا يمكن أن نجد صفحة للحذف.",module,Magento_Cms
+"This page no longer exists.","هذه الصفحة لم تعد موجودة.",module,Magento_Cms
 "Edit Page","تحرير الصفحة",module,Magento_Cms
+Pages,الصفحات,module,Magento_Cms
+"Something went wrong while saving the page.","حدث خطأ أثناء حفظ الصفحة.",module,Magento_Cms
+"A total of %1 record(s) have been disabled.","لقد تم تعطيل %1 من السجلات.",module,Magento_Cms
+"A total of %1 record(s) have been enabled.","لقد تم تمكين %1 من السجلات.",module,Magento_Cms
+"To apply changes you should fill in hidden required ""%1"" field","لتطبيق التغييرات ينبغي ملء ""%1"" من الحقول المطلوبة",module,Magento_Cms
 "You saved this page.","قمت بحفظ هذه الصفحة.",module,Magento_Cms
+"The directory %1 is not writable by server.","%1 المجلد غير قابل للكتابة من السيرفر.",module,Magento_Cms
+"Make sure that static block content does not reference the block itself.","التأكد من أن محتوى القطعة لا يشير إلى القطعة نفسها.",module,Magento_Cms
+"CMS Block with id ""%1"" does not exist.","القطعة المعرفة ب ""%1"" غير موجودة.",module,Magento_Cms
 "Enabled by Default","مفعل بشكل إفتراضي",module,Magento_Cms
 "Disabled by Default","معطل بشكل افتراضي",module,Magento_Cms
+"Disabled Completely","تعطيل بالكامل",module,Magento_Cms
 "We can't upload the file right now.","لا يمكن تحميل الملف الآن.",module,Magento_Cms
 "We can't delete root directory %1 right now.","ونحن لا يمكن حذف جذر الدليل %1 الآن.",module,Magento_Cms
 "Could not create directory.","تعذر إنشاء الدليل.",module,Magento_Cms
@@ -1321,7 +1349,9 @@ Edit,تحرير,module,Magento_Cms
 Delete,احذف,module,Magento_Cms
 "Are you sure you wan't to delete a ${ $.$data.title } record?","هل أنت متأكد انك تريد حذف سجل ${ $.$data.title } ؟",module,Magento_Cms
 Details,التفاصيل,module,Magento_Cms
+"No files found","لم يتم العثور على الملفات",module,Magento_Cms
 "Browse Files...","استعراض ملفات...",module,Magento_Cms
+"Collapse All","طوي الكل",module,Magento_Cms
 "Default Config","التكوين الافتراضي",module,Magento_Config
 "Save Config","حفظ التشكيل",module,Magento_Config
 [GLOBAL],[عام],module,Magento_Config
@@ -4173,6 +4203,8 @@ Web,موقع,module,Magento_Backend
 "Secure Base Link URL","رابط المتجر الأساسي الأمن",module,Magento_Backend
 "Secure Base URL for Static View Files","رابط المتجر الأساسي الآمن لملفات العرض الثابت",module,Magento_Backend
 "May be empty or start with {{secure_base_url}}, or {{unsecure_base_url}} placeholder.","قد تكون فارغة أو تبدأ بـ {{secure_base_url}} ، أو {{unsecure_base_url}}.",module,Magento_Backend
+"Secure Base URL for User Media Files","حماية الرابط الاساسي لملفات الواسائط للمستخدم",module,Magento_Backend
+"Use Secure URLs on Storefront","استخدم روابط آمنة في واجهة الموقع",module,Magento_Backend
 "Use Secure URLs in Admin","استخدام عناوين في ادارة امن",module,Magento_Backend
 "Default Pages","الصفحات الافتراضية",module,Magento_Backend
 Description,الوصف,module,Magento_Backend
@@ -4333,6 +4365,8 @@ Template,قالب,module,Magento_Cms
 Block,"رقم القطعة",module,Magento_Cms
 Disable,إبطال,module,Magento_Cms
 Enable,تفعيل,module,Magento_Cms
+"Custom design from","تصميم مخصص من",module,Magento_Cms
+"Custom design to","تصميم مخصص إلى",module,Magento_Cms
 "Configurable Product Image","صورة المنتج القابل للضبط",module,Magento_ConfigurableProduct
 Select...,اختر...,module,Magento_ConfigurableProduct
 Status,الحاله,module,Magento_ConfigurableProduct
