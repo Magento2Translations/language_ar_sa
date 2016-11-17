@@ -3783,7 +3783,7 @@ Type,النوع,module,Magento_Vault
 ending,إنهاء,module,Magento_Vault
 Actions,اعمال,module,Magento_Vault
 Delete,حذف,module,Magento_Vault
-"Consumer is not authorized to access %resources","المستهلك غير مصرح له الدخول الى الموارد",module,Magento_Webapi
+"Consumer is not authorized to access %resources","هذا المستخدم غير مصرح له الوصول لـ %resources",module,Magento_Webapi
 "Operation allowed only in HTTPS","العمليات المسموح بها فقط في HTTPS",module,Magento_Webapi
 "Cannot perform GET operation with store code 'all'","لا يمكن تنفيذ العملية GET مع مخزن التعليمات البرمجية 'الكل'",module,Magento_Webapi
 "Request does not match any route.","طلب لا يتطابق مع أي مسار.",module,Magento_Webapi
