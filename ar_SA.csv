@@ -752,6 +752,7 @@ Scope,مدى,module,Magento_Catalog
 "Visible in Advanced Search","مرئية في البحث المتقدم",module,Magento_Catalog
 "Comparable on Storefront","قابلة للمقارنة في الواجهة",module,Magento_Catalog
 "Enable WYSIWYG","تفعيل WYSIWYG",module,Magento_Catalog
+"Allow HTML Tags on Storefront","السماح بـ HTML في واجهة المتجر",module,Magento_Catalog
 "Used in Product Listing","المستخدمة في قائمة المنتجات",module,Magento_Catalog
 "Depends on design theme.","يعتمد على تصميم المظهر.",module,Magento_Catalog
 "Used for Sorting in Product Listing","يستخدم لفرز في قائمة المنتجات",module,Magento_Catalog
@@ -884,9 +885,12 @@ Categories,فئات,module,Magento_Catalog
 "You saved the category.","لقد قمت بحفظ القسم.",module,Magento_Catalog
 "Something went wrong while saving the category.","حدث خطأ أثناء حفظ القسم.",module,Magento_Catalog
 "Please select products for attributes update.","الرجاء اختيار المنتجات للصفات المحدثة.",module,Magento_Catalog
+"Unable to add attribute","غير قادر على إضافة سمة",module,Magento_Catalog
+"Please, specify attributes","من فضلك، حدد سمات",module,Magento_Catalog
 Catalog,"دليل المنتجات",module,Magento_Catalog
 "Manage Product Attributes","ادارة منتج السمات",module,Magento_Catalog
 "We can't delete the attribute.","لا نستطيع حذف السمة.",module,Magento_Catalog
+"You deleted the product attribute.","لقد حذفت سمة هذا المنتج.",module,Magento_Catalog
 "We can't find an attribute to delete.","لا يمكن أن نجد سمة لحذفها.",module,Magento_Catalog
 "This attribute no longer exists.","هذه السمة لم تعد موجودة.",module,Magento_Catalog
 "This attribute cannot be edited.","لا يمكن تحرير هذه السمة.",module,Magento_Catalog
@@ -902,7 +906,10 @@ Products,المنتجات,module,Magento_Catalog
 "A total of %1 record(s) have been deleted.","عدد %1 سجلات تم حذفها.",module,Magento_Catalog
 "A total of %1 record(s) have been updated.","عدد %1 سجلات تم تحديثها.",module,Magento_Catalog
 "Unable to save product","تعذر حفظ المنتح",module,Magento_Catalog
+"You saved the product.","قمت بحفظ المنتج.",module,Magento_Catalog
+"New Attribute Set","مجموعة سمات جديدة",module,Magento_Catalog
 "We can't delete this set right now.","لا يمكن حذف هذه المجموعة الآن.",module,Magento_Catalog
+"New Set","مجموعة جديدة",module,Magento_Catalog
 "Manage Product Sets","اوضاع ادارة المنتج",module,Magento_Catalog
 "Manage Attribute Sets","ادارة مجموعات السمات",module,Magento_Catalog
 "You added product %1 to the comparison list.","لقد اضفت المنتج %1 لقائمة المقارنة.",module,Magento_Catalog
@@ -914,6 +921,7 @@ Products,المنتجات,module,Magento_Catalog
 Grid,الشبكة,module,Magento_Catalog
 List,قائمة,module,Magento_Catalog
 All,الكل,module,Magento_Catalog
+"Product is not loaded","لم يتم تحميل المنتج",module,Magento_Catalog
 "Sorry, but we can't find the new parent category you selected.","عذراً، ولكن لا يمكن أن نجد الفئة الأصلية الجديد الذي حددته.",module,Magento_Catalog
 "Sorry, but we can't find the new category you selected.","عذراً، لكن لا يمكن أن نجد أن الفئة الجديدة التي قمت بتحديدها.",module,Magento_Catalog
 "We can't move the category because the parent category name matches the child category name.","لا يمكن نقل الفئة لتطابق اسم الفئة الأصلية اسم فئة فرعية.",module,Magento_Catalog
@@ -2018,8 +2026,11 @@ None,"لا شئ",module,Magento_Fedex
 "Could not add gift message to shopping cart","تعذر إضافة رسالة هدية إلى سلة التسوق",module,Magento_GiftMessage
 "There is no item with provided id in the cart","لا يوجد عنصر مع معرف الموفر في العربة",module,Magento_GiftMessage
 "There is no product with provided  itemId: %1 in the cart","لا يوجد أي منتج بهذا الرقم: %1 في السلة",module,Magento_GiftMessage
+"There is no item with provided id in the order","لا يوجد عنصر مع المعرف الموفر في العربة",module,Magento_GiftMessage
 "There is no item with provided id in the order or gift message isn't allowed","لا يوجد عنصر مع رقم هوية المعطى في النظام أو رسالة الهدية غير مسموح بها",module,Magento_GiftMessage
+"Could not add gift message to order: ""%1""","تعذر إضافة رسالة الإهداء للطلب رقم: ""%1""",module,Magento_GiftMessage
 "There is no order with provided id or gift message isn't allowed","لا يوجد أي طلب مع رقم الهوية المعطى أو رسالة الهدية غير مسموح بها",module,Magento_GiftMessage
+"There is no order with provided id","لا يوجد طلب بهذا الرقم",module,Magento_GiftMessage
 "Gift Messages are not applicable for empty order","رسائل الهدايا لا تنطبق على الطلبات الفارغة",module,Magento_GiftMessage
 "Could not add gift message to order's item: ""%1""","تعذر إضافة رسالة الهدية لعنصر الطلب: \"%1\"",module,Magento_GiftMessage
 "Unknown entity type","غير معروف نوع الكيان",module,Magento_GiftMessage
@@ -2034,9 +2045,14 @@ OK,موافق,module,Magento_GiftMessage
 "Gift Message","رسالة الاهداء",module,Magento_GiftMessage
 "Do you have any gift items in your order?","هل لديك أي هدايا في هذا الطلب؟",module,Magento_GiftMessage
 "Add gift options","إضافة خيارات هدية",module,Magento_GiftMessage
+"Gift Options for the Entire Order","رسالة إهداء للطلب كامل",module,Magento_GiftMessage
 "Leave this box blank if you don't want to leave a gift message for the entire order.","اترك هذا المربع فارغاً إذا كنت لا تريد أن تترك رسالة هدية للطلبية بأكملها.",module,Magento_GiftMessage
+"Gift Options for Individual Items","خيارات الإهداء لكل عنصر",module,Magento_GiftMessage
+"<span>Item %1</span> of %2","<span>العنصر %1</span> من %2",module,Magento_GiftMessage
 "Leave a box blank if you don't want to add a gift message for that item.","اترك المربع فارغاً إذا كنت لا تريد إضافة رسالة هدية لهذا العنصر.",module,Magento_GiftMessage
+"Add Gift Options for the Entire Order","إضافة خيارات الإهداء للطلب بأكمله",module,Magento_GiftMessage
 "You can leave this box blank if you don't want to add a gift message for this address.","تستطيع ترك هذا المربع فارغاً إذا كنت لا تريد إضافة رسالة هدية لهذا العنوان.",module,Magento_GiftMessage
+"Add gift options for Individual Items","إضافة خيارات الإهداء لكل عنصر",module,Magento_GiftMessage
 "You can leave this box blank if you don't want to add a gift message for the item.","تستطيع ترك هذا المربع فارغاً اذا كنت لاتريد إضافة رسالة هدية لهذا العنصر.",module,Magento_GiftMessage
 Dynamic,ديناميكي,module,Magento_GoogleAdwords
 Constant,ثابت,module,Magento_GoogleAdwords
@@ -4021,10 +4037,12 @@ Password:,"الرقم السري:",module,Magento_Customer
 "Currency Update Warnings","تحذير تحرير بيانات العملة",module,Magento_Directory
 Footer,"ذيل الصفحة",module,Magento_Email
 "Thank you, %store_name","شكرا لك، %store_name",module,Magento_Email
+"Gift Message (optional)","رسالة الإهداء (اختياري)",module,Magento_GiftMessage
 To:,إلى:,module,Magento_GiftMessage
 From:,من:,module,Magento_GiftMessage
 Message:,الرسالة:,module,Magento_GiftMessage
 Update,تحديث,module,Magento_GiftMessage
+"Gift options","خيارات الهدايا",module,Magento_GiftMessage
 Edit,تحرير,module,Magento_GiftMessage
 Delete,احذف,module,Magento_GiftMessage
 "To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:","للبدء في إستقبال الرسالة الإخبارية، يجب عليك أولاً تأكيد اشتراك; عن طريق الضغط على الرابط التالي:",module,Magento_Newsletter
@@ -4353,6 +4371,14 @@ Web,موقع,module,Magento_Backend
 "Enable HTTP Strict Transport Security (HSTS)","تمكين النظام الأمني (HSTS)",module,Magento_Backend
 "Upgrade Insecure Requests","ترقية الطلبات الغير مؤمنة",module,Magento_Backend
 "Default Pages","الصفحات الافتراضية",module,Magento_Backend
+"Default Web URL","رابط الويب الإفتراضي",module,Magento_Backend
+"Session Validation Settings","إعدادات صلاحية الجلسة",module,Magento_Backend
+"Validate REMOTE_ADDR","التحقق من صحة REMOTE_ADDR",module,Magento_Backend
+"Validate HTTP_VIA","التحقق من صحة HTTP_VIA",module,Magento_Backend
+"Validate HTTP_X_FORWARDED_FOR","التحقق من صحة HTTP_X_FORWARDED_FOR",module,Magento_Backend
+"Validate HTTP_USER_AGENT","التحقق من صحة HTTP_USER_AGENT",module,Magento_Backend
+"Use SID on Storefront","استخدام SID في واجهة المتجر",module,Magento_Backend
+"Cache Type","نوع التخزين المؤقت",module,Magento_Backend
 Description,الوصف,module,Magento_Backend
 Tags,علامات,module,Magento_Backend
 "Community Edition","النسخة العامة",module,Magento_Backend
@@ -4360,7 +4386,9 @@ Tags,علامات,module,Magento_Backend
 "Applied Theme","القالب المطبق",module,Magento_Backend
 "Design Rule","تصميم القاعدة",module,Magento_Backend
 Pagination,"ترقيم الصفحات",module,Magento_Backend
+"Pagination Frame","إطار الصفحات ترقيم الصفحات",module,Magento_Backend
 "How many links to display at once.","كم عدد الروابط التي يتم عرضها في وقت واحد.",module,Magento_Backend
+"Pagination Frame Skip","تخطي ترقيم الصفحات",module,Magento_Backend
 "Theme Name","اسم السمة",module,Magento_Backend
 Rollback,"العودة إلى الحالة السابقة",module,Magento_Backup
 "Scheduled Backup Settings","إعدادات النسخ الاحتياطي المجدولة",module,Magento_Backup
