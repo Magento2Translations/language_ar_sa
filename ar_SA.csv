@@ -725,6 +725,9 @@ Products,المنتجات,module,Magento_Catalog
 "A total of %1 record(s) have been deleted.","عدد %1 سجلات تم حذفها.",module,Magento_Catalog
 "A total of %1 record(s) have been updated.","عدد %1 سجلات تم تحديثها.",module,Magento_Catalog
 "Unable to save product","تعذر حفظ المنتح",module,Magento_Catalog
+"You saved the product.","قمت بحفظ المنتج.",module,Magento_Catalog
+"New Attribute Set","مجموعة سمات جديدة",module,Magento_Catalog
+"New Set","مجموعة جديدة",module,Magento_Catalog
 "Manage Product Sets","اوضاع ادارة المنتج",module,Magento_Catalog
 "Manage Attribute Sets","ادارة مجموعات السمات",module,Magento_Catalog
 "You added product %1 to the comparison list.","لقد اضفت المنتج %1 لقائمة المقارنة.",module,Magento_Catalog
@@ -736,6 +739,7 @@ Products,المنتجات,module,Magento_Catalog
 Grid,الشبكة,module,Magento_Catalog
 List,قائمة,module,Magento_Catalog
 All,الكل,module,Magento_Catalog
+"Product is not loaded","لم يتم تحميل المنتج",module,Magento_Catalog
 "The value of attribute ""%1"" must be unique.","يجب أن تكون قيمة السمة ""%1"" فريدة من نوعها.",module,Magento_Catalog
 "No layout updates","لا يوجد تخطيط تحديثات",module,Magento_Catalog
 "Products only","المنتجات فقط",module,Magento_Catalog
@@ -1459,6 +1463,9 @@ OK,موافق,module,Magento_GiftMessage
 "Gift Message","رسالة الاهداء",module,Magento_GiftMessage
 "Do you have any gift items in your order?","هل لديك أي هدايا في هذا الطلب؟",module,Magento_GiftMessage
 "Add gift options","إضافة خيارات هدية",module,Magento_GiftMessage
+"Gift Options for the Entire Order","رسالة إهداء للطلب كامل",module,Magento_GiftMessage
+"Gift Options for Individual Items","خيارات الإهداء لكل عنصر",module,Magento_GiftMessage
+"Add gift options for Individual Items","إضافة خيارات الإهداء لكل عنصر",module,Magento_GiftMessage
 Dynamic,ديناميكي,module,Magento_GoogleAdwords
 Constant,ثابت,module,Magento_GoogleAdwords
 "Conversion Color value is not valid ""%1"". Please set hexadecimal 6-digit value.","تحويل لون قيمة غير صالحة ""%1"". الرجاء تعيين قيمة 6 أرقام ست عشرية.",module,Magento_GoogleAdwords
@@ -2917,7 +2924,9 @@ Design,تصميم,module,Magento_Backend
 "User-Agent Exceptions","إستثناءات وكيل المستخدم",module,Magento_Backend
 "Find a string in client user-agent header and switch to specific design theme for that browser.","اعثر على سلسلة في رأس وكيل- المستخدم العميل وقم بالتبديل إلى تصمي ثيمم المحددة الخاصة بهذا المستعرض.",module,Magento_Backend
 Pagination,"ترقيم الصفحات",module,Magento_Backend
+"Pagination Frame","إطار الصفحات ترقيم الصفحات",module,Magento_Backend
 "How many links to display at once.","كم عدد الروابط التي يتم عرضها في وقت واحد.",module,Magento_Backend
+"Pagination Frame Skip","تخطي ترقيم الصفحات",module,Magento_Backend
 "If the current frame position does not cover utmost pages, will render link to current position plus/minus this value.","إذا كان موضع الإطار الحالي لا يغطي صفحات قصوى، ستؤدي إلى الارتباط إلى الموضع الحالي علامة زائد/ناقص من هذه القيمة.",module,Magento_Backend
 "Alternative text for previous link in pagination menu. If empty, default arrow image will used.","نص بديل للرابط السابق في القائمة الحدود الفاصلة للصفحات. إذا كان فارغاً، سوف يستخدم صورة سهم الافتراضي.",module,Magento_Backend
 "Alternative text for next link in pagination menu. If empty, default arrow image will used.","نص بديل للرابط التالي في القائمة الحدود الفاصلة للصفحات. إذا كان فارغاً، سوف يستخدم صورة سهم الافتراضي.",module,Magento_Backend
@@ -3017,6 +3026,14 @@ Web,موقع,module,Magento_Backend
 "Use Secure URLs on Storefront","استخدم روابط آمنة في واجهة الموقع",module,Magento_Backend
 "Use Secure URLs in Admin","استخدام عناوين في ادارة امن",module,Magento_Backend
 "Default Pages","الصفحات الافتراضية",module,Magento_Backend
+"Default Web URL","رابط الويب الإفتراضي",module,Magento_Backend
+"Session Validation Settings","إعدادات صلاحية الجلسة",module,Magento_Backend
+"Validate REMOTE_ADDR","التحقق من صحة REMOTE_ADDR",module,Magento_Backend
+"Validate HTTP_VIA","التحقق من صحة HTTP_VIA",module,Magento_Backend
+"Validate HTTP_X_FORWARDED_FOR","التحقق من صحة HTTP_X_FORWARDED_FOR",module,Magento_Backend
+"Validate HTTP_USER_AGENT","التحقق من صحة HTTP_USER_AGENT",module,Magento_Backend
+"Use SID on Storefront","استخدام SID في واجهة المتجر",module,Magento_Backend
+"Cache Type","نوع التخزين المؤقت",module,Magento_Backend
 Description,الوصف,module,Magento_Backend
 Tags,علامات,module,Magento_Backend
 "Community Edition","النسخة العامة",module,Magento_Backend
