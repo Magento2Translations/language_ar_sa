@@ -598,6 +598,7 @@ Website,الموقع,module,Magento_Catalog
 Global,عالمي,module,Magento_Catalog
 Scope,مدى,module,Magento_Catalog
 "Declare attribute value saving scope","إعلان قيمة السمة لتوفير النطاق",module,Magento_Catalog
+"Use for Promo Rule Conditions","يستخدم لشروط قواعد العروض الترويجية",module,Magento_Catalog
 "Enable WYSIWYG","تفعيل WYSIWYG",module,Magento_Catalog
 "Used in Product Listing","المستخدمة في قائمة المنتجات",module,Magento_Catalog
 "Depends on design theme","يعتمد على التصميم المظهر",module,Magento_Catalog
@@ -908,6 +909,7 @@ Checkout,شراء,module,Magento_Checkout
 "We don't have some of the products you want.","ليس لدينا بعض المنتجات التي تريدها.",module,Magento_Checkout
 "We don't have as many of some products as you want.","الكمية التي تريدها غير متوفرة.",module,Magento_Checkout
 "Quantity was recalculated from %1 to %2","تم اعادة حساب الكمية من %1 إلى %2",module,Magento_Checkout
+"This quote item does not exist.","هذا البند غير موجود.",module,Magento_Checkout
 "Display number of items in cart","عرض عدد القطع في سلة التسوق",module,Magento_Checkout
 "Display item quantities","عرض كميات السلع",module,Magento_Checkout
 "Invalid data","بيانات غير صحيحة",module,Magento_Checkout
@@ -3130,6 +3132,13 @@ Details,التفاصيل,module,Magento_Catalog
 "After Adding a Product Redirect to Shopping Cart","بعد إضافة المنتج إلى سلة التسوق إعادة توجيه",module,Magento_Checkout
 "My Cart Link","وصلة سلتي",module,Magento_Checkout
 "Display Cart Summary","عرض ملخص سلة التسوق",module,Magento_Checkout
+"Shopping Cart Sidebar","الشريط الجانبي لعربة التسوق",module,Magento_Checkout
+"Display Shopping Cart Sidebar","عرض الشريط الجانبي لسلة التسوق",module,Magento_Checkout
+"Maximum Display Recently Added Item(s)","العرض الأقصى للعنصر (العناصر) التي تمت إضافتها مؤخرا",module,Magento_Checkout
+"Payment Failed Emails","رسائل البريد الإلكتروني لعملية فشل الدفع",module,Magento_Checkout
+"Payment Failed Email Sender","مرسل البريد الإلكتروني لفشل الدفع",module,Magento_Checkout
+"Payment Failed Email Receiver","مستقبل البريد الإلكتروني لفشل الدفع",module,Magento_Checkout
+"Payment Failed Template","قالب فشل الدفع",module,Magento_Checkout
 "Send Payment Failed Email Copy To","ارسال دفعة نسخ البريد الإلكتروني إلى فشل",module,Magento_Checkout
 "Separate by "","".","منفصلة بـ ""،"".",module,Magento_Checkout
 "Send Payment Failed Email Copy Method","إرسال البريد الإلكتروني الدفع فشل أسلوب نسخ",module,Magento_Checkout
