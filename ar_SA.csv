@@ -792,6 +792,7 @@ Scope,مدى,module,Magento_Catalog
 "Use in Search","استخدام في البحث",module,Magento_Catalog
 "Visible in Advanced Search","مرئية في البحث المتقدم",module,Magento_Catalog
 "Comparable on Storefront","قابلة للمقارنة في الواجهة",module,Magento_Catalog
+"Use for Promo Rule Conditions","يستخدم لشروط قواعد العروض الترويجية",module,Magento_Catalog
 "Enable WYSIWYG","تفعيل WYSIWYG",module,Magento_Catalog
 "Allow HTML Tags on Storefront","السماح بـ HTML في واجهة المتجر",module,Magento_Catalog
 "Used in Product Listing","المستخدمة في قائمة المنتجات",module,Magento_Catalog
@@ -1177,6 +1178,9 @@ Sales,المبيعات,module,Magento_CheckoutAgreements
 Automatically,تلقائياً,module,Magento_CheckoutAgreements
 Manually,يدوياً,module,Magento_CheckoutAgreements
 "Please agree to all the terms and conditions before placing the order.","الرجاء الموافقة على كل الشروط والأحكام قبل انهاء طلبك.",module,Magento_CheckoutAgreements
+"Unable to save checkout agreement %1","غير قادر على حفظ إتفاقية الدفع %1",module,Magento_CheckoutAgreements
+"Unable to remove checkout agreement %1","غير قادر على إزالة إتفاقية الدفع %1",module,Magento_CheckoutAgreements
+"Checkout agreement with specified ID ""%1"" not found.","إتفاقية الدفع بالمعرفـ ""%1"" لم يتم العثور عليها.",module,Magento_CheckoutAgreements
 "Shopping Cart","سلة التسوق",module,Magento_Checkout
 "Invalid method: %1","طريقة غير صحيحة: %1",module,Magento_Checkout
 City,المدينة,module,Magento_Checkout
@@ -1211,6 +1215,8 @@ Checkout,شراء,module,Magento_Checkout
 "We can't find the product.","لا يمكن العثور على المنتج.",module,Magento_Checkout
 "The product does not exist.","هذا المنتج غير موجود.",module,Magento_Checkout
 "Quantity was recalculated from %1 to %2","تم اعادة حساب الكمية من %1 إلى %2",module,Magento_Checkout
+"We adjusted product quantities to fit the required increments.","قمنا بضبط كميات المنتج لإحتواء الزيادات المطلوبة.",module,Magento_Checkout
+"This quote item does not exist.","هذا البند غير موجود.",module,Magento_Checkout
 "Display number of items in cart","عرض عدد القطع في سلة التسوق",module,Magento_Checkout
 "Display item quantities","عرض كميات السلع",module,Magento_Checkout
 "Shipping address is not set","لم يتم تعيين عنوان الشحن",module,Magento_Checkout
@@ -1219,10 +1225,12 @@ Checkout,شراء,module,Magento_Checkout
 "Unable to save shipping information. Please, check input data.","غير قادر على حفظ معلومات الشحن. الرجاء التحقق من إدخال البيانات.",module,Magento_Checkout
 "Cart contains virtual product(s) only. Shipping address is not applicable.","سلة المشتريات تحتوي على منتج الكتروني فقط. لا داعي لعنوان الشحن.",module,Magento_Checkout
 "Shipping method is not applicable for empty cart","أسلوب الشحن غير قابل للتطبيق لعربة فارغة",module,Magento_Checkout
+"Totals calculation is not applicable to empty cart","مجموع الحساب لا ينطبق على السلة الفارغة",module,Magento_Checkout
 "Invalid data","بيانات غير صحيحة",module,Magento_Checkout
 "The customer address is not valid.","عنوان العميل غير صحيح.",module,Magento_Checkout
 "Invalid shipping method","طريقة شحن غير صحيحة",module,Magento_Checkout
 "There are more than one shipping addresses.","هناك أكثر من عنوان للشحن.",module,Magento_Checkout
+"Sorry, guest checkout is not available.","نعتذر، الدفع للزائر غير متوفر.",module,Magento_Checkout
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","يجب عليك تأكد حسابك. الرجاء مراجعة بريدك الإلكتروني واتبع التعليمات أو <a href=""%1""> انقر هنا</a> لاعادة ارسالة رسالة التاكيد.",module,Magento_Checkout
 "Load customer quote error","تحميل خطأ اقتباس العميل",module,Magento_Checkout
 "Error message!","رسالة خطأ!",module,Magento_Checkout
@@ -4331,6 +4339,7 @@ Title,العنوان,module,Magento_CatalogWidget
 Template,قالب,module,Magento_CatalogWidget
 "Products Grid Template","قالب الشبكة للمنتجات",module,Magento_CatalogWidget
 "Cache Lifetime (Seconds)","عمر ذاكرة التخزين المؤقت (بالثواني)",module,Magento_CatalogWidget
+"86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","الافتراضي 86400، إن لم يعيين. للتحديث الفوري، قم بمسح ذاكرة التخزين المؤقت لـ HTML.",module,Magento_CatalogWidget
 Conditions,الحالات,module,Magento_CatalogWidget
 Main,الرئيسية,module,Magento_Catalog
 Thumbnail,"صورة مصغره",module,Magento_Catalog
@@ -4367,6 +4376,13 @@ Details,التفاصيل,module,Magento_Catalog
 "After Adding a Product Redirect to Shopping Cart","بعد إضافة المنتج إلى سلة التسوق إعادة توجيه",module,Magento_Checkout
 "My Cart Link","وصلة سلتي",module,Magento_Checkout
 "Display Cart Summary","عرض ملخص سلة التسوق",module,Magento_Checkout
+"Shopping Cart Sidebar","الشريط الجانبي لعربة التسوق",module,Magento_Checkout
+"Display Shopping Cart Sidebar","عرض الشريط الجانبي لسلة التسوق",module,Magento_Checkout
+"Maximum Display Recently Added Item(s)","العرض الأقصى للعنصر (العناصر) التي تمت إضافتها مؤخرا",module,Magento_Checkout
+"Payment Failed Emails","رسائل البريد الإلكتروني لعملية فشل الدفع",module,Magento_Checkout
+"Payment Failed Email Sender","مرسل البريد الإلكتروني لفشل الدفع",module,Magento_Checkout
+"Payment Failed Email Receiver","مستقبل البريد الإلكتروني لفشل الدفع",module,Magento_Checkout
+"Payment Failed Template","قالب فشل الدفع",module,Magento_Checkout
 "Email template chosen based on theme fallback when ""Default"" option is selected.","اختيار قالب البريد الإلكتروني استناداً إلى موضوع الرجوع عند تحديد الخيار ""الإفتراضي"".",module,Magento_Checkout
 "Send Payment Failed Email Copy To","ارسال دفعة نسخ البريد الإلكتروني إلى فشل",module,Magento_Checkout
 "Separate by "","".","منفصلة بـ ""،"".",module,Magento_Checkout
