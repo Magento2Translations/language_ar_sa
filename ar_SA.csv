@@ -595,6 +595,7 @@ Always,دائماً,module,Magento_Captcha
 "File directory '%1' is not writable.","مكان الملف '%1' غير قابل للكتابة.",module,Magento_CatalogImportExport
 "Value for 'price' sub attribute in 'store' attribute contains incorrect value","قيمة سمة 'الأسعار' في السمة 'تخزين' تحتوي على قيمة غير صحيحة",module,Magento_CatalogImportExport
 "Value for 'type' sub attribute in 'custom_options' attribute contains incorrect value, acceptable values are: 'dropdown', 'checkbox'","القيمة ل 'اكتب' في السمة 'خيارات ـ مخصصة' يحتوي على قيمة غير صحيحة، والقيم المقبولة: 'القائمة المنسدلة'، 'خانة الاختيار'",module,Magento_CatalogImportExport
+"Please enter a value for title.","برجاء ادخال عنوان.",module,Magento_CatalogImportExport
 "Value for 'price' sub attribute in 'custom_options' attribute contains incorrect value","قيمة سمة 'الأسعار' في السمة 'خيارات ـ مخصصة' يحتوي على قيمة غير صحيحة",module,Magento_CatalogImportExport
 "Value for 'maximum characters' sub attribute in 'custom_options' attribute contains incorrect value","قيمة سمة 'الحد الأقصى للأحرف'في السمة 'خيارات ـ مخصصة' يحتوي على قيمة غير صحيحة",module,Magento_CatalogImportExport
 "Value for 'sort order' sub attribute in 'custom_options' attribute contains incorrect value","قيمة سمة 'ترتيب الطلب' في السمة 'خيارات ـ مخصصة' يحتوي على قيمة غير صحيحة",module,Magento_CatalogImportExport
@@ -609,8 +610,10 @@ Always,دائماً,module,Magento_Captcha
 "We can't rebuild the index for an undefined product.","لا يمكن إعادة إنشاء الفهرس لمنتج غير معروف.",module,Magento_CatalogInventory
 "Could not rebuild index for empty products array","لا يمكن إعادة إنشاء الفهرس لمجموعة منتجات فارغة",module,Magento_CatalogInventory
 "Invalid stock item id: %1. Should be null or numeric value greater than 0","معرف عنصر المخزون غير صحيحة: %1. ينبغي أن تكون القيمة null أو رقمية أكبر من 0",module,Magento_CatalogInventory
+"The stock item for Product is not valid.","المخزون لهذا المنتج غير صحيح.",module,Magento_CatalogInventory
 "This product is out of stock.","هذا المنتج غير متوفر في المخزن.",module,Magento_CatalogInventory
 "Some of the products are out of stock.","بعض المنتجات غير متوفرة بالمخزن.",module,Magento_CatalogInventory
+"Undefined product type","نوع المنتج غير معروف",module,Magento_CatalogInventory
 "%1 is not a correct comparison method.","%1 ليس أسلوب مقارنة صحيحة.",module,Magento_CatalogInventory
 "No Backorders","لا توجد طلبات لمنتجات غير متوفرة",module,Magento_CatalogInventory
 "Allow Qty Below 0","السماح بالكمية 0",module,Magento_CatalogInventory
@@ -618,12 +621,16 @@ Always,دائماً,module,Magento_Captcha
 "In Stock","متوفر في المخزن",module,Magento_CatalogInventory
 "Out of Stock","غير متوفر بالمخزن",module,Magento_CatalogInventory
 "Unable to save Stock Item","غير قادر على حفظ ""عنصر المخزون""",module,Magento_CatalogInventory
+"Unable to save Stock","غير قادر علي حفظ المخزون",module,Magento_CatalogInventory
 "We don't have as many ""%1"" as you requested.","ليس لدينا العديد من ""%1"" كما طلبت.",module,Magento_CatalogInventory
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","ليس لدينا العديد من ""%1"" كما طلبت، ولكن سوف نعيد أمر %2 المتبقية.",module,Magento_CatalogInventory
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","ليس لدينا ""%1"" بالكمية المطلوبة، حيث أننا سوف نعيد أمر %2 المتبقية.",module,Magento_CatalogInventory
+"Decimal qty increments is not allowed.","غير مسموح زيادة الكمية برقم عشري",module,Magento_CatalogInventory
+"Stock Status","حالة المخزن",module,Magento_CatalogInventory
 Quantity,الكمية,module,Magento_CatalogInventory
 "Advanced Inventory","المخزون المتقدم",module,Magento_CatalogInventory
 "Only %1 left","متوفرتين %1 فقط",module,Magento_CatalogInventory
+"Product availability","توافر المنتج",module,Magento_CatalogInventory
 "Product Name","اسم المنتج",module,Magento_CatalogInventory
 Qty,الكميّة,module,Magento_CatalogInventory
 "Delete Rule","حذف قاعدة",module,Magento_CatalogRule
@@ -1818,6 +1825,7 @@ kgs,كجم,module,Magento_Directory
 "Undefined rate from ""%1-%2"".","معدل غير معرف من ""%1-%2"".",module,Magento_Directory
 "Please correct the target currency.","الرجاء تصحيح العملة المستهدفة.",module,Magento_Directory
 label,التسمية,module,Magento_Directory
+"We can't retrieve a rate from %1 for %2.","لا يمكننا استرداد نسبة من %1 إلي %2.",module,Magento_Directory
 "We can't retrieve a rate from %1.","لا يمكننا استرداد نسبة من %1.",module,Magento_Directory
 "FATAL ERROR:","خطأ حيوي:",module,Magento_Directory
 "We can't initialize the import model.","لا يمكن تهيئة نموذج الإستيراد.",module,Magento_Directory
@@ -1842,6 +1850,7 @@ Unlimited,"غير محدود",module,Magento_Downloadable
 "Please sign in to download your product or purchase <a href=""%1"">%2</a>.","يرجى تسجيل الدخول لتنزيل المنتج الخاص بك أو الشراء <a href=""%1"">%2</a>.",module,Magento_Downloadable
 "Please sign in to download your product.","يرجى تسجيل الدخول لتنزيل المنتج الخاص بك.",module,Magento_Downloadable
 "The link has expired.","انتهت صلاحية الرابط.",module,Magento_Downloadable
+"The link is not available.","الرابط غير محتاح.",module,Magento_Downloadable
 "Something went wrong while saving the file(s).","حدث خطأ أثناء حفظ الملفات.",module,Magento_Downloadable
 "Number of downloads must be a positive integer.","عدد مرات التحميل يجب أن يكون عددا صحيحاً موجباً.",module,Magento_Downloadable
 "Provided link information is invalid.","معلومات الرابط المتوفر غير صالحة.",module,Magento_Downloadable
@@ -1995,6 +2004,7 @@ Yes,نعم,module,Magento_EncryptionKey
 "The generated key will be displayed after changing.","سيتم عرض المفتاح الذي تم إنشاؤه بعد تغيير.",module,Magento_EncryptionKey
 "New Key","مفتاح جديد",module,Magento_EncryptionKey
 "Please enter an encryption key.","الرجاء إدخال مفتاح تشفير.",module,Magento_EncryptionKey
+"The encryption key has been changed.","تم تغيير مفتاح التشفير.",module,Magento_EncryptionKey
 "Europe First Priority","الأولوية الأولى في أوروبا",module,Magento_Fedex
 "1 Day Freight","الشحن بيوم واحد",module,Magento_Fedex
 "2 Day Freight","الشحن في يومين",module,Magento_Fedex
@@ -4482,6 +4492,7 @@ Forms,النماذج,module,Magento_Captcha
 "Case Sensitive","تحسس حالة الأحرف",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","تمكين كلمة التحقق في الواجهة",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","يتم دوماً تمكين كلمة التحقق لأشكال ""نسيت كلمة المرور"" و ""إنشاء مستخدم"" إذا تم الإختيار.",module,Magento_Captcha
+"Inventory Section","قسم المخزن",module,Magento_CatalogInventory
 Inventory,المخزون,module,Magento_CatalogInventory
 "Stock Options","خيارات المخزون",module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed","ازل من المخزون عند استلام الطلب الجديد",module,Magento_CatalogInventory
