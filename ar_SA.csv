@@ -473,6 +473,7 @@ Always,دائماً,module,Magento_Captcha
 "Minimum Qty","الحد الأدنى من الكمية",module,Magento_CatalogInventory
 "Add Minimum Qty","اضف حد أدنى للكمية",module,Magento_CatalogInventory
 "This product is out of stock.","هذا المنتج غير متوفر في المخزن.",module,Magento_CatalogInventory
+"Undefined product type","نوع المنتج غير معروف",module,Magento_CatalogInventory
 "%1 is not a correct comparison method.","%1 ليس أسلوب مقارنة صحيحة.",module,Magento_CatalogInventory
 "No Backorders","لا توجد طلبات لمنتجات غير متوفرة",module,Magento_CatalogInventory
 "Allow Qty Below 0","السماح بالكمية 0",module,Magento_CatalogInventory
@@ -1303,6 +1304,7 @@ Unlimited,"غير محدود",module,Magento_Downloadable
 "My Downloadable Products","ملفات التحميل",module,Magento_Downloadable
 "We can't find the link you requested.","لا يمكن أن نجد الارتباط المطلوب.",module,Magento_Downloadable
 "The link has expired.","انتهت صلاحية الرابط.",module,Magento_Downloadable
+"The link is not available.","الرابط غير محتاح.",module,Magento_Downloadable
 "Something went wrong while saving the file(s).","حدث خطأ أثناء حفظ الملفات.",module,Magento_Downloadable
 Pending,"في إنتظار المُراجعة",module,Magento_Downloadable
 Invoiced,فاتورة,module,Magento_Downloadable
@@ -1424,6 +1426,7 @@ Yes,نعم,module,Magento_EncryptionKey
 "The generated key will be displayed after changing.","سيتم عرض المفتاح الذي تم إنشاؤه بعد تغيير.",module,Magento_EncryptionKey
 "New Key","مفتاح جديد",module,Magento_EncryptionKey
 "Please enter an encryption key.","الرجاء إدخال مفتاح تشفير.",module,Magento_EncryptionKey
+"The encryption key has been changed.","تم تغيير مفتاح التشفير.",module,Magento_EncryptionKey
 "Europe First Priority","الأولوية الأولى في أوروبا",module,Magento_Fedex
 "1 Day Freight","الشحن بيوم واحد",module,Magento_Fedex
 "2 Day Freight","الشحن في يومين",module,Magento_Fedex
