@@ -617,6 +617,7 @@ Always,دائماً,module,Magento_Captcha
 "File directory '%1' is not writable.","مكان الملف '%1' غير قابل للكتابة.",module,Magento_CatalogImportExport
 "Value for 'price' sub attribute in 'store' attribute contains incorrect value","قيمة سمة 'الأسعار' في السمة 'تخزين' تحتوي على قيمة غير صحيحة",module,Magento_CatalogImportExport
 "Value for 'type' sub attribute in 'custom_options' attribute contains incorrect value, acceptable values are: 'dropdown', 'checkbox'","القيمة ل 'اكتب' في السمة 'خيارات ـ مخصصة' يحتوي على قيمة غير صحيحة، والقيم المقبولة: 'القائمة المنسدلة'، 'خانة الاختيار'",module,Magento_CatalogImportExport
+"Please enter a value for title.","برجاء ادخال عنوان.",module,Magento_CatalogImportExport
 "Value for 'price' sub attribute in 'custom_options' attribute contains incorrect value","قيمة سمة 'الأسعار' في السمة 'خيارات ـ مخصصة' يحتوي على قيمة غير صحيحة",module,Magento_CatalogImportExport
 "Value for 'maximum characters' sub attribute in 'custom_options' attribute contains incorrect value","قيمة سمة 'الحد الأقصى للأحرف'في السمة 'خيارات ـ مخصصة' يحتوي على قيمة غير صحيحة",module,Magento_CatalogImportExport
 "Value for 'sort order' sub attribute in 'custom_options' attribute contains incorrect value","قيمة سمة 'ترتيب الطلب' في السمة 'خيارات ـ مخصصة' يحتوي على قيمة غير صحيحة",module,Magento_CatalogImportExport
@@ -630,8 +631,10 @@ Always,دائماً,module,Magento_Captcha
 "Add Minimum Qty","اضف حد أدنى للكمية",module,Magento_CatalogInventory
 "We can't rebuild the index for an undefined product.","لا يمكن إعادة إنشاء الفهرس لمنتج غير معروف.",module,Magento_CatalogInventory
 "Could not rebuild index for empty products array","لا يمكن إعادة إنشاء الفهرس لمجموعة منتجات فارغة",module,Magento_CatalogInventory
+"The stock item for Product is not valid.","المخزون لهذا المنتج غير صحيح.",module,Magento_CatalogInventory
 "This product is out of stock.","هذا المنتج غير متوفر في المخزن.",module,Magento_CatalogInventory
 "Some of the products are out of stock.","بعض المنتجات غير متوفرة بالمخزن.",module,Magento_CatalogInventory
+"Undefined product type","نوع المنتج غير معروف",module,Magento_CatalogInventory
 "%1 is not a correct comparison method.","%1 ليس أسلوب مقارنة صحيحة.",module,Magento_CatalogInventory
 "No Backorders","لا توجد طلبات لمنتجات غير متوفرة",module,Magento_CatalogInventory
 "Allow Qty Below 0","السماح بالكمية 0",module,Magento_CatalogInventory
@@ -640,7 +643,9 @@ Always,دائماً,module,Magento_Captcha
 "Out of Stock","غير متوفر بالمخزن",module,Magento_CatalogInventory
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","ليس لدينا العديد من ""%1"" كما طلبت، ولكن سوف نعيد أمر %2 المتبقية.",module,Magento_CatalogInventory
 "We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","ليس لدينا ""%1"" بالكمية المطلوبة، حيث أننا سوف نعيد أمر %2 المتبقية.",module,Magento_CatalogInventory
+"Decimal qty increments is not allowed.","غير مسموح زيادة الكمية برقم عشري",module,Magento_CatalogInventory
 "Only %1 left","متوفرتين %1 فقط",module,Magento_CatalogInventory
+"Product availability","توافر المنتج",module,Magento_CatalogInventory
 "Product Name","اسم المنتج",module,Magento_CatalogInventory
 Qty,الكميّة,module,Magento_CatalogInventory
 "Catalog Price Rule","قاعدة الاسعار فى دليل المنتجات",module,Magento_CatalogRule
@@ -1873,6 +1878,7 @@ Unlimited,"غير محدود",module,Magento_Downloadable
 "Please sign in to download your product or purchase <a href=""%1"">%2</a>.","يرجى تسجيل الدخول لتنزيل المنتج الخاص بك أو الشراء <a href=""%1"">%2</a>.",module,Magento_Downloadable
 "Please sign in to download your product.","يرجى تسجيل الدخول لتنزيل المنتج الخاص بك.",module,Magento_Downloadable
 "The link has expired.","انتهت صلاحية الرابط.",module,Magento_Downloadable
+"The link is not available.","الرابط غير محتاح.",module,Magento_Downloadable
 "Something went wrong while saving the file(s).","حدث خطأ أثناء حفظ الملفات.",module,Magento_Downloadable
 "Number of downloads must be a positive integer.","عدد مرات التحميل يجب أن يكون عددا صحيحاً موجباً.",module,Magento_Downloadable
 "Product type of the product must be 'downloadable'.","يجب أن يكون نوع المنتج 'قابل للتحميل'.",module,Magento_Downloadable
@@ -2024,6 +2030,7 @@ Yes,نعم,module,Magento_EncryptionKey
 "The generated key will be displayed after changing.","سيتم عرض المفتاح الذي تم إنشاؤه بعد تغيير.",module,Magento_EncryptionKey
 "New Key","مفتاح جديد",module,Magento_EncryptionKey
 "Please enter an encryption key.","الرجاء إدخال مفتاح تشفير.",module,Magento_EncryptionKey
+"The encryption key has been changed.","تم تغيير مفتاح التشفير.",module,Magento_EncryptionKey
 "This is your new encryption key: <span style=""font-family:monospace;"">%1</span>. Be sure to write it down and take good care of it!","هذا هو مفتاح التشفير الجديد: <span style=""font-family:monospace;"">%1</span>. تأكد أن تدونه وتعتني به!",module,Magento_EncryptionKey
 "Europe First Priority","الأولوية الأولى في أوروبا",module,Magento_Fedex
 "1 Day Freight","الشحن بيوم واحد",module,Magento_Fedex
