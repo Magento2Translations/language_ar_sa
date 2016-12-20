@@ -2393,7 +2393,7 @@ Date,التاريخ,module,Magento_Sales
 Close,غلق,module,Magento_Sales
 "About Your Order","حول طلبك",module,Magento_Sales
 "Qty Shipped","الكمية المشحونة",module,Magento_Sales
-"Recent Orders","طلبات الشراء الاخيرة",module,Magento_Sales
+"Recent Orders","الطلبات الأخيرة",module,Magento_Sales
 "View All","عرض الكل",module,Magento_Sales
 "Add to Cart","أضف لسلة التسوق",module,Magento_Sales
 "The link to a friend was sent.","تم إرسال الرابط لصديق.",module,Magento_SendFriend
