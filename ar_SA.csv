@@ -3194,9 +3194,9 @@ Actions,اعمال,module,Magento_Sales
 Close,غلق,module,Magento_Sales
 "About Your Order","حول طلبك",module,Magento_Sales
 "Qty Shipped","الكمية المشحونة",module,Magento_Sales
-"Recent Orders","طلبات الشراء الاخيرة",module,Magento_Sales
+"Recent Orders","الطلبات الأخيرة",module,Magento_Sales
 "View All","عرض الكل",module,Magento_Sales
-"Recently Ordered","طلبات الشراء الاخيرة",module,Magento_Sales
+"Recently Ordered","طلبت مؤخراً",module,Magento_Sales
 "Add to Cart","أضف لسلة التسوق",module,Magento_Sales
 Search,بحث,module,Magento_Sales
 "Search Term","البحث في المصطلحات",module,Magento_Search
@@ -4025,7 +4025,7 @@ Next,التالي,module,Magento_Checkout
 "Welcome to %store_name","مرحبا بك في %store_name",module,Magento_Customer
 "%name,",%name،,module,Magento_Customer
 "Welcome to %store_name.","مرحبا بك في %store_name.",module,Magento_Customer
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","لتسجيل الدخول إلى موقعنا استخدم بيانات الدخول هذه أثناء للشراء أو من خلال صفحة <a href=""%customer_url""> حسابي</a>:",module,Magento_Customer
+"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","لتسجيل الدخول إلى موقعنا استخدم بيانات الدخول التالية للشراء أو لإدارة <a href=""%customer_url""> عضويتك</a>:",module,Magento_Customer
 Email:,"البريد الالكترونى:",module,Magento_Customer
 Password:,"الرقم السري:",module,Magento_Customer
 "Password you set when creating account","كلمة المرور التي قمت بتعيينها عند إنشاء الحساب",module,Magento_Customer
@@ -4093,7 +4093,7 @@ Delete,احذف,module,Magento_GiftMessage
 "See our Shipping Policy","الاطلاع على ""سياسة الشحن""",module,Magento_Shipping
 "%name,",%name،,module,Magento_Theme
 "Welcome to %store_name.","مرحبا بك في %store_name.",module,Magento_Theme
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","لتسجيل الدخول إلى موقعنا استخدم بيانات الدخول هذه أثناء للشراء أو من خلال صفحة <a href=""%customer_url""> حسابي</a>:",module,Magento_Theme
+"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","لتسجيل الدخول إلى موقعنا استخدم بيانات الدخول التالية للشراء أو لإدارة <a href=""%customer_url""> عضويتك</a>:",module,Magento_Theme
 Email:,"البريد الإلكتروني:",module,Magento_Theme
 Password:,"كلمة السر:",module,Magento_Theme
 "Password you set when creating account","كلمة المرور التي قمت بتعيينها عند إنشاء الحساب",module,Magento_Theme
@@ -4112,6 +4112,7 @@ of,من,module,Magento_Ui
 Filters,تصفيات,module,Magento_Ui
 "%name,",%name،,module,Magento_User
 "There was recently a request to change the password for your account.","تم طلب تغيير كلمة المرور الخاصة بك مؤخراَ.",module,Magento_User
+"If you requested this change, reset your password here:","إذا كنت انت من قام بطلب كلمة استرجاع كلمة المرور، فضلاً اضغط هنا:",module,Magento_User
 "If you did not make this request, you can ignore this email and your password will remain the same.","إذا لم تقم بإجراء هذا الطلب، يمكنك تجاهل هذا البريد الإلكتروني وكلمة المرور الخاصة بك وسوف تبقى كما هي.",module,Magento_User
 "Thank you,","شكرا لك،",module,Magento_User
 "or call us at %store_phone","أو اتصل بنا على %store_phone",module,Magento_User
@@ -4119,7 +4120,7 @@ Filters,تصفيات,module,Magento_Ui
 "Welcome to %store_name","مرحبا بك في %store_name",theme,frontend/Magento/luma
 "%name,",%name،,theme,frontend/Magento/luma
 "Welcome to %store_name.","مرحبا بك في %store_name.",theme,frontend/Magento/luma
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","لتسجيل الدخول إلى موقعنا استخدم بيانات الدخول هذه أثناء للشراء أو من خلال صفحة <a href=""%customer_url""> حسابي</a>:",theme,frontend/Magento/luma
+"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","لتسجيل الدخول إلى موقعنا استخدم بيانات الدخول التالية للشراء أو لإدارة <a href=""%customer_url""> عضويتك</a>:",theme,frontend/Magento/luma
 Email:,"البريد الإلكتروني:",theme,frontend/Magento/luma
 Password:,"كلمة السر:",theme,frontend/Magento/luma
 "Password you set when creating account","كلمة المرور التي قمت بتعيينها عند إنشاء الحساب",theme,frontend/Magento/luma
