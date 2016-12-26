@@ -2525,6 +2525,7 @@ Item,سلعة,module,Magento_Paypal
 Price,السعر,module,Magento_Paypal
 Qty,الكميّة,module,Magento_Paypal
 Subtotal,الإجمالي,module,Magento_Paypal
+"Please update order data to get shipping methods and rates","الرجاء تحديث بيانات الطلب للحصول على اسعار وطرق الشحن",module,Magento_Paypal
 or,أو,module,Magento_Paypal
 Continue,استمر,module,Magento_Paypal
 "Not you?","ليس أنت؟",module,Magento_Persistent
@@ -3001,6 +3002,7 @@ N/A,"غير متاح",module,Magento_Sales
 "We can't add this item to your shopping cart right now.","لا يمكننا الآن إضافة هذا البند إلى عربة التسوق الخاصة بك.",module,Magento_Sales
 Sales,المبيعات,module,Magento_Sales
 "This order no longer exists.","طلب الشراء هذا لم يعد موجودا.",module,Magento_Sales
+"You updated the order address.","لقد قمت بتحديث عنوان الطلب.",module,Magento_Sales
 "We can't update the order address right now.","لا يمكن تحديث العنوان الآن.",module,Magento_Sales
 "Quote item id is not received.","لم يتم استلام معرف قيمة العنصر.",module,Magento_Sales
 "Quote item is not loaded.","لم يتم تحميل قيمة العنصر.",module,Magento_Sales
@@ -3193,6 +3195,7 @@ Actions,اعمال,module,Magento_Sales
 "Qty Invoiced","الكمية المفوترة",module,Magento_Sales
 Close,غلق,module,Magento_Sales
 "About Your Order","حول طلبك",module,Magento_Sales
+"<span class=""label"">Order Date:</span> %1","<span class=""label""> تاريخ الطلب:</span> %1",module,Magento_Sales
 "Qty Shipped","الكمية المشحونة",module,Magento_Sales
 "Recent Orders","الطلبات الأخيرة",module,Magento_Sales
 "View All","عرض الكل",module,Magento_Sales
@@ -4089,6 +4092,7 @@ Delete,احذف,module,Magento_GiftMessage
 "%customer_name,",%customer_name،,module,Magento_Sales
 "Once your package ships we will send you a tracking number.","سوف نرسلك لم رقم بوليصة الشحن فور شحن طلبك.",module,Magento_Sales
 "Your Order <span class=""no-link"">#%increment_id</span>","طلبك <span class=""no-link"">#%increment_id</span>",module,Magento_Sales
+"Update to your %store_name order","تحديث طلبك في %store_name",module,Magento_Sales
 "%name,",%name،,module,Magento_SendFriend
 "See our Shipping Policy","الاطلاع على ""سياسة الشحن""",module,Magento_Shipping
 "%name,",%name،,module,Magento_Theme
@@ -4159,7 +4163,7 @@ Footer,"ذيل الصفحة",theme,frontend/Magento/luma
 "Once your package ships we will send you a tracking number.","سوف نرسلك لم رقم بوليصة الشحن فور شحن طلبك.",theme,frontend/Magento/luma
 "Your Order <span class=""no-link"">#%increment_id</span>","طلبك <span class=""no-link"">#%increment_id</span>",theme,frontend/Magento/luma
 "Placed on <span class=""no-link"">%created_at</span>","وضع في <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
-"Update to your %store_name order","تحديث للنظام الخاص بك %store_name",theme,frontend/Magento/luma
+"Update to your %store_name order","تحديث طلبك في %store_name",theme,frontend/Magento/luma
 "Your %store_name order has shipped","لقد تم شحن طلبك %store_name",theme,frontend/Magento/luma
 "Your shipping confirmation is below. Thank you again for your business.","تأكيد الشحن الخاص بك أدناه. أشكركم مرة أخرى على عملك.",theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","شحنتك #%shipment_id لطلب رقم #%order_id",theme,frontend/Magento/luma
@@ -4545,6 +4549,7 @@ Inventory,الجرد,module,Magento_Catalog
 "Product Image Placeholders","صورة المنتج placeholders",module,Magento_Catalog
 "Page Title Separator","فاصل عنوان الصفحة",module,Magento_Catalog
 "Catalog Price Scope","نطاق اسعار دليل المنتجات",module,Magento_Catalog
+"Date Fields Order","ترتيب حقول التاريخ",module,Magento_Catalog
 "Top Level Category","التصنيف الاعلى درجة",module,Magento_Catalog
 "Category Products","قسم المنتجات",module,Magento_Catalog
 "Product Categories","فئات المنتج",module,Magento_Catalog
