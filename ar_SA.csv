@@ -1825,6 +1825,7 @@ Edit,تحرير,module,Magento_Paypal
 Price,السعر,module,Magento_Paypal
 Qty,الكميّة,module,Magento_Paypal
 Subtotal,الإجمالي,module,Magento_Paypal
+"Please update order data to get shipping methods and rates","الرجاء تحديث بيانات الطلب للحصول على اسعار وطرق الشحن",module,Magento_Paypal
 Continue,استمر,module,Magento_Paypal
 "Your shopping cart has been updated with new prices.","تم تحديث سلة التسوق الخاصة بك مع الأسعار الجديدة.",module,Magento_Persistent
 "Welcome, %1!","مرحبا, %1!",module,Magento_Persistent
@@ -2233,6 +2234,7 @@ N/A,"غير متاح",module,Magento_Sales
 "Grand Total to be Charged","مستحق الدفع",module,Magento_Sales
 Sales,المبيعات,module,Magento_Sales
 "This order no longer exists.","طلب الشراء هذا لم يعد موجودا.",module,Magento_Sales
+"You updated the order address.","لقد قمت بتحديث عنوان الطلب.",module,Magento_Sales
 "Quote item id is not received.","لم يتم استلام معرف قيمة العنصر.",module,Magento_Sales
 "Quote item is not loaded.","لم يتم تحميل قيمة العنصر.",module,Magento_Sales
 "New Order","طلب شراء جديد",module,Magento_Sales
@@ -2392,6 +2394,7 @@ Date,التاريخ,module,Magento_Sales
 "Qty Invoiced","الكمية المفوترة",module,Magento_Sales
 Close,غلق,module,Magento_Sales
 "About Your Order","حول طلبك",module,Magento_Sales
+"<span class=""label"">Order Date:</span> %1","<span class=""label""> تاريخ الطلب:</span> %1",module,Magento_Sales
 "Qty Shipped","الكمية المشحونة",module,Magento_Sales
 "Recent Orders","الطلبات الأخيرة",module,Magento_Sales
 "View All","عرض الكل",module,Magento_Sales
@@ -3115,6 +3118,7 @@ Rule,قاعدة,module,Magento_CatalogRule
 "Product Image Placeholders","صورة المنتج placeholders",module,Magento_Catalog
 "Page Title Separator","فاصل عنوان الصفحة",module,Magento_Catalog
 "Catalog Price Scope","نطاق اسعار دليل المنتجات",module,Magento_Catalog
+"Date Fields Order","ترتيب حقول التاريخ",module,Magento_Catalog
 "Product Image Watermarks","صورة المنتج ماءيه",module,Magento_Catalog
 "Watermark Default Size","الحجم الافتراضي للعلامة المائية",module,Magento_Catalog
 "Watermark Opacity, Percent","العلامة المائية غير شفافة, بنسبة",module,Magento_Catalog
