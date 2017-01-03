@@ -473,6 +473,7 @@ Always,دائماً,module,Magento_Captcha
 "Minimum Qty","الحد الأدنى من الكمية",module,Magento_CatalogInventory
 "Add Minimum Qty","اضف حد أدنى للكمية",module,Magento_CatalogInventory
 "This product is out of stock.","هذا المنتج غير متوفر في المخزن.",module,Magento_CatalogInventory
+"The stock item for Product in option is not valid.","عنصر التخزين لهذا المنتج في الخيار غير صحيح.",module,Magento_CatalogInventory
 "Undefined product type","نوع المنتج غير معروف",module,Magento_CatalogInventory
 "%1 is not a correct comparison method.","%1 ليس أسلوب مقارنة صحيحة.",module,Magento_CatalogInventory
 "No Backorders","لا توجد طلبات لمنتجات غير متوفرة",module,Magento_CatalogInventory
@@ -480,6 +481,10 @@ Always,دائماً,module,Magento_Captcha
 "Allow Qty Below 0 and Notify Customer","السماح بكمية تحت ال 0 و أعلام العميل",module,Magento_CatalogInventory
 "In Stock","متوفر في المخزن",module,Magento_CatalogInventory
 "Out of Stock","غير متوفر بالمخزن",module,Magento_CatalogInventory
+"Not all of your products are available in the requested quantity.","ليست كل المنتجات الخاصة بك متوفرة بالكمية المطلوبة.",module,Magento_CatalogInventory
+"The fewest you may purchase is %1.","أقل عدد يمكنك شراؤه هو %1.",module,Magento_CatalogInventory
+"Please correct the quantity for some products.","الرجاء تصحيح الكمية لبعض المنتجات.",module,Magento_CatalogInventory
+"The most you may purchase is %1.","الحد الأعلى الذي يمكنك شراؤه هو %1.",module,Magento_CatalogInventory
 "Only %1 left","متوفرتين %1 فقط",module,Magento_CatalogInventory
 "Product Name","اسم المنتج",module,Magento_CatalogInventory
 Qty,الكميّة,module,Magento_CatalogInventory
@@ -531,7 +536,7 @@ Promo,الترويج,module,Magento_CatalogRule
 "Product Attribute","سمة المنتج",module,Magento_CatalogRule
 Home,"الصفحة الرئيسية",module,Magento_CatalogSearch
 "Go to Home Page","الانتقال إلى الصفحة الرئيسية",module,Magento_CatalogSearch
-"Catalog Advanced Search","بحث متقدم فى دليل المنتجات",module,Magento_CatalogSearch
+"Catalog Advanced Search","بحث متقدم فى الكتالوج",module,Magento_CatalogSearch
 All,الكل,module,Magento_CatalogSearch
 Yes,نعم,module,Magento_CatalogSearch
 No,لا,module,Magento_CatalogSearch
@@ -547,6 +552,8 @@ Relevance,الصله,module,Magento_CatalogSearch
 "Search Settings","اعدادات البحث",module,Magento_CatalogSearch
 Search,بحث,module,Magento_CatalogSearch
 "Advanced Search","بحث متقدم",module,Magento_CatalogSearch
+"<strong>%1 item</strong> were found using the following search criteria","تم العثور على <strong>العنصر%1</strong> باستخدام معايير البحث التالية",module,Magento_CatalogSearch
+"<strong>%1 items</strong> were found using the following search criteria","تم العثور على <strong>العناصر%1</strong> باستخدام معايير البحث التالية",module,Magento_CatalogSearch
 "Modify your search","تعديل البحث",module,Magento_CatalogSearch
 name,اسم,module,Magento_CatalogSearch
 "Don't see what you're looking for?","لا أرى ما كنت تبحث عن؟",module,Magento_CatalogSearch
@@ -557,7 +564,7 @@ Reset,"اعادة ضبط",module,Magento_Catalog
 "New Subcategory","تصنيف فرعي جديد",module,Magento_Catalog
 "New Root Category","تصنيف رئيسي جديد",module,Magento_Catalog
 "Set Root Category for Store","تكوين تصنيف جذري للمتجر",module,Magento_Catalog
-"Use Config Settings","استخدام اعداد الاعدادات",module,Magento_Catalog
+"Use Config Settings","استخدام إعدادات التكوين",module,Magento_Catalog
 "Use All Available Attributes","استخدام كافة السمات المتاحة",module,Magento_Catalog
 "Custom Design","خيارات التصميم",module,Magento_Catalog
 ID,التعريف,module,Magento_Catalog
@@ -566,8 +573,8 @@ Price,السعر,module,Magento_Catalog
 Position,موقع,module,Magento_Catalog
 "Category Data","بيانات التصنيف",module,Magento_Catalog
 "Category Products","قسم المنتجات",module,Magento_Catalog
-"Add Subcategory","قسم فرعي جديد",module,Magento_Catalog
-"Add Root Category","اضف قسم رئيسي",module,Magento_Catalog
+"Add Subcategory","أضف فئة فرعية",module,Magento_Catalog
+"Add Root Category","اضف فئة رئيسية",module,Magento_Catalog
 Day,يوم,module,Magento_Catalog
 Month,الشهر,module,Magento_Catalog
 Year,السنة,module,Magento_Catalog
@@ -689,7 +696,9 @@ Edit,تحرير,module,Magento_Catalog
 "Are you sure?","هل أنت متأكد؟",module,Magento_Catalog
 "Update Attributes","تحديث السمات",module,Magento_Catalog
 "Click here or drag and drop to add images.","انقر هنا أو سحب وإسقاط لإضافة الصور.",module,Magento_Catalog
+"Delete image","حذف الصورة",module,Magento_Catalog
 "Make Base","إصنع قاعدة",module,Magento_Catalog
+Hidden,مخفي,module,Magento_Catalog
 "start typing to search category","ابدأ الكتابة للبحث في الفئة",module,Magento_Catalog
 "New Category","قسم جديد",module,Magento_Catalog
 "Images (.gif, .jpg, .png)","الصور (.gif,.jpg,.png)",module,Magento_Catalog
@@ -758,6 +767,7 @@ All,الكل,module,Magento_Catalog
 "Product is not loaded","لم يتم تحميل المنتج",module,Magento_Catalog
 "Bad controller interface for showing product","خطأ في واجهة وحدة تحكم لعرض المنتج",module,Magento_Catalog
 "The value of attribute ""%1"" must be unique.","يجب أن تكون قيمة السمة ""%1"" فريدة من نوعها.",module,Magento_Catalog
+"Default Product Listing Sort by does not exist in Available Product Listing Sort By.","قائمة المنتج الافتراضي الذي تم به الفرز لم يتم إنشاؤه في قائمة المنتجات المتوفرة التي يتم حسبها الفرز.",module,Magento_Catalog
 "No layout updates","لا يوجد تخطيط تحديثات",module,Magento_Catalog
 "Products only","المنتجات فقط",module,Magento_Catalog
 "Static block only","تجميد المساحة فقط",module,Magento_Catalog
@@ -828,10 +838,13 @@ px.,بكسل.,module,Magento_Catalog
 "Not Visible Individually","غير مرئية بشكل فردي",module,Magento_Catalog
 Search,بحث,module,Magento_Catalog
 "Catalog, Search","دليل المنتجات و البحث",module,Magento_Catalog
+"A product type is not defined for the indexer.","لم يتم تعريف نوع منتج للفهرسة.",module,Magento_Catalog
 "Multiple Select","خيارات متعددة",module,Magento_Catalog
 Dropdown,انزال,module,Magento_Catalog
 "Are you sure you want to delete this category?","هل أنت متأكد أنك تريد حذف هذه الفئة؟",module,Magento_Catalog
 "Set root category for this store in the <a href=""%1"">configuration</a>.","تعيين الفئة الجذر لهذا المخزن في <a href=""%1"">configuration</a>.",module,Magento_Catalog
+"Collapse All","طوي الكل",module,Magento_Catalog
+"Expand All","عرض الكل",module,Magento_Catalog
 "Use Default Value","استخدام قيمة افتراضية",module,Magento_Catalog
 "Manage Titles (Size, Color, etc.)","ادارة العناوين (حجم, لون, الخ).",module,Magento_Catalog
 "Manage Options (values of your attribute)","إدارة خيارات (قيم السمة الخاصة بك)",module,Magento_Catalog
@@ -840,33 +853,59 @@ Dropdown,انزال,module,Magento_Catalog
 "Sort Option","خيار الترتيب",module,Magento_Catalog
 Groups,مجموعات,module,Magento_Catalog
 "Unassigned Attributes","غير معين الصفات",module,Magento_Catalog
+"A name is required.","يجب ادخال اسم.",module,Magento_Catalog
 "This group contains system attributes. Please move system attributes to another group and try again.","وهذا النظام يحتوي على مجموعة من الصفات. نظام الانتقال الرجاء الصفات الى مجموعة أخرى وحاول مرة أخرى.",module,Magento_Catalog
+"Please enter a new group name.","الرجاء إدخال اسم مجموعة جديدة.",module,Magento_Catalog
+"An attribute group named ""/name/"" already exists"".","مجموعة سمة المسماة \"/name/\" already exists\"موجودة من قبل.",module,Magento_Catalog
+"Custom Options","خيارات مخصصة",module,Magento_Catalog
 "This is a required option.","هذا الخيار مطلوب.",module,Magento_Catalog
+"Maximum image width","عرض الصورة كحد أقصى",module,Magento_Catalog
+"Maximum image height","ارتفاع الصورة كحد أقصى",module,Magento_Catalog
+"Maximum number of characters:","الحد الأقصى لعدد الأحرف:",module,Magento_Catalog
+"Product online","المنتج على الإنترنت",module,Magento_Catalog
+"Product offline","المنتج غير متصل",module,Magento_Catalog
+"Product online status","حالة المنتج على الإنترنت",module,Magento_Catalog
+"Manage Stock","إدارة المخزون",module,Magento_Catalog
 Qty,الكميّة,module,Magento_Catalog
+"Out-of-Stock Threshold","حدود انتهاء المخزون",module,Magento_Catalog
 "Minimum Qty Allowed in Shopping Cart","اقل كمية مسموح بها في سلة التسوق",module,Magento_Catalog
 "Maximum Qty Allowed in Shopping Cart","اكبر كمية مسموح بها في سلة التسوق",module,Magento_Catalog
 "Qty Uses Decimals","كمية تستخدم ارقام عشرية",module,Magento_Catalog
 Backorders,"طلبات لمنتجات غير متوفرة",module,Magento_Catalog
 "Notify for Quantity Below","اخطار لكمية ادناه",module,Magento_Catalog
+"Enable Qty Increments","تمكين زيادة الكميات",module,Magento_Catalog
+"Qty Increments","زيادة الكميات",module,Magento_Catalog
 "Stock Availability","توفر المخزون",module,Magento_Catalog
 "In Stock","متوفر في المخزن",module,Magento_Catalog
 "Out of Stock","غير متوفر بالمخزن",module,Magento_Catalog
 "Add Product To Websites","اضف منتج الى الموقع",module,Magento_Catalog
 "Remove Product From Websites","حذف المنتج من الموقع",module,Magento_Catalog
+"Delete Custom Option","حذف الخيار المخصص",module,Magento_Catalog
+"Sort Custom Options","خيارات فرز مخصص",module,Magento_Catalog
 "Option Title","عنوان الاختيار",module,Magento_Catalog
+"Input Type","نوع الإدخال",module,Magento_Catalog
 Required,مطلوب,module,Magento_Catalog
 "Price Type","نوع الأسعار",module,Magento_Catalog
 "Maximum Image Size","حجم الصورة الأقصى",module,Magento_Catalog
+"Please leave blank if it is not an image.","الرجاء تركه فارغاً إذا لم تكن صورة.",module,Magento_Catalog
 Title,العنوان,module,Magento_Catalog
+"Sort Custom Option","خيارات فرز مخصص",module,Magento_Catalog
 "Max Characters","الأحرف كحد أقصى",module,Magento_Catalog
 "Customer Group","مجموعات العملاء",module,Magento_Catalog
+"Item Price","سعر الصنف",module,Magento_Catalog
 Action,إجراء,module,Magento_Catalog
 "and above","و فوق",module,Magento_Catalog
+"Delete Tier","حذف مستوى",module,Magento_Catalog
 "Product In Websites","المنتج في الموقع",module,Magento_Catalog
+"(Copy data from: %1)","(انسخ البيانات من: %1)",module,Magento_Catalog
+"Alt Text","النص البديل",module,Magento_Catalog
 Role,دور,module,Magento_Catalog
 "Hide from Product Page","إخفاء من صفحة المنتج",module,Magento_Catalog
 "Close panel","إغلاق اللوحة",module,Magento_Catalog
 "Product Alerts","تنبيهات المنتج",module,Magento_Catalog
+"Basic Settings","الإعدادات الأساسية",module,Magento_Catalog
+"Advanced Settings","الإعدادات المُتقدّمة",module,Magento_Catalog
+"Mass Actions","الإجراءات الجماعية",module,Magento_Catalog
 "Select All","اختيار الكل",module,Magento_Catalog
 "Unselect All","غير منتقي للجميع",module,Magento_Catalog
 "Select Visible","اختيار الظهور",module,Magento_Catalog
@@ -887,6 +926,7 @@ Prev,السابق,module,Magento_Catalog
 Next,التالي,module,Magento_Catalog
 "Add to Compare","إضافة إلى المقارنة",module,Magento_Catalog
 "Learn More","إعرف المزيد",module,Magento_Catalog
+"More Choices:","المزيد من الخيارات:",module,Magento_Catalog
 "Check items to add to the cart or","تفحص المنتجات للإضافة لسلة التسوق أو",module,Magento_Catalog
 "select all","اختار الجميع",module,Magento_Catalog
 "Items %1-%2 of %3","%1-%2 من %3 منتج",module,Magento_Catalog
@@ -899,6 +939,7 @@ Show,أعرض,module,Magento_Catalog
 "View as","مشاهدة كا",module,Magento_Catalog
 Loading...,تحميل...,module,Magento_Catalog
 "* Required Fields","* حقول مطلوبة",module,Magento_Catalog
+Availability,متوفر,module,Magento_Catalog
 "Terms and Conditions","الشروط والأحكام",module,Magento_CheckoutAgreements
 "Add New Condition","إضافة شرط جديد",module,Magento_CheckoutAgreements
 "Save Condition","حفظ الشرط",module,Magento_CheckoutAgreements
@@ -1710,10 +1751,14 @@ Preview,"اعادة المشاهدة",module,Magento_Newsletter
 "No Templates Found","لا يوجد قوالب",module,Magento_Newsletter
 ID,التعريف,module,Magento_Newsletter
 Template,قالب,module,Magento_Newsletter
+Added,"تمت الاضافه",module,Magento_Newsletter
 Updated,محدث,module,Magento_Newsletter
 Sender,المرسل,module,Magento_Newsletter
 "Template Type","نوع القالب",module,Magento_Newsletter
 Action,إجراء,module,Magento_Newsletter
+"We unsubscribed the people you identified.","تم إلغاء الاشتراكات التي قمت بتعريفها.",module,Magento_Newsletter
+"The problems you identified have been deleted.","تم حذف المشاكل التي قمت بتحديدها.",module,Magento_Newsletter
+"Newsletter Problems Report","تقارير مشاكل النشرة البريدية",module,Magento_Newsletter
 "Newsletter Problem Reports","تقارير مشاكل النشرة البريدية",module,Magento_Newsletter
 "Newsletter Queue","صف النشرة",module,Magento_Newsletter
 "Edit Queue","اضافة قالب",module,Magento_Newsletter
@@ -2646,12 +2691,49 @@ Themes,مواضيع,module,Magento_Theme
 "New Theme","واجهة جديدة",module,Magento_Theme
 "Theme CSS","قالب CSS",module,Magento_Theme
 "Custom CSS","CSS مخصص",module,Magento_Theme
+"Select CSS File to Upload","اختر ملف CSS لرفعه",module,Magento_Theme
 "Upload CSS File","رفع ملف CSS",module,Magento_Theme
+"Download CSS File","تحميل ملف CSS",module,Magento_Theme
 Manage,إدارة,module,Magento_Theme
 "Upload Images","رفع صور",module,Magento_Theme
+"Upload Fonts","رفع الخطوط",module,Magento_Theme
+"Edit custom.css","تحرير custom.css",module,Magento_Theme
+"Allowed file types *.css.","يسمح بالملفات بالامتداد *.css.",module,Magento_Theme
+"Max file size to upload %1M","الحد الأقصى لحجم الملف للرفع %1M",module,Magento_Theme
+"Something is wrong with the file upload settings.","هناك خطأ في إعدادات رفع الملف.",module,Magento_Theme
+"CSS Editor","محرر CSS",module,Magento_Theme
+"Theme Settings","إعدادات الثيم",module,Magento_Theme
+"Parent Theme","الثيم الأصل",module,Magento_Theme
+"Theme Path","مسار الثيم",module,Magento_Theme
+"Theme Title","عنوان الثيم",module,Magento_Theme
+"Theme Preview Image","صورة معاينة الثيم",module,Magento_Theme
 General,عام,module,Magento_Theme
 "Copy of %1","نسخة من %1",module,Magento_Theme
+"Max image size %1M","الحد الأقصى لحجم الصورة %1M",module,Magento_Theme
+"Theme JavaScript","الجافا سكريبت للثيم",module,Magento_Theme
+"Select JS Files to Upload","حدد ملفات الجافا سكربت لرفعها",module,Magento_Theme
+"Upload JS Files","رفع ملفات الجافا سكربت",module,Magento_Theme
+"JS Editor","محرر الجافا سكربت",module,Magento_Theme
+"Allowed file types *.js.","يسمح بالملفات بالامتداد *.js.",module,Magento_Theme
+Theme,الثيم,module,Magento_Theme
+"Media Storage","وسائط التخزين",module,Magento_Theme
+"Create Folder","إنشاء مجلد",module,Magento_Theme
+"Delete Folder","حذف مجلد",module,Magento_Theme
 "Delete File","حذف ملف",module,Magento_Theme
+"Insert File","إدراج ملف",module,Magento_Theme
+"New Folder Name:","اسم المجلد الجديد:",module,Magento_Theme
+"Are you sure you want to delete this folder?","هل أنت متأكد من أنك تريد حذف هذا المجلد؟",module,Magento_Theme
+"Are you sure you want to delete this file?","هل أنت متأكد من أنك تريد حذف هذا الملف؟",module,Magento_Theme
+"Storage Root","جذر التخزين",module,Magento_Theme
+"You deleted the theme.","قمت بحذف الثيم.",module,Magento_Theme
+"We cannot delete the theme.","لا يمكن حذف الثيم.",module,Magento_Theme
+"File not found: ""%1"".","لم يتم العثور على الملف: ""%1"".",module,Magento_Theme
+"We cannot find theme ""%1"".","لا يمكن العثور على الثيم ""%1"".",module,Magento_Theme
+"We cannot find the theme.","لا يمكن ايجاد الثيم.",module,Magento_Theme
+"You saved the theme.","تم حفظ الثيم.",module,Magento_Theme
+"We cannot find a theme with id ""%1"".","لا يمكن العثور على الثيم مع معرف ""%1"".",module,Magento_Theme
+"Invalid regular expression: ""%1"".","تعبير عادي غير صحيح: ""%1"".",module,Magento_Theme
+label,التسمية,module,Magento_Theme
 "-- Please Select --","--الرجاء الاختيار-",module,Magento_Theme
 Copy,انسخ,module,Magento_Theme
 Remove,ازالة,module,Magento_Theme
@@ -2866,6 +2948,7 @@ None,"لا شئ",module,Magento_Usps
 "Requested service is not available: ""%1""","طلب خدمة غير متوفرة: ""%1""",module,Magento_Webapi
 "Operation ""%1"" not found.","عملية ""%1"" لم يتم العثور على.",module,Magento_Webapi
 "Invalid XML","XML غير صالح",module,Magento_Webapi
+"Invalid XML: Detected use of illegal DOCTYPE","XML غير صالح: تم استخدام DOCTYPE غير صحيحة",module,Magento_Webapi
 "Add Tax","إضافة ضريبة",module,Magento_Weee
 "Delete Tax","حذف الضرائب",module,Magento_Weee
 "All Websites","جميع المواقع",module,Magento_Weee
@@ -2983,9 +3066,14 @@ Total:,الإجمالي:,module,Magento_Checkout
 "Add Products to Option ""%1""","إضافة المنتجات إلى الخيار ""%1""",module,Magento_Bundle
 "Add Selected Products","إضافة منتجات مختارة",module,Magento_Bundle
 Cancel,إلغاء,module,Magento_Catalog
+"Configure Product","إعدادات المنتج",module,Magento_Catalog
+OK,موافق,module,Magento_Catalog
+"Select type of option.","حدد نوع الخيار.",module,Magento_Catalog
+"Please add rows to option.","الرجاء إضافة صفوف إلى الخيار.",module,Magento_Catalog
 "New Option","خيار جديد",module,Magento_Catalog
 "Select Product","حدد المنتج",module,Magento_Catalog
 "Please select items.","يرجى تحديد الأصناف.",module,Magento_Catalog
+"Choose existing category.","اختر تصنيف موجود.",module,Magento_Catalog
 "Create Category","إنشاء قسم جديد",module,Magento_Catalog
 "unselect all","إلغاء تحديد الكل",module,Magento_Catalog
 "Incl. Tax","شامل الضريبة",module,Magento_ConfigurableProduct
@@ -3212,12 +3300,20 @@ Forms,النماذج,module,Magento_Captcha
 Inventory,المخزون,module,Magento_CatalogInventory
 "Stock Options","خيارات المخزون",module,Magento_CatalogInventory
 "Decrease Stock When Order is Placed","ازل من المخزون عند استلام الطلب الجديد",module,Magento_CatalogInventory
+"Set Items' Status to be In Stock When Order is Cancelled","ضع العناصر في حالة مخزون عندما يتم إلغاء الطلب",module,Magento_CatalogInventory
 "Display Out of Stock Products","عرض المنتجات الغير متوفرة بالمخزن",module,Magento_CatalogInventory
+"Products will still be shown by direct product URLs.","سوف يستمر عرض المنتجات بالرابط المباشر URL للمنتج.",module,Magento_CatalogInventory
+"Only X left Threshold","المتبقي فقط هو الحد",module,Magento_CatalogInventory
 "Display products availability in stock on Storefront.","عرض إتاحة المنتجات في مخزن المتجر على واجهة المتجر.",module,Magento_CatalogInventory
+"Product Stock Options","خيارات المنتج المخزون",module,Magento_CatalogInventory
+"Manage Stock","إدارة المخزون",module,Magento_CatalogInventory
 Backorders,"طلبات لمنتجات غير متوفرة",module,Magento_CatalogInventory
 "Maximum Qty Allowed in Shopping Cart","الكمية القصوى المسموح بها في سلة التسوق",module,Magento_CatalogInventory
 "Minimum Qty Allowed in Shopping Cart","الكمية الدنيا المسموح بها في سلة التسوق",module,Magento_CatalogInventory
 "Notify for Quantity Below","اخطار لكمية ادناه",module,Magento_CatalogInventory
+"Automatically Return Credit Memo Item to Stock","إعادة مذكرة بطاقة الائتمان تلقائياً المخزن",module,Magento_CatalogInventory
+"Enable Qty Increments","تمكين زيادة الكميات",module,Magento_CatalogInventory
+"Qty Increments","زيادة الكميات",module,Magento_CatalogInventory
 Rule,قاعدة,module,Magento_CatalogRule
 "Web Site",موقع,module,Magento_CatalogRule
 "Popular Search Terms","كلمات البحث الشائعة",module,Magento_CatalogSearch
@@ -3225,22 +3321,88 @@ Rule,قاعدة,module,Magento_CatalogRule
 "Minimal Query Length","طول الحد الأدنى للاستعلام",module,Magento_CatalogSearch
 "Maximum Query Length","طول الحد الأقصى للاستعلام",module,Magento_CatalogSearch
 "Rebuild Catalog product fulltext search index","إعادة إنشاء فهرس البحث عن النص الكامل لدليل المنتج",module,Magento_CatalogSearch
+"Product Fields Auto-Generation","حقول المنتج الإنشاء التلقائي",module,Magento_Catalog
+"Mask for SKU","قناع لوحدة SKU",module,Magento_Catalog
+"Use {{name}} as Product Name placeholder","استخدام {{name}} كبديل ""اسم المنتج""",module,Magento_Catalog
+"Mask for Meta Title","قناع للعنوان الوصفي",module,Magento_Catalog
+"Mask for Meta Keywords","قناع لميتا الكلمات الرئيسية",module,Magento_Catalog
+"Use {{name}} as Product Name or {{sku}} as Product SKU placeholders","استخدام {{name}} ""اسم المنتج"" أو {{sku}} كعناصر بديلة ""SKU المنتج""",module,Magento_Catalog
+"Mask for Meta Description","قناع لوصف ميتا",module,Magento_Catalog
+"Use {{name}} and {{description}} as Product Name and Product Description placeholders","استخدام {{name}} و {{description}} كعناصر بديلة لاسم المنتج ووصف المنتج",module,Magento_Catalog
+Storefront,"واجهة المتجر",module,Magento_Catalog
 "List Mode","وضع القائمة",module,Magento_Catalog
+"Products per Page on Grid Allowed Values","منتجات لكل صفحة على شبكة القيم المسموح بها",module,Magento_Catalog
+Comma-separated.,"مفصولة بفواصل.",module,Magento_Catalog
+"Products per Page on Grid Default Value","منتجات لكل صفحة على شبكة القيمة الافتراضية",module,Magento_Catalog
+"Must be in the allowed values list","يجب أن يكون في قائمة القيم المسموح بها",module,Magento_Catalog
+"Products per Page on List Allowed Values","منتجات لكل صفحة على قائمة القيم المسموح بها",module,Magento_Catalog
+"Products per Page on List Default Value","منتجات لكل صفحة في قائمة القيمة الافتراضية",module,Magento_Catalog
+"Use Flat Catalog Category","استخدم فئة كتالوج مسطح",module,Magento_Catalog
 "Use Flat Catalog Product","إستخدام Flat Catalog Product",module,Magento_Catalog
 "Product Listing Sort by","ترتيب المنتجات حسب",module,Magento_Catalog
+"Allow All Products per Page","السماح لجميع المنتجات في كل صفحة",module,Magento_Catalog
+"Whether to show ""All"" option in the ""Show X Per Page"" dropdown","ما إذا كان سيتم إظهار خيار ""الكل"" في القائمة المنسدلة ""إظهار X لكل صفحة""",module,Magento_Catalog
+"Allow Dynamic Media URLs in Products and Categories","السماح بعناوين Url الوسائط الديناميكية في المنتجات والتصنيفات",module,Magento_Catalog
+"E.g. {{media url=""path/to/image.jpg""}} {{skin url=""path/to/picture.gif""}}. Dynamic directives parsing impacts catalog performance.","مثل {{url=""path/to/image.jpg وسائل الإعلام""}} {{الجلد url=""path/to/picture.gif""}}. كتالوج ديناميكية التوجيهات المتعلقة بتحليل آثار الأداء.",module,Magento_Catalog
 "Product Image Placeholders","صورة المنتج placeholders",module,Magento_Catalog
+"Search Engine Optimization","تحسين محركات البحث",module,Magento_Catalog
 "Page Title Separator","فاصل عنوان الصفحة",module,Magento_Catalog
+"Use Canonical Link Meta Tag For Categories","استخدم علامة Meta طبقا للارتباط الكنسي للفئات",module,Magento_Catalog
+"Use Canonical Link Meta Tag For Products","استخدم علامة Meta طبقا للارتباط الكنسي للمنتجات",module,Magento_Catalog
 "Catalog Price Scope","نطاق اسعار دليل المنتجات",module,Magento_Catalog
+"This defines the base currency scope (""Currency Setup"" > ""Currency Options"" > ""Base Currency"").","هذا يحدد نطاق العملة الأساسية (إعداد ""العملة"" > ""خيارات العملة"" > ""العملة الأساسية"").",module,Magento_Catalog
+"Category Top Navigation","أعلى إنتقال للفئة",module,Magento_Catalog
+"Maximal Depth","أقصى عمق",module,Magento_Catalog
+"Date & Time Custom Options","خيارات مخصصة للتاريخ & الوقت",module,Magento_Catalog
+"Use JavaScript Calendar","استخدام تقويم جافا سكريبت",module,Magento_Catalog
 "Date Fields Order","ترتيب حقول التاريخ",module,Magento_Catalog
+"Time Format","تنسيق الوقت",module,Magento_Catalog
+"Year Range","نطاق السنة",module,Magento_Catalog
+"Please use a four-digit year format.","يرجى استخدام تنسيق أربعة أرقام للسنة.",module,Magento_Catalog
 "Product Image Watermarks","صورة المنتج ماءيه",module,Magento_Catalog
 "Watermark Default Size","الحجم الافتراضي للعلامة المائية",module,Magento_Catalog
 "Watermark Opacity, Percent","العلامة المائية غير شفافة, بنسبة",module,Magento_Catalog
 Watermark,"علامة مائية",module,Magento_Catalog
 "Watermark Position","مكان العلامة المائية",module,Magento_Catalog
+"Use Static URLs for Media Content in WYSIWYG for Catalog","استخدام عناوين ثابتة لمحتوى الوسائط في WYSIWYG للكتالوج",module,Magento_Catalog
+"This applies only to catalog products and categories. Media content will be inserted into the editor as a static URL. Media content is not updated if the system configuration base URL changes.","وهذا ينطبق فقط على كتالوج المنتجات والفئات. سيتم إدراج المحتوى الإعلامي المحرر كعنوان ثابت. لا يتم تحديث محتوى الوسائط في حالة تغير عناوين URL للنظام الأساسي.",module,Magento_Catalog
+"Product Flat Data","البيانات المسطحة للمنتجات",module,Magento_Catalog
+"Reorganize EAV product structure to flat structure","إعادة تنظيم هيكل المنتجات EAV إلى بنية مسطحة",module,Magento_Catalog
+"Category Flat Data","بيانات مسطحة للفئات",module,Magento_Catalog
+"Reorganize EAV category structure to flat structure","إعادة تنظيم هيكل الفئات EAV لفئة هيكل مسطح",module,Magento_Catalog
+"Indexed category/products association","رابطة فهرسة الفئة/المنتجات",module,Magento_Catalog
 "Product Categories","فئات المنتج",module,Magento_Catalog
+"Indexed product/categories association","رابطة فهرسة المنتج/الفئات",module,Magento_Catalog
+"Product Price","سعر المنتج",module,Magento_Catalog
+"Index product prices","مؤشر أسعار المنتج",module,Magento_Catalog
+"Catalog New Products List","قائمة المنتجات الجديدة في كتالوج",module,Magento_Catalog
+"List of Products that are set as New","قائمة بالمنتجات التي تم تعيينها كالجديدة",module,Magento_Catalog
+"Display Type","نوع العرض",module,Magento_Catalog
+"All products - recently added products, New products - products marked as new","جميع المنتجات-منتجات أضيفت مؤخرا ، والمنتجات الجديدة-المنتجات التي تم وضع علامة جديدة",module,Magento_Catalog
+"All products","جميع المنتجات",module,Magento_Catalog
+"New products","المنتجات الجديدة",module,Magento_Catalog
+"Display Page Control","عرض عنصر التحكم في الصفحة",module,Magento_Catalog
 "Number of Products per Page","عدد المنتجات في الصفحة",module,Magento_Catalog
+"Number of Products to Display","عدد المنتجات للعرض",module,Magento_Catalog
 Template,قالب,module,Magento_Catalog
+"New Products Grid Template","المنتجات الجديدة قالب الشبكة",module,Magento_Catalog
+"New Products List Template","المنتجات الجديدة قالب القائمة",module,Magento_Catalog
+"New Products Images and Names Template","قالب أسماء وصور منتجات جديدة",module,Magento_Catalog
+"New Products Names Only Template","قالب أسماء المنتجات الجديدة فقط",module,Magento_Catalog
+"New Products Images Only Template","قالب لصور المنتجات الجديدة فقط",module,Magento_Catalog
+"Cache Lifetime (Seconds)","عمر ذاكرة التخزين المؤقت (بالثواني)",module,Magento_Catalog
+"86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","86400 إفتراضيا إذا لم يتم الضبط. للتحديث الفوري، قم بمسح كتل HTML من خرج ذاكرة التخزين المؤقت.",module,Magento_Catalog
+"Catalog Product Link","رابط كتالوج المنتج",module,Magento_Catalog
+"Link to a Specified Product","إرتباط بمنتج محدد",module,Magento_Catalog
+"Anchor Custom Text","نص مرساة مخصص",module,Magento_Catalog
+"Anchor Custom Title","عنوان مرساة مخصص",module,Magento_Catalog
+"Product Link Block Template","كتلة قالب رابط المنتج",module,Magento_Catalog
+"Product Link Inline Template","قالب منسق لرابط المنتج",module,Magento_Catalog
+"Catalog Category Link","رابط كتالوج الفئة",module,Magento_Catalog
+"Category Link Inline Template","رابط قالب الفئة مضمن",module,Magento_Catalog
+Set,ضبط,module,Magento_Catalog
 "Change status","تغيير الحالة",module,Magento_Catalog
+none,"لا شيء",module,Magento_Catalog
 Overview,"نظره عامة",module,Magento_Catalog
 Details,التفاصيل,module,Magento_Catalog
 "Enable Terms and Conditions","تمكين الشروط والأحكام",module,Magento_CheckoutAgreements
@@ -3611,15 +3773,32 @@ Layouts,"أشكال الصفحة",module,Magento_Store
 State/Region,ولاية/منطقة,module,Magento_Tax
 "Subtotal Only","الإجمالي فقط",module,Magento_Tax
 Empty,فارغ,module,Magento_Theme
+"Favicon Icon","رمز الأيقونة",module,Magento_Theme
 "Allowed file types: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Not all browsers support all these formats!","السماح لأنواع الملفات: ICO،PNG، GIF، JPG، JPEG، APNG، SVG. ليس كل المتصفحات تدعم جميع هذه الصيغ!",module,Magento_Theme
+"Default Title","العنوان الافتراضي",module,Magento_Theme
+"Title Prefix","عنوان البادئة",module,Magento_Theme
+"Title Suffix","عنوان اللاحقة",module,Magento_Theme
 "Default Description","الوصف الاعتيادى",module,Magento_Theme
+"Default Keywords","الكلمات الأساسية الافتراضية",module,Magento_Theme
 "Miscellaneous Scripts","سكربتات متنوعة",module,Magento_Theme
+"Display Demo Store Notice","إشعار عرض المتجر التجريبي",module,Magento_Theme
+Header,الترويسة,module,Magento_Theme
+"Logo Image","صورة الشعار",module,Magento_Theme
+"Logo Image Alt","Alt صورة الشعار",module,Magento_Theme
+"Welcome Text","نص الترحيب",module,Magento_Theme
 Footer,"ذيل الصفحة",module,Magento_Theme
+Copyright,"حقوق الطبع والنشر",module,Magento_Theme
+"Miscellaneous HTML","HTML المتنوعة",module,Magento_Theme
 "This will be displayed just before body closing tag.","هذا سيتم عرضه فقط قبل علامة إغلاق الجسم.",module,Magento_Theme
 "Default welcome msg!","رسالة الترحيب الافتراضية!",module,Magento_Theme
+"2 columns with left bar","2 عمود مع الشريط الأيسر",module,Magento_Theme
+"2 columns with right bar","2 عمود مع الشريط الأيمن",module,Magento_Theme
+"3 columns","3 أعمدة",module,Magento_Theme
 "Translation Strategy","استراتيجية الترجمة",module,Magento_Translation
 Translations,ترجمات,module,Magento_Translation
 "Translation files.","ملفات الترجمة.",module,Magento_Translation
+"Log JS Errors to Session Storage","سجل الأخطاء لجافا سكريبت لتخزين جلسة العمل",module,Magento_Ui
+"Log JS Errors to Session Storage Key","سجل الأخطاء لجافا سكريبت لمفتاح تخزين جلسة العمل",module,Magento_Ui
 Container,حاوية,module,Magento_Ups
 "Gateway URL","رابط البوابة",module,Magento_Ups
 "Gateway XML URL","بوابة XML الموقع",module,Magento_Ups
@@ -3665,6 +3844,11 @@ Machinable,"مفهوم من قبل الإله",module,Magento_Usps
 "Displayed Error Message","رسالة الخطأ المعروضة",module,Magento_Usps
 Debug,نقح,module,Magento_Usps
 "Sort Order",الترتيب,module,Magento_Usps
+"Magento Web API","API ماجينتو ويب",module,Magento_Webapi
+"SOAP Settings","إعدادات SOAP",module,Magento_Webapi
+"Default Response Charset","أحرف الاستجابة الافتراضية",module,Magento_Webapi
+"If empty, UTF-8 will be used.","إذا كان فارغاً، سيتم استخدام ترميز UTF-8.",module,Magento_Webapi
+"Web Services Configuration","إعدادت خدمات الويب",module,Magento_Webapi
 "REST and SOAP configurations, generated WSDL file.","إعدادات REST و SOAP، أنشأت ملف WSDL.",module,Magento_Webapi
 "Enable FPT","تمكين FPT",module,Magento_Weee
 "Widget ID","معرف المربع الجانبي",module,Magento_Widget
