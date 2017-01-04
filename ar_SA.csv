@@ -672,6 +672,10 @@ Qty,الكميّة,module,Magento_CatalogInventory
 Actions,اعمال,module,Magento_CatalogRule
 "Pricing Structure Rules","قواعد هيكل التسعير",module,Magento_CatalogRule
 Apply,تطبيق,module,Magento_CatalogRule
+"Apply as percentage of original","تطبيق كنسبة مئوية من الأصل",module,Magento_CatalogRule
+"Apply as fixed amount","تطبيق كمبلغ ثابت",module,Magento_CatalogRule
+"Adjust final price to this percentage","أضبط الأسعار النهائية على هذه النسبة المئوية",module,Magento_CatalogRule
+"Adjust final price to discount value","أضبط الأسعار النهائية إلى قيمة الخصم",module,Magento_CatalogRule
 "Discount Amount","تخفيض الكمية",module,Magento_CatalogRule
 "Subproduct discounts","خصومات المنتجات الثانوية",module,Magento_CatalogRule
 No,لا,module,Magento_CatalogRule
@@ -695,6 +699,7 @@ Type,النوع,module,Magento_CatalogRule
 "Attribute Set","مجموعة السمة",module,Magento_CatalogRule
 Product,المنتج,module,Magento_CatalogRule
 Promotions,الترقيات,module,Magento_CatalogRule
+"We found updated rules that are not applied. Please click ""Apply Rules"" to update your catalog.","ووجدنا تحديث للقواعد التي لم يتم تطبيقها. الرجاء النقر فوق ""تطبيق القواعد"" لتحديث الكتالوج.",module,Magento_CatalogRule
 "We can't apply the rules.","لا يمكن تطبيق هذه القواعد.",module,Magento_CatalogRule
 "You deleted the rule.","قمت بحذف القاعدة.",module,Magento_CatalogRule
 "We can't delete this rule right now. Please review the log and try again.","لا يمكن حذف هذه القاعدة الآن. الرجاء مراجعة السجل وحاول مرة أخرى.",module,Magento_CatalogRule
@@ -704,8 +709,14 @@ Promotions,الترقيات,module,Magento_CatalogRule
 "Edit Rule","تحرير قاعدة",module,Magento_CatalogRule
 Catalog,"دليل المنتجات",module,Magento_CatalogRule
 "Wrong rule specified.","قاعدة محددة خاطئة.",module,Magento_CatalogRule
+"You saved the rule.","تم حفظ القاعدة.",module,Magento_CatalogRule
+"Something went wrong while saving the rule data. Please review the error log.","حدث خطأ أثناء حفظ قاعدة البيانات. الرجاء مراجعة سجل الأخطاء.",module,Magento_CatalogRule
 Promo,الترويج,module,Magento_CatalogRule
+"Could not rebuild index for empty products array","لا يمكن إعادة إنشاء الفهرس لمجموعة منتجات فارغة",module,Magento_CatalogRule
 "We can't rebuild the index for an undefined product.","لا يمكن إعادة إنشاء الفهرس لمنتج غير معروف.",module,Magento_CatalogRule
+"Percentage discount should be between 0 and 100.","يجب أن تكون نسبة الخصم المئوية بين 0 و 100.",module,Magento_CatalogRule
+"Discount value should be 0 or greater.","يجب أن تكون قيمة الخصم 0 أو أكبر.",module,Magento_CatalogRule
+"Unknown action.","إجراء غير معروف.",module,Magento_CatalogRule
 "Update the Product","تحديث المنتج",module,Magento_CatalogRule
 "Rule price","السعر الاساسى",module,Magento_CatalogRule
 "To Fixed Value","الى قيمة ثابته",module,Magento_CatalogRule
@@ -714,6 +725,8 @@ Promo,الترويج,module,Magento_CatalogRule
 "By Percentage","بنسبة مؤية",module,Magento_CatalogRule
 "Conditions Combination","الجمع بين الشروط",module,Magento_CatalogRule
 "Product Attribute","سمة المنتج",module,Magento_CatalogRule
+"Updated rules applied.","تم تطبيق القواعد المحدثة.",module,Magento_CatalogRule
+"You disabled %1 Catalog Price Rules based on ""%2"" attribute.","قمت بتعطيل %1 ""من قواعد سعر الكتالوج"" استناداً إلى الخاصية ""%2"".",module,Magento_CatalogRule
 Home,"الصفحة الرئيسية",module,Magento_CatalogSearch
 "Go to Home Page","الانتقال إلى الصفحة الرئيسية",module,Magento_CatalogSearch
 "Catalog Advanced Search","بحث متقدم فى الكتالوج",module,Magento_CatalogSearch
@@ -1500,15 +1513,20 @@ Pages,الصفحات,module,Magento_Cms
 "Disabled Completely","تعطيل بالكامل",module,Magento_Cms
 "We can't upload the file right now.","لا يمكن تحميل الملف الآن.",module,Magento_Cms
 "We can't delete root directory %1 right now.","ونحن لا يمكن حذف جذر الدليل %1 الآن.",module,Magento_Cms
+LocalizedException,"إستثناء المحليات",module,Magento_Cms
+RuntimeException,"إستثناء وقت التشغيل",module,Magento_Cms
+Exception,استثناء,module,Magento_Cms
 "Could not create directory.","تعذر إنشاء الدليل.",module,Magento_Cms
 "All Store Views","واجهه جميع المواقع",module,Magento_Cms
 Edit,تحرير,module,Magento_Cms
 Delete,احذف,module,Magento_Cms
 "Are you sure you wan't to delete a ${ $.$data.title } record?","هل أنت متأكد انك تريد حذف سجل ${ $.$data.title } ؟",module,Magento_Cms
 Details,التفاصيل,module,Magento_Cms
+px.,بكسل.,module,Magento_Cms
 "No files found","لم يتم العثور على الملفات",module,Magento_Cms
 "Browse Files...","استعراض ملفات...",module,Magento_Cms
 "Collapse All","طوي الكل",module,Magento_Cms
+"Expand All","عرض الكل",module,Magento_Cms
 "Default Config","التكوين الافتراضي",module,Magento_Config
 "Save Config","حفظ التشكيل",module,Magento_Config
 [GLOBAL],[عام],module,Magento_Config
@@ -1561,6 +1579,7 @@ Stores,محلات,module,Magento_Config
 "Choose existing Attribute Set","اختر ""تعيين السمة"" الحالية",module,Magento_ConfigurableProduct
 Configurations,الضبط,module,Magento_ConfigurableProduct
 "Attribute Values","قيم السمات",module,Magento_ConfigurableProduct
+"Bulk Images &amp; Price","مجموعة الصور و الأسعار",module,Magento_ConfigurableProduct
 "Create New Attribute","انشاء سمة جديدة",module,Magento_ConfigurableProduct
 "Select Attributes","اختر السمات",module,Magento_ConfigurableProduct
 Summary,خلاصة,module,Magento_ConfigurableProduct
@@ -1570,21 +1589,32 @@ Summary,خلاصة,module,Magento_ConfigurableProduct
 "Product with specified sku: %1 is not a configurable product","المنتج مع الـ sku المحدد: %1 غير قابل للتخصيص",module,Magento_ConfigurableProduct
 "Requested option doesn't exist","الخيار المطلوب غير موجود",module,Magento_ConfigurableProduct
 "Requested option doesn't exist: %1","طلب الخيار غير موجود: %1",module,Magento_ConfigurableProduct
+"Cannot delete variations from product: %1","لا يمكن حذف التنويعات من المنتج: %1",module,Magento_ConfigurableProduct
 "Cannot delete option with id: %1","لا يمكن حذف الخيار مع معرف %1",module,Magento_ConfigurableProduct
+"Option with id ""%1"" not found","لم يتم العثور على الخيار بالمعرف ""%1""",module,Magento_ConfigurableProduct
 "Could not update option with id ""%1""","تعذر تحديث الخيار مع معرف رقم ""%1""",module,Magento_ConfigurableProduct
 "Product already has this option","المنتج يحتوي بالفعل على هذا الخيار",module,Magento_ConfigurableProduct
+"Something went wrong while saving option.","حدث خطأ أثناء حفظ الخيار.",module,Magento_ConfigurableProduct
 "Only implemented for configurable product: %1","يتسخدم فقط للمنتجات القابلة للتخصيص: %1",module,Magento_ConfigurableProduct
+"Option attribute ID is not specified.","لم يتم تحديد تفاصيل معرف الخيار.",module,Magento_ConfigurableProduct
+"Option label is not specified.","لم يتم تحديد بطاقة الخيار.",module,Magento_ConfigurableProduct
+"Option values are not specified.","لم يتم تحديد قيم الخيار.",module,Magento_ConfigurableProduct
+"Value index is not specified for an option.","لم يتم تحديد قيمة الفهرس للخيار.",module,Magento_ConfigurableProduct
 "The configurable product does not have any variation attribute.","المنتج القابل للتخصيص ليس لديه أي سمات مختلفة.",module,Magento_ConfigurableProduct
 "Product with id ""%1"" does not exist.","المنتج مع معرف رقم ""%1"" غير موجود.",module,Magento_ConfigurableProduct
+"Product with id ""%1"" does not contain required attribute ""%2"".","معرف المنتج ""%1"" لا يحتوي على التفاصيل المطلوبة ""%2"".",module,Magento_ConfigurableProduct
 "Products ""%1"" and %2 have the same set of attribute values.","منتجات ""%1"" و %2 لديها نفس مجموعة السمات.",module,Magento_ConfigurableProduct
 "You can't add the item to shopping cart.","لا يمكنك إضافة ها البند إلى عربة التسوق.",module,Magento_ConfigurableProduct
 "You need to choose options for your item.","انت بحاجة لاختيار خيارات للبند الخاص بك.",module,Magento_ConfigurableProduct
+"Some product variations fields are not valid.","بعض حقول متغيرات المنتج غير صحيحة.",module,Magento_ConfigurableProduct
+"Configuration must have specified attributes","يجب أن يحتوي التكوين على خصائص محددة",module,Magento_ConfigurableProduct
 "Configurable product ""%1"" do not have sub-products","المنتج القابل للتخصيص ""%1"" ليس لديه منتجات فرعية",module,Magento_ConfigurableProduct
 "This group contains attributes used in configurable products. Please move these attributes to another group and try again.","تحتوي هذه المجموعة على السمات المستخدمة في المنتجات القابلة للتخصيص. الرجاء نقل هذه السمات إلى مجموعة أخرى، وحاول مرة أخرى.",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products. You cannot remove it from the attribute set.","هذه السمة مستخدمة بالفعل في منتجات قابلة للتخصيص. لا يمكن إزالته من مجموعة السمات.",module,Magento_ConfigurableProduct
 "Associated Products","المنتجات المرتبطه بها",module,Magento_ConfigurableProduct
 "Step 2: Attribute Values","الخطوة 2: قيم السمة",module,Magento_ConfigurableProduct
 "Select values from each attribute to include in this product. Each unique combination of values creates a unigue product SKU.","حدد القيم من كل سمة لتدرج في هذا المنتج. كل تركيبة فريدة من نوعها للقيم تنشئ SKU للمنتج.",module,Magento_ConfigurableProduct
+"Sort Variations","فرز المتغيرات",module,Magento_ConfigurableProduct
 Options,الخيارات,module,Magento_ConfigurableProduct
 "Select All","اختيار الكل",module,Magento_ConfigurableProduct
 "Deselect All","إلغاء تحديد الكل",module,Magento_ConfigurableProduct
@@ -1596,7 +1626,11 @@ Options,الخيارات,module,Magento_ConfigurableProduct
 "Based on your selections <span class=""new-products-count"" data-bind=""text:countVariations""></span>
         new products will be created. Use this step to customize images and price for your new products.","استناداً إلى التحديدات <span class=""new-products-count"" data-bind=""text:countVariations""></span> سيتم إنشاء منتجات جديدة. استخدم هذه الخطوة لتخصيص الصور والأسعار للمنتجات الجديدة الخاصة بك.",module,Magento_ConfigurableProduct
 Images,صور,module,Magento_ConfigurableProduct
+"Apply single set of images to all SKUs","تطبيق مجموعة واحدة من الصور على كافة وحدات SKU",module,Magento_ConfigurableProduct
+"Apply unique images by attribute to each SKU","تطبيق أسعار فريدة من نوعها بالسمة لكل SKU",module,Magento_ConfigurableProduct
+"Skip image uploading at this time","تخطي تحميل الصورة في هذا الوقت",module,Magento_ConfigurableProduct
 "Browse Files...","استعراض ملفات...",module,Magento_ConfigurableProduct
+"Browse to find or drag image here","استعرض للبحث أو اسحب الصورة هنا",module,Magento_ConfigurableProduct
 "Remove image","إزالة الصورة",module,Magento_ConfigurableProduct
 "Edit role","تحرير الدور",module,Magento_ConfigurableProduct
 Hidden,مخفي,module,Magento_ConfigurableProduct
@@ -1627,8 +1661,13 @@ Image,صورة,module,Magento_ConfigurableProduct
 Name,اسم,module,Magento_ConfigurableProduct
 Weight,الوزن,module,Magento_ConfigurableProduct
 Actions,اعمال,module,Magento_ConfigurableProduct
+"Upload Image","تحميل صورة",module,Magento_ConfigurableProduct
+"Upload image","تحميل صورة",module,Magento_ConfigurableProduct
+"No Image","لا توجد صورة",module,Magento_ConfigurableProduct
+"Choose a different Product","اختر منتج مختلف",module,Magento_ConfigurableProduct
 "Remove Product","إزالة منتج",module,Magento_ConfigurableProduct
 "Create Product Configurations","تخصيص جديد لمنتج",module,Magento_ConfigurableProduct
+"Choose Affected Attribute Set","اختر مجموعة الخصائص المتأثرة",module,Magento_ConfigurableProduct
 Confirm,تأكيد,module,Magento_ConfigurableProduct
 Cancel,إلغاء,module,Magento_ConfigurableProduct
 "Page not found.","لم يتم العثور على الصفحة.",module,Magento_Contact
@@ -1663,9 +1702,12 @@ Import,استيراد,module,Magento_CurrencySymbol
 "Use Standard","استخدام معيار",module,Magento_CurrencySymbol
 "Please specify a correct Import Service.","الرجاء تحديد ""خدمة الاستيراد"" الصحيحة.",module,Magento_CurrencySymbol
 "We can't initialize the import model.","لا يمكن تهيئة نموذج الاستيراد.",module,Magento_CurrencySymbol
+"Click ""Save"" to apply the rates we found.","انقر فوق ""حفظ"" لتطبيق المعدلات التي وجدناها.",module,Magento_CurrencySymbol
 "Currency Rates","أسعار العملات",module,Magento_CurrencySymbol
 "Please correct the input data for %1 => %2 rate","الرجاء تصحيح البيانات المدخلة ل %1 => معدل %2",module,Magento_CurrencySymbol
+"All valid rates have been saved.","تم حفظ كل الأسعار الصحيحة.",module,Magento_CurrencySymbol
 System,النظام,module,Magento_CurrencySymbol
+"You applied the custom currency symbols.","قمت بتطبيق رموز العملة المخصصة.",module,Magento_CurrencySymbol
 "Old rate:","معدل العمر:",module,Magento_CurrencySymbol
 "Please specify a website.","الرجاء تحديد الموقع على شبكة الإنترنت.",module,Magento_CustomerImportExport
 "Please specify an email.","الرجاء تحديد بريد الكتروني.",module,Magento_CustomerImportExport
@@ -4331,14 +4373,20 @@ OK,موافق,module,Magento_Catalog
 "Create Category","إنشاء قسم جديد",module,Magento_Catalog
 "Image Detail","تفاصيل الصورة",module,Magento_Catalog
 "unselect all","إلغاء تحديد الكل",module,Magento_Catalog
+"We could not detect a size.","تعذر الكشف عن الحجم.",module,Magento_Cms
 "Incl. Tax","شامل الضريبة",module,Magento_ConfigurableProduct
+"Select Associated Product","إختر المنتج المرتبط بها",module,Magento_ConfigurableProduct
 Done,انتهى,module,Magento_ConfigurableProduct
+"For better results, add attributes and attribute values to your products.","للحصول على أفضل النتائج، أضف سمات وقيم سمة للمنتجات الخاصة بك.",module,Magento_ConfigurableProduct
+"An attribute has been removed. This attribute will no longer appear in your configurations.","لقد تمت إزالة الخصائص. لن تعد تظهر هذه الخصائص في التكوينات الخاصة بك.",module,Magento_ConfigurableProduct
 "Select options for all attributes or remove unused attributes.","حدد الخيارات لكافة السمات أو ازل السمات الغير المستخدمة.",module,Magento_ConfigurableProduct
 "Please, fill correct values","يرجى ملء القيم الصحيحة",module,Magento_ConfigurableProduct
 "Please, select image(s) for your attribute","الرجاء تحديد صور أو صورة للسمة الخاصة بك",module,Magento_ConfigurableProduct
 "Please choose image(s)","الرجاء اختيار صور أو صورة",module,Magento_ConfigurableProduct
+"We could not detect a size.","تعذر الكشف عن الحجم.",module,Magento_ConfigurableProduct
 "We don't recognize or support this file extension type.","لم نتعرف او ندعم إمتداد هذا الملف.",module,Magento_ConfigurableProduct
 "Please, select attribute(s)","من فضلك، حدد سمة (سمات)",module,Magento_ConfigurableProduct
+"Generate Products","إنشاء منتجات",module,Magento_ConfigurableProduct
 "Are you sure you want to do this?","هل أنت متأكد أنك تريد فعل ذلك؟",module,Magento_Customer
 "Are you sure you want to delete this address?","هل أنت متأكد أنك تريد حذف هذا العنوان؟",module,Magento_Customer
 "Add Products to Group","إضافة المنتجات للمجموعة",module,Magento_GroupedProduct
@@ -4633,6 +4681,10 @@ Backorders,"طلبات لمنتجات غير متوفرة",module,Magento_Catalo
 Stock,المخزون,module,Magento_CatalogInventory
 "Index stock","مؤشر المخزون",module,Magento_CatalogInventory
 Quantity,الكمية,module,Magento_CatalogInventory
+"Catalog Rule Product","كتالوج منتج القاعدة",module,Magento_CatalogRule
+"Indexed rule/product association","رابطة القاعدة / المنتج المفهرسة",module,Magento_CatalogRule
+"Catalog Product Rule","كتالوج قاعدة المنتج",module,Magento_CatalogRule
+"Indexed product/rule association","رابطة المنتج/القاعدة المفهرسة",module,Magento_CatalogRule
 Rule,قاعدة,module,Magento_CatalogRule
 Start,ابدء,module,Magento_CatalogRule
 End,نهاية,module,Magento_CatalogRule
@@ -4745,7 +4797,10 @@ Template,قالب,module,Magento_Catalog
 "Product Link Block Template","كتلة قالب رابط المنتج",module,Magento_Catalog
 "Product Link Inline Template","قالب منسق لرابط المنتج",module,Magento_Catalog
 "Catalog Category Link","رابط كتالوج الفئة",module,Magento_Catalog
+"Link to a Specified Category","ارتبط إلى فئة محددة",module,Magento_Catalog
 "Select Category...","اختر قسم...",module,Magento_Catalog
+"If empty, we'll use the category name here.","إذا كان فارغاً، سوف نستخدم اسم الفئة هنا.",module,Magento_Catalog
+"Category Link Block Template","فئة الرابط كتلة القالب",module,Magento_Catalog
 "Category Link Inline Template","رابط قالب الفئة مضمن",module,Magento_Catalog
 Set,ضبط,module,Magento_Catalog
 "All Store Views","واجهه جميع المواقع",module,Magento_Catalog
@@ -4792,8 +4847,26 @@ Payment,الدفع,module,Magento_Checkout
 "Thank you for your purchase!","شكراً لطلبكم معنا!",module,Magento_Checkout
 "CMS Home Page","CMS الصفحة الرئيسية",module,Magento_Cms
 "CMS No Route Page","CMS لا يوجد مسار للصفحة",module,Magento_Cms
+"Content Management","إدارة المحتوى",module,Magento_Cms
+"WYSIWYG Options","خيارات WYSIWYG",module,Magento_Cms
+"Enable WYSIWYG Editor","تمكين محرر WYSIWYG",module,Magento_Cms
+"CMS Page Link","رابط صفحة نظام إدارة المحتوى",module,Magento_Cms
+"Link to a CMS Page","أربط لصفحة نظام إدارة المحتوى",module,Magento_Cms
+"CMS Page","صفحة نظام إدارة المحتوى",module,Magento_Cms
+"Select Page...","حدد صفحة...",module,Magento_Cms
+"Anchor Custom Text","نص مرساة مخصص",module,Magento_Cms
+"If empty, the Page Title will be used","إذا كان فارغاً، سيتم استخدام عنوان الصفحة",module,Magento_Cms
+"Anchor Custom Title","عنوان مرساة مخصص",module,Magento_Cms
 Template,قالب,module,Magento_Cms
+"CMS Page Link Block Template","رابط لصفحة قالب نظام إدارة المحتوى",module,Magento_Cms
+"CMS Page Link Inline Template","رابط قالب مضمن لصفحة نظام إدارة المحتوى",module,Magento_Cms
+"CMS Static Block","كتلة صفحة نظام إدارة المحتوى الثابتة",module,Magento_Cms
+"Contents of a Static Block","محتويات كتلة ساكنة",module,Magento_Cms
 Block,"رقم القطعة",module,Magento_Cms
+"Select Block...","حدد كتلة...",module,Magento_Cms
+"CMS Static Block Default Template","كتلة القالب الافتراضي الثابتة لصفحة نظام إدارة المحتوى",module,Magento_Cms
+"Delete items","حذف عناصر",module,Magento_Cms
+"Are you sure you wan't to delete selected items?","هل أنت متأكد من أنك تريد حذف العناصر المحددة؟",module,Magento_Cms
 Disable,إبطال,module,Magento_Cms
 Enable,تفعيل,module,Magento_Cms
 "Custom design from","تصميم مخصص من",module,Magento_Cms
