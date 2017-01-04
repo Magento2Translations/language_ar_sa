@@ -526,12 +526,16 @@ Promotions,الترقيات,module,Magento_CatalogRule
 Catalog,"دليل المنتجات",module,Magento_CatalogRule
 "Wrong rule specified.","قاعدة محددة خاطئة.",module,Magento_CatalogRule
 Promo,الترويج,module,Magento_CatalogRule
+"Percentage discount should be between 0 and 100.","يجب أن تكون نسبة الخصم المئوية بين 0 و 100.",module,Magento_CatalogRule
+"Discount value should be 0 or greater.","يجب أن تكون قيمة الخصم 0 أو أكبر.",module,Magento_CatalogRule
+"Unknown action.","إجراء غير معروف.",module,Magento_CatalogRule
 "Update the Product","تحديث المنتج",module,Magento_CatalogRule
 "Rule price","السعر الاساسى",module,Magento_CatalogRule
 "To Fixed Value","الى قيمة ثابته",module,Magento_CatalogRule
 "To Percentage","الى نسبة مؤية",module,Magento_CatalogRule
 "By Fixed value","بقيمة ثابتة",module,Magento_CatalogRule
 "By Percentage","بنسبة مؤية",module,Magento_CatalogRule
+"Update product's %1 %2: %3","تحديث %1 %2 المنتج: %3",module,Magento_CatalogRule
 "Conditions Combination","الجمع بين الشروط",module,Magento_CatalogRule
 "Product Attribute","سمة المنتج",module,Magento_CatalogRule
 Home,"الصفحة الرئيسية",module,Magento_CatalogSearch
@@ -1098,16 +1102,20 @@ Pages,الصفحات,module,Magento_Cms
 "Enabled by Default","مفعل بشكل إفتراضي",module,Magento_Cms
 "Disabled by Default","معطل بشكل افتراضي",module,Magento_Cms
 "Disabled Completely","تعطيل بالكامل",module,Magento_Cms
+px.,بكسل.,module,Magento_Cms
 "No files found","لم يتم العثور على الملفات",module,Magento_Cms
 "Browse Files...","استعراض ملفات...",module,Magento_Cms
 "Collapse All","طوي الكل",module,Magento_Cms
+"Expand All","عرض الكل",module,Magento_Cms
 Configuration,الضبط,module,Magento_Config
 "New attribute set name","تعيين اسم الصفة الجديدة",module,Magento_ConfigurableProduct
 "Choose an Option...","اختار خيار...",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products.","يتم استخدام هذه السمة في المنتجات القابلة للتخصيص.",module,Magento_ConfigurableProduct
+"Some product variations fields are not valid.","بعض حقول متغيرات المنتج غير صحيحة.",module,Magento_ConfigurableProduct
 "This group contains attributes used in configurable products. Please move these attributes to another group and try again.","تحتوي هذه المجموعة على السمات المستخدمة في المنتجات القابلة للتخصيص. الرجاء نقل هذه السمات إلى مجموعة أخرى، وحاول مرة أخرى.",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products. You cannot remove it from the attribute set.","هذه السمة مستخدمة بالفعل في منتجات قابلة للتخصيص. لا يمكن إزالته من مجموعة السمات.",module,Magento_ConfigurableProduct
 "Associated Products","المنتجات المرتبطه بها",module,Magento_ConfigurableProduct
+"Sort Variations","فرز المتغيرات",module,Magento_ConfigurableProduct
 Select,إختيار,module,Magento_ConfigurableProduct
 Price,السعر,module,Magento_ConfigurableProduct
 Quantity,الكمية,module,Magento_ConfigurableProduct
@@ -1116,6 +1124,9 @@ Quantity,الكمية,module,Magento_ConfigurableProduct
 Image,صورة,module,Magento_ConfigurableProduct
 Name,اسم,module,Magento_ConfigurableProduct
 Weight,الوزن,module,Magento_ConfigurableProduct
+"Upload Image","تحميل صورة",module,Magento_ConfigurableProduct
+"No Image","لا توجد صورة",module,Magento_ConfigurableProduct
+"Choose Affected Attribute Set","اختر مجموعة الخصائص المتأثرة",module,Magento_ConfigurableProduct
 Confirm,تأكيد,module,Magento_ConfigurableProduct
 Cancel,إلغاء,module,Magento_ConfigurableProduct
 "* Required Fields","* حقول مطلوبة",module,Magento_Contact
@@ -1136,6 +1147,7 @@ Import,استيراد,module,Magento_CurrencySymbol
 "Please specify a correct Import Service.","الرجاء تحديد ""خدمة الاستيراد"" الصحيحة.",module,Magento_CurrencySymbol
 "Currency Rates","أسعار العملات",module,Magento_CurrencySymbol
 "Please correct the input data for %1 => %2 rate","الرجاء تصحيح البيانات المدخلة ل %1 => معدل %2",module,Magento_CurrencySymbol
+"All valid rates have been saved.","تم حفظ كل الأسعار الصحيحة.",module,Magento_CurrencySymbol
 System,النظام,module,Magento_CurrencySymbol
 "Old rate:","معدل العمر:",module,Magento_CurrencySymbol
 "Customer address id column is not specified","لم يتم تحديد عمود معرف عنوان العميل",module,Magento_CustomerImportExport
@@ -3399,6 +3411,8 @@ Template,قالب,module,Magento_Catalog
 "Product Link Block Template","كتلة قالب رابط المنتج",module,Magento_Catalog
 "Product Link Inline Template","قالب منسق لرابط المنتج",module,Magento_Catalog
 "Catalog Category Link","رابط كتالوج الفئة",module,Magento_Catalog
+"Link to a Specified Category","ارتبط إلى فئة محددة",module,Magento_Catalog
+"Category Link Block Template","فئة الرابط كتلة القالب",module,Magento_Catalog
 "Category Link Inline Template","رابط قالب الفئة مضمن",module,Magento_Catalog
 Set,ضبط,module,Magento_Catalog
 "Change status","تغيير الحالة",module,Magento_Catalog
@@ -3431,8 +3445,22 @@ Details,التفاصيل,module,Magento_Catalog
 "Thank you for your purchase!","شكراً لطلبكم معنا!",module,Magento_Checkout
 "CMS Home Page","CMS الصفحة الرئيسية",module,Magento_Cms
 "CMS No Route Page","CMS لا يوجد مسار للصفحة",module,Magento_Cms
+"Content Management","إدارة المحتوى",module,Magento_Cms
+"WYSIWYG Options","خيارات WYSIWYG",module,Magento_Cms
+"Enable WYSIWYG Editor","تمكين محرر WYSIWYG",module,Magento_Cms
+"CMS Page Link","رابط صفحة نظام إدارة المحتوى",module,Magento_Cms
+"Link to a CMS Page","أربط لصفحة نظام إدارة المحتوى",module,Magento_Cms
+"CMS Page","صفحة نظام إدارة المحتوى",module,Magento_Cms
+"Anchor Custom Text","نص مرساة مخصص",module,Magento_Cms
+"If empty, the Page Title will be used","إذا كان فارغاً، سيتم استخدام عنوان الصفحة",module,Magento_Cms
+"Anchor Custom Title","عنوان مرساة مخصص",module,Magento_Cms
 Template,قالب,module,Magento_Cms
+"CMS Page Link Block Template","رابط لصفحة قالب نظام إدارة المحتوى",module,Magento_Cms
+"CMS Page Link Inline Template","رابط قالب مضمن لصفحة نظام إدارة المحتوى",module,Magento_Cms
+"CMS Static Block","كتلة صفحة نظام إدارة المحتوى الثابتة",module,Magento_Cms
+"Contents of a Static Block","محتويات كتلة ساكنة",module,Magento_Cms
 Block,"رقم القطعة",module,Magento_Cms
+"CMS Static Block Default Template","كتلة القالب الافتراضي الثابتة لصفحة نظام إدارة المحتوى",module,Magento_Cms
 "Configurable Product Image","صورة المنتج القابل للضبط",module,Magento_ConfigurableProduct
 ID,التعريف,module,Magento_ConfigurableProduct
 Contacts,المتصلين,module,Magento_Contact
