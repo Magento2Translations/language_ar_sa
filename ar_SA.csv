@@ -1102,6 +1102,12 @@ Pages,الصفحات,module,Magento_Cms
 "Enabled by Default","مفعل بشكل إفتراضي",module,Magento_Cms
 "Disabled by Default","معطل بشكل افتراضي",module,Magento_Cms
 "Disabled Completely","تعطيل بالكامل",module,Magento_Cms
+"A block identifier with the same properties already exists in the selected store.","معرف الكتلة بنفس الخصائص موجود بالفعل في المخزن المحدد.",module,Magento_Cms
+"The page URL key contains capital letters or disallowed symbols.","مفتاح رابط صفحة URL الرئيسية يحتوي على أحرف كبيرة أو رموز غير مسموح بها.",module,Magento_Cms
+"The page URL key cannot be made of only numbers.","مفتاح رابط صفحة URL لايمكن أن يحتوي على أرقام فقط.",module,Magento_Cms
+"We found a directory with the same name. Please try another folder name.","وجدنا دليل بنفس الاسم. الرجاء محاولة إدخال اسم مجلد آخر.",module,Magento_Cms
+"We cannot create a new directory.","لا يمكننا إنشاء دليل جديد.",module,Magento_Cms
+"We cannot delete directory %1.","لا يمكننا حذف الدليل %1.",module,Magento_Cms
 px.,بكسل.,module,Magento_Cms
 "No files found","لم يتم العثور على الملفات",module,Magento_Cms
 "Browse Files...","استعراض ملفات...",module,Magento_Cms
@@ -3445,9 +3451,15 @@ Details,التفاصيل,module,Magento_Catalog
 "Thank you for your purchase!","شكراً لطلبكم معنا!",module,Magento_Checkout
 "CMS Home Page","CMS الصفحة الرئيسية",module,Magento_Cms
 "CMS No Route Page","CMS لا يوجد مسار للصفحة",module,Magento_Cms
+"CMS No Cookies Page","لا للكوكيز في صفحة نظام إدارة المحتوى",module,Magento_Cms
+"Show Breadcrumbs for CMS Pages","إعرض جزئيات لصفحة نظام إدارة المحتوى",module,Magento_Cms
+"Browser Capabilities Detection","إكتشف امكانيات المستعرض",module,Magento_Cms
+"Redirect to CMS-page if Cookies are Disabled","إعادة توجيه إلى صفحة نظام إدارة المحتوى إذا كانت ملفات الكوكيز معطلة",module,Magento_Cms
+"Show Notice if JavaScript is Disabled","إعرض إشعار إذا كانت جافا سكريبت معطلة",module,Magento_Cms
+"Show Notice if Local Storage is Disabled","إعرض إشعار إذا كانت ذاكرة ""التخزين المحلية"" معطلة",module,Magento_Cms
 "Content Management","إدارة المحتوى",module,Magento_Cms
-"WYSIWYG Options","خيارات WYSIWYG",module,Magento_Cms
-"Enable WYSIWYG Editor","تمكين محرر WYSIWYG",module,Magento_Cms
+"WYSIWYG Options","خيارات ما تشاهده هو ما تحصل عليه WYSIWYG",module,Magento_Cms
+"Enable WYSIWYG Editor","تمكين محرر ما تشاهده هو ما تحصل عليه WYSIWYG",module,Magento_Cms
 "CMS Page Link","رابط صفحة نظام إدارة المحتوى",module,Magento_Cms
 "Link to a CMS Page","أربط لصفحة نظام إدارة المحتوى",module,Magento_Cms
 "CMS Page","صفحة نظام إدارة المحتوى",module,Magento_Cms
