@@ -1108,6 +1108,7 @@ Pages,الصفحات,module,Magento_Cms
 "We found a directory with the same name. Please try another folder name.","وجدنا دليل بنفس الاسم. الرجاء محاولة إدخال اسم مجلد آخر.",module,Magento_Cms
 "We cannot create a new directory.","لا يمكننا إنشاء دليل جديد.",module,Magento_Cms
 "We cannot delete directory %1.","لا يمكننا حذف الدليل %1.",module,Magento_Cms
+"Directory %1 is not under storage root path.","الدليل %1 ليس تحت مسار جذر المخزن.",module,Magento_Cms
 px.,بكسل.,module,Magento_Cms
 "No files found","لم يتم العثور على الملفات",module,Magento_Cms
 "Browse Files...","استعراض ملفات...",module,Magento_Cms
