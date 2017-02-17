@@ -446,28 +446,6 @@ Authorize,تصريح,module,Magento_Braintree
 "Authorize and Capture","التحقق و القبض",module,Magento_Braintree
 "--Please Select--","--أختر من فضلك--",module,Magento_Braintree
 "Please agree to all the terms and conditions before placing the order.","الرجاء الموافقة على كل الشروط والأحكام قبل انهاء طلبك.",module,Magento_Braintree
-"Paypal account","حساب باي بال",module,Magento_Braintree
-"Coinbase account","حساب Coinbase",module,Magento_Braintree
-"Europe bank account","حساب مصرفي في أوروبا",module,Magento_Braintree
-"Credit card","بطاقة الإئتمان",module,Magento_Braintree
-"Apple pay card","بطاقة دفع أبل",module,Magento_Braintree
-"Android pay card","بطاقة دفع اندرويد",module,Magento_Braintree
-"Authorization expired","انتهت مدة صلاحية الترخيص",module,Magento_Braintree
-Authorizing,الإذن,module,Magento_Braintree
-Authorized,مصرّح,module,Magento_Braintree
-"Gateway rejected","بوابة الدفع رفضت",module,Magento_Braintree
-Failed,فشل,module,Magento_Braintree
-"Processor declined","رفض المعالج",module,Magento_Braintree
-Settled,"تمت التسوية",module,Magento_Braintree
-Settling,"جاري التسوية",module,Magento_Braintree
-"Submitted for settlement","أرسلت للتسوية",module,Magento_Braintree
-Voided,أبطلت,module,Magento_Braintree
-Unrecognized,"غير معروف",module,Magento_Braintree
-"Settlement declined","رفضت التسوية",module,Magento_Braintree
-"Settlement pending","التسوية معلقة",module,Magento_Braintree
-"Settlement confirmed","التسوية مأكدة",module,Magento_Braintree
-Sale,بيع,module,Magento_Braintree
-Credit,الرصيد,module,Magento_Braintree
 "Credit Card Type","نوع بطاقة الائتمان",module,Magento_Braintree
 "Credit Card Number","رقم بطاقة الائتمان",module,Magento_Braintree
 "Please, enter valid Credit Card Number","الرجاء إدخال ""رقم بطاقة ائتمان"" صالح",module,Magento_Braintree
@@ -1623,7 +1601,6 @@ Summary,خلاصة,module,Magento_ConfigurableProduct
 "You need to choose options for your item.","انت بحاجة لاختيار خيارات للبند الخاص بك.",module,Magento_ConfigurableProduct
 "Some product variations fields are not valid.","بعض حقول متغيرات المنتج غير صحيحة.",module,Magento_ConfigurableProduct
 "Configuration must have specified attributes","يجب أن يحتوي التكوين على خصائص محددة",module,Magento_ConfigurableProduct
-"Configurable product ""%1"" does not have sub-products","المنتج القابل للتخصيص ""%1"" ليس لديه منتجات فرعية",module,Magento_ConfigurableProduct
 "Type %1 is not an instance of %2","النوع %1 ليس من مثل %2",module,Magento_ConfigurableProduct
 "Choose Affected Attribute Set","اختر مجموعة الخصائص المتأثرة",module,Magento_ConfigurableProduct
 "Add configurable attributes to the current Attribute Set","إضافة سمات قابلة للتخصيص لمجموعة السمات الحالية",module,Magento_ConfigurableProduct
@@ -3635,21 +3612,15 @@ Error:,خطأ:,module,Magento_Shipping
 "contact us","اتصل بنا",module,Magento_Shipping
 Info:,المعلومات:,module,Magento_Shipping
 Track:,المسار:,module,Magento_Shipping
-Status:,الحالة:,module,Magento_Shipping
 "Delivered on:","تم الارسال بتاريخ:",module,Magento_Shipping
-"Signed by:","موقعة من قبل:",module,Magento_Shipping
-"Delivered to:","سلمت إلى:",module,Magento_Shipping
-"Shipped or billed on:","المشحونه او فاتوره:",module,Magento_Shipping
-"Service Type:","نوع الخدمة:",module,Magento_Shipping
-Weight:,الوزن:,module,Magento_Shipping
 N/A,"غير متاح",module,Magento_Shipping
+"There is no tracking available for this shipment.","لا يوجد اي تتبع المتاحة لهذه الشحنه.",module,Magento_Shipping
+"There is no tracking available.","لا يوجد متابعة مسموحة.",module,Magento_Shipping
+"Close Window","أغلق النافذه",module,Magento_Shipping
 Location,موقع,module,Magento_Shipping
 Date,التاريخ,module,Magento_Shipping
 "Local Time","التوقيت المحلي",module,Magento_Shipping
 Description,الوصف,module,Magento_Shipping
-"There is no tracking available for this shipment.","لا يوجد اي تتبع المتاحة لهذه الشحنه.",module,Magento_Shipping
-"There is no tracking available.","لا يوجد متابعة مسموحة.",module,Magento_Shipping
-"Close Window","أغلق النافذه",module,Magento_Shipping
 "Save & Generate","حفظ & إنتاج",module,Magento_Sitemap
 "Edit Sitemap","تحرير خريطة الموقع",module,Magento_Sitemap
 "New Sitemap","خريطة موقع جديدة",module,Magento_Sitemap
@@ -3684,7 +3655,6 @@ All,الكل,module,Magento_Sitemap
 "Requested store is inactive","المخزن المطلوب غير نشط",module,Magento_Store
 "Requested store is not found","لم يتم العثور على مخزن المطلوبة",module,Magento_Store
 "Environment emulation nesting is not allowed.","لا يسمح بتداخل محاكاة البيئة.",module,Magento_Store
-"Only default scope allowed","النطاق الافتراضي فقط المسموح به",module,Magento_Store
 "Invalid scope object","كائن النطاق غير صالح",module,Magento_Store
 "Store with the same code","متجر له نفس الكود",module,Magento_Store
 "Website with the same code","موقع له نفس الكود",module,Magento_Store
@@ -4167,12 +4137,9 @@ Yes,نعم,module,Magento_Variable
 "No token found.","لم يتم العثور على الملفات.",module,Magento_Vault
 "Wrong request.","طلب غير صحيح.",module,Magento_Vault
 "Deletion failure. Please try again.","فشل في الحذف. الرجاء المحاولة مرة أخرى.",module,Magento_Vault
-"Credit Card was successfully removed","تم بنجاح إزالة بطاقة الائتمان",module,Magento_Vault
-"My Credit Cards","بطاقات الائتمان",module,Magento_Vault
 "Card Number","رقم الكارد",module,Magento_Vault
 "Expiration Date","تاريخ انتهاء الصلاحية",module,Magento_Vault
 Type,النوع,module,Magento_Vault
-"You have no credit cards.","لا يوجد كروت إئتمانية.",module,Magento_Vault
 ending,إنهاء,module,Magento_Vault
 Actions,اعمال,module,Magento_Vault
 Delete,حذف,module,Magento_Vault
@@ -4400,7 +4367,6 @@ items,قطع,module,Magento_Checkout
 "Options Details","تفاصيل الخيارات",module,Magento_Checkout
 Remove,ازالة,module,Magento_Checkout
 "Cart Subtotal",الإجمالي,module,Magento_Checkout
-"No Payment Methods","لا يوجد طرق للدفع",module,Magento_Checkout
 "Payment Information","معلومات الدفع",module,Magento_Checkout
 "No Payment method available.","لا توجد طريقة دفع متاحة.",module,Magento_Checkout
 "You can track your order status by creating an account.","يمكنك تعقب حالة طلبك عن طريق إنشاء حساب.",module,Magento_Checkout
@@ -4899,7 +4865,6 @@ Download,تحميل,module,Magento_Backup
 Action,إجراء,module,Magento_Backup
 "Enable this Solution","تمكين هذا الحل",module,Magento_Braintree
 "Enable PayPal through Braintree","تمكين باي بال عن طريق Braintree",module,Magento_Braintree
-"Vault enabled","تم تمكين الخزنة",module,Magento_Braintree
 "Basic Braintree Settings","الإعدادات الأساسية Braintree",module,Magento_Braintree
 Title,العنوان,module,Magento_Braintree
 Environment,البيئة,module,Magento_Braintree
@@ -4934,12 +4899,12 @@ Debug,نقح,module,Magento_Braintree
 Select...,اختر...,module,Magento_Braintree
 Status,الحاله,module,Magento_Braintree
 "Transaction Type","نوع المعاملة التجارية",module,Magento_Braintree
+"Payment Type","وسيلة الدفع",module,Magento_Braintree
 "PayPal Payment ID","معرف الدفع بأي بال",module,Magento_Braintree
+"Created At","انشئة في",module,Magento_Braintree
 "Transaction ID","رقم المعاملة",module,Magento_Braintree
 "Order ID","رقم الطلب",module,Magento_Braintree
-"Payment Type","وسيلة الدفع",module,Magento_Braintree
 Type,النوع,module,Magento_Braintree
-"Created At","انشئة في",module,Magento_Braintree
 Amount,الكمية,module,Magento_Braintree
 "Settlement Code","رمز التسوية",module,Magento_Braintree
 "Settlement Response Text","نص استجابة التسوية",module,Magento_Braintree
