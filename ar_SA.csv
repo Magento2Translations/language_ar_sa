@@ -657,7 +657,7 @@ Always,دائماً,module,Magento_Captcha
 "You can buy this product only in quantities of %1 at a time.","يمكنك الشراء من هذا المنتج فقط بكميات من %1 في وقت واحد.",module,Magento_CatalogInventory
 "Decimal qty increments is not allowed.","غير مسموح زيادة الكمية برقم عشري",module,Magento_CatalogInventory
 "%1 is available to buy in increments of %2","%1 متاحة للشراء بزيادة بالمقدار %2",module,Magento_CatalogInventory
-"Only %1 left","متوفرتين %1 فقط",module,Magento_CatalogInventory
+"Only %1 left","متوفر %1 فقط",module,Magento_CatalogInventory
 "Product availability","توافر المنتج",module,Magento_CatalogInventory
 "Product Name","اسم المنتج",module,Magento_CatalogInventory
 Qty,الكميّة,module,Magento_CatalogInventory
