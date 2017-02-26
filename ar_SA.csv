@@ -4116,9 +4116,11 @@ Yes,نعم,module,Magento_Variable
 "No token found.","لم يتم العثور على الملفات.",module,Magento_Vault
 "Wrong request.","طلب غير صحيح.",module,Magento_Vault
 "Deletion failure. Please try again.","فشل في الحذف. الرجاء المحاولة مرة أخرى.",module,Magento_Vault
+"Stored Payment Methods","طرق الدفع المسجلة",module,Magento_Vault
 "Card Number","رقم الكارد",module,Magento_Vault
 "Expiration Date","تاريخ انتهاء الصلاحية",module,Magento_Vault
 Type,النوع,module,Magento_Vault
+"You have no stored payment methods.","ليس لديك طرق دفع مسجلة.",module,Magento_Vault
 ending,إنهاء,module,Magento_Vault
 Actions,اعمال,module,Magento_Vault
 Delete,حذف,module,Magento_Vault
@@ -4358,7 +4360,7 @@ edit,تحرير,module,Magento_Checkout
 "Method Title","اسم الطريقة",module,Magento_Checkout
 "Carrier Title","مقدم الخدمة",module,Magento_Checkout
 Next,التالي,module,Magento_Checkout
-"Sorry, no quotes are available for this order at this time","عذرا ، الأقتباس غير متوفر لهذا الطلب في هذا الوقت",module,Magento_Checkout
+"Sorry, no quotes are available for this order at this time","عذرا، التقدير غير متوفر لهذا الطلب حالياً",module,Magento_Checkout
 "Order Summary","ملخص الطلب",module,Magento_Checkout
 "View Details","عرض التفاصيل",module,Magento_Checkout
 "Contact Form","نموذج الاتصال",module,Magento_Contact
