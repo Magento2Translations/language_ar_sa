@@ -4313,7 +4313,7 @@ Password:,"الرقم السري:",module,Magento_Customer
 "Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","طلبك #%increment_id تم تحديث حالته إلى <strong>%order_status</strong>.",module,Magento_Sales
 "Your Invoice #%invoice_id for Order #%order_id","فاتورتك #%invoice_id للطلب #%order_id",module,Magento_Sales
 "%customer_name,",%customer_name،,module,Magento_Sales
-"Once your package ships we will send you a tracking number.","سوف نرسلك لم رقم بوليصة الشحن فور شحن طلبك.",module,Magento_Sales
+"Once your package ships we will send you a tracking number.","سوف نرسلك لم رقم بوليصة الشحن فور شحن طلبكم.",module,Magento_Sales
 "Your Order <span class=""no-link"">#%increment_id</span>","طلبك <span class=""no-link"">#%increment_id</span>",module,Magento_Sales
 "%name,",%name،,module,Magento_SendFriend
 "%name,",%name،,module,Magento_User
@@ -4358,7 +4358,7 @@ Password:,"كلمة السر:",theme,frontend/Magento/luma
 "Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","طلبك #%increment_id تم تحديث حالته إلى <strong>%order_status</strong>.",theme,frontend/Magento/luma
 "Your Invoice #%invoice_id for Order #%order_id","فاتورتك #%invoice_id للطلب #%order_id",theme,frontend/Magento/luma
 "%customer_name,",%customer_name،,theme,frontend/Magento/luma
-"Once your package ships we will send you a tracking number.","سوف نرسلك لم رقم بوليصة الشحن فور شحن طلبك.",theme,frontend/Magento/luma
+"Once your package ships we will send you a tracking number.","سوف نرسل لكم رقم بوليصة الشحن فور شحن طلبك.",theme,frontend/Magento/luma
 "Your Order <span class=""no-link"">#%increment_id</span>","طلبك <span class=""no-link"">#%increment_id</span>",theme,frontend/Magento/luma
 "Placed on <span class=""no-link"">%created_at</span>","وضع في <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
 "Your shipping confirmation is below. Thank you again for your business.","تأكيد الشحن الخاص بك أدناه. أشكركم مرة أخرى على عملك.",theme,frontend/Magento/luma
