@@ -4433,7 +4433,7 @@ Delete,احذف,module,Magento_GiftMessage
 "Your Invoice #%invoice_id for Order #%order_id","فاتورتك #%invoice_id للطلب #%order_id",module,Magento_Sales
 "Your %store_name order confirmation","تأكيد طلبك في %store_name",module,Magento_Sales
 "%customer_name,",%customer_name،,module,Magento_Sales
-"Once your package ships we will send you a tracking number.","سوف نرسلك لم رقم بوليصة الشحن فور شحن طلبك.",module,Magento_Sales
+"Once your package ships we will send you a tracking number.","سوف نرسلك لم رقم بوليصة الشحن فور شحن طلبكم.",module,Magento_Sales
 "Your Order <span class=""no-link"">#%increment_id</span>","طلبك <span class=""no-link"">#%increment_id</span>",module,Magento_Sales
 "Update to your %store_name order","تحديث طلبك في %store_name",module,Magento_Sales
 "%name,",%name،,module,Magento_SendFriend
@@ -4512,7 +4512,7 @@ Footer,"ذيل الصفحة",theme,frontend/Magento/luma
 "Update to your %store_name invoice","تحديث للفاتورة %store_name",theme,frontend/Magento/luma
 "Your %store_name order confirmation","تأكيد طلبك في %store_name",theme,frontend/Magento/luma
 "%customer_name,",%customer_name،,theme,frontend/Magento/luma
-"Once your package ships we will send you a tracking number.","سوف نرسلك لم رقم بوليصة الشحن فور شحن طلبك.",theme,frontend/Magento/luma
+"Once your package ships we will send you a tracking number.","سوف نرسل لكم رقم بوليصة الشحن فور شحن طلبك.",theme,frontend/Magento/luma
 "Your Order <span class=""no-link"">#%increment_id</span>","طلبك <span class=""no-link"">#%increment_id</span>",theme,frontend/Magento/luma
 "Placed on <span class=""no-link"">%created_at</span>","وضع في <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
 "Update to your %store_name order","تحديث النظام الخاص بك %store_name",theme,frontend/Magento/luma
