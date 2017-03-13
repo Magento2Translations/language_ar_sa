@@ -1537,14 +1537,18 @@ System,النظام,module,Magento_Config
 "Value must be a URL or one of placeholders: %1","يجب أن تكون قيمة URL أو واحد من العناصر النائبة: %1",module,Magento_Config
 "Specify a URL or path that starts with placeholder(s): %1, and ends with ""/"".","تحديد URL أو المسار الذي يبدأ ب placeholder(s): %1، وينتهي مع ""/"".",module,Magento_Config
 "%1 An empty value is allowed as well.","%1 كذلك يسمح بقيمة فارغة.",module,Magento_Config
+"Selected allowed currency ""%1"" is not available in installed currencies.","العملة المحددة المسموح بها ""%1"" غير متوفر في العملات المثبتة.",module,Magento_Config
+"Default display currency ""%1"" is not available in allowed currencies.","عرض العملة الافتراضية ""%1"" غير متوفر في العملات المسموح بها.",module,Magento_Config
 "Sorry, we haven't installed the base currency you selected.","عذراً، لم تقم بتثبيت العملة الأساسية التي قمت بتحديدها.",module,Magento_Config
 "We can't save the Cron expression.","لايمكننا حفظ تعبير Cron.",module,Magento_Config
 "Sorry, we haven't installed the default display currency you selected.","عذراً،لم تقم بتثبيت عملة العرض الافتراضية التي حددتها.",module,Magento_Config
+"Sorry, the default display currency you selected is not available in allowed currencies.","عفواً، العمله الافتراضية التي حددتها غير متوفرة في العملات المسموح بها.",module,Magento_Config
 "Please correct the email address: ""%1"".","الرجاء تصحيح عنوان البريد الإلكتروني: ""%1"".",module,Magento_Config
 "The file you're uploading exceeds the server size limit of %1 kilobytes.","الملف الذي تقوم برفعه يتجاوز حد حجم الملقم %1 كيلو بايت.",module,Magento_Config
 "Default scope","نطاق افتراضي",module,Magento_Config
 "Base currency","العملية الاساسية",module,Magento_Config
 "Display default currency","عرض العملة الافتراضية",module,Magento_Config
+"Currency ""%1"" is used as %2 in %3.","العملة ""%1""تستخدم كـ %2 في %3.",module,Magento_Config
 "%1 (Default)","%1 (افتراضي)",module,Magento_Config
 No,لا,module,Magento_Config
 Optional,اختياري,module,Magento_Config
@@ -5185,6 +5189,7 @@ Enable,تفعيل,module,Magento_Cms
 "Magento Admin","Magento ادارة",module,Magento_Config
 Dashboard,"لوحة التحكم",module,Magento_Config
 "Manage Stores","إدارة المتاجر",module,Magento_Config
+"Currency Setup Section","قسم ضبط العملة",module,Magento_Config
 "Store Email Addresses Section","قسم عناوين البريد الإلكتروني للمتجر",module,Magento_Config
 "Email to a Friend","ارسال الى صديق",module,Magento_Config
 "Configurable Product Image","صورة المنتج القابل للضبط",module,Magento_ConfigurableProduct
