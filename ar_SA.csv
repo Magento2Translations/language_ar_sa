@@ -733,8 +733,8 @@ ID,التعريف,module,Magento_Catalog
 Name,اسم,module,Magento_Catalog
 Price,السعر,module,Magento_Catalog
 Position,موقع,module,Magento_Catalog
-"Add Subcategory","أضف فئة فرعية",module,Magento_Catalog
-"Add Root Category","اضف فئة رئيسية",module,Magento_Catalog
+"Add Subcategory","قسم فرعي جديد",module,Magento_Catalog
+"Add Root Category","اضف قسم رئيسي",module,Magento_Catalog
 Day,يوم,module,Magento_Catalog
 Month,الشهر,module,Magento_Catalog
 Year,السنة,module,Magento_Catalog
@@ -3521,6 +3521,7 @@ Back,رجوع,module,Magento_SendFriend
 "Custom Value","قيمة مخصصة",module,Magento_Shipping
 Add,إضافة,module,Magento_Shipping
 "Send Tracking Information","إرسال بيانات التعقب",module,Magento_Shipping
+"Are you sure you want to send a Shipment email to customer?","هل أنت متأكد من أنك تريد إرسال معلومات الشحن للعميل عبر البريد الإلكتروني؟",module,Magento_Shipping
 Print,طباعة,module,Magento_Shipping
 "the shipment email is not sent","لم يتم إرسال شحنة البريد الإلكتروني",module,Magento_Shipping
 "Create Shipping Label...","إنشاء بطاقة عنونة الشحن...",module,Magento_Shipping
@@ -5526,6 +5527,7 @@ Apply,تطبيق,module,Magento_SalesRule
 "Discount Amount","تخفيض الكمية",module,Magento_SalesRule
 "Discount Qty Step (Buy X)","خطوة خصم الكمية (شراء X)",module,Magento_SalesRule
 "Apply to Shipping Amount","تنطبق على كمية الشحن",module,Magento_SalesRule
+Operations,عمليات,module,Magento_Sales
 Create,إنشاء,module,Magento_Sales
 General,عام,module,Magento_Sales
 "Allow Reorder","السماح بإعادة الطلب",module,Magento_Sales
@@ -5578,6 +5580,7 @@ Website,الموقع,module,Magento_Sales
 Created,إنشاء,module,Magento_Sales
 "Invoice Date","تاريخ الفاتورة",module,Magento_Sales
 "Ship-to Name","شحن باسم",module,Magento_Sales
+"Total Quantity","إجمالي الكمية",module,Magento_Sales
 "Item Status","حالة المادة",module,Magento_Sales
 "Original Price","السعر الأصلي",module,Magento_Sales
 "Tax Percent","نسبة الضريبة",module,Magento_Sales
@@ -5587,6 +5590,10 @@ Created,إنشاء,module,Magento_Sales
 "Print Invoices","طباعة الفواتير",module,Magento_Sales
 "Print Credit Memos","طباعة المذكرة الائتمانية",module,Magento_Sales
 "Print All","طباعة الكل",module,Magento_Sales
+"Purchase Date","تاريخ الشراء",module,Magento_Sales
+"Grand Total (Base)","المجموع الكلي (أساسي)",module,Magento_Sales
+"Grand Total (Purchased)","المجموع الكلي (مدفوع)",module,Magento_Sales
+"Customer Email","البريد الإلكتروني للعميل",module,Magento_Sales
 "Shipping and Handling","الشحن و التوصيل",module,Magento_Sales
 "PDF Invoices","PDF فواتير",module,Magento_Sales
 Refunds,ردود,module,Magento_Sales
