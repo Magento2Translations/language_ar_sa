@@ -577,8 +577,8 @@ Price,السعر,module,Magento_Catalog
 Position,موقع,module,Magento_Catalog
 "Category Data","بيانات التصنيف",module,Magento_Catalog
 "Category Products","قسم المنتجات",module,Magento_Catalog
-"Add Subcategory","أضف فئة فرعية",module,Magento_Catalog
-"Add Root Category","اضف فئة رئيسية",module,Magento_Catalog
+"Add Subcategory","قسم فرعي جديد",module,Magento_Catalog
+"Add Root Category","اضف قسم رئيسي",module,Magento_Catalog
 Day,يوم,module,Magento_Catalog
 Month,الشهر,module,Magento_Catalog
 Year,السنة,module,Magento_Catalog
@@ -2523,6 +2523,7 @@ Back,رجوع,module,Magento_SendFriend
 "Custom Value","قيمة مخصصة",module,Magento_Shipping
 Add,إضافة,module,Magento_Shipping
 "Send Tracking Information","إرسال بيانات التعقب",module,Magento_Shipping
+"Are you sure you want to send a Shipment email to customer?","هل أنت متأكد من أنك تريد إرسال معلومات الشحن للعميل عبر البريد الإلكتروني؟",module,Magento_Shipping
 Print,طباعة,module,Magento_Shipping
 "the shipment email is not sent","لم يتم إرسال شحنة البريد الإلكتروني",module,Magento_Shipping
 "Create Shipping Label...","إنشاء بطاقة عنونة الشحن...",module,Magento_Shipping
@@ -3765,11 +3766,15 @@ Name,اسم,module,Magento_Sales
 Created,إنشاء,module,Magento_Sales
 "Invoice Date","تاريخ الفاتورة",module,Magento_Sales
 "Ship-to Name","شحن باسم",module,Magento_Sales
+"Total Quantity","إجمالي الكمية",module,Magento_Sales
 "PDF Credit Memos","PDF مذكرات ائتمانية",module,Magento_Sales
 "Purchase Point","تكلفة الشراء",module,Magento_Sales
 "Print Invoices","طباعة الفواتير",module,Magento_Sales
 "Print Credit Memos","طباعة المذكرة الائتمانية",module,Magento_Sales
 "Print All","طباعة الكل",module,Magento_Sales
+"Purchase Date","تاريخ الشراء",module,Magento_Sales
+"Grand Total (Base)","المجموع الكلي (أساسي)",module,Magento_Sales
+"Grand Total (Purchased)","المجموع الكلي (مدفوع)",module,Magento_Sales
 "PDF Invoices","PDF فواتير",module,Magento_Sales
 "Email to a Friend","ارسال الى صديق",module,Magento_SendFriend
 "Email Templates","قوالب البريد الإلكتروني",module,Magento_SendFriend
