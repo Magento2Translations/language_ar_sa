@@ -3840,6 +3840,7 @@ Time,الزمن,module,Magento_Theme
 "Add New %1","اضف جديد %1",module,Magento_Ui
 "New %1","%1 جديد",module,Magento_Ui
 "Please select item(s).","الرجاء تحديد العنصر (العناصر).",module,Magento_Ui
+"Unsupported bookmark action.","Please enter a valid email address (Ex: johndoe@domain. com).",module,Magento_Ui
 "Initialization error component, check the spelling of the name or the correctness of the call.","مكون خطأ التهيئة، تحقق من هجاء الاسم أو صحة الأتصال.",module,Magento_Ui
 "Bookmark with id ""%1"" does not exist.","لا توجد إشارة مرجعية مع معرف ""%1"".",module,Magento_Ui
 "Initialization error component, check the spelling of the name or the correctness of the call.","مكون خطأ التهيئة، تحقق من هجاء الاسم أو صحة الأتصال.",module,Magento_Ui
