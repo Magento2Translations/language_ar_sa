@@ -3869,6 +3869,7 @@ Time,الزمن,module,Magento_Theme
 "Add New %1","اضف جديد %1",module,Magento_Ui
 "New %1","%1 جديد",module,Magento_Ui
 "Please select item(s).","الرجاء تحديد العنصر (العناصر).",module,Magento_Ui
+"Unsupported bookmark action.","Please enter a valid email address (Ex: johndoe@domain. com).",module,Magento_Ui
 "Invalid UI Component element name: '%1'","اسم عنصر ""مكون واجهة المستخدم"" غير صالح: '%1'",module,Magento_Ui
 "Bookmark with id ""%1"" does not exist.","لا توجد إشارة مرجعية مع معرف ""%1"".",module,Magento_Ui
 "Invalid UI Component element name: ''","اسم عنصر ""مكون واجهة المستخدم"" غير صالح: '%1'",module,Magento_Ui
