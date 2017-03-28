@@ -1455,6 +1455,7 @@ None,"لا شئ",module,Magento_Eav
 Email,"البريد الإلكتروني",module,Magento_Eav
 URL,الرابط,module,Magento_Eav
 Letters,رسائل,module,Magento_Eav
+"Letters (a-z, A-Z) or Numbers (0-9)","حروف (أ-ي، من الألف إلى الياء) أو أرقام (0-9)",module,Magento_Eav
 "Text Field","حقل النص",module,Magento_Eav
 "Text Area","منطقة النص",module,Magento_Eav
 Date,التاريخ,module,Magento_Eav
