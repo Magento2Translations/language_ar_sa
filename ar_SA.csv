@@ -4348,6 +4348,7 @@ Login,دخول,module,Magento_Checkout
 item,قطعة,module,Magento_Checkout
 items,قطع,module,Magento_Checkout
 "Go to Checkout",شراء,module,Magento_Checkout
+"View and edit cart","عرض وتعديل السلة",module,Magento_Checkout
 "See Details","عرض التفاصيل",module,Magento_Checkout
 "Options Details","تفاصيل الخيارات",module,Magento_Checkout
 Remove,ازالة,module,Magento_Checkout
