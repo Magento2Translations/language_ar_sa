@@ -4372,6 +4372,7 @@ Next,التالي,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","عذرا، التقدير غير متوفر لهذا الطلب حالياً",module,Magento_Checkout
 "Order Summary","ملخص الطلب",module,Magento_Checkout
 "Item in Cart","منتج في سلة التسوق",module,Magento_Checkout
+"Items in Cart","منتجات في سلة التسوق",module,Magento_Checkout
 "View Details","عرض التفاصيل",module,Magento_Checkout
 "Contact Form","نموذج الاتصال",module,Magento_Contact
 "Name: %name","الاسم: %name",module,Magento_Contact
