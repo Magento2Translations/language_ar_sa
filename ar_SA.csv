@@ -2790,6 +2790,14 @@ Subtotal,الإجمالي,module,Magento_Paypal
 "Please update order data to get shipping methods and rates","الرجاء تحديث بيانات الطلب للحصول على اسعار وطرق الشحن",module,Magento_Paypal
 or,أو,module,Magento_Paypal
 Continue,استمر,module,Magento_Paypal
+"Not you?","ليس أنت؟",module,Magento_Persistent
+"Your shopping cart has been updated with new prices.","تم تحديث سلة التسوق الخاصة بك مع الأسعار الجديدة.",module,Magento_Persistent
+"Welcome, %1!","مرحبا, %1!",module,Magento_Persistent
+"We cannot load the configuration from file %1.","ونحن لا يمكن تحميل التكوين من ملف %1.",module,Magento_Persistent
+"Method ""%1"" is not defined in ""%2""","لم يتم تعريف الأسلوب ""%1"" في ""%2""",module,Magento_Persistent
+"To check out, please sign in using your email address.","لتسجيل الخروج ، الرجاء تسجيل الدخول باستخدام عنوان البريد الإلكتروني الخاص بك.",module,Magento_Persistent
+"Remember Me",تذكرني,module,Magento_Persistent
+"What's this?","ما هذا؟",module,Magento_Persistent
 "You saved the alert subscription.","لقد تم حفظ إشتراكك لتنبيه الأسعار.",module,Magento_ProductAlert
 "There are not enough parameters.","لا توجد معلمات كافية.",module,Magento_ProductAlert
 "We can't update the alert subscription right now.","لا يمكن أن نقوم بتحديث تنبيه الإشتراك الآن.",module,Magento_ProductAlert
@@ -3050,6 +3058,40 @@ Summary,خلاصة,module,Magento_Review
 "Average Customer Rating","متوسط تقييم العميل",module,Magento_Review
 "Product Rating:","تقييم المنتج:",module,Magento_Review
 "Back to Product Reviews","العودة لمراجعات المنتج",module,Magento_Review
+"Page not found.","لم يتم العثور على الصفحة.",module,Magento_Rss
+Feed,المستجدات,module,Magento_Rss
+"Miscellaneous Feeds","تغذية متنوعة",module,Magento_Rss
+"Get Feed","تحصل على ملف الخلاصات",module,Magento_Rss
+Apply,تطبيق,module,Magento_Rule
+"Please choose a valid discount amount.","الرجاء اختيار مبلغ خصم صالح.",module,Magento_Rule
+"End Date must follow Start Date.","يجب أن تتبع تاريخ انتهاء بتاريخ البدء.",module,Magento_Rule
+"Please specify a website.","الرجاء تحديد الموقع على شبكة الإنترنت.",module,Magento_Rule
+"Please specify Customer Groups.","الرجاء تحديد ""مجموعات العملاء"".",module,Magento_Rule
+to,الى,module,Magento_Rule
+by,بواسطة,module,Magento_Rule
+"Please choose an action to add.","من فضلك اختر علمية لاضافتها.",module,Magento_Rule
+"Perform following actions","طبق العمليات التالية",module,Magento_Rule
+is,هو,module,Magento_Rule
+"is not",غير,module,Magento_Rule
+"equals or greater than","يساوي أو اكبر من",module,Magento_Rule
+"equals or less than","يساوي أو أقل من",module,Magento_Rule
+"greater than","اكبر من",module,Magento_Rule
+"less than","أقل من",module,Magento_Rule
+contains,"يحتوي على",module,Magento_Rule
+"does not contain","لا يحتوي على",module,Magento_Rule
+"is one of","واحد من",module,Magento_Rule
+"is not one of","ليس من",module,Magento_Rule
+"Please choose a condition to add.","من فضلك اختر شرطا لاضافتة.",module,Magento_Rule
+Add,إضافة,module,Magento_Rule
+Remove,ازالة,module,Magento_Rule
+ALL,الكل,module,Magento_Rule
+ANY,أى,module,Magento_Rule
+TRUE,صحيح,module,Magento_Rule
+FALSE,خاطئ,module,Magento_Rule
+"Conditions Combination","الجمع بين الشروط",module,Magento_Rule
+"Attribute Set","مجموعة السمة",module,Magento_Rule
+Category,القسم,module,Magento_Rule
+"Open Chooser","افتح الاختيارى",module,Magento_Rule
 "Cart Price Rules","قواعد سلة الأسعار",module,Magento_SalesRule
 "Add New Rule","إضافة قاعدة جديدة",module,Magento_SalesRule
 "Save and Continue Edit","حفظ ومواصلة التعديل",module,Magento_SalesRule
@@ -3159,6 +3201,7 @@ is,هو,module,Magento_SalesRule
 "less than","أقل من",module,Magento_SalesRule
 "is one of","واحد من",module,Magento_SalesRule
 "is not one of","ليس من",module,Magento_SalesRule
+"Not enough arguments","حجج غير كافية",module,Magento_SalesSequence
 "Credit Memos","مذكرات الائتمان",module,Magento_Sales
 Orders,"طلبات الشراء",module,Magento_Sales
 Invoices,الفواتير,module,Magento_Sales
@@ -3535,6 +3578,34 @@ Reports,تقارير,module,Magento_Search
 "Your search query can't be longer than %1, so we shortened your query.","استعلام البحث الخاص بك لا يمكن أن يكون أطول من %1، قمنا بتقصير الاستعلام.",module,Magento_Search
 "Search entire store here...","ابحث فى المتجر بالكامل هنا...",module,Magento_Search
 "There are no search terms available.","لا يوجد كلمات بحث متاحة الان.",module,Magento_Search
+"Page not found.","لم يتم العثور على الصفحة.",module,Magento_SendFriend
+"You can't send messages more than %1 times an hour.","لا يمكنك إرسال رسائل أكثر من %1 مرة في الساعة.",module,Magento_SendFriend
+"The link to a friend was sent.","تم إرسال الرابط لصديق.",module,Magento_SendFriend
+"We found some problems with the data.","وجدنا بعض المشاكل مع البيانات.",module,Magento_SendFriend
+"Some emails were not sent.","لم ترسل بعض رسائل البريد الإلكتروني.",module,Magento_SendFriend
+"You've met your limit of %1 sends in an hour.","قد وصلت الحد الخاص بك لإرسال %1 في ساعة واحدة.",module,Magento_SendFriend
+"Please enter a sender name.","يرجى ادخال اسم الراسل.",module,Magento_SendFriend
+"Invalid Sender Email","بريد الراسل غير صحيح",module,Magento_SendFriend
+"Please enter a message.","الرجاء إدخال رسالة.",module,Magento_SendFriend
+"Please specify at least one recipient.","الرجاء تحديد مستلم واحد على الأقل.",module,Magento_SendFriend
+"Please enter a correct recipient email address.","الرجاء إدخال عنوان بريد إلكتروني صحيح.",module,Magento_SendFriend
+"Please define a correct product instance.","الرجاء تعريف مثيل صحيح للمنتج.",module,Magento_SendFriend
+"Invalid Sender Information","معلومات المرسل غير صالحة",module,Magento_SendFriend
+"Please define the correct sender information.","الرجاء تحديد معلومات المرسل الصحيحة.",module,Magento_SendFriend
+"IP Address","عنوان الملكية الفكرية",module,Magento_SendFriend
+"Cookie (unsafe)","ملف تعريف الارتباط (غير أمن)",module,Magento_SendFriend
+"No Product Exception.","لا يوجد استثناء للمنتج.",module,Magento_SendFriend
+"Some error","خطأ ما",module,Magento_SendFriend
+"Localized Exception.","استثناء المنطقة.",module,Magento_SendFriend
+Exception.,استثناء.,module,Magento_SendFriend
+Remove,ازالة,module,Magento_SendFriend
+Name,اسم,module,Magento_SendFriend
+Email,"البريد الإلكتروني",module,Magento_SendFriend
+"* Required Fields","* حقول مطلوبة",module,Magento_SendFriend
+Sender,المرسل,module,Magento_SendFriend
+Message,رسالة,module,Magento_SendFriend
+"Maximum %1 email addresses allowed.","مسموح %1 عنوان بريد الكتروني بحد اقصى.",module,Magento_SendFriend
+Back,رجوع,module,Magento_SendFriend
 "New Shipment for Order #%1","شحنة جديدة للطلب #%1",module,Magento_Shipping
 "Submit Shipment","ارسال الشحنه",module,Magento_Shipping
 "You are trying to add a quantity for some products that doesn't match the quantity that was shipped.","أنت تحاول إضافة كمية لبعض المنتجات التي لا تتطابق مع الكمية التي تم شحنها.",module,Magento_Shipping
@@ -3718,6 +3789,21 @@ Options,الخيارات,module,Magento_Swatches
 "Save Option","حفظ الخيار",module,Magento_Swatches
 "Remove Option","إزالة خيار",module,Magento_Swatches
 "Create New Value","إنشاء قيمة جديدة",module,Magento_Swatches
+Code,رمز,module,Magento_TaxImportExport
+Country,الدولة,module,Magento_TaxImportExport
+State,ولاية,module,Magento_TaxImportExport
+"Zip/Post Code","الرمز البريدي",module,Magento_TaxImportExport
+Rate,تقييم,module,Magento_TaxImportExport
+"Zip/Post is Range","الرمز البريدي",module,Magento_TaxImportExport
+"Range From","الحدود من",module,Magento_TaxImportExport
+"Range To","الحدود إلى",module,Magento_TaxImportExport
+"Import and Export Tax Rates","استيراد وتصدير معدلات الضرائب",module,Magento_TaxImportExport
+"The tax rate has been imported.","تم استيراد معدل الضريبة.",module,Magento_TaxImportExport
+"Invalid file upload attempt","محاولة رفع ملف غير صحيحة",module,Magento_TaxImportExport
+"Invalid file upload attempt.","محاولة رفع ملف غير صحيحة.",module,Magento_TaxImportExport
+"Invalid file format.","تنسيق ملف غير صالح.",module,Magento_TaxImportExport
+"Import Tax Rates","استيراد معدلات الضريبة",module,Magento_TaxImportExport
+"Export Tax Rates","تصدير معدلات الضريبة",module,Magento_TaxImportExport
 "Tax Rate Information","معلومات معدل الضريبة",module,Magento_Tax
 "Tax Identifier","معرف الضريبة",module,Magento_Tax
 "Zip/Post is Range","الرمز البريدي",module,Magento_Tax
@@ -3798,6 +3884,90 @@ Save,حفظ,module,Magento_Tax
 "Add New Class","إضافة شريحة جديدة",module,Magento_Tax
 "Grand Total Excl. Tax","المجموع الكلي غير شامل الضريبة",module,Magento_Tax
 "Grand Total Incl. Tax","المجموع الكلي شامل الضريبة",module,Magento_Tax
+Themes,مواضيع,module,Magento_Theme
+"Save and Continue Edit","حفظ ومواصلة التعديل",module,Magento_Theme
+"Are you sure you want to delete this theme?","هل أنت متأكد أنك تريد حذف هذه الواجهة؟",module,Magento_Theme
+"Theme: %1","الواجهة: %1",module,Magento_Theme
+"New Theme","واجهة جديدة",module,Magento_Theme
+"Theme CSS","قالب CSS",module,Magento_Theme
+"Custom CSS","CSS مخصص",module,Magento_Theme
+"Select CSS File to Upload","اختر ملف CSS لرفعه",module,Magento_Theme
+"Upload CSS File","رفع ملف CSS",module,Magento_Theme
+"Download CSS File","تحميل ملف CSS",module,Magento_Theme
+Manage,إدارة,module,Magento_Theme
+"Upload Images","رفع صور",module,Magento_Theme
+"Upload Fonts","رفع الخطوط",module,Magento_Theme
+"Edit custom.css","تحرير custom.css",module,Magento_Theme
+"Allowed file types *.css.","يسمح بالملفات بالامتداد *.css.",module,Magento_Theme
+"This file will replace the current custom.css file and can't be more than 2 MB.","هذا الملف سيتم استبدال الملف custom.css الحالي ولا يمكن أن يكون أكثر من 2 ميغا بايت.",module,Magento_Theme
+"Max file size to upload %1M","الحد الأقصى لحجم الملف للرفع %1M",module,Magento_Theme
+"Something is wrong with the file upload settings.","هناك خطأ في إعدادات رفع الملف.",module,Magento_Theme
+"CSS Editor","محرر CSS",module,Magento_Theme
+"Theme Settings","إعدادات الثيم",module,Magento_Theme
+"Parent Theme","الثيم الأصل",module,Magento_Theme
+"Theme Path","مسار الثيم",module,Magento_Theme
+"Theme Title","عنوان الثيم",module,Magento_Theme
+"Theme Preview Image","صورة معاينة الثيم",module,Magento_Theme
+General,عام,module,Magento_Theme
+"Copy of %1","نسخة من %1",module,Magento_Theme
+"Max image size %1M","الحد الأقصى لحجم الصورة %1M",module,Magento_Theme
+"Theme JavaScript","الجافا سكريبت للثيم",module,Magento_Theme
+"Select JS Files to Upload","حدد ملفات الجافا سكربت لرفعها",module,Magento_Theme
+"Upload JS Files","رفع ملفات الجافا سكربت",module,Magento_Theme
+"JS Editor","محرر الجافا سكربت",module,Magento_Theme
+"Allowed file types *.js.","يسمح بالملفات بالامتداد *.js.",module,Magento_Theme
+Theme,الثيم,module,Magento_Theme
+"Media Storage","وسائط التخزين",module,Magento_Theme
+"Create Folder","إنشاء مجلد",module,Magento_Theme
+"Delete Folder","حذف مجلد",module,Magento_Theme
+"Delete File","حذف ملف",module,Magento_Theme
+"Insert File","إدراج ملف",module,Magento_Theme
+"New Folder Name:","اسم المجلد الجديد:",module,Magento_Theme
+"Are you sure you want to delete this folder?","هل أنت متأكد من أنك تريد حذف هذا المجلد؟",module,Magento_Theme
+"Are you sure you want to delete this file?","هل أنت متأكد من أنك تريد حذف هذا الملف؟",module,Magento_Theme
+"Storage Root","جذر التخزين",module,Magento_Theme
+"You deleted the theme.","قمت بحذف الثيم.",module,Magento_Theme
+"We cannot delete the theme.","لا يمكن حذف الثيم.",module,Magento_Theme
+"File not found: ""%1"".","لم يتم العثور على الملف: ""%1"".",module,Magento_Theme
+"We can't find file.","لا يمكننا العثور على الملف.",module,Magento_Theme
+"We cannot find theme ""%1"".","لا يمكن العثور على الثيم ""%1"".",module,Magento_Theme
+"We cannot find the theme.","لا يمكن ايجاد الثيم.",module,Magento_Theme
+"This theme is not editable.","هذا الثيم غير قابل للتحرير.",module,Magento_Theme
+"You saved the theme.","تم حفظ الثيم.",module,Magento_Theme
+"We can't upload the CSS file right now.","لا يمكننا تحميل ملف CSS الآن.",module,Magento_Theme
+"We cannot find a theme with id ""%1"".","لا يمكن العثور على الثيم مع معرف ""%1"".",module,Magento_Theme
+"We can't upload the JS file right now.","لا يمكننا رفع ملف جافا سكريبت الآن.",module,Magento_Theme
+"Sorry, something went wrong. That's all we know.","آسف، حدث خطأ. وهذا كل ما نعرفه.",module,Magento_Theme
+"Invalid type","نوع غير صحيح",module,Magento_Theme
+"Exception does not contain field '%1'","استثناء لا يحتوي على الحقل '%1'",module,Magento_Theme
+"Invalid regular expression: ""%1"".","تعبير عادي غير صحيح: ""%1"".",module,Magento_Theme
+label,التسمية,module,Magento_Theme
+"-- Please Select --","--الرجاء الاختيار-",module,Magento_Theme
+"The start date can't follow the end date.","تاريخ البدء لا يمكنه تتبع تاريخ الانتهاء.",module,Magento_Theme
+Copy,انسخ,module,Magento_Theme
+"We can't upload the file right now.","لا يمكننا رفع الملف الآن.",module,Magento_Theme
+"We can't delete root directory %1 right now.","لا يمكننا حذف جذر الدليل %1 الآن.",module,Magento_Theme
+"Theme isn't deletable.","التصميم ليس قابل للحذف.",module,Magento_Theme
+Message,رسالة,module,Magento_Theme
+exception,إستثناء,module,Magento_Theme
+Remove,ازالة,module,Magento_Theme
+"Report All Bugs","أبلغ عن كل الثغرات",module,Magento_Theme
+"Items %1 to %2 of %3 total","عناصر %1 إلى %2 من مجموع %3",module,Magento_Theme
+"%1 Item","%1 عنصر",module,Magento_Theme
+"%1 Item(s)","%1 عنصر (عناصر)",module,Magento_Theme
+Page,حقيبة,module,Magento_Theme
+Previous,السابق,module,Magento_Theme
+"You're currently reading page","حاليا انت تقرأ الصفحة",module,Magento_Theme
+Next,التالي,module,Magento_Theme
+Show,أعرض,module,Magento_Theme
+"per page","لكل صفحة",module,Magento_Theme
+"About the calendar","حول التقويم",module,Magento_Theme
+Close,غلق,module,Magento_Theme
+"Go Today","الذهاب اليوم",module,Magento_Theme
+WK,أسبوع,module,Magento_Theme
+Time,الزمن,module,Magento_Theme
+Hour,ساعة,module,Magento_Theme
+Minute,دقيقة,module,Magento_Theme
 "Dictionary (Translation on Storefront side)","قاموس (الترجمة من ناحية الواجهة)",module,Magento_Translation
 "Embedded (Translation on Admin side)","مضمن (الترجمة على جانب المشرف)",module,Magento_Translation
 "Condition type ""%1"" is not allowed","نوع الشرط ""%1"" غير مسموح",module,Magento_Ui
@@ -4009,6 +4179,70 @@ All,الكل,module,Magento_User
 Resources,مصادر,module,Magento_User
 "Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?","تحذير! \r\n هذا العمل سيؤدي لإزالة هذا المستخدم من \r\n الصلاحيات المعينة له مسبقاً هل أنت متأكد؟",module,Magento_User
 "Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?","تحذير! \r\n هذا العمل سيؤدي لإزالة المستخدمين من \r\n الصلاحيات المعينة لهم مسبقاً هل أنت متأكد؟",module,Magento_User
+"First-Class Mail Large Envelope","مغلف كبير لبريد الدرجة الأولى",module,Magento_Usps
+"First-Class Mail Letter","رسالة بريد من الدرجة الأولى",module,Magento_Usps
+"First-Class Mail Parcel","الطرود البريد من الدرجة الأولى",module,Magento_Usps
+"First-Class Mail Postcards","رسالة بريد من الدرجة الأولى",module,Magento_Usps
+"Priority Mail","البريد الالكتروني الاولي",module,Magento_Usps
+"Priority Mail Express Hold For Pickup","الأولوية البريد عقد صريح بيك آب",module,Magento_Usps
+"Priority Mail Express","أولوية البريد السريع",module,Magento_Usps
+"Retail Ground","أرض البيع بالتجزئة",module,Magento_Usps
+"Media Mail","وسائل الاعلام البريد الالكتروني",module,Magento_Usps
+"Library Mail","بريد المكتبة",module,Magento_Usps
+"Priority Mail Express Flat Rate Envelope","الأولوية البريد معدل ثابت صريح مغلف",module,Magento_Usps
+Letter,رسالة,module,Magento_Usps
+Flat,مسطحة,module,Magento_Usps
+Parcel,طرد,module,Magento_Usps
+Variable,متغير,module,Magento_Usps
+"Flat-Rate Box","صندوق ذو تسعيرة موحدة",module,Magento_Usps
+"Flat-Rate Envelope","غلاف ذو تسعيرة موحدة",module,Magento_Usps
+Rectangular,مستطيل,module,Magento_Usps
+Non-rectangular,"غير مستطيل",module,Magento_Usps
+Regular,عادي,module,Magento_Usps
+Large,كبير,module,Magento_Usps
+Yes,نعم,module,Magento_Usps
+No,لا,module,Magento_Usps
+"Not Required","غير مطلوب",module,Magento_Usps
+Required,مطلوب,module,Magento_Usps
+"For some reason we can't retrieve tracking info right now.","لسبب من الأسباب لا يمكننا استرداد معلومات التتبع الآن.",module,Magento_Usps
+"Sorry, something went wrong. Please try again or contact us and we'll try to help.","آسف، حدث خطأ. الرجاء حاول مرة أخرى أو اتصل بنا وسوف نحاول المساعدة.",module,Magento_Usps
+"Empty response","رد فارغ",module,Magento_Usps
+Sample,عينة,module,Magento_Usps
+Gift,هدية,module,Magento_Usps
+Documents,الوثائق,module,Magento_Usps
+Return,إرجاع,module,Magento_Usps
+Other,أخرى,module,Magento_Usps
+None,"لا شئ",module,Magento_Usps
+"Custom Variables","المتغيرات المخصصة",module,Magento_Variable
+"Add New Variable","إضافة متغير جديد",module,Magento_Variable
+"Save and Continue Edit","حفظ ومواصلة التعديل",module,Magento_Variable
+"Custom Variable ""%1""","المتغيرات المخصصة ""%1""",module,Magento_Variable
+"New Custom Variable","المتغيرات المخصصة",module,Magento_Variable
+Variable,متغير,module,Magento_Variable
+"Variable Code","رمز متغير",module,Magento_Variable
+"Variable Name","اسم متغير",module,Magento_Variable
+"Use Default Variable Values","استخدام القيم الافتراضية المتغيرة",module,Magento_Variable
+No,لا,module,Magento_Variable
+Yes,نعم,module,Magento_Variable
+"Variable HTML Value","قيمة متغير HTML",module,Magento_Variable
+"Variable Plain Value","قيمة متغير عادي",module,Magento_Variable
+"You deleted the custom variable.","قمت بحذف المتغير المخصص.",module,Magento_Variable
+"You saved the custom variable.","قمت بحفظ المتغير المخصص.",module,Magento_Variable
+"Validation has failed.","فشل التحقق من الصحة.",module,Magento_Variable
+"Insert Variable...","إدراج متغير...",module,Magento_Variable
+"Operation allowed only in HTTPS","العمليات المسموح بها فقط في HTTPS",module,Magento_Webapi
+"Cannot perform GET operation with store code 'all'","لا يمكن تنفيذ العملية GET مع مخزن التعليمات البرمجية 'الكل'",module,Magento_Webapi
+"Request does not match any route.","طلب لا يتطابق مع أي مسار.",module,Magento_Webapi
+"Authentication header format is invalid.","تنسيق رأس المصادقة غير صالحة.",module,Magento_Webapi
+"Authentication header is absent.","رأس المصادقة غير موجودة.",module,Magento_Webapi
+"Not allowed parameters: %1. Please use only %2 and %3.","لا يسمح معلمات: %1. الرجاء استخدام %2 و %3 فقط.",module,Magento_Webapi
+"Requested service is not available: ""%1""","طلب خدمة غير متوفرة: ""%1""",module,Magento_Webapi
+"Operation ""%1"" not found.","عملية ""%1"" لم يتم العثور على.",module,Magento_Webapi
+"SOAP extension is not loaded.","لم يتم تحميل الملحق .",module,Magento_Webapi
+"Invalid XML","XML غير صالح",module,Magento_Webapi
+"Invalid XML: Detected use of illegal DOCTYPE","XML غير صالح: تم استخدام DOCTYPE غير صحيحة",module,Magento_Webapi
+message,رسالة,module,Magento_Webapi
+Message,رسالة,module,Magento_Webapi
 "Add Tax","إضافة ضريبة",module,Magento_Weee
 "Delete Tax","حذف الضرائب",module,Magento_Weee
 "All Websites","جميع المواقع",module,Magento_Weee
@@ -4236,6 +4470,7 @@ Password:,"الرقم السري:",module,Magento_Customer
 "Placed on <span class=""no-link"">%created_at</span>","وضع في <span class=""no-link"">%created_at</span>",module,Magento_Sales
 "Your shipping confirmation is below. Thank you again for your business.","تأكيد الشحن الخاص بك أدناه. أشكركم مرة أخرى على عملك.",module,Magento_Sales
 "Your Shipment #%shipment_id for Order #%order_id","شحنتك #%shipment_id لطلب رقم #%order_id",module,Magento_Sales
+"%name,",%name،,module,Magento_SendFriend
 "%name,",%name،,module,Magento_User
 "The password for your account has been successfully changed.","تم تغيير كلمة المرور للحساب الخاص بك بنجاح.",module,Magento_User
 "If you did not request this change, please contact us.","إذا كنت لم تطلب هذا التغيير، يرجى الاتصال بنا.",module,Magento_User
@@ -4334,8 +4569,10 @@ Save,حفظ,module,Magento_ProductVideo
 Cancel,إلغاء,module,Magento_ProductVideo
 Delete,احذف,module,Magento_ProductVideo
 "Images and Videos","الصور وملفات الفيديو",module,Magento_ProductVideo
+"This won't take long . . .","هذا لن يستغرق وقتاً طويلاً . . .",module,Magento_Rule
 "Add Products","إضافة منتجات",module,Magento_Sales
 Ok,موافق,module,Magento_Sales
+"We could not detect a size.","تعذر الكشف عن الحجم.",module,Magento_Theme
 "Please enter a valid credit card number.","الرجاء ادخال رقم بطاقه الائتمان",module,Magento_Ui
 "Invalid format.","الصيغة غير صالحة.",module,Magento_Ui
 "HTML tags are not allowed.","علامات HTML غير مسموح بها.",module,Magento_Ui
@@ -5101,6 +5338,9 @@ User,المستخدم,module,Magento_Paypal
 "Test Mode","وضع الاختبار",module,Magento_Paypal
 "Use Proxy","استخدام بروكسي",module,Magento_Paypal
 "Allowed Credit Card Types","أنواع بطاقات الائتمان المسموحة",module,Magento_Paypal
+"General Options","خيارات عامة",module,Magento_Persistent
+"Enable ""Remember Me""","تمكين ""تذكرني""",module,Magento_Persistent
+"""Remember Me"" Default Value","القيمة الافتراضية ""تذكرني""",module,Magento_Persistent
 "Product Alerts","تنبيهات المنتج",module,Magento_ProductAlert
 "Allow Alert When Product Price Changes","اتاحة تنبيه تغيير السعر",module,Magento_ProductAlert
 "Price Alert Email Template","قالب رسالة تنبيه تغيير السعر",module,Magento_ProductAlert
@@ -5130,6 +5370,9 @@ Report,تقرير,module,Magento_Reports
 Description,الوصف,module,Magento_Reports
 Active,فعال,module,Magento_Review
 Inactive,خاملة,module,Magento_Review
+"RSS Feeds","ملقمات الخلاصات",module,Magento_Rss
+"Rss Config","اعدادات الخلاصات",module,Magento_Rss
+"Enable RSS","تفعيل خدمة الخلاصات",module,Magento_Rss
 "Web Site",موقع,module,Magento_SalesRule
 General,عام,module,Magento_Sales
 "Allow Reorder","السماح بإعادة الطلب",module,Magento_Sales
@@ -5212,6 +5455,14 @@ yes,نعم,module,Magento_Search
 no,لا,module,Magento_Search
 Action,إجراء,module,Magento_Search
 Edit,تحرير,module,Magento_Search
+"Email to a Friend","ارسال الى صديق",module,Magento_SendFriend
+"Email Templates","قوالب البريد الإلكتروني",module,Magento_SendFriend
+Enabled,تفعيل,module,Magento_SendFriend
+"Email template chosen based on theme fallback when ""Default"" option is selected.","اختيار قالب البريد الإلكتروني استناداً إلى الثيم عند تحديد الخيار ""الإفتراضي"".",module,Magento_SendFriend
+"Allow for Guests","السماح للزوار",module,Magento_SendFriend
+"Max Recipients","اقصى عدد للمستقبلين",module,Magento_SendFriend
+"Max Products Sent in 1 Hour","اقصى عدد للمنتجات يمكن ارسالة بالساعة",module,Magento_SendFriend
+"Limit Sending By","حدد الارسال بـ",module,Magento_SendFriend
 "Shipping Settings","إعدادات الشحن",module,Magento_Shipping
 Origin,الاصل,module,Magento_Shipping
 Country,الدولة,module,Magento_Shipping
@@ -5263,6 +5514,32 @@ Rate,تقييم,module,Magento_Tax
 "Order Total Incl. Tax","المجموع شامل الضريبة",module,Magento_Tax
 "Order Total","إجمالي الطلب",module,Magento_Tax
 "Your credit card will be charged for","سيتم الدفع ببطاقة الائتمان الخاصة بك لـ",module,Magento_Tax
+Empty,فارغ,module,Magento_Theme
+"Favicon Icon","رمز الأيقونة",module,Magento_Theme
+"Allowed file types: ICO, PNG, GIF, JPG, JPEG, APNG, SVG. Not all browsers support all these formats!","السماح لأنواع الملفات: ICO،PNG، GIF، JPG، JPEG، APNG، SVG. ليس كل المتصفحات تدعم جميع هذه الصيغ!",module,Magento_Theme
+"Default Title","العنوان الافتراضي",module,Magento_Theme
+"Title Prefix","عنوان البادئة",module,Magento_Theme
+"Title Suffix","عنوان اللاحقة",module,Magento_Theme
+"Default Description","الوصف الاعتيادى",module,Magento_Theme
+"Default Keywords","الكلمات الأساسية الافتراضية",module,Magento_Theme
+"Miscellaneous Scripts","سكربتات متنوعة",module,Magento_Theme
+"Display Demo Store Notice","إشعار عرض المتجر التجريبي",module,Magento_Theme
+Header,الترويسة,module,Magento_Theme
+"Logo Image","صورة الشعار",module,Magento_Theme
+"Logo Image Width","عرض صورة الشعار",module,Magento_Theme
+"Logo Image Height","ارتفاع صورة الشعار",module,Magento_Theme
+"Logo Image Alt","Alt صورة الشعار",module,Magento_Theme
+"Welcome Text","نص الترحيب",module,Magento_Theme
+Footer,"ذيل الصفحة",module,Magento_Theme
+Copyright,"حقوق الطبع والنشر",module,Magento_Theme
+"Miscellaneous HTML","HTML المتنوعة",module,Magento_Theme
+"This will be displayed just before body closing tag.","هذا سيتم عرضه فقط قبل علامة إغلاق الجسم.",module,Magento_Theme
+"Default welcome msg!","رسالة الترحيب الافتراضية!",module,Magento_Theme
+"Copyright © 2015 Magento. All rights reserved.","حقوق الطبع والنشر © 2015 ماجنتو. جميع الحقوق محفوظة.",module,Magento_Theme
+"Skip to Content","تخطي إلى المحتوى",module,Magento_Theme
+"2 columns with left bar","2 عمود مع الشريط الأيسر",module,Magento_Theme
+"2 columns with right bar","2 عمود مع الشريط الأيمن",module,Magento_Theme
+"3 columns","3 أعمدة",module,Magento_Theme
 "Translation Strategy","استراتيجية الترجمة",module,Magento_Translation
 Translations,ترجمات,module,Magento_Translation
 "Translation files.","ملفات الترجمة.",module,Magento_Translation
@@ -5304,6 +5581,32 @@ Username,"اسم المستخدم",module,Magento_User
 "Last login","آخر تسجيل دخول",module,Magento_User
 Failures,فشل,module,Magento_User
 Unlocked,مفتوح,module,Magento_User
+"Gateway URL","رابط البوابة",module,Magento_Usps
+Title,العنوان,module,Magento_Usps
+"User ID","رمز التعريفي للمستخدم",module,Magento_Usps
+Password,"كلمة المرور",module,Magento_Usps
+Container,حاوية,module,Magento_Usps
+Size,الحجم,module,Magento_Usps
+Width,العرض,module,Magento_Usps
+Height,الارتفاع,module,Magento_Usps
+Girth,مقاس,module,Magento_Usps
+Machinable,"مفهوم من قبل الإله",module,Magento_Usps
+"Maximum Package Weight (Please consult your shipping carrier for maximum supported shipping weight)","الحد الاقصى لوزن الطرد (الشحن الخاص بك، يرجى الرجوع إلى الناقل عن الحد الأقصى للوزن الشحن)",module,Magento_Usps
+"Calculate Handling Fee","حساب رسوم التوصيل",module,Magento_Usps
+"Handling Applied","تم تطبيق المعاملة",module,Magento_Usps
+"Handling Fee","رسوم التوصيل",module,Magento_Usps
+"Allowed Methods","شركات الشحن المسموح بها",module,Magento_Usps
+"Displayed Error Message","رسالة الخطأ المعروضة",module,Magento_Usps
+Debug,نقح,module,Magento_Usps
+"Sort Order",الترتيب,module,Magento_Usps
+"Variable ID","معرف متغير",module,Magento_Variable
+Name,اسم,module,Magento_Variable
+"Magento Web API","API ماجينتو ويب",module,Magento_Webapi
+"SOAP Settings","إعدادات SOAP",module,Magento_Webapi
+"Default Response Charset","أحرف الاستجابة الافتراضية",module,Magento_Webapi
+"If empty, UTF-8 will be used.","إذا كان فارغاً، سيتم استخدام ترميز UTF-8.",module,Magento_Webapi
+"Web Services Configuration","إعدادت خدمات الويب",module,Magento_Webapi
+"REST and SOAP configurations, generated WSDL file.","إعدادات REST و SOAP، أنشأت ملف WSDL.",module,Magento_Webapi
 "Fixed Product Taxes","ضرائب ثابتة",module,Magento_Weee
 "Enable FPT","تمكين FPT",module,Magento_Weee
 "Display Prices In Product Lists","عرض أسعار في قوائم المنتجات",module,Magento_Weee
