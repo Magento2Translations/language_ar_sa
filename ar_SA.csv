@@ -46,6 +46,7 @@ Close,غلق,module,Magento_AdminNotification
 "Order saving error: %1","أمر حفظ الخطأ: %1",module,Magento_Authorizenet
 "Please choose a payment method.","الرجاء اختيار طريقة الدفع.",module,Magento_Authorizenet
 "We can't process your order right now. Please try again later.","لا يمكننا معالجة طلبك الآن. الرجاء المحاولة مرة أخرى لاحقاً.",module,Magento_Authorizenet
+"An error occurred on the server. Please try to place the order again.","حدث خطأ في الخادوم. الرجاء محاولة وضع الطلب مرة أخرى.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","كارت ائتماني: xxxx-%1",module,Magento_Authorizenet
 "amount %1","%1 كمية",module,Magento_Authorizenet
 failed.,فشل.,module,Magento_Authorizenet
@@ -454,6 +455,7 @@ Authorize,تصريح,module,Magento_Braintree
 "Please, enter valid Card Verification Number","الرجاء إدخال رقم تحقق صالح",module,Magento_Braintree
 ending,"يتم الإنهاء",module,Magento_Braintree
 expires,"انتهاء صلاحية",module,Magento_Braintree
+"PayPal Logo","شعار باي بال",module,Magento_Braintree
 Actions,اعمال,module,Magento_Braintree
 Delete,احذف,module,Magento_Braintree
 "Percent Discount","نسبة الخصم",module,Magento_Bundle
@@ -4840,7 +4842,7 @@ Title,العنوان,module,Magento_Authorizenet
 "New Order Status","حالة طلب جديدة",module,Magento_Authorizenet
 "Test Mode","وضع الاختبار",module,Magento_Authorizenet
 "Gateway URL","رابط البوابة",module,Magento_Authorizenet
-"Transaction Details URL","URL تفاصيل عملية الدفع",module,Magento_Authorizenet
+"Transaction Details URL","رابط تفاصيل عملية الدفع",module,Magento_Authorizenet
 "Accepted Currency","العملات المقبولة",module,Magento_Authorizenet
 Debug,تنقيح,module,Magento_Authorizenet
 "Email Customer","البريد الإلكتروني للعميل",module,Magento_Authorizenet
@@ -5030,6 +5032,7 @@ Size(bytes),الحجم(بايت),module,Magento_Backup
 Type,النوع,module,Magento_Backup
 Download,تحميل,module,Magento_Backup
 Action,إجراء,module,Magento_Backup
+"Accept credit/debit cards and PayPal in your Magento store.<br/>No setup or monthly fees and your customers never leave your store to complete the purchase.","قبول بطاقات الائتمان و بايبال في المتجر. <br/> بدون رسوم إعداد أو رسوم شهرية، ولن يخرج عملائك من الموقع لإتمام الدفع.",module,Magento_Braintree
 "Enable this Solution","تمكين هذا الحل",module,Magento_Braintree
 "Enable PayPal through Braintree","تمكين باي بال عن طريق Braintree",module,Magento_Braintree
 "Basic Braintree Settings","الإعدادات الأساسية Braintree",module,Magento_Braintree
@@ -5057,6 +5060,7 @@ Debug,نقح,module,Magento_Braintree
 "Require Customer's Billing Address","تتطلب المعالجة عناوين الفواتير للعميل",module,Magento_Braintree
 "Allow to Edit Shipping Address Entered During Checkout on PayPal Side","السماح بتحرير عنوان السحن خلال مرحلة الدفع بـ بأي بال",module,Magento_Braintree
 "Display on Shopping Cart","العرض في سلة التسوق",module,Magento_Braintree
+"Skip Order Review","تخطي مراجعة الطلب",module,Magento_Braintree
 "3D Secure Verification Settings","إعدادات التحقق آمنة 3D",module,Magento_Braintree
 "3D Secure Verification","التحقق الآمن بستخدام 3D",module,Magento_Braintree
 "Threshold Amount","مبلغ الحد الأعلى",module,Magento_Braintree
