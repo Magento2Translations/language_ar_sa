@@ -4623,7 +4623,7 @@ Title,العنوان,module,Magento_Authorizenet
 "New Order Status","حالة طلب جديدة",module,Magento_Authorizenet
 "Test Mode","وضع الاختبار",module,Magento_Authorizenet
 "Gateway URL","رابط البوابة",module,Magento_Authorizenet
-"Transaction Details URL","URL تفاصيل عملية الدفع",module,Magento_Authorizenet
+"Transaction Details URL","رابط تفاصيل عملية الدفع",module,Magento_Authorizenet
 "Accepted Currency","العملات المقبولة",module,Magento_Authorizenet
 Debug,تنقيح,module,Magento_Authorizenet
 "Email Customer","البريد الإلكتروني للعميل",module,Magento_Authorizenet
