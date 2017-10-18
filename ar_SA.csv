@@ -2864,6 +2864,7 @@ Description,الوصف,module,Magento_ProductVideo
 "Hide from Product Page","إخفاء من صفحة المنتج",module,Magento_ProductVideo
 Role,دور,module,Magento_ProductVideo
 "YouTube and Vimeo supported.","YouTube و Vimeo مدعومين.",module,Magento_ProductVideo
+"Disallowed file type.","نوع الملف هذا غير مسموح.",module,Magento_ProductVideo
 "Could not get preview image information. Please check your connection and try again.","لا يمكن الحصول على معلومات صورة المعاينة. الرجاء التحقق من الاتصال الخاص بك وحاول مرة أخرى.",module,Magento_ProductVideo
 "Add Video","إضافة فيديو",module,Magento_ProductVideo
 "Browse to find or drag image here","استعرض للبحث أو اسحب الصورة هنا",module,Magento_ProductVideo
@@ -4570,10 +4571,12 @@ Password:,"الرقم السري:",module,Magento_Customer
 "There was recently a request to change the password for your account.","تم طلب تغيير كلمة المرور مؤخراَ.",module,Magento_Customer
 "If you requested this change, set a new password here:","إذا كنت انت من قام بهذا الطلب، اضغط على هذا الرابط:",module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","إذا لم تقم بإجراء هذا الطلب، يمكنك تجاهل هذه الرسالة وكلمة المرور سوف تبقى كما هي.",module,Magento_Customer
+"Checkout out as a new customer","الشراء كعميل جديد",module,Magento_Customer
 "Creating an account has many benefits:","إنشاء حساب له فوائد عديدة:",module,Magento_Customer
 "See order and shipping status","متابعة الطلب وحالة الشحن",module,Magento_Customer
 "Track order history","الاطلاع على طلباتك السابقة",module,Magento_Customer
 "Check out faster","المضي في عملية اسرع",module,Magento_Customer
+"Checkout out using your account","الشراء باستخدام حسابك",module,Magento_Customer
 "Email Address","البريد الإلكتروني",module,Magento_Customer
 "Currency Update Warnings","تحذير تعديل بيانات العملة",module,Magento_Directory
 Footer,"ذيل الصفحة",module,Magento_Email
