@@ -174,11 +174,11 @@ No,لا,module,Magento_Backend
 "Save Store","حفظ المتجر",module,Magento_Backend
 "Save Store View","حفظ عرض المتجر",module,Magento_Backend
 "Delete Store View","حذف عرض متجر",module,Magento_Backend
-"Edit Web Site","تحرير موقع الويب",module,Magento_Backend
+"Edit Web Site","تعديل موقع الويب",module,Magento_Backend
 "New Web Site","موقع ويب جديد",module,Magento_Backend
-"Edit Store","تحرير متجر",module,Magento_Backend
+"Edit Store","تعديل متجر",module,Magento_Backend
 "New Store","متجر جديد",module,Magento_Backend
-"Edit Store View","تحرير عرض المتجر",module,Magento_Backend
+"Edit Store View","تعديل عرض المتجر",module,Magento_Backend
 "New Store View","عرض متجر جديد",module,Magento_Backend
 "Store Information","بيانات المتجر",module,Magento_Backend
 "Web Site",موقع,module,Magento_Backend
@@ -253,7 +253,7 @@ Error,خطأ,module,Magento_Backend
 "An error occurred while saving account.","حدث خطأ أثناء حفظ حساب.",module,Magento_Backend
 "You deleted the design change.","قمت بحذف تغيير التصميم.",module,Magento_Backend
 "Store Design","تصميم المتجر",module,Magento_Backend
-"Edit Store Design Change","تحرير تغيير تصميم المتجر",module,Magento_Backend
+"Edit Store Design Change","تعديل تغيير تصميم المتجر",module,Magento_Backend
 "You saved the design change.","قمت بحفظ تغيير التصميم.",module,Magento_Backend
 System,النظام,module,Magento_Backend
 "Manage Stores","إدارة المتاجر",module,Magento_Backend
@@ -410,7 +410,7 @@ Database,"قاعدة البيانات",module,Magento_Backup
 "This may take a few moments.","قد يستغرق هذا بضع لحظات.",module,Magento_Backup
 "Be sure your store is in maintenance mode during backup.","الرجاء وضع المتجر الخاص بك في وضع الصيانة أثناء النسخ الاحتياطي.",module,Magento_Backup
 "Backup Name","اسم النسخة الاحتياطية",module,Magento_Backup
-"Please use only letters (a-z or A-Z), numbers (0-9) or spaces in this field.","الرجاء استخدام الأحرف (إلى z أو A إلى Z)، الأرقام (0-9) أو مسافات فقط في هذا الحقل.",module,Magento_Backup
+"Please use only letters (a-z or A-Z), numbers (0-9) or spaces in this field.","الرجاء استخدام الأحرف (a إلى z أو A إلى Z)، الأرقام (0-9) أو مسافات فقط في هذا الحقل.",module,Magento_Backup
 "Maintenance mode","وضع الصيانة",module,Magento_Backup
 "Please put your store into maintenance mode during backup.","الرجاء وضع المتجر الخاص بك في وضع الصيانة أثناء النسخ الاحتياطي.",module,Magento_Backup
 Exclude,استبعاد,module,Magento_Backup
@@ -500,8 +500,8 @@ Back,الرجوع,module,Magento_Braintree
 Company,الشركة,module,Magento_Braintree
 Address,العنوان,module,Magento_Braintree
 City,المدينة,module,Magento_Braintree
-State/Province,ولاية/مقاطعة,module,Magento_Braintree
-"Please select region, state or province","من فضلك اختر منطقة، ولاية أو مقاطعة",module,Magento_Braintree
+State/Province,ولاية/محافظة,module,Magento_Braintree
+"Please select region, state or province","من فضلك اختر منطقة، ولاية أو محافظة",module,Magento_Braintree
 "Zip/Postal Code","الرمز البريدي",module,Magento_Braintree
 Submit,ارسال,module,Magento_Braintree
 "Add Credit Card","إضافة بطاقة إئتمان",module,Magento_Braintree
@@ -706,7 +706,7 @@ Promotions,الترقيات,module,Magento_CatalogRule
 "We can't find a rule to delete.","لا يمكن أن نجد قاعدة للحذف.",module,Magento_CatalogRule
 "This rule no longer exists.","هذة القاعدة لم تعد موجودة.",module,Magento_CatalogRule
 "New Catalog Price Rule","قاعدة جديدة لسعر الكتالوج",module,Magento_CatalogRule
-"Edit Rule","تحرير قاعدة",module,Magento_CatalogRule
+"Edit Rule","تعديل قاعدة",module,Magento_CatalogRule
 Catalog,"دليل المنتجات",module,Magento_CatalogRule
 "Wrong rule specified.","قاعدة محددة خاطئة.",module,Magento_CatalogRule
 "You saved the rule.","تم حفظ القاعدة.",module,Magento_CatalogRule
@@ -802,7 +802,7 @@ label,التسمية,module,Magento_Catalog
 "Save and Continue Edit","حفظ ومواصلة التعديل",module,Magento_Catalog
 "Save Attribute","حفظ السمات",module,Magento_Catalog
 "Delete Attribute","حذف السمة",module,Magento_Catalog
-"Edit Product Attribute ""%1""","تحرير السمة المنتج ""%1""",module,Magento_Catalog
+"Edit Product Attribute ""%1""","تعديل سمة المنتج ""%1""",module,Magento_Catalog
 "New Product Attribute","سمة منتج جديد",module,Magento_Catalog
 "Advanced Attribute Properties","خصائص السمة المتقدمة",module,Magento_Catalog
 "Attribute Code","رمز السمة",module,Magento_Catalog
@@ -843,7 +843,7 @@ Static,ساكنة,module,Magento_Catalog
 Datetime,"وقت التاريخ",module,Magento_Catalog
 Decimal,عشري,module,Magento_Catalog
 Integer,"رقم صحيح",module,Magento_Catalog
-"Globally Editable","على الصعيد العالمي للتحرير",module,Magento_Catalog
+"Globally Editable","تعديل عام",module,Magento_Catalog
 "Attribute Information","معلومات السمة",module,Magento_Catalog
 Properties,خصائص,module,Magento_Catalog
 "Manage Labels","إدارة التسميات",module,Magento_Catalog
@@ -858,12 +858,12 @@ Delete,احذف,module,Magento_Catalog
 "You are about to delete all products in this attribute set. Are you sure you want to do that?","أنت على وشك حذف كافة المنتجات في تعيين هذه السمة. هل أنت متأكد من أنك تريد القيام بذلك؟",module,Magento_Catalog
 Save,حفظ,module,Magento_Catalog
 "New Set Name","اسم المجموعة الجديدة",module,Magento_Catalog
-"Edit Attribute Set '%1'","تحرير تعيين السمة '%1'",module,Magento_Catalog
+"Edit Attribute Set '%1'","تعديل مجموعة السمات '%1'",module,Magento_Catalog
 Empty,فارغ,module,Magento_Catalog
 "Add Attribute","اضافة السمة",module,Magento_Catalog
 "Add New Group","اضف مجموعة جديدة",module,Magento_Catalog
 "Add Group","اضافة مجموعة",module,Magento_Catalog
-"Edit Attribute Set Name","تحرير اسم مجموعة السمة",module,Magento_Catalog
+"Edit Attribute Set Name","تعديل اسم مجموعة السمات",module,Magento_Catalog
 "For internal use","للاستخدام الداخلي",module,Magento_Catalog
 "Based On","اعتمادا على",module,Magento_Catalog
 "Add New Attribute Set","اضف مجموعة سمات جديد",module,Magento_Catalog
@@ -917,7 +917,7 @@ Cross-sells,"عبر المبيعات",module,Magento_Catalog
 "Position of Watermark for %1","موضع علامة مائية ل %1",module,Magento_Catalog
 "Name in %1","اسم في %1",module,Magento_Catalog
 Quantity,الكمية,module,Magento_Catalog
-Edit,تحرير,module,Magento_Catalog
+Edit,تعديل,module,Magento_Catalog
 "Are you sure?","هل أنت متأكد؟",module,Magento_Catalog
 "Change Status","تغيير الحالة",module,Magento_Catalog
 "Update Attributes","تحديث السمات",module,Magento_Catalog
@@ -975,7 +975,7 @@ Catalog,"دليل المنتجات",module,Magento_Catalog
 "You deleted the product attribute.","لقد حذفت سمة هذا المنتج.",module,Magento_Catalog
 "We can't find an attribute to delete.","لا يمكن أن نجد سمة لحذفها.",module,Magento_Catalog
 "This attribute no longer exists.","هذه السمة لم تعد موجودة.",module,Magento_Catalog
-"This attribute cannot be edited.","لا يمكن تحرير هذه السمة.",module,Magento_Catalog
+"This attribute cannot be edited.","لا يمكن تعديل هذه السمة.",module,Magento_Catalog
 "Edit Product Attribute","اضافة سمة المنتج",module,Magento_Catalog
 "An attribute set named '%1' already exists.","السمة بهذا الإسم '%1' موجودة بالفعل.",module,Magento_Catalog
 "Something went wrong while saving the attribute.","حدث خطأ أثناء حفظ السمة.",module,Magento_Catalog
@@ -1303,7 +1303,7 @@ Availability,متوفر,module,Magento_Catalog
 "Add New Condition","إضافة شرط جديد",module,Magento_CheckoutAgreements
 "Save Condition","حفظ الشرط",module,Magento_CheckoutAgreements
 "Delete Condition","حذف حالة",module,Magento_CheckoutAgreements
-"Edit Terms and Conditions","تحرير شروط الإستخدام",module,Magento_CheckoutAgreements
+"Edit Terms and Conditions","تعديل شروط الإستخدام",module,Magento_CheckoutAgreements
 "New Terms and Conditions","البنود والشروط الجديدة",module,Magento_CheckoutAgreements
 "Terms and Conditions Information","الشروط والأحكام معلومات",module,Magento_CheckoutAgreements
 "Condition Name","اسم الشرط",module,Magento_CheckoutAgreements
@@ -1327,7 +1327,7 @@ Sales,المبيعات,module,Magento_CheckoutAgreements
 "This condition no longer exists.","هذا الشرط لم يعد موجودا.",module,Magento_CheckoutAgreements
 "You deleted the condition.","لقد حذفت الشرط.",module,Magento_CheckoutAgreements
 "Something went wrong  while deleting this condition.","حدث خطأ أثناء حذف هذا الشرط.",module,Magento_CheckoutAgreements
-"Edit Condition","تحرير الشرط",module,Magento_CheckoutAgreements
+"Edit Condition","تعديل الشرط",module,Magento_CheckoutAgreements
 "New Condition","حالة جديدة",module,Magento_CheckoutAgreements
 "You saved the condition.","تم حفظ الحالة.",module,Magento_CheckoutAgreements
 "Something went wrong while saving this condition.","حدث خطأ أثناء حفظ هذا الشرط.",module,Magento_CheckoutAgreements
@@ -1341,7 +1341,7 @@ Manually,يدوياً,module,Magento_CheckoutAgreements
 "Invalid method: %1","طريقة غير صحيحة: %1",module,Magento_Checkout
 City,المدينة,module,Magento_Checkout
 Country,الدولة,module,Magento_Checkout
-State/Province,ولاية/مقاطعة,module,Magento_Checkout
+State/Province,ولاية/محافظة,module,Magento_Checkout
 "Zip/Postal Code","الرمز البريدي",module,Magento_Checkout
 "My Cart (1 item)","سلة السلة (منتج واحد)",module,Magento_Checkout
 "My Cart (%1 items)","سلة التسوق (%1 منتج)",module,Magento_Checkout
@@ -1357,9 +1357,9 @@ State/Province,ولاية/مقاطعة,module,Magento_Checkout
 "The coupon code ""%1"" is not valid.","رمز قسيمة الخصم""%1"" غير صحيح.",module,Magento_Checkout
 "You canceled the coupon code.","قمت بإلغاء رمز قسيمة الخصم.",module,Magento_Checkout
 "We cannot apply the coupon code.","ونحن لا يمكن تطبيق رمز قسيمة الخصم.",module,Magento_Checkout
-"We can't remove the item.","لا يمكن إزالة العنصر.",module,Magento_Checkout
+"We can't remove the item.","لا يمكن إزالة المنتج.",module,Magento_Checkout
 "%1 was updated in your shopping cart.","تم تحديث %1 في عربة التسوق.",module,Magento_Checkout
-"We can't update the item right now.","لا يمكن تحديث هذا العنصر الآن.",module,Magento_Checkout
+"We can't update the item right now.","لا يمكن تحديث هذا المنتج الآن.",module,Magento_Checkout
 "We can't update the shopping cart.","لا يمكننا تحديث عربة التسوق.",module,Magento_Checkout
 "One-page checkout is turned off.","يتم إيقاف خاصية الشراء في صفحة واحدة.",module,Magento_Checkout
 "Guest checkout is disabled.","الشراء كزائر غير مفعلة في الوقت الحالي.",module,Magento_Checkout
@@ -1372,7 +1372,7 @@ Checkout,شراء,module,Magento_Checkout
 "The product does not exist.","هذا المنتج غير موجود.",module,Magento_Checkout
 "Quantity was recalculated from %1 to %2","تم اعادة حساب الكمية من %1 إلى %2",module,Magento_Checkout
 "We adjusted product quantities to fit the required increments.","قمنا بضبط كميات المنتج لإحتواء الزيادات المطلوبة.",module,Magento_Checkout
-"This quote item does not exist.","هذا البند غير موجود.",module,Magento_Checkout
+"This quote item does not exist.","هذا المنتج غير موجود.",module,Magento_Checkout
 "Display number of items in cart","عرض عدد القطع في سلة التسوق",module,Magento_Checkout
 "Display item quantities","عرض كميات السلع",module,Magento_Checkout
 "Shipping address is not set","لم يتم تعيين عنوان الشحن",module,Magento_Checkout
@@ -1409,7 +1409,7 @@ Subtotal,الإجمالي,module,Magento_Checkout
 "Update Cart","تحديث السلة",module,Magento_Checkout
 "See price before order confirmation.","انظر السعر قبل تأكيد الطلب.",module,Magento_Checkout
 "Edit item parameters","تعديل خصائص المنتج",module,Magento_Checkout
-Edit,تحرير,module,Magento_Checkout
+Edit,تعديل,module,Magento_Checkout
 "Remove item","أزل المنتج",module,Magento_Checkout
 "You have no items in your shopping cart.","لا يوجد منتجات في عربة التسوق.",module,Magento_Checkout
 "Click <a href=""%1"">here</a> to continue shopping.","<a href=""%1"">اضفط هنا</a> لمواصلة التسوق.",module,Magento_Checkout
@@ -1429,7 +1429,7 @@ Loading...,تحميل...,module,Magento_Checkout
 "Save Block","حفظ المساحة",module,Magento_Cms
 "Delete Block","المساحة قد حذفت",module,Magento_Cms
 "Save and Continue Edit","حفظ ومواصلة التعديل",module,Magento_Cms
-"Edit Block '%1'","تحرير قائمة '%1'",module,Magento_Cms
+"Edit Block '%1'","تعديل قائمة '%1'",module,Magento_Cms
 "New Block","مساحة جديدة",module,Magento_Cms
 "Block Information","إغلاق المعلومات",module,Magento_Cms
 "General Information","المعلومات العامة",module,Magento_Cms
@@ -1446,7 +1446,7 @@ Title,العنوان,module,Magento_Cms
 "Add New Page","إضافة صفحة جديدة",module,Magento_Cms
 "Save Page","حفظ الصفحة",module,Magento_Cms
 "Delete Page","حذف الصفحة",module,Magento_Cms
-"Edit Page '%1'","تحرير الصفحة '%1'",module,Magento_Cms
+"Edit Page '%1'","تعديل الصفحة '%1'",module,Magento_Cms
 "New Page","صفحة جديدة",module,Magento_Cms
 "Content Heading","عنوان المحتوى",module,Magento_Cms
 "Page Layout","تخطيط الصفحة",module,Magento_Cms
@@ -1498,7 +1498,7 @@ Blocks,قطع,module,Magento_Cms
 "The page has been deleted.","تم حذف الصفحة.",module,Magento_Cms
 "We can't find a page to delete.","لا يمكن أن نجد صفحة للحذف.",module,Magento_Cms
 "This page no longer exists.","هذه الصفحة لم تعد موجودة.",module,Magento_Cms
-"Edit Page","تحرير الصفحة",module,Magento_Cms
+"Edit Page","تعديل الصفحة",module,Magento_Cms
 Pages,الصفحات,module,Magento_Cms
 "Something went wrong while saving the page.","حدث خطأ أثناء حفظ الصفحة.",module,Magento_Cms
 "A total of %1 record(s) have been disabled.","لقد تم تعطيل %1 من السجلات.",module,Magento_Cms
@@ -1527,7 +1527,7 @@ RuntimeException,"إستثناء وقت التشغيل",module,Magento_Cms
 Exception,استثناء,module,Magento_Cms
 "Could not create directory.","تعذر إنشاء الدليل.",module,Magento_Cms
 "All Store Views","واجهه جميع المواقع",module,Magento_Cms
-Edit,تحرير,module,Magento_Cms
+Edit,تعديل,module,Magento_Cms
 Delete,احذف,module,Magento_Cms
 "Delete ${ $.$data.title }","حذف ${ $.$data.title }",module,Magento_Cms
 "Are you sure you wan't to delete a ${ $.$data.title } record?","هل أنت متأكد انك تريد حذف سجل ${ $.$data.title } ؟",module,Magento_Cms
@@ -1602,6 +1602,7 @@ Yes,نعم,module,Magento_Config
 Specified,محدد,module,Magento_Config
 "Invalid XML in file %1:
 %2","XML غير صالح في ملف %1:%2",module,Magento_Config
+test,اختبار,module,Magento_Config
 "Add after","إضافة بعد",module,Magento_Config
 Delete,احذف,module,Magento_Config
 "Current Configuration Scope:","التشكيل الحالي لنطاق:",module,Magento_Config
@@ -1639,7 +1640,7 @@ Summary,خلاصة,module,Magento_ConfigurableProduct
 "Product with id ""%1"" does not contain required attribute ""%2"".","معرف المنتج ""%1"" لا يحتوي على التفاصيل المطلوبة ""%2"".",module,Magento_ConfigurableProduct
 "Products ""%1"" and %2 have the same set of attribute values.","منتجات ""%1"" و %2 لديها نفس مجموعة السمات.",module,Magento_ConfigurableProduct
 "You can't add the item to shopping cart.","لا يمكنك إضافة ها البند إلى عربة التسوق.",module,Magento_ConfigurableProduct
-"You need to choose options for your item.","انت بحاجة لاختيار خيارات للبند الخاص بك.",module,Magento_ConfigurableProduct
+"You need to choose options for your item.","تحتاج إلى تحديد خيارات هذا المنتج.",module,Magento_ConfigurableProduct
 "Some product variations fields are not valid.","بعض حقول متغيرات المنتج غير صحيحة.",module,Magento_ConfigurableProduct
 "Configuration must have specified attributes","يجب أن يحتوي التكوين على خصائص محددة",module,Magento_ConfigurableProduct
 "Configurable product ""%1"" do not have sub-products","المنتج القابل للتخصيص ""%1"" ليس لديه منتجات فرعية",module,Magento_ConfigurableProduct
@@ -1666,7 +1667,7 @@ Images,صور,module,Magento_ConfigurableProduct
 "Browse Files...","استعراض ملفات...",module,Magento_ConfigurableProduct
 "Browse to find or drag image here","استعرض للبحث أو اسحب الصورة هنا",module,Magento_ConfigurableProduct
 "Remove image","إزالة الصورة",module,Magento_ConfigurableProduct
-"Edit role","تحرير الدور",module,Magento_ConfigurableProduct
+"Edit role","تعديل الدور",module,Magento_ConfigurableProduct
 Hidden,مخفي,module,Magento_ConfigurableProduct
 "Alt Text","النص البديل",module,Magento_ConfigurableProduct
 Role,دور,module,Magento_ConfigurableProduct
@@ -1687,7 +1688,7 @@ Quantity,الكمية,module,Magento_ConfigurableProduct
 "Configurable products allow customers to choose options (Ex: shirt color).
             You need to create a simple product for each configuration (Ex: a product for each color).","المنتجات القابلة للتخصيص تسمح للعملاء بتخصيص المنتج (مثلاً: لون القميص).
             تحتاج لإنشاء منتج بسيط لكل تخصيص (مثلاً: منتج لكل لون من ألوان القميص).",module,Magento_ConfigurableProduct
-"Edit Configurations","تحرير الإعدادات",module,Magento_ConfigurableProduct
+"Edit Configurations","تعديل الإعدادات",module,Magento_ConfigurableProduct
 "Create Configurations","انشاء ضبط",module,Magento_ConfigurableProduct
 "Add Products Manually","إضافة المنتجات يدوياً",module,Magento_ConfigurableProduct
 "Current Variations","الاختلافات الحالية",module,Magento_ConfigurableProduct
@@ -1705,7 +1706,7 @@ Actions,اعمال,module,Magento_ConfigurableProduct
 Confirm,تأكيد,module,Magento_ConfigurableProduct
 Cancel,إلغاء,module,Magento_ConfigurableProduct
 "Page not found.","لم يتم العثور على الصفحة.",module,Magento_Contact
-"Thanks for contacting us with your comments and questions. We'll respond to you very soon.","شكرا للاتصال بنا مع التعليقات والأسئلة الخاصة بك. سوف نرد عليك قريبا جداً.",module,Magento_Contact
+"Thanks for contacting us with your comments and questions. We'll respond to you very soon.","شكرا للاتصال بنا وارسال ملاحظاتك وأسئلتك. سوف نرد عليك قريبا جداً.",module,Magento_Contact
 "We can't process your request right now. Sorry, that's all we know.","لا يمكننا معالجة طلبك الآن. نحن متأسفون، هذا كل ما نعرفه.",module,Magento_Contact
 "* Required Fields","* حقول مطلوبة",module,Magento_Contact
 "Write Us",راسلنا,module,Magento_Contact
@@ -1753,6 +1754,7 @@ System,النظام,module,Magento_CurrencySymbol
 "We can't find that customer address.","لا يمكن أن نجد عنوان هذا العميل.",module,Magento_CustomerImportExport
 "Please enter a valid region.","الرجاء إدخال منطقة صالحة.",module,Magento_CustomerImportExport
 "We can't find that email and website combination.","لا يمكننا أن نجد مجموعة البريد الإلكتروني والموقع على شبكة الإنترنت.",module,Magento_CustomerImportExport
+"Please enter a password with a valid length.","الرجاء إدخال كلمة مرور بطول صحيح.",module,Magento_CustomerImportExport
 "Sign Out","تسجيل الخروج",module,Magento_Customer
 "Sign In","تسجيل الدخول",module,Magento_Customer
 "You subscribe to our newsletter.","يمكنك الاشتراك في نشرتنا البريدية.",module,Magento_Customer
@@ -1832,7 +1834,7 @@ Download,تحميل,module,Magento_Customer
 "Save Customer Group","حفظ مجموعة عملاء",module,Magento_Customer
 "Delete Customer Group","حذف مجموعة عملاء",module,Magento_Customer
 "New Customer Group","مجموعة عميل جديدة",module,Magento_Customer
-"Edit Customer Group ""%1""","تحرير مجموعة العملاء ""%1""",module,Magento_Customer
+"Edit Customer Group ""%1""","تعديل مجموعة العملاء ""%1""",module,Magento_Customer
 "Group Information","بيانات المجموعة",module,Magento_Customer
 "Group Name","اسم المجموعة",module,Magento_Customer
 "Maximum length must be less then %1 symbols","يجب أن يكون الحد الأقصى للطول أقل من %1 رموز",module,Magento_Customer
@@ -1842,12 +1844,14 @@ Download,تحميل,module,Magento_Customer
 "The VAT ID is valid.","رقم ضريبة القيمة المضافة (VAT) صحيح.",module,Magento_Customer
 "Based on the VAT ID, the customer belongs to the Customer Group %s.","استناداً إلى ""معرف الضريبة على القيمة المضافة""، '' العميل سينتمي إلى مجموعة العملاء %s.",module,Magento_Customer
 "Something went wrong while validating the VAT ID.","حدث خطأ أثناء تاكيد رقم ضريبة القيمة المضافة VAT.",module,Magento_Customer
+"Validate VAT Number","التحقق من صحة رقم ضريبة القيمة المضافة",module,Magento_Customer
 "Customer Login","تسجيل دخول العميل",module,Magento_Customer
 "Create New Customer Account","إنشاء حساب عميل جديد",module,Magento_Customer
 "Date of Birth","تاريخ الميلاد",module,Magento_Customer
 "Bad request.","طلب غير صحيح.",module,Magento_Customer
 "If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your shipping address for proper VAT calculation.","إذا كنت أحد العملاء المسجلين في ضريبة القيمة المضافة، الرجاء انقر <a href=""%1""> هنا</a> لإدخال عنوان الشحن الخاص بك لحساب الضريبة المناسبة على القيمة المضافة.",module,Magento_Customer
 "If you are a registered VAT customer, please click <a href=""%1"">here</a> to enter your billing address for proper VAT calculation.","إذا كنت أحد العملاء المسجلين في ضريبة القيمة المضافة، الرجاء انقر <a href=""%1""> هنا</a> لإدخال عنوان الفوترة الخاص بك لحساب الضريبة المناسبة على القيمة المضافة.",module,Magento_Customer
+"Thank you for registering with %1.","شكرا لك للتسجيل في %1.",module,Magento_Customer
 "Please check your email for confirmation key.","الرجاء التحقق من بريدك الإلكتروني للحصول علي رمز التاكيد.",module,Magento_Customer
 "Wrong email.","بريد إلكتروني خاطئ.",module,Magento_Customer
 "Your password reset link has expired.","انتهت مدة صلاحية رابط إعادة تعيين كلمة المرور الخاصة بك.",module,Magento_Customer
@@ -1874,7 +1878,7 @@ Download,تحميل,module,Magento_Customer
 "Something went wrong while saving the new password.","حدث خطأ أثناء حفظ كلمة المرور الجديدة.",module,Magento_Customer
 "You deleted the address.","لقد حذفت العنوان.",module,Magento_Customer
 "We can't delete the address right now.","نحن لا يمكننا حذف العنوان الآن.",module,Magento_Customer
-"You saved the address.","لقد حفظت العنوان.",module,Magento_Customer
+"You saved the address.","تم حفظت العنوان بنجاح.",module,Magento_Customer
 "We can't save the address.","نحن لا يمكننا حفظ العنوان.",module,Magento_Customer
 "You have revoked the customer's tokens.","تم إبطال الرموز المميزة للعميل.",module,Magento_Customer
 "We can't find a customer to revoke.","لا يمكن أن نجد أحد العملاء لإلغائه.",module,Magento_Customer
@@ -1882,8 +1886,8 @@ Download,تحميل,module,Magento_Customer
 Customers,العملاء,module,Magento_Customer
 "New Group","مجموعة جديدة",module,Magento_Customer
 "New Customer Groups","مجموعات العملاء الجديدة",module,Magento_Customer
-"Edit Group","تحرير مجموعة",module,Magento_Customer
-"Edit Customer Groups","تحرير مجموعات العملاء",module,Magento_Customer
+"Edit Group","تعديل مجموعة",module,Magento_Customer
+"Edit Customer Groups","تعديل مجموعات العملاء",module,Magento_Customer
 "You saved the customer group.","لقد حفظت مجوعة العميل.",module,Magento_Customer
 "Please select customer(s).","من فضلك اختر عميلا/عملاء.",module,Magento_Customer
 "You deleted the customer.","لقد حذفت العميل.",module,Magento_Customer
@@ -1907,7 +1911,9 @@ Customers,العملاء,module,Magento_Customer
 "Please enter the last name.","الرجاء ادخال الاسم الاخير.",module,Magento_Customer
 "Please enter the street.","رجاء إدخال الشارع.",module,Magento_Customer
 "Please enter the city.","رجاء إدخال المدينة.",module,Magento_Customer
+"Please enter the phone number.","الرجاء إدخال رقم الهاتف.",module,Magento_Customer
 "Please enter the zip/postal code.","الرجاء إدخال الرمز البريدي.",module,Magento_Customer
+"Please enter the country.","الرجاء إدخال الدولة.",module,Magento_Customer
 Global,عالمي,module,Magento_Customer
 "Per Website","لكل موقع",module,Magento_Customer
 "We can't share customer accounts globally when the accounts share identical email addresses on more than one website.","لا نشارك حسابات العملاء على الصعيد العالمي عندما تكون الحسابات تتطابق في عناوين البريد الإلكتروني في أكثر من موقع على شبكة الإنترنت.",module,Magento_Customer
@@ -1920,26 +1926,35 @@ Global,عالمي,module,Magento_Customer
 "Please enter a date of birth.","الرجاء إدخال تاريخ الميلاد.",module,Magento_Customer
 "Please enter a TAX/VAT number.","الرجاء إدخال رقم ضريبة/ضريبة القيمة المضافة.",module,Magento_Customer
 "Please enter a gender.","الرجاء إدخال نوع الجنس.",module,Magento_Customer
+"Please enter a valid password reset token.","الرجاء إدخال رمز إعادة تعيين كلمة مرور صالحة.",module,Magento_Customer
 "The password can not begin or end with a space.","كلمة المرور لا يمكن أن تبدأ أو تنتهي بمسافة.",module,Magento_Customer
 Admin,المدير,module,Magento_Customer
+"""%1"" is an empty string.","""%1"" فارغة.",module,Magento_Customer
 """%1"" is not a valid email address.","'%1' ليس عنوان بريد إلكتروني صحيحا.",module,Magento_Customer
+"""%1"" is not a valid hostname.","""%1"" ليس هوست صحيح.",module,Magento_Customer
 """%1"" is not a valid URL.","""%1"" ليس رابطًا صحيحاً.",module,Magento_Customer
 """%1"" is not a valid date.","""%1"" ليس تاريخ صحيح.",module,Magento_Customer
+"Please enter a valid date between %1 and %2 at %3.","الرجاء إدخال تاريخ صالح بين %1 و %2 في %3.",module,Magento_Customer
+"Please enter a valid date equal to or greater than %1 at %2.","الرجاء إدخال تاريخ صحيح يساوي أو أكبر من %1 في %2.",module,Magento_Customer
+"Please enter a valid date less than or equal to %1 at %2.","الرجاء إدخال تاريخ صحيح أقل من أو يساوي إلى %1 في %2.",module,Magento_Customer
 """%1"" is not a valid file.","""%1"" ليس ملف صالح.",module,Magento_Customer
 """%1"" exceeds the allowed file size.","""%1"" اكبر من حجم الملف المسموح به.",module,Magento_Customer
 label,التسمية,module,Magento_Customer
 "Please enter a customer email.","الرجاء ادخال بريد العميل.",module,Magento_Customer
 "Customer Group","مجموعات العملاء",module,Magento_Customer
 "Cannot delete group.","لا يمكن حذف مجموعة.",module,Magento_Customer
+"VAT Number is valid.","رقم ضريبة القيمة المضافة صحيح.",module,Magento_Customer
+"Please enter a valid VAT number.","الرجاء إدخال رقم صحيح.",module,Magento_Customer
 Male,ذكر,module,Magento_Customer
 Female,أنثى,module,Magento_Customer
 "Not Specified","غير محدد",module,Magento_Customer
+"Thank you for registering with","شكرا لك للتسجيل في",module,Magento_Customer
 "enter your shipping address for proper VAT calculation","قم بإدخال عنوان الشحن لحساب الضريبة المناسبة",module,Magento_Customer
 message,رسالة,module,Magento_Customer
 Exception,استثناء,module,Magento_Customer
 Label,علامة,module,Magento_Customer
 Select...,اختر...,module,Magento_Customer
-Edit,تحرير,module,Magento_Customer
+Edit,تعديل,module,Magento_Customer
 Visitor,زائر,module,Magento_Customer
 Customer,زبون,module,Magento_Customer
 "No item specified.","ولا عنصر المحدد.",module,Magento_Customer
@@ -1985,8 +2000,8 @@ Address,العنوان,module,Magento_Customer
 "Street Address %1","عنوان الشارع %1",module,Magento_Customer
 "VAT Number","رقم ضريبة القيمة المضافة",module,Magento_Customer
 City,المدينة,module,Magento_Customer
-State/Province,ولاية/مقاطعة,module,Magento_Customer
-"Please select a region, state or province.","من فضلك اختر منطقة، ولاية أو مقاطعة.",module,Magento_Customer
+State/Province,ولاية/محافظة,module,Magento_Customer
+"Please select a region, state or province.","من فضلك اختر منطقة، ولاية أو محافظة.",module,Magento_Customer
 "Zip/Postal Code","الرمز البريدي",module,Magento_Customer
 Country,الدولة,module,Magento_Customer
 "Use as my default billing address","استخدم كعنوان الدفع الافتراضي",module,Magento_Customer
@@ -2064,7 +2079,7 @@ Documents,الوثائق,module,Magento_Dhl
 "Unable to retrieve shipping label","غير قادر على استرداد تسمية الشحن",module,Magento_Dhl
 "Non documents","بدون وثائق",module,Magento_Dhl
 None,"لا شئ",module,Magento_Dhl
-State/Province,"الولاية\المحافظة",module,Magento_Directory
+State/Province,الولاية/المحافظة,module,Magento_Directory
 "--Please Select--"," --- الرجاء الإختيار --- ",module,Magento_Directory
 lbs,رطل,module,Magento_Directory
 kgs,كجم,module,Magento_Directory
@@ -2080,7 +2095,7 @@ WARNING:,تحذير:,module,Magento_Directory
 "Please correct the country code: %1.","الرجاء تصحيح رمز البلد: %1.",module,Magento_Directory
 "Country and Format Type combination should be unique","البلد نوع وشكل الجمع بين ينبغي ان تكون فريدة من نوعها",module,Magento_Directory
 "Please correct the rates received","الرجاء تصحيح المعدلات المستلمة",module,Magento_Directory
-"Please select a region, state or province.","من فضلك اختر منطقة، ولاية أو مقاطعة.",module,Magento_Directory
+"Please select a region, state or province.","من فضلك اختر منطقة، ولاية أو محافظة.",module,Magento_Directory
 Currency,العملة,module,Magento_Directory
 "Your current currency is: %1.","العملة الحالية الخاصة بك: %1.",module,Magento_Directory
 Continue,استمر,module,Magento_Directory
@@ -2177,6 +2192,9 @@ Dropdown,انزال,module,Magento_Eav
 """%1"" is not a valid email address.","'%1' ليس عنوان بريد إلكتروني صحيحا.",module,Magento_Eav
 """%1"" is not a valid URL.","""%1"" ليس رابطًا صحيحاً.",module,Magento_Eav
 """%1"" is not a valid date.","""%1"" ليس تاريخ صحيح.",module,Magento_Eav
+"Please enter a valid date between %1 and %2 at %3.","الرجاء إدخال تاريخ صحيح بين %1 و %2 في %3.",module,Magento_Eav
+"Please enter a valid date equal to or greater than %1 at %2.","الرجاء إدخال تاريخ صحيح يساوي أو أكبر من %1 في %2.",module,Magento_Eav
+"Please enter a valid date less than or equal to %1 at %2.","الرجاء إدخال تاريخ صحيح أقل من أو يساوي إلى %1 في %2.",module,Magento_Eav
 """%1"" is not a valid file.","""%1"" ليس ملف صالح.",module,Magento_Eav
 """%1"" exceeds the allowed file size.","""%1"" اكبر من حجم الملف المسموح به.",module,Magento_Eav
 "Group with id ""%1"" does not exist.","لا توجد مجموعة بالمعرف ""%1"".",module,Magento_Eav
@@ -2214,7 +2232,7 @@ Reset,"اعادة ضبط",module,Magento_Email
 "Preview Template","معاينة القالب",module,Magento_Email
 "Save Template","حفظ القالب",module,Magento_Email
 "Load Template","تحميل قالب",module,Magento_Email
-"Edit Email Template","تحرير قالب البريد الإلكتروني",module,Magento_Email
+"Edit Email Template","تعديل قالب البريد الإلكتروني",module,Magento_Email
 "New Email Template","قالب بريد إلكتروني جديد",module,Magento_Email
 "Default Config","اعداد افتراضي",module,Magento_Email
 "Template Information","معلومات القالب",module,Magento_Email
@@ -2230,8 +2248,8 @@ Unknown,"غير معروف",module,Magento_Email
 "The email template is currently being used.","قالب البريد الإلكتروني مستخدم حاليا.",module,Magento_Email
 "We can't delete email template data right now. Please review log and try again.","لا يمكن حذف بيانات قالب البريد الإلكتروني الآن. الرجاء مراجعة السجل وحاول مرة أخرى.",module,Magento_Email
 "We can't find an email template to delete.","لا يمكن أن نجد قالب بريد إلكتروني لحذفه.",module,Magento_Email
-"Edit Template","تحرير قالب",module,Magento_Email
-"Edit System Template","تحرير قالب النظام",module,Magento_Email
+"Edit Template","تعديل قالب",module,Magento_Email
+"Edit System Template","تعديل قالب النظام",module,Magento_Email
 "New Template","قالب جديد",module,Magento_Email
 "New System Template","قالب جديد للنظام",module,Magento_Email
 "Email Templates","قوالب البريد الإلكتروني",module,Magento_Email
@@ -2417,7 +2435,7 @@ Email,"البريد الإلكتروني",module,Magento_Integration
 "Consumer Secret","سر المستهلك",module,Magento_Integration
 Remove,ازالة,module,Magento_Integration
 View,عرض,module,Magento_Integration
-Edit,تحرير,module,Magento_Integration
+Edit,تعديل,module,Magento_Integration
 Activate,تفعيل,module,Magento_Integration
 Reauthorize,"إعادة اذن",module,Magento_Integration
 "The integration '%1' has been deleted.","لقد تم حذف التكامل '%1'.",module,Magento_Integration
@@ -2497,8 +2515,8 @@ Total,إجمالي,module,Magento_Multishipping
 "Total for this address","مجموع لهذا العنوان",module,Magento_Multishipping
 "Shipping Methods","طريقة الشحن",module,Magento_Multishipping
 "Edit Address","تعديل العنوان",module,Magento_Multishipping
-"Edit Billing Address","تحرير عنوان دفع الفاتورة",module,Magento_Multishipping
-"Edit Shipping Address","تحرير عنوان الشحن",module,Magento_Multishipping
+"Edit Billing Address","تعديل عنوان دفع الفاتورة",module,Magento_Multishipping
+"Edit Shipping Address","تعديل عنوان الشحن",module,Magento_Multishipping
 "Create Billing Address","إنشاء عنوان دفع الفاتورة",module,Magento_Multishipping
 "Create Shipping Address","إنشاء عنوان الشحن",module,Magento_Multishipping
 "Data saving problem","خطأ في حفظ البيانات",module,Magento_Multishipping
@@ -2537,7 +2555,7 @@ Actions,اعمال,module,Magento_Multishipping
 Change,تغير,module,Magento_Multishipping
 "Payment Method","طريقة الدفع",module,Magento_Multishipping
 "Back to Shipping Information","العودة إلى بيانات الشحن",module,Magento_Multishipping
-"Edit Items","تحرير السلع",module,Magento_Multishipping
+"Edit Items","تعديل السلع",module,Magento_Multishipping
 "Shipping is not applicable.","الشحن غير قابلة للتطبيق.",module,Magento_Multishipping
 "Product Name","اسم المنتج",module,Magento_Multishipping
 "Check Out with Multiple Addresses","إنهاء عملية الشراء بعناوين متعددة",module,Magento_Multishipping
@@ -2547,7 +2565,7 @@ Change,تغير,module,Magento_Multishipping
 "Excl. Tax","غير شامل الضريبة",module,Magento_Multishipping
 "Order Review","مراجعة الطلب",module,Magento_Multishipping
 Item,سلعة,module,Magento_Multishipping
-Edit,تحرير,module,Magento_Multishipping
+Edit,تعديل,module,Magento_Multishipping
 Price,السعر,module,Magento_Multishipping
 Subtotal,الإجمالي,module,Magento_Multishipping
 Items,المنتجات,module,Magento_Multishipping
@@ -2568,7 +2586,7 @@ Reset,"اعادة ضبط",module,Magento_Newsletter
 "Save Newsletter","حفظ النشرة البريدية",module,Magento_Newsletter
 "Save and Resume","حفظ واستمرار",module,Magento_Newsletter
 "View Newsletter","عرض النشرة البريدية",module,Magento_Newsletter
-"Edit Newsletter","تحرير النشرة البريدية",module,Magento_Newsletter
+"Edit Newsletter","تعديل النشرة البريدية",module,Magento_Newsletter
 "Queue Information","معلومات الصف",module,Magento_Newsletter
 "Queue Date Start","بدء تاريخ الصف",module,Magento_Newsletter
 "Subscribers From","مشتركون من",module,Magento_Newsletter
@@ -2589,7 +2607,7 @@ Preview,"اعادة المشاهدة",module,Magento_Newsletter
 "Delete Template","حذف القالب",module,Magento_Newsletter
 "Save As","حفظ باسم",module,Magento_Newsletter
 "Save Template","حفظ القالب",module,Magento_Newsletter
-"Edit Newsletter Template","تحرير قالب النشرة البريدية",module,Magento_Newsletter
+"Edit Newsletter Template","تعديل قالب النشرة البريدية",module,Magento_Newsletter
 "New Newsletter Template","قالب نشرة بريدية جديد",module,Magento_Newsletter
 "Template Information","معلومات القالب",module,Magento_Newsletter
 "Template Name","اسم القالب",module,Magento_Newsletter
@@ -2616,7 +2634,7 @@ Newsletter,"القائمة البريدية",module,Magento_Newsletter
 Subscribers,مشتركون,module,Magento_Newsletter
 "A total of %1 record(s) were updated.","عدد %1 سجلات تم تحديثها.",module,Magento_Newsletter
 "We can't delete this template right now.","لا يمكن حذف هذا القالب الآن.",module,Magento_Newsletter
-"Edit Template","تحرير قالب",module,Magento_Newsletter
+"Edit Template","تعديل قالب",module,Magento_Newsletter
 "New Template","قالب جديد",module,Magento_Newsletter
 "Create Newsletter Template","إنشاء قالب نشرة بريدية",module,Magento_Newsletter
 "Newsletter Subscription","الاشتراك بالقائمة البريدية",module,Magento_Newsletter
@@ -2656,7 +2674,7 @@ Region/State,"المنطقة / الولايه",module,Magento_OfflineShipping
 "# of Items (and above)","# للعناصر (و اعلى)",module,Magento_OfflineShipping
 None,"لا شئ",module,Magento_OfflineShipping
 "Per Order","لكل طلب",module,Magento_OfflineShipping
-"Per Item","لكل بند",module,Magento_OfflineShipping
+"Per Item","لكل منتج",module,Magento_OfflineShipping
 "We couldn't import this file because of these errors: %1","لا يمكن استيراد هذا الملف بسبب هذه الأخطاء: %1",module,Magento_OfflineShipping
 "Duplicate Row #%1 (Country ""%2"", Region/State ""%3"", Zip ""%4"" and Value ""%5"")","تكرار الصف #%1 (بلد ""%2""، ""%3""، الولاية/الإقليم الرمز ""%4"" والقيمة ""%5"")",module,Magento_OfflineShipping
 "Free Shipping","شحن مجاني",module,Magento_OfflineShipping
@@ -2683,6 +2701,7 @@ Shipping,الشحن,module,Magento_Payment
 "You can't use the payment type you selected to make payments to the billing country.","لا يمكنك استخدام نوع الدفع الذي حددته لدفع مبالغ للبلد الذي اخترته.",module,Magento_Payment
 "The credit card number doesn't match the credit card type.","رقم بطاقة الائتمان لا يتطابق مع نوع بطاقة الائتمان.",module,Magento_Payment
 "Please enter a valid credit card verification number.","الرجاء إدخال رقم بطاقة ائتمان صالح للتحقق.",module,Magento_Payment
+"Please enter a valid credit card expiration date.","الرجاء إدخال تاريخ انتهاء صلاحية بطاقة الائتمان بشكل صحيح.",module,Magento_Payment
 "%1 class doesn't implement \Magento\Payment\Model\MethodInterface","%1 الكلاس لاينفذ \Magento\Payment\Model\MethodInterface",module,Magento_Payment
 Yes,نعم,module,Magento_Payment
 No,لا,module,Magento_Payment
@@ -2697,7 +2716,7 @@ No,لا,module,Magento_Payment
 "Card Verification Number Visual Reference","بطاقه رقم التحقق من الاشارة البصريه",module,Magento_Payment
 "What is this?","ما هذا؟",module,Magento_Payment
 "Credit Card Information","معلومات بطاقة الائتمان",module,Magento_Payment
-"Billing Agreements","اتفاقات الدفع",module,Magento_Paypal
+"Billing Agreements","اتفاقيات الدفع",module,Magento_Paypal
 ID,التعريف,module,Magento_Paypal
 Email,"البريد الإلكتروني",module,Magento_Paypal
 "First Name","الإسم الأول",module,Magento_Paypal
@@ -2778,9 +2797,9 @@ View,عرض,module,Magento_Paypal
 "Please select a shipping method...","من فضلك اختر طريقة شحن...",module,Magento_Paypal
 "Update Shipping Method","تحديث طريقة الشحن",module,Magento_Paypal
 "Shipping Address","عنوان الشحن",module,Magento_Paypal
-Edit,تحرير,module,Magento_Paypal
+Edit,تعديل,module,Magento_Paypal
 "Items in Your Shopping Cart","السلع في سلة تسوقك",module,Magento_Paypal
-"Edit Shopping Cart","تحرير سلة التسوق",module,Magento_Paypal
+"Edit Shopping Cart","تعديل سلة التسوق",module,Magento_Paypal
 "Place Order","إنشاء الطلب",module,Magento_Paypal
 "Submitting order information...","تقديم بيانات طلب الشراء...",module,Magento_Paypal
 Item,سلعة,module,Magento_Paypal
@@ -2844,12 +2863,12 @@ Duration:,المدة:,module,Magento_ProductVideo
 "The requested Payment Method is not available.","طريقة الدفع المطلوبة لم تعد موجودة.",module,Magento_Quote
 "The address model is not defined.","لم يتم تعريف نموذج العنوان.",module,Magento_Quote
 "Grand Total","المجموع الاجمالى",module,Magento_Quote
-"Shipping & Handling (%1)","الشحن & التوصيل (%1)",module,Magento_Quote
-"Shipping & Handling","الشحن & التوصيل",module,Magento_Quote
+"Shipping & Handling (%1)","الشحن و التوصيل (%1)",module,Magento_Quote
+"Shipping & Handling","الشحن و التوصيل",module,Magento_Quote
 Shipping,الشحن,module,Magento_Quote
 Subtotal,الإجمالي,module,Magento_Quote
 "An item option with code %1 already exists.","خيار المنتج بالكود %1 موجود مسبقا.",module,Magento_Quote
-"Cart %1 doesn't contain item  %2","السلة %1 لا تحتوي على البند %2",module,Magento_Quote
+"Cart %1 doesn't contain item  %2","السلة %1 لا تحتوي على المنتج %2",module,Magento_Quote
 "Invalid customer id %1","%1 معرف عميل غير صالح",module,Magento_Quote
 "Invalid address id %1","%1 معرف عنوان غير صالح",module,Magento_Quote
 "Cannot create quote","لا يمكن إنشاء عرض أسعار",module,Magento_Quote
@@ -2984,7 +3003,7 @@ Previous,السابق,module,Magento_Review
 Next,التالي,module,Magento_Review
 "Delete Review","حذف مراجعة",module,Magento_Review
 "Are you sure you want to do this?","هل أنت متأكد أنك تريد فعل ذلك؟",module,Magento_Review
-"Edit Review '%1'","تحرير التعليق '%1'",module,Magento_Review
+"Edit Review '%1'","تعديل التعليق '%1'",module,Magento_Review
 "<a href=""%1"" onclick=""this.target='blank'"">%2 %3</a> <a href=""mailto:%4"">(%4)</a>","<a href=""%1"" onclick=""this.target='blank'"">%2 %3</a> <a href=""mailto:%4""> (%4)</a>",module,Magento_Review
 Administrator,المدير,module,Magento_Review
 Guest,زائر,module,Magento_Review
@@ -2996,12 +3015,12 @@ Created,إنشاء,module,Magento_Review
 Title,العنوان,module,Magento_Review
 Type,النوع,module,Magento_Review
 Action,إجراء,module,Magento_Review
-Edit,تحرير,module,Magento_Review
+Edit,تعديل,module,Magento_Review
 Delete,احذف,module,Magento_Review
 "Are you sure?","هل أنت متأكد؟",module,Magento_Review
 Customer,زبون,module,Magento_Review
 "Pending Reviews","مراجعة تنتظر المراجعة",module,Magento_Review
-"All Reviews","كل التقييمات",module,Magento_Review
+"All Reviews","كل التقييمات والآراء",module,Magento_Review
 Name,اسم,module,Magento_Review
 Price,السعر,module,Magento_Review
 Quantity,الكمية,module,Magento_Review
@@ -3024,13 +3043,14 @@ Websites,الموقع,module,Magento_Review
 "Review: %1 <br/>","استعراض: %1 <br/>",module,Magento_Review
 "Store: %1 <br/>","المتجر: %1 <br/>",module,Magento_Review
 "Product: ""%1"" reviewed by: %2","المنتج: ""%1"" مراجع بواسطة: %2",module,Magento_Review
-"Pending Reviews RSS","RSS التقييمات المعلقة",module,Magento_Review
-Reviews,المراجعات,module,Magento_Review
+"Pending Reviews RSS","RSS التقييمات والآراء المعلقة",module,Magento_Review
+Reviews,"التقييمات والآراء",module,Magento_Review
 "Customer Reviews","مراجعات العميل",module,Magento_Review
 "We can't retrieve the product ID.","لا يمكننا استرداد معرف المنتج.",module,Magento_Review
 "A total of %1 record(s) have been deleted.","عدد %1 سجلات تم حذفها.",module,Magento_Review
 "A total of %1 record(s) have been updated.","عدد %1 سجلات تم تحديثها.",module,Magento_Review
 "My Product Reviews",مراجعاتي,module,Magento_Review
+"You submitted your review for moderation.","تم إرسال مراجعتك، سيتم نشرها قريبا.",module,Magento_Review
 "We can't post your review right now.","لا يمكن أن نقوم بنشر تقيبمك الخاص بك الآن.",module,Magento_Review
 Approved,وافق,module,Magento_Review
 Pending,"في إنتظار المُراجعة",module,Magento_Review
@@ -3152,7 +3172,7 @@ Promotions,الترقيات,module,Magento_SalesRule
 "We can't delete the rule right now. Please review the log and try again.","لا يمكن حذف هذه القاعدة الآن. الرجاء مراجعة السجل وحاول مرة أخرى.",module,Magento_SalesRule
 "We can't find a rule to delete.","لا يمكن أن نجد قاعدة للحذف.",module,Magento_SalesRule
 "This rule no longer exists.","هذة القاعدة لم تعد موجودة.",module,Magento_SalesRule
-"Edit Rule","تحرير قاعدة",module,Magento_SalesRule
+"Edit Rule","تعديل قاعدة",module,Magento_SalesRule
 "Rule is not defined","القاعدة لم يتم تعريفها",module,Magento_SalesRule
 "Invalid data provided","البيانات المقدمة غير صحيحة",module,Magento_SalesRule
 Catalog,"دليل المنتجات",module,Magento_SalesRule
@@ -3225,7 +3245,7 @@ Coupons,"قسائم الخصم",module,Magento_Sales
 From,من,module,Magento_Sales
 To,إلى,module,Magento_Sales
 Message,رسالة,module,Magento_Sales
-"Edit Order #%1","تحرير طلب #%1",module,Magento_Sales
+"Edit Order #%1","تعديل طلب #%1",module,Magento_Sales
 "Create New Order for New Customer in %1","إنشاء طلب شراء جديد لعميل جديد في %1",module,Magento_Sales
 "Create New Order for New Customer","إنشاء طلب شراء جديد لعميل جديد",module,Magento_Sales
 "Items Ordered","عناصر الطلب",module,Magento_Sales
@@ -3274,7 +3294,7 @@ Capture,اسر,module,Magento_Sales
 "Total Paid","مجموع المدفوعات",module,Magento_Sales
 "Total Refunded","اجمالي الاسترداد",module,Magento_Sales
 "Total Due","بسبب المجموع",module,Magento_Sales
-Edit,تحرير,module,Magento_Sales
+Edit,تعديل,module,Magento_Sales
 Hold,امساك,module,Magento_Sales
 Unhold,"غير منتظرة",module,Magento_Sales
 Invoice,فاتورة,module,Magento_Sales
@@ -3298,7 +3318,7 @@ Yes,نعم,module,Magento_Sales
 No,لا,module,Magento_Sales
 "New Order RSS","RSS الطلبات الجديدة",module,Magento_Sales
 Subtotal,الإجمالي,module,Magento_Sales
-"Shipping & Handling","الشحن & التوصيل",module,Magento_Sales
+"Shipping & Handling","الشحن و التوصيل",module,Magento_Sales
 "Discount (%1)","الخصم (%1)",module,Magento_Sales
 Discount,خصم,module,Magento_Sales
 "Grand Total","المجموع الاجمالى",module,Magento_Sales
@@ -3324,7 +3344,7 @@ Sales,المبيعات,module,Magento_Sales
 "You created the order.","قمت بإنشاء الطلب.",module,Magento_Sales
 "Order saving error: %1","أمر حفظ الخطأ: %1",module,Magento_Sales
 "We can't update the item's quantity right now.","لا يمكن تحديث كمية هذا المنتج الآن.",module,Magento_Sales
-"Edit Order","تحرير الطلب",module,Magento_Sales
+"Edit Order","تعديل الطلب",module,Magento_Sales
 "You can't create an invoice without products.","لا يمكنك إنشاء فاتورة دون منتجات.",module,Magento_Sales
 "New Invoice","فاتورة جديدة",module,Magento_Sales
 "We can't save the invoice right now.","لا يمكن حفظ الفاتورة الآن.",module,Magento_Sales
@@ -3363,6 +3383,7 @@ Returned,اعادة,module,Magento_Sales
 Partial,جزئي,module,Magento_Sales
 Mixed,مختلط,module,Magento_Sales
 "Transaction ID: ""%1""","رقم المعاملة: ""%1""",module,Magento_Sales
+"Ordered amount of %1","الكمية المطلوبة من %1",module,Magento_Sales
 "Payment transactions disallow storing objects.","حركات الدفع لا تسمح بتخزين الكائنات.",module,Magento_Sales
 Order,طلب,module,Magento_Sales
 Authorization,التفويض,module,Magento_Sales
@@ -3384,7 +3405,7 @@ Country,الدولة,module,Magento_Sales
 Email,"البريد الإلكتروني",module,Magento_Sales
 "First Name","الإسم الأول",module,Magento_Sales
 "Last Name","اسم العائلة",module,Magento_Sales
-State/Province,ولاية/مقاطعة,module,Magento_Sales
+State/Province,ولاية/محافظة,module,Magento_Sales
 "Street Address","عنوان الشارع",module,Magento_Sales
 "Phone Number","رقم الهاتف",module,Magento_Sales
 "Zip/Postal Code","الرمز البريدي",module,Magento_Sales
@@ -3466,7 +3487,7 @@ Item,سلعة,module,Magento_Sales
 From:,من:,module,Magento_Sales
 To:,إلى:,module,Magento_Sales
 Message:,الرسالة:,module,Magento_Sales
-"Shipping &amp; Handling","الشحن &amp; التوصيل",module,Magento_Sales
+"Shipping &amp; Handling","الشحن و التوصيل",module,Magento_Sales
 "Gift Options","خيارات الهدية",module,Magento_Sales
 "Create Shipment","إنشاء شحن",module,Magento_Sales
 "Qty to Invoice","الكمية للفوترة",module,Magento_Sales
@@ -3550,7 +3571,7 @@ Search,بحث,module,Magento_Search
 "Add New Search Term","اضف كلمة بحث جديدة",module,Magento_Search
 "Save Search","حفظ البحث",module,Magento_Search
 "Delete Search","حذف بحث",module,Magento_Search
-"Edit Search '%1'","تحرير بحث '%1'",module,Magento_Search
+"Edit Search '%1'","تعديل بحث '%1'",module,Magento_Search
 "New Search","بحث جديد",module,Magento_Search
 "Search Information","حفظ المعلومات",module,Magento_Search
 "General Information","المعلومات العامة",module,Magento_Search
@@ -3686,7 +3707,7 @@ Title,العنوان,module,Magento_Shipping
 Number,رقم,module,Magento_Shipping
 Action,إجراء,module,Magento_Shipping
 "Are you sure?","هل أنت متأكد؟",module,Magento_Shipping
-"Shipping &amp; Handling Information","الشحن &amp; معلومات التوصيل",module,Magento_Shipping
+"Shipping &amp; Handling Information","الشحن و معلومات التوصيل",module,Magento_Shipping
 "Track Order","متابعة الطلب",module,Magento_Shipping
 "No shipping information available","معلومات الشحن غير متوفرة",module,Magento_Shipping
 "Shipping and Tracking Information","الشحن ومعلومات تتبع الشحنة",module,Magento_Shipping
@@ -3720,7 +3741,7 @@ Description,الوصف,module,Magento_Shipping
 "There is no tracking available.","لا يوجد متابعة مسموحة.",module,Magento_Shipping
 "Close Window","أغلق النافذه",module,Magento_Shipping
 "Save & Generate","حفظ & إنتاج",module,Magento_Sitemap
-"Edit Sitemap","تحرير خريطة الموقع",module,Magento_Sitemap
+"Edit Sitemap","تعديل خريطة الموقع",module,Magento_Sitemap
 "New Sitemap","خريطة موقع جديدة",module,Magento_Sitemap
 "Sitemap Information","معلومات خريطة الموقع",module,Magento_Sitemap
 Sitemap,"خريطة الموقع",module,Magento_Sitemap
@@ -3836,8 +3857,8 @@ Priority,أولوية,module,Magento_Tax
 "Shipping Excl. Tax (%1)","الشحن غير شامل الضريبة (%1)",module,Magento_Tax
 "Subtotal (Excl.Tax)","الإجمالي (غير شامل الضريبة)",module,Magento_Tax
 "Subtotal (Incl.Tax)","الإجمالي (شامل الضريبة)",module,Magento_Tax
-"Shipping & Handling (Excl.Tax)","الشحن & التوصيل (غير شامل الضريبة)",module,Magento_Tax
-"Shipping & Handling (Incl.Tax)","الشحن & التوصيل (شامل الضريبة)",module,Magento_Tax
+"Shipping & Handling (Excl.Tax)","الشحن و التوصيل (غير شامل الضريبة)",module,Magento_Tax
+"Shipping & Handling (Incl.Tax)","الشحن و التوصيل (شامل الضريبة)",module,Magento_Tax
 "Grand Total (Excl.Tax)","المجموع الكلي (غير شامل الضريبة)",module,Magento_Tax
 "Grand Total (Incl.Tax)","المجموع الكلي (شامل الضريبة)",module,Magento_Tax
 Sales,المبيعات,module,Magento_Tax
@@ -3847,10 +3868,10 @@ Tax,الضريبة,module,Magento_Tax
 "We can't delete this tax rate right now.","لا يمكن حذف معدل الضريبة هذه الآن.",module,Magento_Tax
 "We can't save this rate right now.","لا يمكننا حفظ هذا المعدل الآن.",module,Magento_Tax
 "We can't delete this rate because of an incorrect rate ID.","لا يمكننا حذف هذا المعدل بسبب ان معدل المعرف غير صحيح.",module,Magento_Tax
-"Edit Tax Rate","تحرير معدل الضريبة",module,Magento_Tax
+"Edit Tax Rate","تعديل معدل الضريبة",module,Magento_Tax
 "Tax Rules","قواعد الضريبة",module,Magento_Tax
 "This rule no longer exists.","هذة القاعدة لم تعد موجودة.",module,Magento_Tax
-"Edit Rule","تحرير قاعدة",module,Magento_Tax
+"Edit Rule","تعديل قاعدة",module,Magento_Tax
 "New Rule","قاعدة جديدة",module,Magento_Tax
 "We can't save this tax rule right now.","لا يمكن حفظ هذه القاعدة الضريبية الآن.",module,Magento_Tax
 "We can't delete this tax class right now.","لا يمكن حذف فئة هذه الضريبة الآن.",module,Magento_Tax
@@ -3897,7 +3918,7 @@ Themes,مواضيع,module,Magento_Theme
 Manage,إدارة,module,Magento_Theme
 "Upload Images","رفع صور",module,Magento_Theme
 "Upload Fonts","رفع الخطوط",module,Magento_Theme
-"Edit custom.css","تحرير custom.css",module,Magento_Theme
+"Edit custom.css","تعديل custom.css",module,Magento_Theme
 "Allowed file types *.css.","يسمح بالملفات بالامتداد *.css.",module,Magento_Theme
 "This file will replace the current custom.css file and can't be more than 2 MB.","هذا الملف سيتم استبدال الملف custom.css الحالي ولا يمكن أن يكون أكثر من 2 ميغا بايت.",module,Magento_Theme
 "Max file size to upload %1M","الحد الأقصى لحجم الملف للرفع %1M",module,Magento_Theme
@@ -3932,7 +3953,7 @@ Theme,الثيم,module,Magento_Theme
 "We can't find file.","لا يمكننا العثور على الملف.",module,Magento_Theme
 "We cannot find theme ""%1"".","لا يمكن العثور على الثيم ""%1"".",module,Magento_Theme
 "We cannot find the theme.","لا يمكن ايجاد الثيم.",module,Magento_Theme
-"This theme is not editable.","هذا الثيم غير قابل للتحرير.",module,Magento_Theme
+"This theme is not editable.","هذا الثيم غير قابل للتعديل.",module,Magento_Theme
 "You saved the theme.","تم حفظ الثيم.",module,Magento_Theme
 "We can't upload the CSS file right now.","لا يمكننا تحميل ملف CSS الآن.",module,Magento_Theme
 "We cannot find a theme with id ""%1"".","لا يمكن العثور على الثيم مع معرف ""%1"".",module,Magento_Theme
@@ -4018,26 +4039,26 @@ None,"لا شئ",module,Magento_Ups
 label,التسمية,module,Magento_Ups
 "United Parcel Service","خدمة الطرود المتحدة",module,Magento_Ups
 "United Parcel Service XML","خدمة الطرود المتحدة XML",module,Magento_Ups
-"Edit URL Rewrite for a Category","تحرير كتابة عنوان URL لقسم",module,Magento_UrlRewrite
+"Edit URL Rewrite for a Category","تعديل كتابة عنوان URL لقسم",module,Magento_UrlRewrite
 "Add URL Rewrite for a Category","اضافة URL لقسم",module,Magento_UrlRewrite
 Category:,القسم:,module,Magento_UrlRewrite
 "We can't set up a URL rewrite because the product you chose is not associated with a website.","ونحن لا يمكن إعداد إعادة كتابة URL لأن المنتج الذي اخترته لا يرتبط بموقع على شبكة الإنترنت.",module,Magento_UrlRewrite
 "Please assign a website to the selected category.","الرجاء تعيين موقع ويب للفئة المحددة.",module,Magento_UrlRewrite
-"Edit URL Rewrite for a Product","تحرير كتابة عنوان URL للمنتج",module,Magento_UrlRewrite
+"Edit URL Rewrite for a Product","تعديل كتابة عنوان URL للمنتج",module,Magento_UrlRewrite
 "Add URL Rewrite for a Product","اضافة URL إعادة كتابة لمنتج",module,Magento_UrlRewrite
 Product:,المنتج:,module,Magento_UrlRewrite
 "Skip Category Selection","تخطي اختيار القسم",module,Magento_UrlRewrite
 ID,التعريف,module,Magento_UrlRewrite
 Name,اسم,module,Magento_UrlRewrite
 Status,الحاله,module,Magento_UrlRewrite
-"Edit URL Rewrite for CMS page","تحرير كتابة عنوان URL لصفحة نظام إدارة المحتويات",module,Magento_UrlRewrite
+"Edit URL Rewrite for CMS page","تعديل كتابة عنوان URL لصفحة نظام إدارة المحتويات",module,Magento_UrlRewrite
 "Add URL Rewrite for CMS page","إضافة إعادة كتابة عنوان URL لصفحة نظام إدارة المحتويات",module,Magento_UrlRewrite
 "CMS page:","صفحة نظام إدارة المحتويات:",module,Magento_UrlRewrite
 "Please assign a website to the selected CMS page.","الرجاء أختيار موقع للمحتوى المحدد.",module,Magento_UrlRewrite
 Title,العنوان,module,Magento_UrlRewrite
 "URL Key","مفتاح URL",module,Magento_UrlRewrite
 "Store View","عرض المتجر",module,Magento_UrlRewrite
-"Edit URL Rewrite","تحرير إعادة كتابة URL",module,Magento_UrlRewrite
+"Edit URL Rewrite","تعديل إعادة كتابة URL",module,Magento_UrlRewrite
 "Add New URL Rewrite","إضافة إعادة كتابة URL جديد",module,Magento_UrlRewrite
 Reset,"اعادة ضبط",module,Magento_UrlRewrite
 Back,رجوع,module,Magento_UrlRewrite
@@ -4330,7 +4351,7 @@ Page,حقيبة,module,Magento_Widget
 "We can't add the item to the cart right now.","لا يمكن إضافة العنصر إلى السلة المشتريات الآن.",module,Magento_Wishlist
 "We can't load the Wish List item right now.","ونحن لا يمكن تحميل عنصر قائمة الرغبات الآن.",module,Magento_Wishlist
 "We can't configure the product right now.","لا يمكن إعداد المنتج الآن.",module,Magento_Wishlist
-"The requested cart item doesn't exist.","بند السلة المطلوب غير موجود.",module,Magento_Wishlist
+"The requested cart item doesn't exist.","المنتج المطلوب غير موجود.",module,Magento_Wishlist
 "%1 has been moved to your wish list.","وقد تم نقل %1 إلى رغبتكم قائمة.",module,Magento_Wishlist
 "We can't move the item to the wish list.","لا يمكن نقل العنصر إلى قائمة الرغبات.",module,Magento_Wishlist
 "We can't delete the item from Wish List right now because of an error: %1.","لا يمكن حذف العنصر من قائمة الرغبات الآن بسبب خطأ: %1.",module,Magento_Wishlist
@@ -4384,7 +4405,7 @@ Qty,الكميّة,module,Magento_Wishlist
 Availability,التوفر,module,Magento_Wishlist
 "In stock",متوفر,module,Magento_Wishlist
 "Out of stock","غير متوفر بالمخزن",module,Magento_Wishlist
-Edit,تحرير,module,Magento_Wishlist
+Edit,تعديل,module,Magento_Wishlist
 "Remove Item","إزالة سلعة",module,Magento_Wishlist
 "Remove item","أزل المنتج",module,Magento_Wishlist
 "Add to Compare","إضافة إلى المقارنة",module,Magento_Wishlist
@@ -4448,7 +4469,7 @@ Password:,"الرقم السري:",module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","إذا لم تقم بإجراء هذا الطلب، يمكنك تجاهل هذه الرسالة وكلمة المرور سوف تبقى كما هي.",module,Magento_Customer
 "The password for your account has been successfully changed.","تم تغيير كلمة المرور للحساب الخاص بك بنجاح.",module,Magento_Customer
 "If you did not request this change, please contact us.","إذا كنت لم تطلب هذا التغيير، يرجى الاتصال بنا.",module,Magento_Customer
-"Currency Update Warnings","تحذير تحرير بيانات العملة",module,Magento_Directory
+"Currency Update Warnings","تحذير تعديل بيانات العملة",module,Magento_Directory
 "Thank you, %store_name","شكرا لك، %store_name",module,Magento_Email
 "To begin receiving the newsletter, you must first confirm your subscription by clicking on the following link:","للبدء في إستقبال الرسالة الإخبارية، يجب عليك أولاً تأكيد اشتراك; عن طريق الضغط على الرابط التالي:",module,Magento_Newsletter
 "You have been successfully subscribed to our newsletter.","لقد اشتركت في نشرتنا البريدية.",module,Magento_Newsletter
@@ -4460,14 +4481,14 @@ Password:,"الرقم السري:",module,Magento_Customer
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","إذا كان لديك أسئلة حول الطلب، يمكنك مراسلتنا على <a href=""mailto:%store_email""> %store_email</a>",module,Magento_Sales
 "or call us at <a href=""tel:%store_phone"">%store_phone</a>","أو اتصل بنا على <a href=""tel:%store_phone"">%store_phone</a>",module,Magento_Sales
 "Your Credit Memo #%creditmemo_id for Order #%order_id","مذكره الإئتمان رقم #%creditmemo_id لأمر #%order_id",module,Magento_Sales
-"Billing Info","بيانات الفاتورة",module,Magento_Sales
+"Billing Info","بيانات الدفع",module,Magento_Sales
 "Shipping Info","بيانات الشحن",module,Magento_Sales
 "Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","طلبك #%increment_id تم تحديث حالته إلى <strong>%order_status</strong>.",module,Magento_Sales
 "Your Invoice #%invoice_id for Order #%order_id","فاتورتك #%invoice_id للطلب #%order_id",module,Magento_Sales
 "%customer_name,",%customer_name،,module,Magento_Sales
 "Once your package ships we will send you a tracking number.","سوف نرسلك لم رقم بوليصة الشحن فور شحن طلبكم.",module,Magento_Sales
 "Your Order <span class=""no-link"">#%increment_id</span>","طلبك <span class=""no-link"">#%increment_id</span>",module,Magento_Sales
-"Placed on <span class=""no-link"">%created_at</span>","وضع في <span class=""no-link"">%created_at</span>",module,Magento_Sales
+"Placed on <span class=""no-link"">%created_at</span>","بتاريخ <span class=""no-link"">%created_at</span>",module,Magento_Sales
 "Your shipping confirmation is below. Thank you again for your business.","تأكيد الشحن الخاص بك أدناه. أشكركم مرة أخرى على عملك.",module,Magento_Sales
 "Your Shipment #%shipment_id for Order #%order_id","شحنتك #%shipment_id لطلب رقم #%order_id",module,Magento_Sales
 "%name,",%name،,module,Magento_SendFriend
@@ -4506,7 +4527,7 @@ Password:,"كلمة السر:",theme,frontend/Magento/luma
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","يمكنك التحقق من حالة طلبك عبر <a href=""%account_url""> تسجيل الدخول إلى حسابك</a>.",theme,frontend/Magento/luma
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","إذا كان لديك أسئلة حول الطلب، يمكنك مراسلتنا على <a href=""mailto:%store_email""> %store_email</a>.",theme,frontend/Magento/luma
 "Your Credit Memo #%creditmemo_id for Order #%order_id","مذكره الإئتمان رقم #%creditmemo_id لأمر #%order_id",theme,frontend/Magento/luma
-"Billing Info","بيانات الفاتورة",theme,frontend/Magento/luma
+"Billing Info","بيانات الدفع",theme,frontend/Magento/luma
 "Shipping Info","بيانات الشحن",theme,frontend/Magento/luma
 "Payment Method","طريقة الدفع",theme,frontend/Magento/luma
 "Shipping Method","طريقة الشحن",theme,frontend/Magento/luma
@@ -4573,13 +4594,22 @@ Delete,احذف,module,Magento_ProductVideo
 "Add Products","إضافة منتجات",module,Magento_Sales
 Ok,موافق,module,Magento_Sales
 "We could not detect a size.","تعذر الكشف عن الحجم.",module,Magento_Theme
+"Go to Details Page","انتقل إلى صفحة التفاصيل",module,Magento_Ui
+"Please enter a correct date","الرجاء إدخال تاريخ صحيح",module,Magento_Ui
+"Please enter a valid time, between 00:00 and 23:59","الرجاء إدخال وقت صحيح، بين 00:00 و 23:59",module,Magento_Ui
+"Please enter a valid time, between 00:00 am and 12:00 pm","الرجاء إدخال وقت صحيح، بين الساعة 00:00 ص و 12:00 م",module,Magento_Ui
+"Please specify a valid phone number","الرجاء إدخال رقم هاتف صحيح",module,Magento_Ui
+"Please specify a valid mobile number","الرجاء إدخال رقم هاتف محمول صحيح",module,Magento_Ui
+"Please enter at least {0} characters","الرجاء إدخال {0} أحرف على الأقل",module,Magento_Ui
 "Please enter a valid credit card number.","الرجاء ادخال رقم بطاقه الائتمان",module,Magento_Ui
+"Please enter a valid IP v4 address.","الرجاء إدخال عنوان IP من نوع v4 صحيح.",module,Magento_Ui
+"Please enter a valid IP v6 address.","الرجاء إدخال عنوان IP من نوع v6 صحيح.",module,Magento_Ui
 "Invalid format.","الصيغة غير صالحة.",module,Magento_Ui
-"HTML tags are not allowed.","علامات HTML غير مسموح بها.",module,Magento_Ui
-"Please select an option.","رجاء قم باختيار الميزة.",module,Magento_Ui
+"HTML tags are not allowed.","اكواد HTML غير مسموح بها.",module,Magento_Ui
+"Please select an option.","يجب إختيار احد الخيارات.",module,Magento_Ui
 "Empty Value.","قيمة فارغة.",module,Magento_Ui
-"Please use only letters (a-z or A-Z), numbers (0-9) or spaces only in this field.","الرجاء استخدام فقط الأحرف (a إلى z أو A إلى Z)، الأرقام (0-9) أو مسافات فقط في هذا الحقل.",module,Magento_Ui
-"Please use only letters (a-z or A-Z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","الرجاء استخدام الأحرف (a إلى z أو A إلى Z)، الأرقام (0-9) أو تسطير أسفل السطر (_) في هذا الحقل، والحرف الأول يجب أن يكون حرف.",module,Magento_Ui
+"Please use only letters (a-z or A-Z), numbers (0-9) or spaces only in this field.","الرجاء استخدام الأحرف (a إلى z أو A إلى Z)، الأرقام (0-9) أو مسافات فقط في هذا الحقل.",module,Magento_Ui
+"Please use only letters (a-z or A-Z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","الرجاء استخدام الأحرف (a إلى z أو A إلى Z)، الأرقام (0-9) أو تسطير أسفل السطر (_) في هذا الحقل، ويجب ان يبدا بحرف.",module,Magento_Ui
 "Please use only letters (a-z or A-Z), numbers (0-9), spaces and ""#"" in this field.","الرجاء استخدام الأحرف (a إلى z أو A إلى Z)، الأرقام (0-9)، المسافات و ""#"" في هذا الحقل.",module,Magento_Ui
 "Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.","من فضلك قم بإدخال رقم هاتف صحيح. كمثال (123) 456-7890 أو 123-456-7890.",module,Magento_Ui
 "Please enter a valid fax number (Ex: 123-456-7890).","الرجاء إدخال رقم فاكس صحيح (مثال: 123-456-7890).",module,Magento_Ui
@@ -4588,6 +4618,9 @@ Ok,موافق,module,Magento_Sales
 "Please enter 7 or more characters, using both numeric and alphabetic.","الرجاء إدخال 7 أحرف أو أكثر، باستخدام كل من الارقام و الأحرف.",module,Magento_Ui
 "Please enter a valid URL. Protocol is required (http://, https:// or ftp://).","الرجاء إدخال عنوان URL صحيح. مطلوب البروتوكول (http://أو https://أو ftp://).",module,Magento_Ui
 "Please enter a valid URL. For example http://www.example.com or www.example.com.","الرجاء إدخال عنوان URL صحيح. فعلى سبيل المثال http://www.example.com أو www.example.com.",module,Magento_Ui
+"Please enter a valid XML-identifier (Ex: something_1, block5, id-4).","الرجاء إدخال معرف XML صالح. وعلى سبيل المثال ( something_1، block5، id-4.).",module,Magento_Ui
+"Please enter a valid social security number (Ex: 123-45-6789).","الرجاء إدخال رقم الضمان الاجتماعي صالحة (Ex: 123-45-6789).",module,Magento_Ui
+"Please enter a valid zip code (Ex: 90602 or 90602-1234).","الرجاء إدخال رمز بريدي صالح (مثال: 90602 أو 90602-1234).",module,Magento_Ui
 "Please use this date format: dd/mm/yyyy. For example 17/03/2006 for the 17th of March, 2006.","الرجاء استخدام هذا الشكل حتى الآن : اليوم / الشهر / السنة. فعلى سبيل المثال 17/03/2006 للالسابع عشر من اذار / مارس ، 2006.",module,Magento_Ui
 "Please enter a valid $ amount. For example $100.00.","الرجاء ادخال $ من المبلغ. فعلى سبيل المثال 100،00 $.",module,Magento_Ui
 "Please enter a number 0 or greater in this field.","الرجاء إدخال رقم 0 أو أكبر في هذا الحقل.",module,Magento_Ui
@@ -4595,7 +4628,9 @@ Ok,موافق,module,Magento_Sales
 "Please enter a valid number in this field.","الرجاء ادخال عدد في هذا المجال.",module,Magento_Ui
 "The value is not within the specified range.","القيمة ليست ضمن النطاق المحدد.",module,Magento_Ui
 "Please use letters only (a-z or A-Z) in this field.","الرجاء استخدام الأحرف فقط (من الالف الى الياء) في هذا الحقل.",module,Magento_Ui
+"Please use only letters (a-z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","الرجاء استخدام الأحرف (a إلى z)، الأرقام (0-9) أو تسطير أسفل السطر (_) في هذا الحقل، ويجب ان يبدا بحرف.",module,Magento_Ui
 "Please enter a valid date.","الرجاء ادخال تاريخ صحيح.",module,Magento_Ui
+"Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","الرجاء إدخال عنوان URL بشكل صحيح (مثال: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").",module,Magento_Ui
 "Please enter a valid zip code.","الرجاء إدخال الرمز البريدي.",module,Magento_Ui
 "Please select State/Province.","الرجاء اختيار الدولة / الأقليم.",module,Magento_Ui
 "Please enter issue number or start date for switch/solo card type.","الرجاء إدخال رقم الإصدار أو تاريخ البدء لنوع بطاقة switch/solo.",module,Magento_Ui
@@ -4817,7 +4852,7 @@ Debug,نقح,module,Magento_Braintree
 "Override Merchant Name","تجاوز اسم التاجر",module,Magento_Braintree
 "Display on Shopping Cart","العرض في سلة التسوق",module,Magento_Braintree
 "Require Customer's Billing Address","تتطلب المعالجة عناوين الفواتير للعميل",module,Magento_Braintree
-"Allow to Edit Shipping Address Entered During Checkout on PayPal Side","السماح بتحرير عنوان السحن خلال مرحلة الدفع بـ بأي بال",module,Magento_Braintree
+"Allow to Edit Shipping Address Entered During Checkout on PayPal Side","السماح بتعديل عنوان الشحن خلال مرحلة الدفع بـ باي بال",module,Magento_Braintree
 "3D Secure Verification Settings","إعدادات التحقق آمنة 3D",module,Magento_Braintree
 "3D Secure Verification","التحقق الآمن بستخدام 3D",module,Magento_Braintree
 "Edit My Credit Cards","تعديل بطاقات الائتمان الخاصة بي",module,Magento_Braintree
@@ -5130,7 +5165,7 @@ Type,النوع,module,Magento_Customer
 Addresses,العنوان,module,Magento_Customer
 "Are you sure you want to delete this item?","هل أنت متأكد أنك تريد حذف هذه المادة؟",module,Magento_Customer
 "Account Dashboard","لوحة تحكم الحساب",module,Magento_Customer
-"Edit Account Information","تحرير بيانات الحساب",module,Magento_Customer
+"Edit Account Information","تعديل بيانات الحساب",module,Magento_Customer
 "Password forgotten","نسيت كلمة السر",module,Magento_Customer
 "My Dashboard","لوحة التحكم",module,Magento_Customer
 "You are signed out.","قمت بتسجيل الخروج.",module,Magento_Customer
@@ -5313,7 +5348,9 @@ Import,استيراد,module,Magento_OfflineShipping
 "Page Cache","ذاكرة التخزين المؤقت للصفحة",module,Magento_PageCache
 "Full page caching.","التخزين المؤقت لكامل الصفحة.",module,Magento_PageCache
 "Payment Methods","نظم الدفع",module,Magento_Payment
+"PayPal Payment Gateways","بوابات الدفع بأي بال",module,Magento_Paypal
 1,واحد,module,Magento_Paypal
+"PayPal Payment Solutions","حلول الدفع بأي بال",module,Magento_Paypal
 "API Password","API كلمة السر",module,Magento_Paypal
 "Proxy Host","مضيف البروكسي",module,Magento_Paypal
 "Proxy Port","منفذ البروكسي",module,Magento_Paypal
@@ -5454,7 +5491,7 @@ Synonym,مرادف,module,Magento_Search
 yes,نعم,module,Magento_Search
 no,لا,module,Magento_Search
 Action,إجراء,module,Magento_Search
-Edit,تحرير,module,Magento_Search
+Edit,تعديل,module,Magento_Search
 "Email to a Friend","ارسال الى صديق",module,Magento_SendFriend
 "Email Templates","قوالب البريد الإلكتروني",module,Magento_SendFriend
 Enabled,تفعيل,module,Magento_SendFriend
@@ -5524,6 +5561,8 @@ Empty,فارغ,module,Magento_Theme
 "Default Keywords","الكلمات الأساسية الافتراضية",module,Magento_Theme
 "Miscellaneous Scripts","سكربتات متنوعة",module,Magento_Theme
 "Display Demo Store Notice","إشعار عرض المتجر التجريبي",module,Magento_Theme
+"Search Engine Robots","روبوتات محركات البحث",module,Magento_Theme
+"Reset to Defaults","إعادة ضبط للإعدادات الإفتراضية",module,Magento_Theme
 Header,الترويسة,module,Magento_Theme
 "Logo Image","صورة الشعار",module,Magento_Theme
 "Logo Image Width","عرض صورة الشعار",module,Magento_Theme
@@ -5567,7 +5606,7 @@ Title,العنوان,module,Magento_Ups
 "Displayed Error Message","رسالة الخطأ المعروضة",module,Magento_Ups
 Debug,نقح,module,Magento_Ups
 Action,إجراء,module,Magento_UrlRewrite
-Edit,تحرير,module,Magento_UrlRewrite
+Edit,تعديل,module,Magento_UrlRewrite
 "Reset Password Template","قالب إعادة تعيين كلمة المرور",module,Magento_User
 "Email template chosen based on theme fallback when ""Default"" option is selected.","اختيار قالب البريد الإلكتروني استناداً إلى الثيم عند تحديد الخيار ""الإفتراضي"".",module,Magento_User
 "Maximum Login Failures to Lockout Account","استنفاذ عدد مرات تسجيل الدخول الخاطئة لتأمين الحساب",module,Magento_User
