@@ -441,7 +441,7 @@ Country,الدولة,module,Magento_Braintree
 "We can't initialize checkout.","لايمكننا تهيئة عملية الدفع.",module,Magento_Braintree
 "No authorization transaction to proceed capture.","لا إذن لمتابعة المعاملة الالتقاط.",module,Magento_Braintree
 "Braintree error response.","رد خطأ Braintree.",module,Magento_Braintree
-"Payment method nonce can't be retrieved.","لا يمكن استرداد الرقم الاعتباطي أسلوب الدفع.",module,Magento_Braintree
+"Payment method nonce can't be retrieved.","لا يمكن استرداد طريقة الدفع التجريبية.",module,Magento_Braintree
 "Wrong transaction status","حالة المعاملة غير صحيحة",module,Magento_Braintree
 Authorize,تصريح,module,Magento_Braintree
 "Authorize and Capture","التحقق و القبض",module,Magento_Braintree
@@ -455,7 +455,7 @@ Authorize,تصريح,module,Magento_Braintree
 "Card Verification Number","رقم التحقق من البطاقة",module,Magento_Braintree
 "Please, enter valid Card Verification Number","الرجاء إدخال رقم تحقق صالح",module,Magento_Braintree
 ending,"يتم الإنهاء",module,Magento_Braintree
-expires,"انتهاء صلاحية",module,Magento_Braintree
+expires,تنتهي,module,Magento_Braintree
 "PayPal Logo","شعار باي بال",module,Magento_Braintree
 Actions,اعمال,module,Magento_Braintree
 Delete,احذف,module,Magento_Braintree
@@ -935,6 +935,7 @@ Catalog,"دليل المنتجات",module,Magento_Catalog
 "You saved the product attribute.","يمكنك حفظ السمة المنتج.",module,Magento_Catalog
 "An attribute with this code already exists.","سمة بهذا الكود موجودة سابقا.",module,Magento_Catalog
 "An attribute with the same code (%1) already exists.","السمة مع نفس الكود (%1) موجودة بالفعل.",module,Magento_Catalog
+"The value of Admin must be unique.","يجب أن تكون قيمة Admin قيمة فريدة.",module,Magento_Catalog
 "You duplicated the product.","تم تكرار هذا المنتج.",module,Magento_Catalog
 "This product doesn't exist.","هذا المنتج غير موجود.",module,Magento_Catalog
 "Invalid product id. Should be numeric value greater than 0","معرف المنتج غير صالح. يجب أن تكون القيمة الرقمية أكبر من 0",module,Magento_Catalog
@@ -1124,6 +1125,7 @@ Search,بحث,module,Magento_Catalog
 "We cannot determine the field name.","لا يمكن تحديد اسم الحقل.",module,Magento_Catalog
 "Attribute '%1' is locked. %2","السمة '%1'مقفلة. %2",module,Magento_Catalog
 "Do not change the scope. %1","لا تقم بتغيير النطاق. %1",module,Magento_Catalog
+"Processor %1 doesn't implement BaseSelectProcessorInterface","المعالج %1 لا ينفذ قاعدة تحديد واجهة المعالج",module,Magento_Catalog
 "A product type is not defined for the indexer.","لم يتم تعريف نوع منتج للفهرسة.",module,Magento_Catalog
 "%1 doesn't extend \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice","غير ممتد %1 \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice",module,Magento_Catalog
 "Product with SKU %1 is not linked to product with SKU %2","المنتج مع SKU %1 غير مرتبط بالمنتج مع SKU %2",module,Magento_Catalog
@@ -1371,6 +1373,7 @@ Checkout,شراء,module,Magento_Checkout
 "Payment Method","طريقة الدفع",module,Magento_Checkout
 "Payment Page","صفحة الدفع",module,Magento_Checkout
 "We can't find the product.","لا يمكن العثور على المنتج.",module,Magento_Checkout
+"We found an invalid request for adding product to quote.","يوجد طلب غير صحيح في مواد العرض.",module,Magento_Checkout
 "The product does not exist.","هذا المنتج غير موجود.",module,Magento_Checkout
 "We don't have some of the products you want.","ليس لدينا بعض المنتجات التي تريدها.",module,Magento_Checkout
 "We don't have as many of some products as you want.","الكمية التي تريدها غير متوفرة.",module,Magento_Checkout
@@ -1379,6 +1382,7 @@ Checkout,شراء,module,Magento_Checkout
 "This quote item does not exist.","هذا المنتج غير موجود.",module,Magento_Checkout
 "Display number of items in cart","عرض عدد القطع في سلة التسوق",module,Magento_Checkout
 "Display item quantities","عرض كميات السلع",module,Magento_Checkout
+"An error occurred on the server. Please try to place the order again.","حدث خطأ في الخادوم. الرجاء محاولة وضع الطلب مرة أخرى.",module,Magento_Checkout
 "Shipping address is not set","لم يتم تعيين عنوان الشحن",module,Magento_Checkout
 "Unable to save shipping information. Please check input data.","غير قادر على حفظ معلومات الشحن، الرجاء التحقق من إدخال البيانات.",module,Magento_Checkout
 "Carrier with such method not found: %1, %2","لم يتم العثور على ناقل بمثل هذه الطريقة: %1، %2",module,Magento_Checkout
@@ -4780,6 +4784,7 @@ Close,إغلاق,module,Magento_CheckoutAgreements
 "Provided Zip/Postal Code seems to be invalid.","من الواضح ان الرمز البريدي غير صحيح.",module,Magento_Checkout
 "If you believe it is the right one you can ignore this notice.","إذا كنت متاكد بانه صحيح، تجاهل هذه الملحوظة.",module,Magento_Checkout
 "Review & Payments","مراجعة ودفع",module,Magento_Checkout
+"Select a new payment method","اختر وسيلة دفع جديدة",module,Magento_Checkout
 Shipping,الشحن,module,Magento_Checkout
 "Save Address","حفظ عنوان",module,Magento_Checkout
 "We could not detect a size.","تعذر الكشف عن الحجم.",module,Magento_Cms
@@ -5108,6 +5113,7 @@ Action,إجراء,module,Magento_Backup
 "Accept credit/debit cards and PayPal in your Magento store.<br/>No setup or monthly fees and your customers never leave your store to complete the purchase.","قبول بطاقات الائتمان و بايبال في المتجر. <br/> بدون رسوم إعداد أو رسوم شهرية، ولن يخرج عملائك من الموقع لإتمام الدفع.",module,Magento_Braintree
 "Enable this Solution","تمكين هذا الحل",module,Magento_Braintree
 "Enable PayPal through Braintree","تمكين باي بال عن طريق Braintree",module,Magento_Braintree
+"Vault Enabled","تم تمكين الخزنة",module,Magento_Braintree
 "Basic Braintree Settings","الإعدادات الأساسية Braintree",module,Magento_Braintree
 Title,العنوان,module,Magento_Braintree
 Environment,البيئة,module,Magento_Braintree
@@ -5139,6 +5145,7 @@ Debug,نقح,module,Magento_Braintree
 "Threshold Amount","مبلغ الحد الأعلى",module,Magento_Braintree
 "Verify for Applicable Countries","تحقق من البلدان المطابقة",module,Magento_Braintree
 "Verify for Specific Countries","تحقق من بلدان محددة",module,Magento_Braintree
+"Dynamic Descriptors","معرفات ديناميكية",module,Magento_Braintree
 Name,اسم,module,Magento_Braintree
 Phone,الهاتف,module,Magento_Braintree
 URL,الرابط,module,Magento_Braintree
@@ -5381,6 +5388,7 @@ Details,التفاصيل,module,Magento_Catalog
 "Checkout Options","خيارات إتمام الدفع",module,Magento_Checkout
 "Enable Onepage Checkout","تفعيل الشراء في صفحة واحدة",module,Magento_Checkout
 "Allow Guest Checkout","السماح للزائر بإنهاء عملية الشراء",module,Magento_Checkout
+"Display Billing Address On","عرض عنوان الفوترة على",module,Magento_Checkout
 "Quote Lifetime (days)","اقتبس من العمر (أيام)",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart","بعد إضافة المنتج إلى سلة التسوق إعادة توجيه",module,Magento_Checkout
 "My Cart Link","وصلة سلتي",module,Magento_Checkout
