@@ -441,7 +441,7 @@ Country,الدولة,module,Magento_Braintree
 "We can't initialize checkout.","لايمكننا تهيئة عملية الدفع.",module,Magento_Braintree
 "No authorization transaction to proceed capture.","لا إذن لمتابعة المعاملة الالتقاط.",module,Magento_Braintree
 "Braintree error response.","رد خطأ Braintree.",module,Magento_Braintree
-"Payment method nonce can't be retrieved.","لا يمكن استرداد الرقم الاعتباطي أسلوب الدفع.",module,Magento_Braintree
+"Payment method nonce can't be retrieved.","لا يمكن استرداد طريقة الدفع التجريبية.",module,Magento_Braintree
 "Wrong transaction status","حالة المعاملة غير صحيحة",module,Magento_Braintree
 Authorize,تصريح,module,Magento_Braintree
 "Authorize and Capture","التحقق و القبض",module,Magento_Braintree
@@ -477,7 +477,7 @@ Credit,الرصيد,module,Magento_Braintree
 "Card Verification Number","رقم التحقق من البطاقة",module,Magento_Braintree
 "Please, enter valid Card Verification Number","الرجاء إدخال رقم تحقق صالح",module,Magento_Braintree
 ending,"يتم الإنهاء",module,Magento_Braintree
-expires,"انتهاء صلاحية",module,Magento_Braintree
+expires,تنتهي,module,Magento_Braintree
 "Percent Discount","نسبة الخصم",module,Magento_Bundle
 "-- Select --","-- اختر --",module,Magento_Bundle
 Dynamic,ديناميكي,module,Magento_Bundle
