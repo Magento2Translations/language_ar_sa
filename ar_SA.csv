@@ -649,7 +649,7 @@ ID,التعريف,module,Magento_CatalogRule
 Type,النوع,module,Magento_CatalogRule
 "Attribute Set","مجموعة السمة",module,Magento_CatalogRule
 Product,المنتج,module,Magento_CatalogRule
-Promotions,الترقيات,module,Magento_CatalogRule
+Promotions,العروض,module,Magento_CatalogRule
 "We found updated rules that are not applied. Please click ""Apply Rules"" to update your catalog.","ووجدنا تحديث للقواعد التي لم يتم تطبيقها. الرجاء النقر فوق ""تطبيق القواعد"" لتحديث الكتالوج.",module,Magento_CatalogRule
 "We can't apply the rules.","لا يمكن تطبيق هذه القواعد.",module,Magento_CatalogRule
 "You deleted the rule.","قمت بحذف القاعدة.",module,Magento_CatalogRule
@@ -668,6 +668,7 @@ Promo,الترويج,module,Magento_CatalogRule
 "Unable to remove rule %1","غير قادر على حذف القاعدة %1",module,Magento_CatalogRule
 "Could not rebuild index for empty products array","لا يمكن إعادة إنشاء الفهرس لمجموعة منتجات فارغة",module,Magento_CatalogRule
 "We can't rebuild the index for an undefined product.","لا يمكن إعادة إنشاء الفهرس لمنتج غير معروف.",module,Magento_CatalogRule
+"Catalog rule indexing failed. See details in exception log.","فشل إنشاء فهرس القاعدة. أنظر إلى التفاصيل في سجل الاستثناء.",module,Magento_CatalogRule
 "Percentage discount should be between 0 and 100.","يجب أن تكون نسبة الخصم المئوية بين 0 و 100.",module,Magento_CatalogRule
 "Discount value should be 0 or greater.","يجب أن تكون قيمة الخصم 0 أو أكبر.",module,Magento_CatalogRule
 "Unknown action.","إجراء غير معروف.",module,Magento_CatalogRule
@@ -1732,9 +1733,10 @@ Submit,إرسال,module,Magento_Contact
 "<a href=""%1"">Learn more</a>.","<a href=""%1"">المزيد</a>.",module,Magento_Cookie
 "Allow Cookies","السماح بالكوكيز",module,Magento_Cookie
 Daily,يوميا,module,Magento_Cron
-Weekly,اسبوعيا,module,Magento_Cron
+Weekly,إسبوعياً,module,Magento_Cron
 Monthly,شهريا,module,Magento_Cron
-"Invalid cron expression: %1","التعبير كرون غير صالح: %1",module,Magento_Cron
+"Invalid cron expression: %1","قيمة المهمة المجدولة غير صالحة: %1",module,Magento_Cron
+"Invalid cron expression, expecting numeric modulus: %1","قيمة المهمة المجدولة غير صالحة, المتوقع قيمة عددية",module,Magento_Cron
 "Save Currency Rates","حفظ أسعار العملات",module,Magento_CurrencySymbol
 Options,الخيارات,module,Magento_CurrencySymbol
 Reset,"اعادة ضبط",module,Magento_CurrencySymbol
@@ -1896,6 +1898,7 @@ Download,تحميل,module,Magento_Customer
 "We can't save the address.","نحن لا يمكننا حفظ العنوان.",module,Magento_Customer
 "You have revoked the customer's tokens.","تم إبطال الرموز المميزة للعميل.",module,Magento_Customer
 "We can't find a customer to revoke.","لا يمكن أن نجد أحد العملاء لإلغائه.",module,Magento_Customer
+"Something went wrong while saving file.","حدث خطأ ما أثناء حفظ الملف.",module,Magento_Customer
 "You deleted the customer group.","لقد حذفت مجوعة العميل.",module,Magento_Customer
 Customers,العملاء,module,Magento_Customer
 "New Group","مجموعة جديدة",module,Magento_Customer
@@ -1911,12 +1914,15 @@ Customers,العملاء,module,Magento_Customer
 "A total of %1 record(s) were deleted.","تم حذف %1 من السجلات.",module,Magento_Customer
 "The customer will receive an email with a link to reset password.","العميل سوف يتلقى رسالة بريد إلكتروني مع رابط لإعادة تعيين كلمة المرور.",module,Magento_Customer
 "Something went wrong while resetting customer password.","حدث خطأ أثناء إعادة كلمة المرور.",module,Magento_Customer
+"You saved the customer.","تم حفظ العميل.",module,Magento_Customer
 "Page not found.","لم يتم العثور على الصفحة.",module,Magento_Customer
 "Online Customers","مستخدمين متصلين",module,Magento_Customer
 "Customers Now Online","العملاء المتواجدون الآن",module,Magento_Customer
 "Please load Wish List item.","الرجاء تحميل عنصر قائمة الأمنيات.",module,Magento_Customer
 "Login successful.","تسجيل تسجيل الدخول بنجاح.",module,Magento_Customer
 "%1 doesn't extend \Magento\Customer\CustomerData\SectionSourceInterface","لاتمتد %1 \Magento\Customer\CustomerData\SectionSourceInterface",module,Magento_Customer
+"No confirmation needed.","لا يحتاج تأكيد.",module,Magento_Customer
+"Account already active","الحساب نشط بالفعل",module,Magento_Customer
 "Invalid confirmation token","شفرة تأكيد خاطئة",module,Magento_Customer
 "The account is locked.","تم اقفال هذا الحساب.",module,Magento_Customer
 "Please enter a password with at most %1 characters.","يرجى ادخال كلمة المرور بحد اقصى %1 خانة.",module,Magento_Customer
@@ -5500,7 +5506,14 @@ Contacts,المتصلين,module,Magento_Contact
 "Cookie Domain","Cookie الملك",module,Magento_Cookie
 "Use HTTP Only","استخدام HTTP فقط",module,Magento_Cookie
 "Cookie Restriction Mode","وضع تقييد ملفات تعريف الارتباط",module,Magento_Cookie
-"Schedule Ahead for","جدولة مقدما لـ",module,Magento_Cron
+"Cron (Scheduled Tasks)","المهام المجدولة",module,Magento_Cron
+"For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set. All the times are in minutes.","لعمل روابط المهام المجدولة التي تم انشائها بالشكل الصحيح رجاءً تاكد من انها وضعت بالشكل الصحيح,جميع الاوقات بالدقائق.",module,Magento_Cron
+"Generate Schedules Every","توليد جداول كل",module,Magento_Cron
+"Schedule Ahead for","مهمة مجدولة لـ",module,Magento_Cron
+"Missed if Not Run Within","مفقود اذا لم يتم التشغيل من تلقاء نفسها",module,Magento_Cron
+"History Cleanup Every","تنظيف السجل (الكاش)كل",module,Magento_Cron
+"Success History Lifetime","نجاح سجل التاريخ منذ البدء",module,Magento_Cron
+"Failure History Lifetime","فشل سجل التاريخ منذ البدء",module,Magento_Cron
 "Use Separate Process","استخدام عملية منفصلة",module,Magento_Cron
 Currency,العملة,module,Magento_CurrencySymbol
 "All Customers","كافة العملاء",module,Magento_Customer
