@@ -519,7 +519,7 @@ ID,التعريف,module,Magento_CatalogRule
 Type,النوع,module,Magento_CatalogRule
 "Attribute Set","مجموعة السمة",module,Magento_CatalogRule
 Product,المنتج,module,Magento_CatalogRule
-Promotions,الترقيات,module,Magento_CatalogRule
+Promotions,العروض,module,Magento_CatalogRule
 "This rule no longer exists.","هذة القاعدة لم تعد موجودة.",module,Magento_CatalogRule
 "New Catalog Price Rule","قاعدة جديدة لسعر الكتالوج",module,Magento_CatalogRule
 "Edit Rule","تعديل قاعدة",module,Magento_CatalogRule
@@ -1141,7 +1141,7 @@ Name,اسم,module,Magento_Contact
 Email,"البريد الإلكتروني",module,Magento_Contact
 Submit,إرسال,module,Magento_Contact
 Daily,يوميا,module,Magento_Cron
-Weekly,اسبوعيا,module,Magento_Cron
+Weekly,إسبوعياً,module,Magento_Cron
 Monthly,شهريا,module,Magento_Cron
 "Save Currency Rates","حفظ أسعار العملات",module,Magento_CurrencySymbol
 Reset,"اعادة ضبط",module,Magento_CurrencySymbol
@@ -1262,6 +1262,7 @@ Customers,العملاء,module,Magento_Customer
 "Manage Customers","إدارة العملاء",module,Magento_Customer
 "A total of %1 record(s) were updated.","عدد %1 سجلات تم تحديثها.",module,Magento_Customer
 "A total of %1 record(s) were deleted.","تم حذف %1 من السجلات.",module,Magento_Customer
+"You saved the customer.","تم حفظ العميل.",module,Magento_Customer
 "Please enter the first name.","الرجاء ادخال الاسم الاول.",module,Magento_Customer
 "Please enter the last name.","الرجاء ادخال الاسم الاخير.",module,Magento_Customer
 "Please enter the street.","رجاء إدخال الشارع.",module,Magento_Customer
@@ -3580,7 +3581,12 @@ Contacts,المتصلين,module,Magento_Contact
 "Email Sender","مرسل البريد الإلكتروني",module,Magento_Contact
 "Email Template","قالب البريد الإلكتروني",module,Magento_Contact
 "Cron (Scheduled Tasks) - all the times are in minutes","Cron (Scheduled Tasks) -كل الأوقات بالدقائق",module,Magento_Cron
-"Schedule Ahead for","جدولة مقدما لـ",module,Magento_Cron
+"Generate Schedules Every","توليد جداول كل",module,Magento_Cron
+"Schedule Ahead for","مهمة مجدولة لـ",module,Magento_Cron
+"Missed if Not Run Within","مفقود اذا لم يتم التشغيل من تلقاء نفسها",module,Magento_Cron
+"History Cleanup Every","تنظيف السجل (الكاش)كل",module,Magento_Cron
+"Success History Lifetime","نجاح سجل التاريخ منذ البدء",module,Magento_Cron
+"Failure History Lifetime","فشل سجل التاريخ منذ البدء",module,Magento_Cron
 "Use Separate Process","استخدام عملية منفصلة",module,Magento_Cron
 "Customer Configuration","ضبط العميل",module,Magento_Customer
 "Account Sharing Options","خيارات مشاركة الحساب",module,Magento_Customer
