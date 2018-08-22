@@ -1,3 +1,8 @@
+# Looking for maintainer
+These [Magento2Translations](http://magento2translations.github.io/) packages are unmaintained. This means that from time to time we will run the sync and build from Crowdin. But we probably won't add Magento/Crowdin versions. If you would like to continue the work done here please send us a message.
+
+Have a look at all the other great community maintained packages at [e-conomix/magento-translations](https://github.com/e-conomix/magento-translations).
+
 # Arabic (العربية) Magento2 Language Pack (ar_SA)
 This is a Language Pack generated from the [official Magento2 translations project](https://crowdin.com/project/magento-2) at [Crowdin](https://crowdin.com).
 The Arabic (العربية) translations used can be found [here](https://crowdin.com/project/magento-2/ar).
@@ -7,9 +12,9 @@ For our other language packs look at the [Magento2Translations](http://magento2t
 
 # Version & progress
 This translation is generated from the branch [Head](https://crowdin.com/project/magento-2/ar#/Head) at Crowdin and based on the Magento 2.2.0 sourcefiles.
-There have been  6200 strings translated of the 8763 strings in the Magento source.
+There have been  5906 strings translated of the 8763 strings in the Magento source.
 
-Translation progress:![Progress](http://progressed.io/bar/71)
+Translation progress:![Progress](http://progressed.io/bar/67)
 
 # Installation
 **Please select the git branch appropriate for your magento version from this repo.**
