@@ -1,7 +1,7 @@
 {
   "name": "magento2translations/language_ar_sa",
   "description": "Arabic (العربية) Magento2 Language Pack (ar_SA) - From Magento2Translations",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "http://magento2translations.github.io/",
   "license": [
     "MIT"
