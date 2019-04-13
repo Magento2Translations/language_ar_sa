@@ -13,9 +13,9 @@ For our other language packs look at the [Magento2Translations](http://magento2t
 
 # Version & progress
 This translation is generated from the branch [2.0.2](https://crowdin.com/project/magento-2/ar#/2.0.2) at Crowdin and based on the Magento 2.0.2 sourcefiles.
-There have been  5700 strings translated of the 7776 strings in the Magento source.
+There have been  5731 strings translated of the 7776 strings in the Magento source.
 
-Translation progress:![Progress](http://progressed.io/bar/73)
+Translation progress:![Progress](http://progressed.io/bar/74)
 
 # Installation
 **Please select the git branch appropriate for your magento version from this repo.**
@@ -23,7 +23,7 @@ Translation progress:![Progress](http://progressed.io/bar/73)
 To install this translation package with composer you need access to the command line of your server and you need to have [Composer](https://getcomposer.org).
 ```
 cd <your magento path>
-composer require magento2translations/language_ar_sa:2.0.2.x-dev
+composer require magento2translations/language_ar_sa:2.0.2-dev
 php bin/magento cache:clean
 ```
 ## Manually

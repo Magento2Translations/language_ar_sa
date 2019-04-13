@@ -25,6 +25,7 @@ notice,إشعار,module,Magento_AdminNotification
 "Wrong message type","نوع رسالة خاطئ",module,Magento_AdminNotification
 "Wrong notification ID specified.","معرف الإشعار المحدد خاطئ.",module,Magento_AdminNotification
 "{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","لا ينصح باستخدام {{base_url}} في بيئة الإنتاج لتوضيح Unsecure ' 'URL / Base Secure URL. نوصي بشدة بتغيير هذه القيمة في ماجنتو الخاص بك ' '<a href=""%1"">configuration</a>.",module,Magento_AdminNotification
+"One or more of the Cache Types are invalidated: %1. ","تم ابطال واحد أو أكثر من ""أنواع ذاكرة التخزين المؤقت"": %1. ",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","الرجاء الانتقال إلى <a href=""%1""> إدارة ذاكرة التخزين المؤقت</a> واعدة تنشيطها.",module,Magento_AdminNotification
 "We were unable to synchronize one or more media files. Please refer to the log file for details.","لم نستطع موافقة واحد أو أكثر من ملفات الوسائط. الرجاء الرجوع إلى ملف السجل للحصول على التفاصيل.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","اكتملت مواففة وسائط التخزين.",module,Magento_AdminNotification
@@ -36,6 +37,7 @@ Close,غلق,module,Magento_AdminNotification
 "Major System Messages","رسائل النظام مهمة",module,Magento_AdminNotification
 "System messages","رسائل النظام",module,Magento_AdminNotification
 "See All (","انظر (جميع",module,Magento_AdminNotification
+" unread)"," غير مقروء)",module,Magento_AdminNotification
 "Please correct the data sent.","الرجاء تصحيح البيانات التي تم إرسالها.",module,Magento_AdvancedPricingImportExport
 "Entity type model '%1' is not found","نموذج الكيان '%1' غير موجود",module,Magento_AdvancedPricingImportExport
 "There are no product types available for export","لا تتوفر أي من أنواع المنتجات للتصدير",module,Magento_AdvancedPricingImportExport
@@ -78,6 +80,7 @@ void,الفراغ,module,Magento_Authorizenet
 "Credit Card Number","رقم بطاقة الائتمان",module,Magento_Authorizenet
 "Expiration Date","تاريخ الانتهاء",module,Magento_Authorizenet
 "Card Verification Number","رقم التحقق من البطاقة",module,Magento_Authorizenet
+"Fraud Detection ","الكشف عن حالات الغش ",module,Magento_Authorizenet
 "FDS Filter Action","إجراء تصفية FDS",module,Magento_Authorizenet
 "AVS Response","رد AVS",module,Magento_Authorizenet
 "Card Code Response","استجابة شفرة البطاقة",module,Magento_Authorizenet
@@ -88,7 +91,7 @@ void,الفراغ,module,Magento_Authorizenet
 "Cache Storage Management","إدارة التخزين المؤقت",module,Magento_Backend
 "Flush Magento Cache","مسح ذاكرة التخزين المؤقت لماجنتو",module,Magento_Backend
 "The cache storage may contain additional data. Are you sure that you want to flush it?","ذاكرة التخزين المؤقت قد تحتوي على بيانات إضافية. هل أنت متأكد من أنك تريد مسحها؟",module,Magento_Backend
-"Flush Cache Storage","مسح ذاكرة التخزين المؤقت",module,Magento_Backend
+"Flush Cache Storage","مسح ذاكرة التخزين المؤقت ",module,Magento_Backend
 Invalidated,"إلغاء الصلاحية",module,Magento_Backend
 Orders,"طلبات الشراء",module,Magento_Backend
 Amounts,المبالغ,module,Magento_Backend
@@ -223,9 +226,9 @@ Submit,إرسال,module,Magento_Backend
 "Please correct the tab configuration and try again.","الرجاء تصحيح ضبط التبويب ثم حاول مرة أخرى.",module,Magento_Backend
 "You have logged out.","لقد سجلت خروجك.",module,Magento_Backend
 "Specified cache type(s) don't exist: %1","نوع ذاكرة التخزين المحددة غير موجودة: %1",module,Magento_Backend
-"The image cache was cleaned.","تم مسح ذاكرة تخزين الصور.",module,Magento_Backend
+"The image cache was cleaned."," تم مسح ذاكرة تخزين الصور.",module,Magento_Backend
 "An error occurred while clearing the image cache.","حدث خطأ أثناء مسح ذاكرة تخزين الصور.",module,Magento_Backend
-"The JavaScript/CSS cache has been cleaned.","تم تنظيف ذاكرة تخزين JavaScript/CSS",module,Magento_Backend
+"The JavaScript/CSS cache has been cleaned.","تم تنظيف ذاكرة تخزين JavaScript/CSS ",module,Magento_Backend
 "An error occurred while clearing the JavaScript/CSS cache.","حدث خطأ أثناء مسح ذاكرة التخزين الخاصة ب JavaScript/CSS",module,Magento_Backend
 "The static files cache has been cleaned.","وقد تم تنظيف ذاكرة التخزين الخاصة بالملفات الثابتة.",module,Magento_Backend
 "You flushed the cache storage.","لقد تم مسح محتويات ذاكرة التخزين المؤقت.",module,Magento_Backend
@@ -275,6 +278,7 @@ System,النظام,module,Magento_Backend
 "Before modifying the website code please make sure it is not used in index.php.","قبل تعديل رمز الموقع يرجى التأكد من أنها لا تستخدم في index.php.",module,Magento_Backend
 "The store does not exist","المتجر غير موجود",module,Magento_Backend
 "Before modifying the store view code please make sure it is not used in index.php.","قبل تعديل رمز عرض المتجر يرجى التأكد من أنها لا تستخدم في index.php.",module,Magento_Backend
+"New ","جديد ",module,Magento_Backend
 "You saved the website.","قمت بحفظ موقع شبكة الإنترنت.",module,Magento_Backend
 "You saved the store.","قمت بحفظ المتجر.",module,Magento_Backend
 "You saved the store view.","لقد حفظت واجهة المتجر.",module,Magento_Backend
@@ -453,6 +457,7 @@ Year,سنة,module,Magento_Braintree
 "We can't update shipping method.","لا يمكننا تحديث طريقة الشحن.",module,Magento_Braintree
 "The processor declined your transaction, please re-enter your payment information","المعالج رفض لعملية, الرجاء إعادة إدخال معلومات الشراء",module,Magento_Braintree
 "Transaction declined by gateway: Check card details or try another card","العملية رفضت من المصدر: تحقق من تفاصيل البطاقة او جرب بطاقة اخرى",module,Magento_Braintree
+"Transaction declined: ","تم رفض العملية: ",module,Magento_Braintree
 "The processor responded with an unknown error","رد المعالج بخطأ غير معروف",module,Magento_Braintree
 "Credit card type is not allowed for your country.","نوع بطاقة الائتمان غير مسموح به في بلدك.",module,Magento_Braintree
 "Credit card type is not allowed for this payment method.","غير مسموح بنوع بطاقة الائتمان لطريقة الدفع هذه.",module,Magento_Braintree
@@ -938,7 +943,7 @@ Product,المنتج,module,Magento_Catalog
 "%1 has reached a quantity of %2.","%1 وصلت الى كمية من %2.",module,Magento_Catalog
 Home,"الصفحة الرئيسية",module,Magento_Catalog
 "Go to Home Page","الانتقال إلى الصفحة الرئيسية",module,Magento_Catalog
-"Subscribe to RSS Feed","اشتراك لتغذية ال RSS",module,Magento_Catalog
+"Subscribe to RSS Feed","اشتراك لتغذية ال RSS ",module,Magento_Catalog
 "Products Comparison List","قائمة مقارنة المنتجات",module,Magento_Catalog
 N/A,"غير متاح",module,Magento_Catalog
 AM,صباحا,module,Magento_Catalog
@@ -1262,6 +1267,7 @@ Actions,اعمال,module,Magento_Catalog
 "Unselect Visible","غير مختار الظاهر",module,Magento_Catalog
 "Special Price","سعر خاص",module,Magento_Catalog
 "Regular Price","السعر العادي",module,Magento_Catalog
+"Buy %1 for: ","%1 الشراء: ",module,Magento_Catalog
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","شراء %1 لكل %2 و <strong class=""benefit"">حفظ<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>",module,Magento_Catalog
 "Buy %1 for %2 each","شراء %1 لكل %2",module,Magento_Catalog
 "Shop By","تصفح عبر",module,Magento_Catalog
@@ -1367,7 +1373,7 @@ Checkout,شراء,module,Magento_Checkout
 "Page not found.","لم يتم العثور على الصفحة.",module,Magento_Checkout
 "Please agree to all the terms and conditions before placing the order.","الرجاء الموافقة على كل الشروط والأحكام قبل انهاء طلبك.",module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","حدث خطأ أثناء معالجة طلبك. الرجاء المحاولة لاحقاً.",module,Magento_Checkout
-"%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface","%1 لا تمتد الى \Magento\Checkout\CustomerData\ItemInterface",module,Magento_Checkout
+"%1 doesn't extend \Magento\Checkout\CustomerData\ItemInterface"," %1 لا تمتد الى \Magento\Checkout\CustomerData\ItemInterface",module,Magento_Checkout
 "We can't find the product.","لا يمكن العثور على المنتج.",module,Magento_Checkout
 "The product does not exist.","هذا المنتج غير موجود.",module,Magento_Checkout
 "Quantity was recalculated from %1 to %2","تم اعادة حساب الكمية من %1 إلى %2",module,Magento_Checkout
@@ -1381,6 +1387,8 @@ Checkout,شراء,module,Magento_Checkout
 "Unable to save shipping information. Please, check input data.","غير قادر على حفظ معلومات الشحن. الرجاء التحقق من إدخال البيانات.",module,Magento_Checkout
 "Cart contains virtual product(s) only. Shipping address is not applicable.","سلة المشتريات تحتوي على منتج الكتروني فقط. لا داعي لعنوان الشحن.",module,Magento_Checkout
 "Shipping method is not applicable for empty cart","أسلوب الشحن غير قابل للتطبيق لعربة فارغة",module,Magento_Checkout
+" item"," قطعة",module,Magento_Checkout
+" items"," قطع",module,Magento_Checkout
 "Totals calculation is not applicable to empty cart","مجموع الحساب لا ينطبق على السلة الفارغة",module,Magento_Checkout
 "Invalid data","بيانات غير صحيحة",module,Magento_Checkout
 "The customer address is not valid.","عنوان العميل غير صحيح.",module,Magento_Checkout
@@ -1411,7 +1419,8 @@ Subtotal,الإجمالي,module,Magento_Checkout
 "Edit item parameters","تعديل خصائص المنتج",module,Magento_Checkout
 Edit,تعديل,module,Magento_Checkout
 "Remove item","أزل المنتج",module,Magento_Checkout
-"You have no items in your shopping cart.","لا يوجد لديك عناصر في سلة التسوق الخاصة بك.",module,Magento_Checkout
+"You have no items in your shopping cart.","لا يوجد لديك عناصر في سلة التسوق الخاصة بك.
+",module,Magento_Checkout
 "Click <a href=""%1"">here</a> to continue shopping.","<a href=""%1"">اضفط هنا</a> لمواصلة التسوق.",module,Magento_Checkout
 "Estimate Tax","تقدير الضريبة",module,Magento_Checkout
 "Estimate Shipping and Tax","تقدير الشحن والضريبة",module,Magento_Checkout
@@ -1723,11 +1732,17 @@ Submit,إرسال,module,Magento_Contact
 "To comply with the new e-Privacy directive, we need to ask for your consent to set the cookies.","للامتثال للتوجيه الخصوصية الإلكترونية الجديدة، علينا أن نطلب منك الموافقة لتعيين ملفات تعريف الارتباط.",module,Magento_Cookie
 "<a href=""%1"">Learn more</a>.","<a href=""%1"">المزيد</a>.",module,Magento_Cookie
 "Allow Cookies","السماح بالكوكيز",module,Magento_Cookie
+"We can't save the cron expression.","We can't save the cron expression.
+",module,Magento_Cron
 Daily,يوميا,module,Magento_Cron
 Weekly,إسبوعياً,module,Magento_Cron
 Monthly,شهريا,module,Magento_Cron
 "Invalid cron expression: %1","قيمة المهمة المجدولة غير صالحة: %1",module,Magento_Cron
+"Invalid cron expression, expecting 'match/modulus': %1","Invalid cron expression, expecting 'match/modulus': %1
+",module,Magento_Cron
 "Invalid cron expression, expecting numeric modulus: %1","قيمة المهمة المجدولة غير صالحة, المتوقع قيمة عددية",module,Magento_Cron
+"Invalid cron expression, expecting 'from-to' structure: %1","Invalid cron expression, expecting 'from-to' structure: %1
+",module,Magento_Cron
 "Save Currency Rates","حفظ أسعار العملات",module,Magento_CurrencySymbol
 Reset,"اعادة ضبط",module,Magento_CurrencySymbol
 Import,استيراد,module,Magento_CurrencySymbol
@@ -2401,6 +2416,7 @@ Status,الحاله,module,Magento_ImportExport
 "Data validation is failed. Please fix errors and re-upload the file..","فشل التحقق من صحة البيانات. الرجاء تصحيح الأخطاء وإعادة تحميل الملف..",module,Magento_ImportExport
 "The file is valid, but we can't import it for some reason.","الملف صالح, لكن لا نستطيع استيراده لسبب ما.",module,Magento_ImportExport
 "Following Error(s) has been occurred during importing process:","تم حدوث الخطأ (الأخطاء) التالية أثناء عملية الاستيراد:",module,Magento_ImportExport
+"Only first 100 errors are displayed here. ","فقط أول ١٠٠ خطأ معروضة هنا. ",module,Magento_ImportExport
 "in rows:","في صفوف:",module,Magento_ImportExport
 "Make sure your file isn't more than %1M.","تأكد من أن الملف ليس أكثر من %1M.",module,Magento_ImportExport
 "We can't provide the upload settings right now.","لا يمكننا توفير إعدادات التحميل الآن.",module,Magento_ImportExport
@@ -2580,6 +2596,8 @@ Items,المنتجات,module,Magento_Multishipping
 "Thank you for your purchase!","شكراً لطلبكم معنا!",module,Magento_Multishipping
 "Thanks for your order. We'll email you order details and tracking information.","شكرا لشرائك معنا. سوف نرسل لك تفاصيل الطلب ومعلومات التعقب.",module,Magento_Multishipping
 "Continue Shopping","الاستمرار بالتسوق",module,Magento_Multishipping
+"No New Relic Application ID configured, cannot continue with Cron Event reporting","No New Relic Application ID configured, cannot continue with Cron Event reporting
+",module,Magento_NewRelicReporting
 "The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","يتطلب إدماج ""بقايا الجديدة"" وكيل نيوريليك--php5، التي لم تثبت. يتوفر مزيد من المعلومات حول تثبيت الوكيل <a target=""_blank"" href=""%1""> هنا</a>.",module,Magento_NewRelicReporting
 "Delete Selected Problems","حذف المشاكل المحددة",module,Magento_Newsletter
@@ -2654,6 +2672,7 @@ Paused,"توقف مؤقت",module,Magento_Newsletter
 "Newsletter Message Preview","معاينة رسالة النشرة البريدية",module,Magento_Newsletter
 "Add to Queue","اضف الى الصف",module,Magento_Newsletter
 "Are you sure that you want to strip all tags?","هل انت متاكد انك تريد من تشريط جميع العلامات؟",module,Magento_Newsletter
+" Copy"," نسخة",module,Magento_Newsletter
 "Sign Up for Our Newsletter:","سجل في نشرتنا البريدية:",module,Magento_Newsletter
 "Enter your email address","ادخل عنوان بريدك الالكتروني",module,Magento_Newsletter
 Subscribe,اشتراك,module,Magento_Newsletter
@@ -2685,6 +2704,7 @@ None,"لا شئ",module,Magento_OfflineShipping
 No,لا,module,Magento_OfflineShipping
 "For matching items only","للسلع المطابقة فقط",module,Magento_OfflineShipping
 "For shipment with matching items","للشحن مع السلع المطابقة",module,Magento_OfflineShipping
+"Export VCL for Varnish ","تصدير ملف إعدادات لغة فارنيش ",module,Magento_PageCache
 "Ttl value ""%1"" is not valid. Please use only numbers equal or greater than zero.","قيمة Ttl ""%1"" غير صحيحة. الرجاء استخدام الأرقام المساوية أو أكبر من الصفر.",module,Magento_PageCache
 "Built-in Application (Not Recommended for Production Use)","التطبيق المدمج (غير مستحسن للإستخدام الإنتاجي)",module,Magento_PageCache
 "Varnish Caching","التخزين المؤقت لفارنيش",module,Magento_PageCache
@@ -2751,12 +2771,25 @@ Close,غلق,module,Magento_Paypal
 "Incl. Tax","شامل الضريبة",module,Magento_Paypal
 "Billing Information","بيانات الدفع",module,Magento_Paypal
 "Shipping Information","بيانات الشحن",module,Magento_Paypal
+"We can't cancel the billing agreement.",,module,Magento_Paypal
+"We can't delete the billing agreement.",,module,Magento_Paypal
 Reports,تقارير,module,Magento_Paypal
 Sales,المبيعات,module,Magento_Paypal
 "View Transaction","عرض المعاملة",module,Magento_Paypal
+"We couldn't finish the billing agreement wizard.",,module,Magento_Paypal
+"We can't start the billing agreement wizard.",,module,Magento_Paypal
+"We can't initialize Express Checkout.",,module,Magento_Paypal
 "Please agree to all the terms and conditions before placing the order.","الرجاء الموافقة على كل الشروط والأحكام قبل انهاء طلبك.",module,Magento_Paypal
+"We can't place the order.",,module,Magento_Paypal
+"We can't process Express Checkout approval.",,module,Magento_Paypal
+"We can't initialize Express Checkout review.",,module,Magento_Paypal
+"We can't update shipping method.",,module,Magento_Paypal
 "To check out, please sign in with your email address.","لتسجيل الخروج ، الرجاء تسجيل الدخول باستخدام عنوان البريد الإلكتروني الخاص بك.",module,Magento_Paypal
+"We can't start Express Checkout.",,module,Magento_Paypal
+"We can't contact the PayPal gateway.",,module,Magento_Paypal
 "The PayPal gateway rejected the request. %1","بوابة PayPal رفضت الطلب. %1",module,Magento_Paypal
+"I'm sorry - but we were not able to process your payment. Please try another payment method or contact us so we can assist you.",,module,Magento_Paypal
+"I'm sorry - but we are not able to complete your transaction. Please contact us so we can assist you.",,module,Magento_Paypal
 Active,فعال,module,Magento_Paypal
 Canceled,"تم الإلغاء",module,Magento_Paypal
 Dynamic,ديناميكي,module,Magento_Paypal
@@ -2767,8 +2800,17 @@ Yes,نعم,module,Magento_Paypal
 No,لا,module,Magento_Paypal
 Never,مطلقاً,module,Magento_Paypal
 "API Signature","API التوقيع",module,Magento_Paypal
+"We'll authorize the amount of %1 as soon as the payment gateway approves it.",,module,Magento_Paypal
+"PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.",,module,Magento_Paypal
 "Last Transaction ID","رقم آخر المعاملة",module,Magento_Paypal
+"This customer didn't include a confirmed address.",,module,Magento_Paypal
+"The merchant holds a non-U.S. account and doesn't have a withdrawal mechanism.",,module,Magento_Paypal
+"The payment currency doesn't match any of the merchant's balances currency.",,module,Magento_Paypal
+"Buyer's Tax ID",,module,Magento_Paypal
+"Buyer's Tax ID Type",,module,Magento_Paypal
+"Invalid method %1::%2(%3)",,module,Magento_Paypal
 "Transaction has been declined","تم رفض المعاملة",module,Magento_Paypal
+"We can't issue a refund transaction because there is no capture transaction.",,module,Magento_Paypal
 "Transaction ID","رقم المعاملة",module,Magento_Paypal
 Event,الحدث,module,Magento_Paypal
 "Start Date","تاريخ البدء",module,Magento_Paypal
@@ -2777,18 +2819,20 @@ Custom,مخصص,module,Magento_Paypal
 Credit,الرصيد,module,Magento_Paypal
 "--Please Select--","--أختر من فضلك--",module,Magento_Paypal
 Daily,يوميا,module,Magento_Paypal
+"We can't create a billing agreement for this order.",,module,Magento_Paypal
 Error,خطأ,module,Magento_Paypal
 "Please Select","أختر من فضلك",module,Magento_Paypal
 Customer,زبون,module,Magento_Paypal
-"Created At","انشئة في",module,Magento_Paypal
+"Created At","انشئة في ",module,Magento_Paypal
 "Updated At","تحديث في",module,Magento_Paypal
 here,هنا,module,Magento_Paypal
+" to learn more."," لمعرفة المزيد.",module,Magento_Paypal
 Status:,الحالة:,module,Magento_Paypal
 Created:,"تم الانشاء:",module,Magento_Paypal
 "Payment Method:","طريقة الدفع:",module,Magento_Paypal
 "Order #","رقم الطلب",module,Magento_Paypal
 Date,التاريخ,module,Magento_Paypal
-"Ship To","يرسل الي",module,Magento_Paypal
+"Ship To","يرسل الي ",module,Magento_Paypal
 "Order Status","حالة الطلب",module,Magento_Paypal
 "View Order","تفاصيل الطلب",module,Magento_Paypal
 "Back to Billing Agreements","العودة إلى اتفاقية الدفع",module,Magento_Paypal
@@ -3270,7 +3314,7 @@ Quantity,الكمية,module,Magento_Sales
 "Clear Shopping Cart","إفراغ سلة التسوق",module,Magento_Sales
 "Recently Compared Products","المنتجات المقارنة حديثا",module,Magento_Sales
 "Recently Viewed Products","المنتجات المشاهدة حديثا",module,Magento_Sales
-"Last Ordered Items","اخير طلب",module,Magento_Sales
+"Last Ordered Items","اخير طلب ",module,Magento_Sales
 "Recently Viewed","المشاهد حديثا",module,Magento_Sales
 "Wish List","قائمة الامنيات",module,Magento_Sales
 "Please select a store","رجاء قم باختيار المخزن",module,Magento_Sales
@@ -3288,6 +3332,7 @@ Refund,رد,module,Magento_Sales
 "Adjustment Refund","اعادة التكيف",module,Magento_Sales
 "Adjustment Fee","أجر الضبط",module,Magento_Sales
 Print,طباعة,module,Magento_Sales
+"The credit memo email wasn't sent.",,module,Magento_Sales
 "Total Refund","مجموع الرد",module,Magento_Sales
 "Submit Invoice","إرسال فاتورة",module,Magento_Sales
 "Credit Memo","مذكرة الائتمان",module,Magento_Sales
@@ -3347,8 +3392,13 @@ Sales,المبيعات,module,Magento_Sales
 "New Order","طلب شراء جديد",module,Magento_Sales
 "You created the order.","قمت بإنشاء الطلب.",module,Magento_Sales
 "Order saving error: %1","أمر حفظ الخطأ: %1",module,Magento_Sales
+"The credit memo's total must be positive.",,module,Magento_Sales
+"We can't save the credit memo right now.",,module,Magento_Sales
 "We can't update the item's quantity right now.","لا يمكن تحديث كمية هذا المنتج الآن.",module,Magento_Sales
+"We can't void the credit memo.",,module,Magento_Sales
+"We can't create credit memo for the order.",,module,Magento_Sales
 "Edit Order","تعديل الطلب",module,Magento_Sales
+"We can't send the email order right now.",,module,Magento_Sales
 "You can't create an invoice without products.","لا يمكنك إنشاء فاتورة دون منتجات.",module,Magento_Sales
 "New Invoice","فاتورة جديدة",module,Magento_Sales
 "We can't save the invoice right now.","لا يمكن حفظ الفاتورة الآن.",module,Magento_Sales
@@ -3359,10 +3409,16 @@ Sales,المبيعات,module,Magento_Sales
 "Transaction has been voided/declined.","تم رفض المعاملة.",module,Magento_Sales
 "There is no update for the transaction.","لا يوجد أي تحديثات لهذه المعاملة.",module,Magento_Sales
 "We can't update the payment right now.","لا يمكن أن نقوم بتحديث الدفع الآن.",module,Magento_Sales
+"We can't find this order status.",,module,Magento_Sales
+"We can't add the order status right now.",,module,Magento_Sales
+"Can't unhold order.",,module,Magento_Sales
+"We can't void the payment right now.",,module,Magento_Sales
+"We can't update the transaction details.",,module,Magento_Sales
 "Orders and Returns","الطلبات والمرتجعات",module,Magento_Sales
 Home,"الصفحة الرئيسية",module,Magento_Sales
 "Go to Home Page","الانتقال إلى الصفحة الرئيسية",module,Magento_Sales
 "We can't find this wish list.","لا يمكننا ايجاد قائمة الامنيات هذه.",module,Magento_Sales
+"Shipping Address: ","عنوان الشحن: ",module,Magento_Sales
 "Please specify a shipping method.","يرجى تحديد طريقة الشحن.",module,Magento_Sales
 "Please specify a payment method.","يرجى تحديد طريقة الدفع.",module,Magento_Sales
 "You did not email your customer. Please check your email settings.","انت لم ترسل اي رسائل بريد الكتروني للعميل. الرجاء التحقق من إعدادات البريد الإلكتروني الخاص بك.",module,Magento_Sales
@@ -3391,6 +3447,9 @@ Mixed,مختلط,module,Magento_Sales
 "Payment transactions disallow storing objects.","حركات الدفع لا تسمح بتخزين الكائنات.",module,Magento_Sales
 Order,طلب,module,Magento_Sales
 Authorization,التفويض,module,Magento_Sales
+"You can't do this without a transaction object.",,module,Magento_Sales
+"Order # ","رقم الطلب # ",module,Magento_Sales
+"Order Date: ","تاريخ الطلب: ",module,Magento_Sales
 "Payment Method:","طريقة الدفع:",module,Magento_Sales
 "Shipping Method:","طريقة الشحن:",module,Magento_Sales
 "Total Shipping Charges","إجمالي رسوم الشحن",module,Magento_Sales
@@ -3399,9 +3458,13 @@ Number,رقم,module,Magento_Sales
 Products,المنتجات,module,Magento_Sales
 Qty,الكميّة,module,Magento_Sales
 Tax,الضريبة,module,Magento_Sales
+"Credit Memo # ","مذكرة الائتمان # ",module,Magento_Sales
+"Invoice # ","فاتورة # ",module,Magento_Sales
 "Excl. Tax","غير شامل الضريبة",module,Magento_Sales
 "Incl. Tax","شامل الضريبة",module,Magento_Sales
 title,العنوان,module,Magento_Sales
+"The last status can't be unassigned from its current state.",,module,Magento_Sales
+"Status can't be unassigned, because it is used by existing order(s).",,module,Magento_Sales
 "We cannot determine the field name.","لا يمكن تحديد اسم الحقل.",module,Magento_Sales
 City,المدينة,module,Magento_Sales
 Company,الشركة,module,Magento_Sales
@@ -3415,6 +3478,7 @@ State/Province,ولاية/محافظة,module,Magento_Sales
 "Zip/Postal Code","الرمز البريدي",module,Magento_Sales
 "Cannot save comment:
 %1","لا يمكن حفظ التعليق:%1",module,Magento_Sales
+"We don't have enough information to save the parent transaction ID.",,module,Magento_Sales
 "Cannot save track:
 %1","لا يمكن حفظ المسار:%1",module,Magento_Sales
 "New Orders","الطلبات الجديدة",module,Magento_Sales
@@ -3429,6 +3493,7 @@ Processing,المعالجة,module,Magento_Sales
 Complete,تكملة,module,Magento_Sales
 Closed,مغلق,module,Magento_Sales
 New,جديد,module,Magento_Sales
+" Transaction ID: ""%1"""," رقم المعاملة: ""%1""",module,Magento_Sales
 View,عرض,module,Magento_Sales
 "Comment Text","نص التعليق",module,Magento_Sales
 "Notify Customer by Email","إعلام العميل عن طريق البريد الإلكتروني",module,Magento_Sales
@@ -3447,6 +3512,7 @@ Remove,ازالة,module,Magento_Sales
 "Select from existing customer addresses:","اختر من القائمة عناوين العملاء:",module,Magento_Sales
 "Add New Address","أضف عنوان جديد",module,Magento_Sales
 "Save in address book","حفظ في دفتر العناوين",module,Magento_Sales
+"You don't need to select a shipping address.",,module,Magento_Sales
 "Leave this box blank if you don't want to leave a gift message for the entire order.","اترك هذا المربع فارغاً إذا كنت لا تريد أن تترك رسالة هدية للطلبية بأكملها.",module,Magento_Sales
 "Row Subtotal","إجمالي الصف",module,Magento_Sales
 Action,إجراء,module,Magento_Sales
@@ -3483,7 +3549,7 @@ Item,سلعة,module,Magento_Sales
 "Credit Memo Comments","ملاحظات المذكرة الائتمانية",module,Magento_Sales
 "Email Copy of Credit Memo","نسخة البريد الالكتروني للمذكرة الائتمانية",module,Magento_Sales
 "Items Refunded","استرداد البنود",module,Magento_Sales
-"Credit Memo History","تاريخ المذكرة الائتمانية",module,Magento_Sales
+"Credit Memo History","  تاريخ المذكرة الائتمانية ",module,Magento_Sales
 "Credit Memo Totals","مجموع المذكرة الاتمانية",module,Magento_Sales
 "Customer Name: %1","اسم العميل: %1",module,Magento_Sales
 "Purchased From: %1","تم شراؤه من: %1",module,Magento_Sales
@@ -3532,7 +3598,7 @@ Comment,تعليق,module,Magento_Sales
 "Order ID","رقم الطلب",module,Magento_Sales
 "Transaction Type","نوع المعاملة التجارية",module,Magento_Sales
 "Is Closed",مغلق,module,Magento_Sales
-"Created At","انشئة في",module,Magento_Sales
+"Created At","انشئة في ",module,Magento_Sales
 "Transaction Details","تفاصيل المعاملة",module,Magento_Sales
 Items,المنتجات,module,Magento_Sales
 "Gift Message for this Order","رسالة الإهداء لهذا الطلب",module,Magento_Sales
@@ -3547,16 +3613,16 @@ Continue,استمر,module,Magento_Sales
 "Refund #","مبلغ مسترد #",module,Magento_Sales
 "Print Refund","طباعة المبلغ المسترد",module,Magento_Sales
 "Product Name","اسم المنتج",module,Magento_Sales
-"Order #","رقم الطلب #",module,Magento_Sales
+"Order #","رقم الطلب",module,Magento_Sales
 Date,التاريخ,module,Magento_Sales
-"Ship To","يرسل الي",module,Magento_Sales
+"Ship To","يرسل الي ",module,Magento_Sales
 Actions,اعمال,module,Magento_Sales
 "View Order","تفاصيل الطلب",module,Magento_Sales
 "You have placed no orders.","لم تقم باي طلبات شراء.",module,Magento_Sales
 "No shipping information available","معلومات الشحن غير متوفرة",module,Magento_Sales
 "Print Order","طباعة الطلب",module,Magento_Sales
 "Print All Invoices","طباعة كافة الفواتير",module,Magento_Sales
-"Invoice #","فاتورة #",module,Magento_Sales
+"Invoice #","الفاتورة #",module,Magento_Sales
 "Print Invoice","طباعة الفاتورة",module,Magento_Sales
 "Qty Invoiced","الكمية المفوترة",module,Magento_Sales
 Close,غلق,module,Magento_Sales
@@ -3726,7 +3792,9 @@ Action,إجراء,module,Magento_Shipping
 "Tracking Number:","رقم التتبع:",module,Magento_Shipping
 Carrier:,الناقل:,module,Magento_Shipping
 Error:,خطأ:,module,Magento_Shipping
+"Tracking information is currently not available. Please ","بيانات التتبع غير موجودة حاليا. من فضلك ",module,Magento_Shipping
 "contact us","اتصل بنا",module,Magento_Shipping
+"email us at ","مراسلتنا على البريد الالكتروني ",module,Magento_Shipping
 Info:,المعلومات:,module,Magento_Shipping
 Track:,المسار:,module,Magento_Shipping
 Status:,الحالة:,module,Magento_Shipping
@@ -4430,13 +4498,6 @@ Back,رجوع,module,Magento_Wishlist
 "Go to Wish List","الذهاب إلى قائمة الأمنيات",module,Magento_Wishlist
 "You have no items in your wish list.","لا يوجد اي منتجات في قائمة الامنيات الخاصة بك.",module,Magento_Wishlist
 "Are you sure you want to remove this product from your Wish List?","هل أنت متأكد أنك تريد إزالة هذا المنتج من قائمة الرغبات ؟",module,Magento_Wishlist
-"Now Shopping by","تسوق الآن من",theme,frontend/Magento/luma
-Previous,السابق,theme,frontend/Magento/luma
-Remove,ازالة,theme,frontend/Magento/luma
-"Remove This Item","حذف هذا العنصر",theme,frontend/Magento/luma
-"Shop By","تصفح عبر",theme,frontend/Magento/luma
-"Clear All","إلغاء الكل",theme,frontend/Magento/luma
-"Shopping Options","خيارات التسوق",theme,frontend/Magento/luma
 "Payment Transaction Failed","فشلت عملية الدفع",module,Magento_Checkout
 Reason,السبب,module,Magento_Checkout
 "Checkout Type","نوع الشراء",module,Magento_Checkout
@@ -4506,43 +4567,6 @@ Password:,"الرقم السري:",module,Magento_Customer
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name يريد أن يشارككم قائمة الأمنيات هذه من %store_name:",module,Magento_Wishlist
 "Message from %customer_name:","رسالة من %customer_name:",module,Magento_Wishlist
 "View all Wish List items","عرض كافة عناصر قائمة الأمنيات",module,Magento_Wishlist
-"%name,",%name،,theme,frontend/Magento/luma
-"Welcome to %store_name.","مرحبا بك في %store_name.",theme,frontend/Magento/luma
-"To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","لتسجيل الدخول إلى موقعنا استخدم بيانات الدخول التالية للشراء أو لإدارة <a href=""%customer_url""> عضويتك</a>:",theme,frontend/Magento/luma
-Email:,"البريد الإلكتروني:",theme,frontend/Magento/luma
-Password:,"كلمة السر:",theme,frontend/Magento/luma
-"Password you set when creating account","كلمة المرور التي قمت بتعيينها عند إنشاء الحساب",theme,frontend/Magento/luma
-"Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","نسيت كلمة مرور حسابك؟ اضغط <a href=""%reset_url""> هنا</a> لإعادة تعيينها.",theme,frontend/Magento/luma
-"When you sign in to your account, you will be able to:","عند تسجيل الدخول إلى حسابك، سوف تكون قادراً على:",theme,frontend/Magento/luma
-"Quick Checkout","إتمام الشراء الفوري",theme,frontend/Magento/luma
-"Proceed through checkout faster","أكمل في الشراء الفوري",theme,frontend/Magento/luma
-"Order Status","حالات الطلب",theme,frontend/Magento/luma
-"Check the status of orders","التحقق من حالة الطلب",theme,frontend/Magento/luma
-"Manage Addresses","إدارة العناوين",theme,frontend/Magento/luma
-"Store alternative addresses","حفظ عناوين بديلة",theme,frontend/Magento/luma
-"For shipping to multiple family members and friends","للشحن إلى العديد من أفراد العائلة والأصدقاء",theme,frontend/Magento/luma
-"Order History","سجل الطلبات",theme,frontend/Magento/luma
-"View past orders","عرض الطلبات السابقة",theme,frontend/Magento/luma
-"About Us","من نحن",theme,frontend/Magento/luma
-"Customer Service","خدمة العملاء",theme,frontend/Magento/luma
-"<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone""> %store_phone</a>",theme,frontend/Magento/luma
-"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","ساعات العمل: < br/> <span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
-"Thank you for your order from %store_name.","شكرا لك على الشراء من %store_name.",theme,frontend/Magento/luma
-"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","يمكنك التحقق من حالة طلبك عبر <a href=""%account_url""> تسجيل الدخول إلى حسابك</a>.",theme,frontend/Magento/luma
-"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","إذا كان لديك أسئلة حول الطلب، يمكنك مراسلتنا على <a href=""mailto:%store_email""> %store_email</a>.",theme,frontend/Magento/luma
-"Your Credit Memo #%creditmemo_id for Order #%order_id","مذكره الإئتمان رقم #%creditmemo_id لأمر #%order_id",theme,frontend/Magento/luma
-"Billing Info","بيانات الدفع",theme,frontend/Magento/luma
-"Shipping Info","بيانات الشحن",theme,frontend/Magento/luma
-"Payment Method","طريقة الدفع",theme,frontend/Magento/luma
-"Shipping Method","طريقة الشحن",theme,frontend/Magento/luma
-"Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","طلبك #%increment_id تم تحديث حالته إلى <strong>%order_status</strong>.",theme,frontend/Magento/luma
-"Your Invoice #%invoice_id for Order #%order_id","فاتورتك #%invoice_id للطلب #%order_id",theme,frontend/Magento/luma
-"%customer_name,",%customer_name،,theme,frontend/Magento/luma
-"Once your package ships we will send you a tracking number.","سوف نرسل لكم رقم بوليصة الشحن فور شحن طلبك.",theme,frontend/Magento/luma
-"Your Order <span class=""no-link"">#%increment_id</span>","طلبك <span class=""no-link"">#%increment_id</span>",theme,frontend/Magento/luma
-"Placed on <span class=""no-link"">%created_at</span>","وضع في <span class=""no-link"">%created_at</span>",theme,frontend/Magento/luma
-"Your shipping confirmation is below. Thank you again for your business.","تأكيد الشحن الخاص بك أدناه. أشكركم مرة أخرى على عملك.",theme,frontend/Magento/luma
-"Your Shipment #%shipment_id for Order #%order_id","شحنتك #%shipment_id لطلب رقم #%order_id",theme,frontend/Magento/luma
 "We could not detect a size.","تعذر الكشف عن الحجم.",module,Magento_Backend
 "We don't recognize or support this file extension type.","لم نتعرف او ندعم ملحق هذا الملف.",module,Magento_Backend
 "Add Products to New Option","إضافة المنتجات إلى خيار جديد",module,Magento_Bundle
@@ -4571,6 +4595,8 @@ Done,انتهى,module,Magento_ConfigurableProduct
 "For better results, add attributes and attribute values to your products.","للحصول على أفضل النتائج، أضف سمات وقيم سمة للمنتجات الخاصة بك.",module,Magento_ConfigurableProduct
 "An attribute has been removed. This attribute will no longer appear in your configurations.","لقد تمت إزالة الخصائص. لن تعد تظهر هذه الخصائص في التكوينات الخاصة بك.",module,Magento_ConfigurableProduct
 "Select options for all attributes or remove unused attributes.","حدد الخيارات لكافة السمات أو ازل السمات الغير المستخدمة.",module,Magento_ConfigurableProduct
+"Please, select attribute for the section ","الرجاء تحديد سمة القسم ",module,Magento_ConfigurableProduct
+"Please fill in the values for the section ","الرجاء تعبئة القيم الخاصة بالقسم ",module,Magento_ConfigurableProduct
 "Please, fill correct values","يرجى ملء القيم الصحيحة",module,Magento_ConfigurableProduct
 "Please, select image(s) for your attribute","الرجاء تحديد صور أو صورة للسمة الخاصة بك",module,Magento_ConfigurableProduct
 "Please choose image(s)","الرجاء اختيار صور أو صورة",module,Magento_ConfigurableProduct
@@ -4595,6 +4621,7 @@ Cancel,إلغاء,module,Magento_ProductVideo
 Delete,احذف,module,Magento_ProductVideo
 "Images and Videos","الصور وملفات الفيديو",module,Magento_ProductVideo
 "This won't take long . . .","هذا لن يستغرق وقتاً طويلاً . . .",module,Magento_Rule
+"Gift Options for ","خيارات هدية ل ",module,Magento_Sales
 "Add Products","إضافة منتجات",module,Magento_Sales
 Ok,موافق,module,Magento_Sales
 "We could not detect a size.","تعذر الكشف عن الحجم.",module,Magento_Theme
@@ -4688,6 +4715,9 @@ Advanced,متقدم,module,Magento_Backend
 Design,تصميم,module,Magento_Backend
 "Design Theme","انشاء تصميم",module,Magento_Backend
 "User-Agent Exceptions","إستثناءات وكيل المستخدم",module,Magento_Backend
+"
+                        Search strings are either normal strings or regular exceptions (PCRE). They are matched in the same order as entered. Examples:<br /><span style=""font-family:monospace"">Firefox<br />/^mozilla/i</span>
+                    ","                         سلاسل البحث هي سلاسل عادية أو الاستثناءات العادية (PCRE). أنها مطابقة بنفس الترتيب كما تم إدخالها. أمثلة: < br/> <span style=""font-family:monospace""> فايرفوكس < br/>/^ موزيلا/أنا</span>                     ",module,Magento_Backend
 "Find a string in client user-agent header and switch to specific design theme for that browser.","اعثر على سلسلة في رأس وكيل- المستخدم العميل وقم بالتبديل إلى تصمي ثيمم المحددة الخاصة بهذا المستعرض.",module,Magento_Backend
 Pagination,"ترقيم الصفحات",module,Magento_Backend
 "Pagination Frame","إطار الصفحات ترقيم الصفحات",module,Magento_Backend
@@ -4775,6 +4805,10 @@ Security,الحماية,module,Magento_Backend
 Web,موقع,module,Magento_Backend
 "Url Options","خيارات الموقع",module,Magento_Backend
 "Add Store Code to Urls","رمز المخزن اضافة الى عناوين المواقع",module,Magento_Backend
+"
+                        <strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third party services (e.g. PayPal etc.).
+                    ","
+<strong style=""color:red"">تحذير</strong> عند استخدام رمز المنتجر في الرابط، ففي بعض الحالات لن يعمل النظام بصورة صحيحة في حال كانت الروبط بدون رموز احد متطلبات طرف ثالث (كخدمة بي بال).                    ",module,Magento_Backend
 "Auto-redirect to Base URL","إعادة التوجيه آلية إلى الربط الأساس",module,Magento_Backend
 "Search Engine Optimization","تحسين محرك البحث",module,Magento_Backend
 "Use Web Server Rewrites","إعادة كتابة باستخدام خادم الويب",module,Magento_Backend
@@ -4871,6 +4905,11 @@ Forms,النماذج,module,Magento_Captcha
 "Number of Symbols","عدد الرموز",module,Magento_Captcha
 "Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","الرجاء تحديد 8رموز على الأكثر. النطاق المسموح به (مثلاً 3-5)",module,Magento_Captcha
 "Symbols Used in CAPTCHA","الرموز المستخدمة في كلمة التحقق",module,Magento_Captcha
+"
+                        Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.<br />Similar looking characters (e.g. ""i"", ""l"", ""1"") decrease chance of correct recognition by customer.
+                    ","
+                        الرجاء استخدام الأحرف (إلى z أو A إلى Z) أو أرقام (0-9) فقط في هذا المجال. يتم السماح أية مسافات أو أحرف أخرى. < br/> الأحرف  المماثلة (على سبيل المثال، ""i""، ""l""، ""1"") تقليل فرصة التعرف الصحيح من جانب العميل.
+                                        ",module,Magento_Captcha
 "Case Sensitive","تحسس حالة الأحرف",module,Magento_Captcha
 "Enable CAPTCHA on Storefront","تمكين كلمة التحقق في الواجهة",module,Magento_Captcha
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","يتم دوماً تمكين كلمة التحقق لأشكال ""نسيت كلمة المرور"" و ""إنشاء مستخدم"" إذا تم الإختيار.",module,Magento_Captcha
@@ -4883,6 +4922,10 @@ Inventory,المخزون,module,Magento_CatalogInventory
 "Only X left Threshold","المتبقي فقط هو الحد",module,Magento_CatalogInventory
 "Display products availability in stock on Storefront.","عرض إتاحة المنتجات في مخزن المتجر على واجهة المتجر.",module,Magento_CatalogInventory
 "Product Stock Options","خيارات المنتج المخزون",module,Magento_CatalogInventory
+"
+                    Please note that these settings apply to individual items in the cart, not to the entire cart.
+                ","
+الرجاء ملاحظة أن تطبيق هذه الإعدادات على العناصر الفردية في السلة، لا إلى السلة كاملة.                ",module,Magento_CatalogInventory
 "Manage Stock","إدارة المخزون",module,Magento_CatalogInventory
 Backorders,"طلبات لمنتجات غير متوفرة",module,Magento_CatalogInventory
 "Maximum Qty Allowed in Shopping Cart","الكمية القصوى المسموح بها في سلة التسوق",module,Magento_CatalogInventory
@@ -5119,6 +5162,9 @@ Contacts,المتصلين,module,Magento_Contact
 "Use HTTP Only","استخدام HTTP فقط",module,Magento_Cookie
 "Cookie Restriction Mode","وضع تقييد ملفات تعريف الارتباط",module,Magento_Cookie
 "Cron (Scheduled Tasks) - all the times are in minutes","Cron (Scheduled Tasks) -كل الأوقات بالدقائق",module,Magento_Cron
+"For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.","For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.
+",module,Magento_Cron
+"Cron configuration options for group: ","اعدادت المهم المجدولة للمجموعة: ",module,Magento_Cron
 "Generate Schedules Every","توليد جداول كل",module,Magento_Cron
 "Schedule Ahead for","مهمة مجدولة لـ",module,Magento_Cron
 "Missed if Not Run Within","مفقود اذا لم يتم التشغيل من تلقاء نفسها",module,Magento_Cron
@@ -5134,6 +5180,13 @@ Contacts,المتصلين,module,Magento_Contact
 "Default Email Domain","البريد الالكتروني الافتراضي النطاق",module,Magento_Customer
 "Default Welcome Email","البريد الإلكتروني الترحيبي الافتراضي",module,Magento_Customer
 "Email template chosen based on theme fallback when ""Default"" option is selected.","اختيار قالب البريد الإلكتروني استناداً إلى الثيم عند تحديد الخيار ""الإفتراضي"".",module,Magento_Customer
+"
+                        This email will be sent instead of the Default Welcome Email, if a customer was created without password. <br /><br />
+                        Email template chosen based on theme fallback when ""Default"" option is selected.
+                    ","
+                        هذه الرسالة يستم ارسالها بدلاً من رسالة الترحيب، إذا قام العميل بإنشاء حسابه بدون كلمة مرور. <br /><br />
+                        تمبليت الرسالة المختارة تعتمد على الواجهة اذا تم اختيار الخيار ""الإفتراضي"".<br />.
+                    ",module,Magento_Customer
 "Email Sender","مرسل البريد الإلكتروني",module,Magento_Customer
 "Welcome Email","الرسالة الترحيبية",module,Magento_Customer
 "Password Options","خيارات كلمة المرور",module,Magento_Customer
@@ -5201,8 +5254,15 @@ Debug,نقح,module,Magento_Dhl
 "Currency Setup","اعدادات العملة",module,Magento_Directory
 "Currency Options","خيارات العملة""",module,Magento_Directory
 "Base Currency","العملية الاساسية",module,Magento_Directory
+"
+                        Base currency is used for all online payment transactions. If you have more than one store view, the base currency scope is defined by the catalog price scope (""Catalog"" > ""Price"" > ""Catalog Price Scope"").
+                    ","
+يتم استخدام العملة الأساسية لجميع معاملات الدفع عبر الإنترنت. إذا كان لديك عرض متجر واحد أو أكثر، تحدد نطاق العملة الأساسية بنطاق سعر الكتالوج (""الكتالوج"" > ""السعر"" > ""نطاق سعر كتالوج"").                    ",module,Magento_Directory
 "Default Display Currency","عرض العملة الافتراضية",module,Magento_Directory
 "Allowed Currencies","العملات المسموح بها",module,Magento_Directory
+Webservicex,"Webservicex
+ 
+",module,Magento_Directory
 "Connection Timeout in Seconds","مهلة الاتصال بالثواني",module,Magento_Directory
 "Scheduled Import Settings","اعدادات الاستيراد المجدول",module,Magento_Directory
 Enabled,تفعيل,module,Magento_Directory
@@ -5361,9 +5421,25 @@ Import,استيراد,module,Magento_OfflineShipping
 1,واحد,module,Magento_Paypal
 "PayPal Payment Solutions","حلول الدفع بأي بال",module,Magento_Paypal
 "API Password","API كلمة السر",module,Magento_Paypal
+"Sandbox Credentials",,module,Magento_Paypal
 "Proxy Host","مضيف البروكسي",module,Magento_Paypal
 "Proxy Port","منفذ البروكسي",module,Magento_Paypal
 "Enable this Solution","تمكين هذا الحل",module,Magento_Paypal
+"
+                    <a href=\"https:/financing.paypal.com/ppfinportal/content/whyUseFinancing\" target=\"_blank\">Why Advertise Financing?</a><br/>
+                        <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                        from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                        Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                        The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                        or more. <a href=\"https:/financing.paypal.com/ppfinportal/content/forrester\" target=\"_blank\">See Details</a>.
+                ","
+<a href=\"https:/financing.paypal.com/ppfinportal/content/whyUseFinancing\" target=\"_blank\">Why Advertise Financing?</a><br/>
+                        <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                        from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                        Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                        The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                        or more. <a href=\"https:/financing.paypal.com/ppfinportal/content/forrester\" target=\"_blank\">See Details</a>.
+                ",module,Magento_Paypal
 "Home Page","الصفحة الرئيسية",module,Magento_Paypal
 Display,عرض,module,Magento_Paypal
 Position,موقع,module,Magento_Paypal
@@ -5383,7 +5459,50 @@ Partner,ِشريك,module,Magento_Paypal
 User,المستخدم,module,Magento_Paypal
 "Test Mode","وضع الاختبار",module,Magento_Paypal
 "Use Proxy","استخدام بروكسي",module,Magento_Paypal
+"
+                    <a href=\"https://financing.paypal.com/ppfinportal/content/whyUseFinancing\" target=\"_blank\">Why Advertise Financing?</a><br/>
+                                            <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                                            from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                                            Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                                            The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                                            or more. <a href=\"https://financing.paypal.com/ppfinportal/content/forrester\" target=\"_blank\">See Details</a>.
+                ","
+<a href=\"https://financing.paypal.com/ppfinportal/content/whyUseFinancing\" target=\"_blank\">Why Advertise Financing?</a><br/>
+                                            <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                                            from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                                            Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                                            The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                                            or more. <a href=\"https://financing.paypal.com/ppfinportal/content/forrester\" target=\"_blank\">See Details</a>.
+                ",module,Magento_Paypal
+"
+                    <a href=\"https:/financing.paypal.com/ppfinportal/content/whyUseFinancing\" target=\"_blank\">Why Advertise Financing?</a><br/>
+                            <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                            from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                            Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                            The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                            or more. <a href=\"https:/financing.paypal.com/ppfinportal/content/forrester\" target=\"_blank\">See Details</a>.
+                ","                    <a href=\"https:/financing.paypal.com/ppfinportal/content/whyUseFinancing\" target=\"_blank\">Why Advertise Financing?</a><br/>
+                            <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                            from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                            Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                            The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                            or more. <a href=\"https:/financing.paypal.com/ppfinportal/content/forrester\" target=\"_blank\">See Details</a>.
+                ",module,Magento_Paypal
 "Allowed Credit Card Types","أنواع بطاقات الائتمان المسموحة",module,Magento_Paypal
+"
+                    <a href=\"https:/financing.paypal.com/ppfinportal/content/whyUseFinancing\" target=\"_blank\">Why Advertise Financing?</a><br/>
+                                <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                                from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                                Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                                The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                                or more. <a href=\"https:/financing.paypal.com/ppfinportal/content/forrester\" target=\"_blank\">See Details</a>.
+                ","                    <a href=\"https:/financing.paypal.com/ppfinportal/content/whyUseFinancing\" target=\"_blank\">Why Advertise Financing?</a><br/>
+                                <strong>Give your sales a boost when you advertise financing.</strong><br/>PayPal helps turn browsers into buyers with financing
+                                from PayPal Credit&#174;. Your customers have more time to pay, while you get paid up front – at no additional cost to you.
+                                Use PayPal’s free banner ads that let you advertise PayPal Credit&#174; financing as a payment option when your customers check out with PayPal.
+                                The PayPal Advertising Program has been shown to generate additional purchases as well as increase consumer's average purchase sizes by 15%
+                                or more. <a href=\"https:/financing.paypal.com/ppfinportal/content/forrester\" target=\"_blank\">See Details</a>.
+                ",module,Magento_Paypal
 "General Options","خيارات عامة",module,Magento_Persistent
 "Enable ""Remember Me""","تمكين ""تذكرني""",module,Magento_Persistent
 """Remember Me"" Default Value","القيمة الافتراضية ""تذكرني""",module,Magento_Persistent
@@ -5425,6 +5544,7 @@ General,عام,module,Magento_Sales
 Address,العنوان,module,Magento_Sales
 Enable,تفعيل,module,Magento_Sales
 Dashboard,"لوحة التحكم",module,Magento_Sales
+"Use Aggregated Data (beta)",,module,Magento_Sales
 "Sales Emails","البريد الالكتروني للبيع",module,Magento_Sales
 "Asynchronous sending","إرسال غير متزامن",module,Magento_Sales
 Enabled,تفعيل,module,Magento_Sales
@@ -5462,7 +5582,7 @@ Shipment,شحنه,module,Magento_Sales
 "Credit Memo Comment Email Sender","التعليق الائتمان مذكرة البريد الالكتروني للمرسل",module,Magento_Sales
 "Credit Memo Comment Email Template","مذكرة التعليق الائتمان نموذج البريد الالكتروني",module,Magento_Sales
 "Credit Memo Comment Email Template for Guest","التعليق الائتمان مذكرة البريد الالكتروني نموذج للضيف",module,Magento_Sales
-"Send Credit Memo Comment Email Copy To","ارسال نسخة ملاحظة مذكرة ائتمانية للبريد الالكتروني",module,Magento_Sales
+"Send Credit Memo Comment Email Copy To","ارسال نسخة ملاحظة مذكرة ائتمانية للبريد الالكتروني ",module,Magento_Sales
 "Customer Order Status Notification","حالة الاحاطة بطلب العميل",module,Magento_Sales
 "Asynchronous indexing","الفهرسة الغير متزامنة",module,Magento_Sales
 "Orders and Returns Search Form","نموزج بحث الطلبات والمرتجعات",module,Magento_Sales
@@ -5622,6 +5742,7 @@ Edit,تعديل,module,Magento_UrlRewrite
 "We will disable this feature if the value is empty.","سوف نقوم بتعطيل هذه الميزة إذا كانت القيمة فارغة.",module,Magento_User
 "Lockout Time (minutes)","تأمين الوقت (بالدقائق)",module,Magento_User
 "Password Lifetime (days)","عمر كلمة المرور (الأيام)",module,Magento_User
+"We will disable this feature if the value is empty. ","سوف نقوم بتعطيل هذه الميزة إذا كانت القيمة فارغة. ",module,Magento_User
 "Password Change","تغيير كلمة المرور",module,Magento_User
 Unlock,"إلغاء القفل",module,Magento_User
 ID,التعريف,module,Magento_User
@@ -5699,10 +5820,3 @@ Action,إجراء,module,Magento_Wishlist
 Configure,ضبط,module,Magento_Wishlist
 Delete,احذف,module,Magento_Wishlist
 "Product Details and Comment","بيانات المنتجات",module,Magento_Wishlist
-Summary,ملخص,theme,frontend/Magento/blank
-"Account Dashboard","لوحة تحكم الحساب",theme,frontend/Magento/blank
-"Account Information","معلومات الحساب",theme,frontend/Magento/blank
-"Address Book","سجل العناوين",theme,frontend/Magento/blank
-Menu,القائمة,theme,frontend/Magento/blank
-Account,الحساب,theme,frontend/Magento/blank
-Settings,الإعدادات,theme,frontend/Magento/blank
